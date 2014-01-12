@@ -1,0 +1,6 @@
+Added Component: Designator=U3(SOP14)
+Added Component: Designator=U4(SOP8)
+Added Component: Designator=U5(SOP8)
+Added Member To Class: ClassName=IGBT_Driver_Stage Member=Component U3 74HC08
+Added Member To Class: ClassName=IGBT_Driver_Stage Member=Component U4 MIC4422YM
+Added Member To Class: ClassName=IGBT_Driver_Stage Member=Component U5 MIC4422YM

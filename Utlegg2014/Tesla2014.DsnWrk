@@ -1,0 +1,8 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=Tesla2014.PrjCor
+[Project2]
+ProjectPath=GDT_Trafo.PrjPCB
+[Project3]
+ProjectPath=Interrupter.PrjPCB

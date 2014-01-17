@@ -6,3 +6,5 @@ ProjectPath=Tesla2014.PrjCor
 ProjectPath=GDT_Trafo.PrjPCB
 [Project3]
 ProjectPath=Interrupter.PrjPCB
+[Project4]
+ProjectPath=Utgangstrinn.PrjPCB

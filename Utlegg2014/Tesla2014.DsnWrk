@@ -8,3 +8,5 @@ ProjectPath=GDT_Trafo.PrjPCB
 ProjectPath=Interrupter.PrjPCB
 [Project4]
 ProjectPath=Utgangstrinn.PrjPCB
+[Project5]
+ProjectPath=PSU2.PrjPCB

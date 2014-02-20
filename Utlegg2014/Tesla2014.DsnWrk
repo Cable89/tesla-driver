@@ -10,3 +10,5 @@ ProjectPath=Interrupter.PrjPCB
 ProjectPath=Utgangstrinn.PrjPCB
 [Project5]
 ProjectPath=PSU2.PrjPCB
+[Project6]
+ProjectPath=Tonegenerator.PrjPcb

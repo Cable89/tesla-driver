@@ -14,3 +14,7 @@ ProjectPath=Limiter.PrjPcb
 ProjectPath=Tesla2014.PrjCor
 [Project7]
 ProjectPath=Tonegenerator.PrjPcb
+[Project7]
+ProjectPath=Optisk_ut.PrjPcb
+[Project8]
+ProjectPath=MIDI_connector.PrjPcb

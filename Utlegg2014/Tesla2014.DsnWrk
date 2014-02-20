@@ -9,12 +9,10 @@ ProjectPath=Utgangstrinn.PrjPCB
 [Project4]
 ProjectPath=PSU2.PrjPCB
 [Project5]
-ProjectPath=Limiter.PrjPcb
-[Project6]
-ProjectPath=Tesla2014.PrjCor
-[Project7]
 ProjectPath=Tonegenerator.PrjPcb
+[Project6]
+ProjectPath=Optisk_Mottaker.PrjPCB
 [Project7]
-ProjectPath=Optisk_ut.PrjPcb
+ProjectPath=Tesla2014.PrjCor
 [Project8]
-ProjectPath=MIDI_connector.PrjPcb
+ProjectPath=Limiter.PrjPcb

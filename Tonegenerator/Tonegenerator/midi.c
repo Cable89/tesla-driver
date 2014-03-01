@@ -206,6 +206,18 @@ void note_create( uint8_t chan, uint8_t notenum, uint8_t vel ) {
 		}
 	}
 	*/
+	
+	/* Emergency code for one channel only
+	if( iLastNote0 == 1 ) {
+		notes[chan][0] = newNote;
+		iLastNote0 = 0;
+	}
+	else {
+		notes[chan][1] = newNote;
+		iLastNote0 = 1;
+	} 
+	*/
+	
 	if( chan == 0 ) {
 		if( iLastNote0 == 1 ) {
 			notes[chan][0] = newNote;
@@ -226,6 +238,7 @@ void note_create( uint8_t chan, uint8_t notenum, uint8_t vel ) {
 			iLastNote1 = 1;
 		}
 	}
+	
 	
 	
 	

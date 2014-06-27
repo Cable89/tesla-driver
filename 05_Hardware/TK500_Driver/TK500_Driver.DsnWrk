@@ -2,3 +2,7 @@
 Version=1.0
 [Project1]
 ProjectPath=TK500_Driver.PrjCor
+[Project2]
+ProjectPath=TK510_Signalbakplan\TK510_Signalbakplan.PrjPcb
+[Project3]
+ProjectPath=TK530_Kraftbakplan\TK530_Kraftbakplan.PrjPcb

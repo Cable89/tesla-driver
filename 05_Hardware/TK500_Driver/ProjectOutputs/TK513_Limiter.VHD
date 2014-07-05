@@ -1,9 +1,8 @@
 ------------------------------------------------------------
 -- VHDL TK513_Limiter
--- 2014 6 27 17 54 11
+-- 2014 7 5 19 58 31
 -- Created By "DXP VHDL Generator"
--- "Copyright (c) 2002-2014 Altium Limited"
--- Product Version: 14.3.10.33625
+-- "Copyright (c) 2002-2004 Altium Limited"
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -14,13 +13,18 @@ Library IEEE;
 Use     IEEE.std_logic_1164.all;
 
 Entity TK513_Limiter Is
+  port
+  (
+    LIMIT   : Out   STD_LOGIC;                               -- ObjectKind=Port|PrimaryId=LIMIT
+    TRIGGER : In    STD_LOGIC                                -- ObjectKind=Port|PrimaryId=TRIGGER
+  );
   attribute MacroCell : boolean;
 
 End TK513_Limiter;
 ------------------------------------------------------------
 
 ------------------------------------------------------------
-Architecture Structure Of TK513_Limiter Is
+architecture structure of TK513_Limiter is
    Component X_1N5819                                        -- ObjectKind=Part|PrimaryId=D9|SecondaryId=1
       port
       (
@@ -134,7 +138,6 @@ Architecture Structure Of TK513_Limiter Is
     Signal PinSignal_C18_1         : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC18_1
     Signal PinSignal_D10_A         : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD10_A
     Signal PinSignal_D9_A          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD9_A
-    Signal PinSignal_J13_1         : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ13_1
     Signal PinSignal_J13_2         : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ13_2
     Signal PinSignal_J14_1         : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ14_1
     Signal PinSignal_J15_1         : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ15_1
@@ -244,7 +247,7 @@ Architecture Structure Of TK513_Limiter Is
    attribute Value of C17 : Label is "100nF";
 
 
-Begin
+begin
     U13 : MOCD207R2M                                         -- ObjectKind=Part|PrimaryId=U13|SecondaryId=1
       Port Map
       (
@@ -353,7 +356,7 @@ Begin
       Port Map
       (
         X_1 => PinSignal_R16_1,                              -- ObjectKind=Pin|PrimaryId=R16-1
-        X_2 => PinSignal_J13_1                               -- ObjectKind=Pin|PrimaryId=R16-2
+        X_2 => TRIGGER                                       -- ObjectKind=Pin|PrimaryId=R16-2
       );
 
     R15 : CMPMINUS1013MINUS00074MINUS1                       -- ObjectKind=Part|PrimaryId=R15|SecondaryId=1
@@ -409,7 +412,7 @@ Begin
     J13 : JST_2pin                                           -- ObjectKind=Part|PrimaryId=J13|SecondaryId=1
       Port Map
       (
-        X_1 => PinSignal_J13_1,                              -- ObjectKind=Pin|PrimaryId=J13-1
+        X_1 => TRIGGER,                                      -- ObjectKind=Pin|PrimaryId=J13-1
         X_2 => PinSignal_J13_2                               -- ObjectKind=Pin|PrimaryId=J13-2
       );
 
@@ -499,8 +502,10 @@ Begin
 
     -- Signal Assignments
     ---------------------
-    PowerSignal_GND <= '0'; -- ObjectKind=Net|PrimaryId=GND
+    LIMIT                   <= NamedSignal_LIMITER_OUT; -- ObjectKind=Net|PrimaryId=LIMITER_OUT
+    NamedSignal_LIMITER_OUT <= LIMIT; -- ObjectKind=Net|PrimaryId=LIMITER_OUT
+    PowerSignal_GND         <= '0'; -- ObjectKind=Net|PrimaryId=GND
 
-End Structure;
+end structure;
 ------------------------------------------------------------
 

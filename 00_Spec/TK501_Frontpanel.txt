@@ -1,0 +1,43 @@
+4U (17,78cm) Høy
+Delt i flere deler:
+	Venstre side
+	Kortmatrise LEDS
+	Kortmatrise resten
+	Høyre side
+
+Kortmatrisefelt:
+	Bruker hele høyden
+	1FU per kort i signalbakplanet (1FU = høyden på høyeste element i matrisa (interruptknappen))
+
+	Pr. FU:
+		5 LEDS:
+			Rød: Kort mangler
+			Rød: Feil
+			?: Reserve
+			Rød/Grønn: Status
+			Knappled: Interrupt
+
+		Navnefelt
+
+		Kontrollpanel
+			Inneholder brytere og potmetere avhengig av kortbehov
+
+Felt for kraftplanet:
+	3 LEDS for hvert kort i kraftbakplanet
+		Rød: Kort borte
+		Rød: Feil
+		Grønn: OK
+
+
+Display:
+	?: Spenning utgangstrinn
+	Analog: Strøm ut
+	?: Driftstimer x2?
+
+Effektknapper:
+	Nødstoppbryter: Nødstopp (i serie med spenning inn)
+	Dekselbryter: Master på (i serie med spenning inn)
+	Fjærbelastet vribryter: Effektforsyning klar
+	Nedsenket momentærbryter: Effekt på
+	Soppmomentærbryter: Effekt av
+

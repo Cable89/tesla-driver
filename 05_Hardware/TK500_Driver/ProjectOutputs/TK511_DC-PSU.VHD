@@ -1,9 +1,8 @@
 ------------------------------------------------------------
 -- VHDL TK511_DCMINUSPSU
--- 2014 6 27 17 54 11
+-- 2014 7 5 19 58 30
 -- Created By "DXP VHDL Generator"
--- "Copyright (c) 2002-2014 Altium Limited"
--- Product Version: 14.3.10.33625
+-- "Copyright (c) 2002-2004 Altium Limited"
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -20,7 +19,7 @@ End TK511_DCMINUSPSU;
 ------------------------------------------------------------
 
 ------------------------------------------------------------
-Architecture Structure Of TK511_DCMINUSPSU Is
+architecture structure of TK511_DCMINUSPSU is
    Component CAP                                             -- ObjectKind=Part|PrimaryId=C1|SecondaryId=1
       port
       (
@@ -133,7 +132,7 @@ Architecture Structure Of TK511_DCMINUSPSU Is
    attribute Value of R2   : Label is "10R";
 
 
-Begin
+begin
     U1 : LM317T                                              -- ObjectKind=Part|PrimaryId=U1|SecondaryId=1
       Port Map
       (
@@ -142,7 +141,7 @@ Begin
         X_3 => PowerSignal_VIN                               -- ObjectKind=Pin|PrimaryId=U1-3
       );
 
-    RpotCHKOGTNJ : RPot                                      -- ObjectKind=Part|PrimaryId=Rpot|SecondaryId=1
+    RpotNNRMPWBQ : RPot                                      -- ObjectKind=Part|PrimaryId=Rpot|SecondaryId=1
       Port Map
       (
         X_1 => PinSignal_C4_2,                               -- ObjectKind=Pin|PrimaryId=Rpot-1
@@ -191,7 +190,7 @@ Begin
         X_2 => NamedIOSignal_X_1                             -- ObjectKind=Pin|PrimaryId=J1-2
       );
 
-    DF01SLUUSVVLA : DF01S                                    -- ObjectKind=Part|PrimaryId=DF01S|SecondaryId=1
+    DF01SBQBYNKFO : DF01S                                    -- ObjectKind=Part|PrimaryId=DF01S|SecondaryId=1
       Port Map
       (
         X_1 => NamedIOSignal_X_1,                            -- ObjectKind=Pin|PrimaryId=DF01S-1
@@ -291,6 +290,6 @@ Begin
     PowerSignal_GND   <= '0'; -- ObjectKind=Net|PrimaryId=GND
     PowerSignal_VIN   <= PinSignal_DF01S_3; -- ObjectKind=Net|PrimaryId=VIN
 
-End Structure;
+end structure;
 ------------------------------------------------------------
 

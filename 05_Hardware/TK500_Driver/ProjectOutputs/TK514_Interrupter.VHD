@@ -1,9 +1,8 @@
 ------------------------------------------------------------
 -- VHDL TK514_Interrupter
--- 2014 6 27 17 54 11
+-- 2014 7 5 19 58 31
 -- Created By "DXP VHDL Generator"
--- "Copyright (c) 2002-2014 Altium Limited"
--- Product Version: 14.3.10.33625
+-- "Copyright (c) 2002-2004 Altium Limited"
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -14,13 +13,21 @@ Library IEEE;
 Use     IEEE.std_logic_1164.all;
 
 Entity TK514_Interrupter Is
+  port
+  (
+    GATE_DRIVE_A : Out   STD_LOGIC;                          -- ObjectKind=Port|PrimaryId=GATE DRIVE A
+    GATE_DRIVE_B : Out   STD_LOGIC;                          -- ObjectKind=Port|PrimaryId=GATE DRIVE B
+    LIMIT1       : In    STD_LOGIC;                          -- ObjectKind=Port|PrimaryId=LIMIT1
+    LIMIT2       : In    STD_LOGIC;                          -- ObjectKind=Port|PrimaryId=LIMIT2
+    TRIGGER      : In    STD_LOGIC                           -- ObjectKind=Port|PrimaryId=TRIGGER
+  );
   attribute MacroCell : boolean;
 
 End TK514_Interrupter;
 ------------------------------------------------------------
 
 ------------------------------------------------------------
-Architecture Structure Of TK514_Interrupter Is
+architecture structure of TK514_Interrupter is
    Component X_1N4148                                        -- ObjectKind=Part|PrimaryId=D1|SecondaryId=1
       port
       (
@@ -195,46 +202,43 @@ Architecture Structure Of TK514_Interrupter Is
    End Component;
 
 
-    Signal PinSignal_C1_1     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC1_1
-    Signal PinSignal_C1_2     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC1_2
-    Signal PinSignal_C2_2     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC2_2
-    Signal PinSignal_C3_1     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC3_1
-    Signal PinSignal_C3_2     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC3_2
-    Signal PinSignal_D1_K     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD1_K
-    Signal PinSignal_D2_K     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD2_K
-    Signal PinSignal_D3_K     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD3_K
-    Signal PinSignal_D6_A     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD6_A
-    Signal PinSignal_J1_2     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ1_2
-    Signal PinSignal_J3_1     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ3_1
-    Signal PinSignal_J3_2     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ3_2
-    Signal PinSignal_J4_1     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ4_1
-    Signal PinSignal_J4_2     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ4_2
-    Signal PinSignal_J5_1     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ5_1
-    Signal PinSignal_J5_2     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ5_2
-    Signal PinSignal_J6_1     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ6_1
-    Signal PinSignal_J6_2     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ6_2
-    Signal PinSignal_R1_1     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetR1_1
-    Signal PinSignal_R2_1     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetR2_1
-    Signal PinSignal_R3_1     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetR3_1
-    Signal PinSignal_R4_1     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetR4_1
-    Signal PinSignal_R5_1     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetR5_1
-    Signal PinSignal_R6_1     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetR6_1
-    Signal PinSignal_R7_1     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetR7_1
-    Signal PinSignal_R8_1     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetR8_1
-    Signal PinSignal_U1_1     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU1_1
-    Signal PinSignal_U1_10    : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU1_10
-    Signal PinSignal_U1_4     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU1_4
-    Signal PinSignal_U1_8     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU1_8
-    Signal PinSignal_U2_1     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU2_1
-    Signal PinSignal_U2_10    : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU2_10
-    Signal PinSignal_U2_11    : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU2_11
-    Signal PinSignal_U2_2     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU2_2
-    Signal PinSignal_U2_3     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU2_3
-    Signal PinSignal_U2_5     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU2_5
-    Signal PinSignal_U2_8     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU2_8
-    Signal PowerSignal_GND    : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GND
-    Signal PowerSignal_PLUS18 : STD_LOGIC; -- ObjectKind=Net|PrimaryId=+18
-    Signal PowerSignal_PLUS5  : STD_LOGIC; -- ObjectKind=Net|PrimaryId=+5
+    Signal PinSignal_C1_1          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC1_1
+    Signal PinSignal_C1_2          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC1_2
+    Signal PinSignal_C2_2          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC2_2
+    Signal PinSignal_C3_1          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC3_1
+    Signal PinSignal_C3_2          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC3_2
+    Signal PinSignal_D1_K          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD1_K
+    Signal PinSignal_D2_K          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD2_K
+    Signal PinSignal_D3_K          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD3_K
+    Signal PinSignal_D6_A          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD6_A
+    Signal PinSignal_J1_2          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ1_2
+    Signal PinSignal_J3_2          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ3_2
+    Signal PinSignal_J4_2          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ4_2
+    Signal PinSignal_J5_2          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ5_2
+    Signal PinSignal_J6_1          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ6_1
+    Signal PinSignal_J6_2          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ6_2
+    Signal PinSignal_R1_1          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetR1_1
+    Signal PinSignal_R2_1          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetR2_1
+    Signal PinSignal_R3_1          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetR3_1
+    Signal PinSignal_R4_1          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetR4_1
+    Signal PinSignal_R5_1          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetR5_1
+    Signal PinSignal_R6_1          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetR6_1
+    Signal PinSignal_R7_1          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetR7_1
+    Signal PinSignal_R8_1          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetR8_1
+    Signal PinSignal_U1_1          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU1_1
+    Signal PinSignal_U1_10         : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU1_10
+    Signal PinSignal_U1_4          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU1_4
+    Signal PinSignal_U1_8          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU1_8
+    Signal PinSignal_U2_1          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU2_1
+    Signal PinSignal_U2_10         : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU2_10
+    Signal PinSignal_U2_11         : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU2_11
+    Signal PinSignal_U2_2          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU2_2
+    Signal PinSignal_U2_3          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU2_3
+    Signal PinSignal_U2_5          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU2_5
+    Signal PinSignal_U2_8          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU2_8
+    Signal PowerSignal_GND         : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GND
+    Signal PowerSignal_PLUS18      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=+18
+    Signal PowerSignal_PLUS5       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=+5
 
    attribute CaseMINUSEIA : string;
    attribute CaseMINUSEIA of R11 : Label is "0805";
@@ -417,7 +421,7 @@ Architecture Structure Of TK514_Interrupter Is
    attribute Value of C1  : Label is "100nF";
 
 
-Begin
+begin
     U8 : X_74HC14                                            -- ObjectKind=Part|PrimaryId=U8|SecondaryId=7
       Port Map
       (
@@ -694,21 +698,21 @@ Begin
       Port Map
       (
         X_1 => PinSignal_R3_1,                               -- ObjectKind=Pin|PrimaryId=R3-1
-        X_2 => PinSignal_J5_1                                -- ObjectKind=Pin|PrimaryId=R3-2
+        X_2 => LIMIT2                                        -- ObjectKind=Pin|PrimaryId=R3-2
       );
 
     R2 : CMPMINUS1013MINUS00062MINUS1                        -- ObjectKind=Part|PrimaryId=R2|SecondaryId=1
       Port Map
       (
         X_1 => PinSignal_R2_1,                               -- ObjectKind=Pin|PrimaryId=R2-1
-        X_2 => PinSignal_J4_1                                -- ObjectKind=Pin|PrimaryId=R2-2
+        X_2 => LIMIT1                                        -- ObjectKind=Pin|PrimaryId=R2-2
       );
 
     R1 : CMPMINUS1013MINUS00062MINUS1                        -- ObjectKind=Part|PrimaryId=R1|SecondaryId=1
       Port Map
       (
         X_1 => PinSignal_R1_1,                               -- ObjectKind=Pin|PrimaryId=R1-1
-        X_2 => PinSignal_J3_1                                -- ObjectKind=Pin|PrimaryId=R1-2
+        X_2 => TRIGGER                                       -- ObjectKind=Pin|PrimaryId=R1-2
       );
 
     J8 : JST_2pin                                            -- ObjectKind=Part|PrimaryId=J8|SecondaryId=1
@@ -735,21 +739,21 @@ Begin
     J5 : JST_2pin                                            -- ObjectKind=Part|PrimaryId=J5|SecondaryId=1
       Port Map
       (
-        X_1 => PinSignal_J5_1,                               -- ObjectKind=Pin|PrimaryId=J5-1
+        X_1 => LIMIT2,                                       -- ObjectKind=Pin|PrimaryId=J5-1
         X_2 => PinSignal_J5_2                                -- ObjectKind=Pin|PrimaryId=J5-2
       );
 
     J4 : JST_2pin                                            -- ObjectKind=Part|PrimaryId=J4|SecondaryId=1
       Port Map
       (
-        X_1 => PinSignal_J4_1,                               -- ObjectKind=Pin|PrimaryId=J4-1
+        X_1 => LIMIT1,                                       -- ObjectKind=Pin|PrimaryId=J4-1
         X_2 => PinSignal_J4_2                                -- ObjectKind=Pin|PrimaryId=J4-2
       );
 
     J3 : JST_2pin                                            -- ObjectKind=Part|PrimaryId=J3|SecondaryId=1
       Port Map
       (
-        X_1 => PinSignal_J3_1,                               -- ObjectKind=Pin|PrimaryId=J3-1
+        X_1 => TRIGGER,                                      -- ObjectKind=Pin|PrimaryId=J3-1
         X_2 => PinSignal_J3_2                                -- ObjectKind=Pin|PrimaryId=J3-2
       );
 
@@ -930,8 +934,12 @@ Begin
 
     -- Signal Assignments
     ---------------------
+    GATE_DRIVE_A    <= PinSignal_C3_2; -- ObjectKind=Net|PrimaryId=NetC3_2
+    GATE_DRIVE_B    <= PinSignal_J1_2; -- ObjectKind=Net|PrimaryId=NetJ1_2
+    PinSignal_C3_2  <= GATE_DRIVE_A; -- ObjectKind=Net|PrimaryId=NetC3_2
+    PinSignal_J1_2  <= GATE_DRIVE_B; -- ObjectKind=Net|PrimaryId=NetJ1_2
     PowerSignal_GND <= '0'; -- ObjectKind=Net|PrimaryId=GND
 
-End Structure;
+end structure;
 ------------------------------------------------------------
 

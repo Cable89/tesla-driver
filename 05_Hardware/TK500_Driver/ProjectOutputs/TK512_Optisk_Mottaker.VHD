@@ -1,9 +1,8 @@
 ------------------------------------------------------------
 -- VHDL TK512_Optisk_Mottaker
--- 2014 6 27 17 54 11
+-- 2014 7 5 19 58 30
 -- Created By "DXP VHDL Generator"
--- "Copyright (c) 2002-2014 Altium Limited"
--- Product Version: 14.3.10.33625
+-- "Copyright (c) 2002-2004 Altium Limited"
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -14,13 +13,18 @@ Library IEEE;
 Use     IEEE.std_logic_1164.all;
 
 Entity TK512_Optisk_Mottaker Is
+  port
+  (
+    CARRIER_DETECT : Out   STD_LOGIC;                        -- ObjectKind=Port|PrimaryId=CARRIER DETECT
+    TRIGGER        : Out   STD_LOGIC                         -- ObjectKind=Port|PrimaryId=TRIGGER
+  );
   attribute MacroCell : boolean;
 
 End TK512_Optisk_Mottaker;
 ------------------------------------------------------------
 
 ------------------------------------------------------------
-Architecture Structure Of TK512_Optisk_Mottaker Is
+architecture structure of TK512_Optisk_Mottaker is
    Component X_1N4148                                        -- ObjectKind=Part|PrimaryId=D1|SecondaryId=1
       port
       (
@@ -69,6 +73,15 @@ Architecture Structure Of TK512_Optisk_Mottaker Is
       );
    End Component;
 
+   Component GP1FAV50RK                                      -- ObjectKind=Part|PrimaryId=U1|SecondaryId=1
+      port
+      (
+        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=U1-1
+        X_2 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=U1-2
+        X_3 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=U1-3
+      );
+   End Component;
+
    Component JST_2pin                                        -- ObjectKind=Part|PrimaryId=J1|SecondaryId=1
       port
       (
@@ -85,30 +98,24 @@ Architecture Structure Of TK512_Optisk_Mottaker Is
       );
    End Component;
 
-   Component Otical_Reciever                                 -- ObjectKind=Part|PrimaryId=U1|SecondaryId=1
-      port
-      (
-        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=U1-1
-        X_2 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=U1-2
-        X_3 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=U1-3
-      );
-   End Component;
 
+    Signal PinSignal_C1_2            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC1_2
+    Signal PinSignal_C2_2            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC2_2
+    Signal PinSignal_C3_1            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC3_1
+    Signal PinSignal_C4_2            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC4_2
+    Signal PinSignal_D1_K            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD1_K
+    Signal PinSignal_J1_1            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ1_1
+    Signal PinSignal_J3_1            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ3_1
+    Signal PinSignal_L1_1            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetL1_1
+    Signal PinSignal_U1_3            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU1_3
+    Signal PinSignal_U2_11           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU2_11
+    Signal PinSignal_U2_2            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU2_2
+    Signal PinSignal_U2_6            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU2_6
+    Signal PowerSignal_GND           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GND
+    Signal PowerSignal_PLUS5         : STD_LOGIC; -- ObjectKind=Net|PrimaryId=+5
 
-    Signal PinSignal_C1_2    : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC1_2
-    Signal PinSignal_C2_2    : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC2_2
-    Signal PinSignal_C3_1    : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC3_1
-    Signal PinSignal_C4_2    : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC4_2
-    Signal PinSignal_D1_K    : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD1_K
-    Signal PinSignal_J1_1    : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ1_1
-    Signal PinSignal_J3_1    : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ3_1
-    Signal PinSignal_L1_1    : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetL1_1
-    Signal PinSignal_U1_3    : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU1_3
-    Signal PinSignal_U2_11   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU2_11
-    Signal PinSignal_U2_2    : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU2_2
-    Signal PinSignal_U2_6    : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU2_6
-    Signal PowerSignal_GND   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GND
-    Signal PowerSignal_PLUS5 : STD_LOGIC; -- ObjectKind=Net|PrimaryId=+5
+   attribute beskrivelse : string;
+   attribute beskrivelse of U1 : Label is "TOSLINK Reciever";
 
    attribute CaseMINUSEIA : string;
    attribute CaseMINUSEIA of R5 : Label is "0805";
@@ -134,12 +141,36 @@ Architecture Structure Of TK512_Optisk_Mottaker Is
    attribute CaseMINUSMetric of C2 : Label is "2012";
    attribute CaseMINUSMetric of C1 : Label is "3216";
 
+   attribute Database_Table_Name : string;
+   attribute Database_Table_Name of U1 : Label is "altium";
+
+   attribute leverandor : string;
+   attribute leverandor of U1 : Label is "Farnell";
+
+   attribute leverandor_varenr : string;
+   attribute leverandor_varenr of U1 : Label is "1243863";
+
    attribute Max_Thickness : string;
    attribute Max_Thickness of C6 : Label is "1.45 mm";
    attribute Max_Thickness of C4 : Label is "1.45 mm";
    attribute Max_Thickness of C3 : Label is "1.45 mm";
    attribute Max_Thickness of C2 : Label is "1.45 mm";
    attribute Max_Thickness of C1 : Label is "1.9 mm";
+
+   attribute navn : string;
+   attribute navn of U1 : Label is "GP1FAV50RK";
+
+   attribute nokkelord : string;
+   attribute nokkelord of U1 : Label is "Optic, fibre";
+
+   attribute pakke_opprettet : string;
+   attribute pakke_opprettet of U1 : Label is "28.06.2014 18:02:12";
+
+   attribute pakke_opprettet_av : string;
+   attribute pakke_opprettet_av of U1 : Label is "815";
+
+   attribute pakketype : string;
+   attribute pakketype of U1 : Label is "92";
 
    attribute Power : string;
    attribute Power of R5 : Label is "0.125 W";
@@ -148,12 +179,24 @@ Architecture Structure Of TK512_Optisk_Mottaker Is
    attribute Power of R2 : Label is "0.125 W";
    attribute Power of R1 : Label is "0.125 W";
 
+   attribute pris : string;
+   attribute pris of U1 : Label is "12";
+
+   attribute produsent : string;
+   attribute produsent of U1 : Label is "Sharp";
+
    attribute Rated_Voltage : string;
    attribute Rated_Voltage of C6 : Label is "25 V";
    attribute Rated_Voltage of C4 : Label is "25 V";
    attribute Rated_Voltage of C3 : Label is "25 V";
    attribute Rated_Voltage of C2 : Label is "25 V";
    attribute Rated_Voltage of C1 : Label is "25 V";
+
+   attribute symbol_opprettet : string;
+   attribute symbol_opprettet of U1 : Label is "28.06.2014 15:42:01";
+
+   attribute symbol_opprettet_av : string;
+   attribute symbol_opprettet_av of U1 : Label is "815";
 
    attribute Technology : string;
    attribute Technology of R5 : Label is "SMT";
@@ -193,7 +236,7 @@ Architecture Structure Of TK512_Optisk_Mottaker Is
    attribute Value of C1 : Label is "10uF";
 
 
-Begin
+begin
     U2 : X_74HC14                                            -- ObjectKind=Part|PrimaryId=U2|SecondaryId=7
       Port Map
       (
@@ -243,7 +286,7 @@ Begin
         X_2 => PinSignal_U2_2                                -- ObjectKind=Pin|PrimaryId=U2-2
       );
 
-    U1 : Otical_Reciever                                     -- ObjectKind=Part|PrimaryId=U1|SecondaryId=1
+    U1 : GP1FAV50RK                                          -- ObjectKind=Part|PrimaryId=U1|SecondaryId=1
       Port Map
       (
         X_1 => PowerSignal_PLUS5,                            -- ObjectKind=Pin|PrimaryId=U1-1
@@ -372,8 +415,12 @@ Begin
 
     -- Signal Assignments
     ---------------------
+    CARRIER_DETECT  <= PinSignal_J3_1; -- ObjectKind=Net|PrimaryId=NetJ3_1
+    PinSignal_J1_1  <= TRIGGER; -- ObjectKind=Net|PrimaryId=NetJ1_1
+    PinSignal_J3_1  <= CARRIER_DETECT; -- ObjectKind=Net|PrimaryId=NetJ3_1
     PowerSignal_GND <= '0'; -- ObjectKind=Net|PrimaryId=GND
+    TRIGGER         <= PinSignal_J1_1; -- ObjectKind=Net|PrimaryId=NetJ1_1
 
-End Structure;
+end structure;
 ------------------------------------------------------------
 

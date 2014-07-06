@@ -43,7 +43,7 @@ PrefsRevisionGUID=
 
 [Document1]
 DocumentPath=TK500_Driver.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=50000
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -60,7 +60,7 @@ DocumentUniqueId=GHAVSHYE
 
 [Document2]
 DocumentPath=TK530_Kraftbakplan\TK530_Kraftbakplan.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=53000
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -94,7 +94,7 @@ DocumentUniqueId=UJFUBCFS
 
 [Document4]
 DocumentPath=TK525_Kraftforsyning.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=52500
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -111,7 +111,7 @@ DocumentUniqueId=ORRWOWVQ
 
 [Document5]
 DocumentPath=TK510_Signalbakplan\TK510_Kontakter.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=51000
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -128,7 +128,7 @@ DocumentUniqueId=UBQFNDFW
 
 [Document6]
 DocumentPath=TK512_Optisk_Mottaker\TK512_Optisk_Mottaker.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=51200
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -145,7 +145,7 @@ DocumentUniqueId=IABBOVIV
 
 [Document7]
 DocumentPath=TK513_Limiter\TK513_Limiter.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=51300
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -162,7 +162,7 @@ DocumentUniqueId=DEMLHMCQ
 
 [Document8]
 DocumentPath=TK514_Interrupter\TK514_Interrupter.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=51400
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -179,7 +179,7 @@ DocumentUniqueId=TKBQHGRR
 
 [Document9]
 DocumentPath=TK531_Utgangstrinn\TK531_Utgangstrinn.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=53100
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -196,7 +196,7 @@ DocumentUniqueId=PTYLVMDA
 
 [Document10]
 DocumentPath=TK532_Utgangskondensator.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=53200
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -213,7 +213,7 @@ DocumentUniqueId=EFPDASLO
 
 [Document11]
 DocumentPath=TK519_Spenningsvakt\TK519_Spenningsvakt.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=51900
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -230,7 +230,7 @@ DocumentUniqueId=WUUDATQX
 
 [Document12]
 DocumentPath=TK511_Blindkort\TK511_Blindkort.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=51100
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -247,7 +247,7 @@ DocumentUniqueId=HAYSRGUV
 
 [Document13]
 DocumentPath=TK518_P18V-PSU\TK518_P18V-PSU.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=51800
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -264,7 +264,7 @@ DocumentUniqueId=MLRRJIFS
 
 [Document14]
 DocumentPath=TK517_P5V0-PSU\TK517_P5V0-PSU.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=51700
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -281,7 +281,7 @@ DocumentUniqueId=OKBPIEXM
 
 [Document15]
 DocumentPath=TK520_GDT-Trafo\TK520_GDT-Trafo.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=52000
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -346,6 +346,57 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document19]
+DocumentPath=TK510_Signalbakplan\TK510_Signalbakplan.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document20]
+DocumentPath=TK510_Signalbakplan\TK510_Kontakter.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document21]
+DocumentPath=Z:\OVLib\Altium\SchLib\Active\Diodes\LED.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=WWETCXXX
 
 [Generic_EDE]
 OutputDir=ProjectOutputs

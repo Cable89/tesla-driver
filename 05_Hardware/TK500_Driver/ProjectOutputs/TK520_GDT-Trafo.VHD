@@ -1,8 +1,9 @@
 ------------------------------------------------------------
 -- VHDL TK520_GDTMINUSTrafo
--- 2014 7 5 19 58 30
+-- 2014 7 6 17 49 12
 -- Created By "DXP VHDL Generator"
--- "Copyright (c) 2002-2004 Altium Limited"
+-- "Copyright (c) 2002-2014 Altium Limited"
+-- Product Version: 14.3.11.33708
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -32,7 +33,7 @@ End TK520_GDTMINUSTrafo;
 ------------------------------------------------------------
 
 ------------------------------------------------------------
-architecture structure of TK520_GDTMINUSTrafo is
+Architecture Structure Of TK520_GDTMINUSTrafo Is
    Component GDT_1_1_1                                       -- ObjectKind=Part|PrimaryId=T1|SecondaryId=1
       port
       (
@@ -73,7 +74,7 @@ architecture structure of TK520_GDTMINUSTrafo is
     Signal PinSignal_J3_3     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ3_3
     Signal PinSignal_J3_4     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ3_4
 
-begin
+Begin
     T2 : GDT_1_1_1                                           -- ObjectKind=Part|PrimaryId=T2|SecondaryId=1
       Port Map
       (
@@ -140,6 +141,6 @@ begin
     PinSignal_J3_3 <= GDT3_2; -- ObjectKind=Net|PrimaryId=NetJ3_3
     PinSignal_J3_4 <= GDT4_2; -- ObjectKind=Net|PrimaryId=NetJ3_4
 
-end structure;
+End Structure;
 ------------------------------------------------------------
 

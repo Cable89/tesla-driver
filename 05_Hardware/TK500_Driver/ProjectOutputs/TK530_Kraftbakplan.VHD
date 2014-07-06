@@ -1,8 +1,9 @@
 ------------------------------------------------------------
 -- VHDL TK530_Kraftbakplan
--- 2014 7 5 19 58 30
+-- 2014 7 6 17 49 11
 -- Created By "DXP VHDL Generator"
--- "Copyright (c) 2002-2004 Altium Limited"
+-- "Copyright (c) 2002-2014 Altium Limited"
+-- Product Version: 14.3.11.33708
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -34,7 +35,7 @@ End TK530_Kraftbakplan;
 ------------------------------------------------------------
 
 ------------------------------------------------------------
-architecture structure of TK530_Kraftbakplan is
+Architecture Structure Of TK530_Kraftbakplan Is
    Component TK531_Utgangstrinn                              -- ObjectKind=Sheet Symbol|PrimaryId=TK531_1
       port
       (
@@ -43,7 +44,7 @@ architecture structure of TK530_Kraftbakplan is
         GDT3      : in    STD_LOGIC;                         -- ObjectKind=Sheet Entry|PrimaryId=TK531_Utgangstrinn.SchDoc-GDT3
         GDT4      : in    STD_LOGIC;                         -- ObjectKind=Sheet Entry|PrimaryId=TK531_Utgangstrinn.SchDoc-GDT4
         GND_HV    : inout STD_LOGIC;                         -- ObjectKind=Sheet Entry|PrimaryId=TK531_Utgangstrinn.SchDoc-GND_HV
-        OUT1      : out   STD_LOGIC;                         -- ObjectKind=Sheet Entry|PrimaryId=TK531_Utgangstrinn.SchDoc-OUT1
+        OUT       : out   STD_LOGIC;                         -- ObjectKind=Sheet Entry|PrimaryId=TK531_Utgangstrinn.SchDoc-OUT
         VCC_P18V0 : inout STD_LOGIC                          -- ObjectKind=Sheet Entry|PrimaryId=TK531_Utgangstrinn.SchDoc-VCC_P18V0
       );
    End Component;
@@ -57,17 +58,35 @@ architecture structure of TK530_Kraftbakplan is
    End Component;
 
 
+    Signal PinSignal_TK531_1_OUT : STD_LOGIC; -- ObjectKind=Net|PrimaryId=OUT
+    Signal PinSignal_TK531_2_OUT : STD_LOGIC; -- ObjectKind=Net|PrimaryId=OUT
+    Signal PinSignal_TK532_OUT   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=OUT
 
-begin
+Begin
     TK532 : TK532_Utgangskondensator                         -- ObjectKind=Sheet Symbol|PrimaryId=TK532
-;
+      Port Map
+      (
+        IN  => PinSignal_TK531_2_OUT,                        -- ObjectKind=Sheet Entry|PrimaryId=TK532_Utgangskondensator.SchDoc-IN
+        OUT => PinSignal_TK532_OUT                           -- ObjectKind=Sheet Entry|PrimaryId=TK532_Utgangskondensator.SchDoc-OUT
+      );
 
     TK531_2 : TK531_Utgangstrinn                             -- ObjectKind=Sheet Symbol|PrimaryId=TK531_2
-;
+      Port Map
+      (
+        OUT => PinSignal_TK531_2_OUT                         -- ObjectKind=Sheet Entry|PrimaryId=TK531_Utgangstrinn.SchDoc-OUT
+      );
 
     TK531_1 : TK531_Utgangstrinn                             -- ObjectKind=Sheet Symbol|PrimaryId=TK531_1
-;
+      Port Map
+      (
+        OUT => PinSignal_TK531_1_OUT                         -- ObjectKind=Sheet Entry|PrimaryId=TK531_Utgangstrinn.SchDoc-OUT
+      );
 
-end structure;
+    -- Signal Assignments
+    ---------------------
+    OUTA <= PinSignal_TK531_1_OUT; -- ObjectKind=Net|PrimaryId=OUT
+    OUTB <= PinSignal_TK532_OUT; -- ObjectKind=Net|PrimaryId=OUT
+
+End Structure;
 ------------------------------------------------------------
 

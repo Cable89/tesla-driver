@@ -1,8 +1,9 @@
 ------------------------------------------------------------
 -- VHDL TK512_Optisk_Mottaker
--- 2014 7 5 19 58 30
+-- 2014 7 6 17 49 11
 -- Created By "DXP VHDL Generator"
--- "Copyright (c) 2002-2004 Altium Limited"
+-- "Copyright (c) 2002-2014 Altium Limited"
+-- Product Version: 14.3.11.33708
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -24,7 +25,7 @@ End TK512_Optisk_Mottaker;
 ------------------------------------------------------------
 
 ------------------------------------------------------------
-architecture structure of TK512_Optisk_Mottaker is
+Architecture Structure Of TK512_Optisk_Mottaker Is
    Component X_1N4148                                        -- ObjectKind=Part|PrimaryId=D1|SecondaryId=1
       port
       (
@@ -236,7 +237,7 @@ architecture structure of TK512_Optisk_Mottaker is
    attribute Value of C1 : Label is "10uF";
 
 
-begin
+Begin
     U2 : X_74HC14                                            -- ObjectKind=Part|PrimaryId=U2|SecondaryId=7
       Port Map
       (
@@ -421,6 +422,6 @@ begin
     PowerSignal_GND <= '0'; -- ObjectKind=Net|PrimaryId=GND
     TRIGGER         <= PinSignal_J1_1; -- ObjectKind=Net|PrimaryId=NetJ1_1
 
-end structure;
+End Structure;
 ------------------------------------------------------------
 

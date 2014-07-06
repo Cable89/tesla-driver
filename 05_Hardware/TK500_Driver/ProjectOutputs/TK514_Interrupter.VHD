@@ -1,8 +1,9 @@
 ------------------------------------------------------------
 -- VHDL TK514_Interrupter
--- 2014 7 5 19 58 31
+-- 2014 7 6 17 49 11
 -- Created By "DXP VHDL Generator"
--- "Copyright (c) 2002-2004 Altium Limited"
+-- "Copyright (c) 2002-2014 Altium Limited"
+-- Product Version: 14.3.11.33708
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -27,7 +28,7 @@ End TK514_Interrupter;
 ------------------------------------------------------------
 
 ------------------------------------------------------------
-architecture structure of TK514_Interrupter is
+Architecture Structure Of TK514_Interrupter Is
    Component X_1N4148                                        -- ObjectKind=Part|PrimaryId=D1|SecondaryId=1
       port
       (
@@ -421,7 +422,7 @@ architecture structure of TK514_Interrupter is
    attribute Value of C1  : Label is "100nF";
 
 
-begin
+Begin
     U8 : X_74HC14                                            -- ObjectKind=Part|PrimaryId=U8|SecondaryId=7
       Port Map
       (
@@ -940,6 +941,6 @@ begin
     PinSignal_J1_2  <= GATE_DRIVE_B; -- ObjectKind=Net|PrimaryId=NetJ1_2
     PowerSignal_GND <= '0'; -- ObjectKind=Net|PrimaryId=GND
 
-end structure;
+End Structure;
 ------------------------------------------------------------
 

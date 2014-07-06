@@ -1,8 +1,9 @@
 ------------------------------------------------------------
 -- VHDL TK525_Kraftforsyning
--- 2014 7 5 19 58 30
+-- 2014 7 6 17 49 11
 -- Created By "DXP VHDL Generator"
--- "Copyright (c) 2002-2004 Altium Limited"
+-- "Copyright (c) 2002-2014 Altium Limited"
+-- Product Version: 14.3.11.33708
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -19,10 +20,10 @@ End TK525_Kraftforsyning;
 ------------------------------------------------------------
 
 ------------------------------------------------------------
-architecture structure of TK525_Kraftforsyning is
+Architecture Structure Of TK525_Kraftforsyning Is
 
 
-begin
-end structure;
+Begin
+End Structure;
 ------------------------------------------------------------
 

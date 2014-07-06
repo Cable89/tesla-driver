@@ -1,8 +1,9 @@
 ------------------------------------------------------------
 -- VHDL TK500_Driver
--- 2014 7 5 19 58 30
+-- 2014 7 6 17 49 11
 -- Created By "DXP VHDL Generator"
--- "Copyright (c) 2002-2004 Altium Limited"
+-- "Copyright (c) 2002-2014 Altium Limited"
+-- Product Version: 14.3.11.33708
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -19,7 +20,7 @@ End TK500_Driver;
 ------------------------------------------------------------
 
 ------------------------------------------------------------
-architecture structure of TK500_Driver is
+Architecture Structure Of TK500_Driver Is
    Component TK510_Signalbakplan                             -- ObjectKind=Sheet Symbol|PrimaryId=TK510
       port
       (
@@ -84,7 +85,7 @@ architecture structure of TK500_Driver is
     Signal PinSignal_TK525_114VAC       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=114VAC
     Signal PinSignal_TK525_GND_HV       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GND_HV
 
-begin
+Begin
     TK530 : TK530_Kraftbakplan                               -- ObjectKind=Sheet Symbol|PrimaryId=TK530
       Port Map
       (
@@ -129,6 +130,6 @@ begin
         GATE_DRIVE_B => PinSignal_TK510_GATE_DRIVE_B         -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-GATE DRIVE B
       );
 
-end structure;
+End Structure;
 ------------------------------------------------------------
 

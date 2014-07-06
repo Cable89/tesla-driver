@@ -1,8 +1,9 @@
 ------------------------------------------------------------
 -- VHDL TK513_Limiter
--- 2014 7 5 19 58 31
+-- 2014 7 6 17 49 11
 -- Created By "DXP VHDL Generator"
--- "Copyright (c) 2002-2004 Altium Limited"
+-- "Copyright (c) 2002-2014 Altium Limited"
+-- Product Version: 14.3.11.33708
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -24,7 +25,7 @@ End TK513_Limiter;
 ------------------------------------------------------------
 
 ------------------------------------------------------------
-architecture structure of TK513_Limiter is
+Architecture Structure Of TK513_Limiter Is
    Component X_1N5819                                        -- ObjectKind=Part|PrimaryId=D9|SecondaryId=1
       port
       (
@@ -247,7 +248,7 @@ architecture structure of TK513_Limiter is
    attribute Value of C17 : Label is "100nF";
 
 
-begin
+Begin
     U13 : MOCD207R2M                                         -- ObjectKind=Part|PrimaryId=U13|SecondaryId=1
       Port Map
       (
@@ -506,6 +507,6 @@ begin
     NamedSignal_LIMITER_OUT <= LIMIT; -- ObjectKind=Net|PrimaryId=LIMITER_OUT
     PowerSignal_GND         <= '0'; -- ObjectKind=Net|PrimaryId=GND
 
-end structure;
+End Structure;
 ------------------------------------------------------------
 

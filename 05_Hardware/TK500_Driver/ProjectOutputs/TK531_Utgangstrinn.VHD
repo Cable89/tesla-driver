@@ -1,8 +1,9 @@
 ------------------------------------------------------------
 -- VHDL TK531_Utgangstrinn
--- 2014 7 5 19 58 31
+-- 2014 7 6 17 49 11
 -- Created By "DXP VHDL Generator"
--- "Copyright (c) 2002-2004 Altium Limited"
+-- "Copyright (c) 2002-2014 Altium Limited"
+-- Product Version: 14.3.11.33708
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -20,7 +21,7 @@ Entity TK531_Utgangstrinn Is
     GDT3      : In    STD_LOGIC;                             -- ObjectKind=Port|PrimaryId=GDT3
     GDT4      : In    STD_LOGIC;                             -- ObjectKind=Port|PrimaryId=GDT4
     GND_HV    : InOut STD_LOGIC;                             -- ObjectKind=Port|PrimaryId=GND_HV
-    OUT1      : Out   STD_LOGIC;                             -- ObjectKind=Port|PrimaryId=OUT1
+    OUT       : Out   STD_LOGIC;                             -- ObjectKind=Port|PrimaryId=OUT
     VCC_P18V0 : InOut STD_LOGIC                              -- ObjectKind=Port|PrimaryId=VCC_P18V0
   );
   attribute MacroCell : boolean;
@@ -29,7 +30,7 @@ End TK531_Utgangstrinn;
 ------------------------------------------------------------
 
 ------------------------------------------------------------
-architecture structure of TK531_Utgangstrinn is
+Architecture Structure Of TK531_Utgangstrinn Is
    Component X_1_5KE400A                                     -- ObjectKind=Part|PrimaryId=D7|SecondaryId=1
       port
       (
@@ -84,7 +85,7 @@ architecture structure of TK531_Utgangstrinn is
    attribute Value of R1 : Label is "10R";
 
 
-begin
+Begin
     R2 : R                                                   -- ObjectKind=Part|PrimaryId=R2|SecondaryId=1
       Port Map
       (
@@ -174,10 +175,14 @@ begin
     -- Signal Assignments
     ---------------------
     GDT4            <= PowerSignal_GND; -- ObjectKind=Net|PrimaryId=GND
+    GND_HV          <= GDT4; -- ObjectKind=Net|PrimaryId=GND
+    GND_HV          <= PowerSignal_GND; -- ObjectKind=Net|PrimaryId=GND
+    OUT             <= GDT2; -- ObjectKind=Net|PrimaryId=NetD2_K
     PowerSignal_GND <= '0'; -- ObjectKind=Net|PrimaryId=GND
     PowerSignal_GND <= GDT4; -- ObjectKind=Net|PrimaryId=GND
     PowerSignal_VCC <= '1'; -- ObjectKind=Net|PrimaryId=VCC
+    VCC_P18V0       <= PowerSignal_VCC; -- ObjectKind=Net|PrimaryId=VCC
 
-end structure;
+End Structure;
 ------------------------------------------------------------
 

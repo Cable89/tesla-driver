@@ -1,9 +1,9 @@
 ------------------------------------------------------------
 -- VHDL TK520_GDTMINUSTrafo
--- 2014 7 6 17 49 12
+-- 2014 7 8 19 13 37
 -- Created By "DXP VHDL Generator"
 -- "Copyright (c) 2002-2014 Altium Limited"
--- Product Version: 14.3.11.33708
+-- Product Version: 14.3.10.33625
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -34,112 +34,112 @@ End TK520_GDTMINUSTrafo;
 
 ------------------------------------------------------------
 Architecture Structure Of TK520_GDTMINUSTrafo Is
-   Component GDT_1_1_1                                       -- ObjectKind=Part|PrimaryId=T1|SecondaryId=1
+   Component GDT_1_1_1                                       -- ObjectKind=Part|PrimaryId=T52000|SecondaryId=1
       port
       (
-        X_1  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=T1-1
-        X_5  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=T1-5
-        X_6  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=T1-6
-        X_7  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=T1-7
-        X_9  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=T1-9
-        X_10 : inout STD_LOGIC                               -- ObjectKind=Pin|PrimaryId=T1-10
+        X_1  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=T52000-1
+        X_5  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=T52000-5
+        X_6  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=T52000-6
+        X_7  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=T52000-7
+        X_9  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=T52000-9
+        X_10 : inout STD_LOGIC                               -- ObjectKind=Pin|PrimaryId=T52000-10
       );
    End Component;
 
-   Component JST_2pin                                        -- ObjectKind=Part|PrimaryId=J1|SecondaryId=1
+   Component JST_2pin                                        -- ObjectKind=Part|PrimaryId=J52001|SecondaryId=1
       port
       (
-        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J1-1
-        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=J1-2
+        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J52001-1
+        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=J52001-2
       );
    End Component;
 
-   Component JST_4pin                                        -- ObjectKind=Part|PrimaryId=J2|SecondaryId=1
+   Component JST_4pin                                        -- ObjectKind=Part|PrimaryId=J52000|SecondaryId=1
       port
       (
-        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J2-1
-        X_2 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J2-2
-        X_3 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J2-3
-        X_4 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=J2-4
+        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J52000-1
+        X_2 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J52000-2
+        X_3 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J52000-3
+        X_4 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=J52000-4
       );
    End Component;
 
 
-    Signal PinSignal_J2_1     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ2_1
-    Signal PinSignal_J2_2     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ2_2
-    Signal PinSignal_J2_3     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ2_3
-    Signal PinSignal_J2_4     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ2_4
-    Signal PinSignal_J3_1     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ3_1
-    Signal PinSignal_J3_2     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ3_2
-    Signal PinSignal_J3_3     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ3_3
-    Signal PinSignal_J3_4     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ3_4
+    Signal PinSignal_J52000_1 : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ52000_1
+    Signal PinSignal_J52000_2 : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ52000_2
+    Signal PinSignal_J52000_3 : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ52000_3
+    Signal PinSignal_J52000_4 : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ52000_4
+    Signal PinSignal_J52002_1 : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ52002_1
+    Signal PinSignal_J52002_2 : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ52002_2
+    Signal PinSignal_J52002_3 : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ52002_3
+    Signal PinSignal_J52002_4 : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ52002_4
 
 Begin
-    T2 : GDT_1_1_1                                           -- ObjectKind=Part|PrimaryId=T2|SecondaryId=1
+    T52001 : GDT_1_1_1                                       -- ObjectKind=Part|PrimaryId=T52001|SecondaryId=1
       Port Map
       (
-        X_1  => GDT2_IN,                                     -- ObjectKind=Pin|PrimaryId=T2-1
-        X_5  => GDT1_IN,                                     -- ObjectKind=Pin|PrimaryId=T2-5
-        X_6  => PinSignal_J3_1,                              -- ObjectKind=Pin|PrimaryId=T2-6
-        X_7  => PinSignal_J3_2,                              -- ObjectKind=Pin|PrimaryId=T2-7
-        X_9  => PinSignal_J3_3,                              -- ObjectKind=Pin|PrimaryId=T2-9
-        X_10 => PinSignal_J3_4                               -- ObjectKind=Pin|PrimaryId=T2-10
+        X_1  => GDT2_IN,                                     -- ObjectKind=Pin|PrimaryId=T52001-1
+        X_5  => GDT1_IN,                                     -- ObjectKind=Pin|PrimaryId=T52001-5
+        X_6  => PinSignal_J52002_1,                          -- ObjectKind=Pin|PrimaryId=T52001-6
+        X_7  => PinSignal_J52002_2,                          -- ObjectKind=Pin|PrimaryId=T52001-7
+        X_9  => PinSignal_J52002_3,                          -- ObjectKind=Pin|PrimaryId=T52001-9
+        X_10 => PinSignal_J52002_4                           -- ObjectKind=Pin|PrimaryId=T52001-10
       );
 
-    T1 : GDT_1_1_1                                           -- ObjectKind=Part|PrimaryId=T1|SecondaryId=1
+    T52000 : GDT_1_1_1                                       -- ObjectKind=Part|PrimaryId=T52000|SecondaryId=1
       Port Map
       (
-        X_1  => GDT1_IN,                                     -- ObjectKind=Pin|PrimaryId=T1-1
-        X_5  => GDT2_IN,                                     -- ObjectKind=Pin|PrimaryId=T1-5
-        X_6  => PinSignal_J2_1,                              -- ObjectKind=Pin|PrimaryId=T1-6
-        X_7  => PinSignal_J2_2,                              -- ObjectKind=Pin|PrimaryId=T1-7
-        X_9  => PinSignal_J2_3,                              -- ObjectKind=Pin|PrimaryId=T1-9
-        X_10 => PinSignal_J2_4                               -- ObjectKind=Pin|PrimaryId=T1-10
+        X_1  => GDT1_IN,                                     -- ObjectKind=Pin|PrimaryId=T52000-1
+        X_5  => GDT2_IN,                                     -- ObjectKind=Pin|PrimaryId=T52000-5
+        X_6  => PinSignal_J52000_1,                          -- ObjectKind=Pin|PrimaryId=T52000-6
+        X_7  => PinSignal_J52000_2,                          -- ObjectKind=Pin|PrimaryId=T52000-7
+        X_9  => PinSignal_J52000_3,                          -- ObjectKind=Pin|PrimaryId=T52000-9
+        X_10 => PinSignal_J52000_4                           -- ObjectKind=Pin|PrimaryId=T52000-10
       );
 
-    J3 : JST_4pin                                            -- ObjectKind=Part|PrimaryId=J3|SecondaryId=1
+    J52002 : JST_4pin                                        -- ObjectKind=Part|PrimaryId=J52002|SecondaryId=1
       Port Map
       (
-        X_1 => PinSignal_J3_1,                               -- ObjectKind=Pin|PrimaryId=J3-1
-        X_2 => PinSignal_J3_2,                               -- ObjectKind=Pin|PrimaryId=J3-2
-        X_3 => PinSignal_J3_3,                               -- ObjectKind=Pin|PrimaryId=J3-3
-        X_4 => PinSignal_J3_4                                -- ObjectKind=Pin|PrimaryId=J3-4
+        X_1 => PinSignal_J52002_1,                           -- ObjectKind=Pin|PrimaryId=J52002-1
+        X_2 => PinSignal_J52002_2,                           -- ObjectKind=Pin|PrimaryId=J52002-2
+        X_3 => PinSignal_J52002_3,                           -- ObjectKind=Pin|PrimaryId=J52002-3
+        X_4 => PinSignal_J52002_4                            -- ObjectKind=Pin|PrimaryId=J52002-4
       );
 
-    J2 : JST_4pin                                            -- ObjectKind=Part|PrimaryId=J2|SecondaryId=1
+    J52001 : JST_2pin                                        -- ObjectKind=Part|PrimaryId=J52001|SecondaryId=1
       Port Map
       (
-        X_1 => PinSignal_J2_1,                               -- ObjectKind=Pin|PrimaryId=J2-1
-        X_2 => PinSignal_J2_2,                               -- ObjectKind=Pin|PrimaryId=J2-2
-        X_3 => PinSignal_J2_3,                               -- ObjectKind=Pin|PrimaryId=J2-3
-        X_4 => PinSignal_J2_4                                -- ObjectKind=Pin|PrimaryId=J2-4
+        X_1 => GDT1_IN,                                      -- ObjectKind=Pin|PrimaryId=J52001-1
+        X_2 => GDT2_IN                                       -- ObjectKind=Pin|PrimaryId=J52001-2
       );
 
-    J1 : JST_2pin                                            -- ObjectKind=Part|PrimaryId=J1|SecondaryId=1
+    J52000 : JST_4pin                                        -- ObjectKind=Part|PrimaryId=J52000|SecondaryId=1
       Port Map
       (
-        X_1 => GDT1_IN,                                      -- ObjectKind=Pin|PrimaryId=J1-1
-        X_2 => GDT2_IN                                       -- ObjectKind=Pin|PrimaryId=J1-2
+        X_1 => PinSignal_J52000_1,                           -- ObjectKind=Pin|PrimaryId=J52000-1
+        X_2 => PinSignal_J52000_2,                           -- ObjectKind=Pin|PrimaryId=J52000-2
+        X_3 => PinSignal_J52000_3,                           -- ObjectKind=Pin|PrimaryId=J52000-3
+        X_4 => PinSignal_J52000_4                            -- ObjectKind=Pin|PrimaryId=J52000-4
       );
 
     -- Signal Assignments
     ---------------------
-    GDT1_1         <= PinSignal_J2_1; -- ObjectKind=Net|PrimaryId=NetJ2_1
-    GDT1_2         <= PinSignal_J3_1; -- ObjectKind=Net|PrimaryId=NetJ3_1
-    GDT2_1         <= PinSignal_J2_2; -- ObjectKind=Net|PrimaryId=NetJ2_2
-    GDT2_2         <= PinSignal_J3_2; -- ObjectKind=Net|PrimaryId=NetJ3_2
-    GDT3_1         <= PinSignal_J2_3; -- ObjectKind=Net|PrimaryId=NetJ2_3
-    GDT3_2         <= PinSignal_J3_3; -- ObjectKind=Net|PrimaryId=NetJ3_3
-    GDT4_1         <= PinSignal_J2_4; -- ObjectKind=Net|PrimaryId=NetJ2_4
-    GDT4_2         <= PinSignal_J3_4; -- ObjectKind=Net|PrimaryId=NetJ3_4
-    PinSignal_J2_1 <= GDT1_1; -- ObjectKind=Net|PrimaryId=NetJ2_1
-    PinSignal_J2_2 <= GDT2_1; -- ObjectKind=Net|PrimaryId=NetJ2_2
-    PinSignal_J2_3 <= GDT3_1; -- ObjectKind=Net|PrimaryId=NetJ2_3
-    PinSignal_J2_4 <= GDT4_1; -- ObjectKind=Net|PrimaryId=NetJ2_4
-    PinSignal_J3_1 <= GDT1_2; -- ObjectKind=Net|PrimaryId=NetJ3_1
-    PinSignal_J3_2 <= GDT2_2; -- ObjectKind=Net|PrimaryId=NetJ3_2
-    PinSignal_J3_3 <= GDT3_2; -- ObjectKind=Net|PrimaryId=NetJ3_3
-    PinSignal_J3_4 <= GDT4_2; -- ObjectKind=Net|PrimaryId=NetJ3_4
+    GDT1_1             <= PinSignal_J52000_1; -- ObjectKind=Net|PrimaryId=NetJ52000_1
+    GDT1_2             <= PinSignal_J52002_1; -- ObjectKind=Net|PrimaryId=NetJ52002_1
+    GDT2_1             <= PinSignal_J52000_2; -- ObjectKind=Net|PrimaryId=NetJ52000_2
+    GDT2_2             <= PinSignal_J52002_2; -- ObjectKind=Net|PrimaryId=NetJ52002_2
+    GDT3_1             <= PinSignal_J52000_3; -- ObjectKind=Net|PrimaryId=NetJ52000_3
+    GDT3_2             <= PinSignal_J52002_3; -- ObjectKind=Net|PrimaryId=NetJ52002_3
+    GDT4_1             <= PinSignal_J52000_4; -- ObjectKind=Net|PrimaryId=NetJ52000_4
+    GDT4_2             <= PinSignal_J52002_4; -- ObjectKind=Net|PrimaryId=NetJ52002_4
+    PinSignal_J52000_1 <= GDT1_1; -- ObjectKind=Net|PrimaryId=NetJ52000_1
+    PinSignal_J52000_2 <= GDT2_1; -- ObjectKind=Net|PrimaryId=NetJ52000_2
+    PinSignal_J52000_3 <= GDT3_1; -- ObjectKind=Net|PrimaryId=NetJ52000_3
+    PinSignal_J52000_4 <= GDT4_1; -- ObjectKind=Net|PrimaryId=NetJ52000_4
+    PinSignal_J52002_1 <= GDT1_2; -- ObjectKind=Net|PrimaryId=NetJ52002_1
+    PinSignal_J52002_2 <= GDT2_2; -- ObjectKind=Net|PrimaryId=NetJ52002_2
+    PinSignal_J52002_3 <= GDT3_2; -- ObjectKind=Net|PrimaryId=NetJ52002_3
+    PinSignal_J52002_4 <= GDT4_2; -- ObjectKind=Net|PrimaryId=NetJ52002_4
 
 End Structure;
 ------------------------------------------------------------

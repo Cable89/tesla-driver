@@ -1,6 +1,6 @@
 ------------------------------------------------------------
 -- VHDL TK513_Limiter
--- 2014 7 8 19 13 36
+-- 2014 7 12 21 38 42
 -- Created By "DXP VHDL Generator"
 -- "Copyright (c) 2002-2014 Altium Limited"
 -- Product Version: 14.3.10.33625

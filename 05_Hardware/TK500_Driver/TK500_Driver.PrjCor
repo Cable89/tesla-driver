@@ -314,6 +314,23 @@ GenerateClassCluster=0
 DocumentUniqueId=BPYUJRYO
 
 [Document17]
+DocumentPath=TK510_Signalbakplan\TK510_Mekanisk.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XSIQVKDB
+
+[Document18]
 DocumentPath=Schlib1.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -330,7 +347,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CWUAGGIN
 
-[Document18]
+[Document19]
 DocumentPath=PcbLib1.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -347,7 +364,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DJARYCUC
 
-[Document19]
+[Document20]
 DocumentPath=TeslaPSU2\DF01S.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -363,6 +380,31 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VXOSFYDU
+
+[Document21]
+DocumentPath=TK500.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[GeneratedDocument1]
+DocumentPath=ProjectOutputs\BOM\Bill of Materials-TK500_Driver.txt
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=ProjectOutputs\BOM\Bill of Materials Fitted-TK500_Driver.xls
+DItemRevisionGUID=
 
 [Generic_EDE]
 OutputDir=ProjectOutputs

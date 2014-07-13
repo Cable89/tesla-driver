@@ -1,0 +1,120 @@
+Added Component: Designator=D53000(I_LEDC0603(1608)_N)
+Added Component: Designator=D53001(I_LEDC0603(1608)_N)
+Added Component: Designator=D53002(I_LEDC0603(1608)_N)
+Added Component: Designator=J53000(MPSC-02-16-02-7.70-03-L-V-LC)
+Added Component: Designator=J53001(MPSC-02-16-02-7.70-03-L-V-LC)
+Added Component: Designator=J53002(MPSC-02-16-02-7.70-03-L-V-LC)
+Added Component: Designator=J53003(JST_4P)
+Added Component: Designator=J53004(JST_4P)
+Added Component: Designator=J53005(JST_4P)
+Added Component: Designator=M53000(CardHolder900X1900X84000)
+Added Component: Designator=M53001(CardHolder900X1900X84000)
+Added Component: Designator=M53002(CardHolder900X1900X84000)
+Added Component: Designator=M53003(CardHolder900X1900X84000)
+Added Component: Designator=M53004(CardHolder900X1900X84000)
+Added Component: Designator=M53005(CardHolder900X1900X84000)
+Added Component: Designator=Q53000(SOT95P280X130-3N)
+Added Component: Designator=Q53001(SOT95P280X130-3N)
+Added Component: Designator=Q53002(SOT95P280X130-3N)
+Added Component: Designator=Q53003(Micro3)
+Added Component: Designator=Q53004(Micro3)
+Added Component: Designator=Q53005(Micro3)
+Added Component: Designator=R53000(RESC0603(1608)_N)
+Added Component: Designator=R53001(RESC0603(1608)_N)
+Added Component: Designator=R53002(RESC0603(1608)_N)
+Added Component: Designator=R53003(RESC0603(1608)_N)
+Added Component: Designator=R53004(RESC0603(1608)_N)
+Added Component: Designator=R53005(RESC0603(1608)_N)
+Added Pin To Net: NetName=GND Pin=D53000-2
+Added Pin To Net: NetName=GND Pin=D53001-2
+Added Pin To Net: NetName=GND Pin=D53002-2
+Added Pin To Net: NetName=S0_KI Pin=Q53000-1
+Added Pin To Net: NetName=GND Pin=Q53000-2
+Added Pin To Net: NetName=KORT_INNSATT Pin=Q53000-3
+Added Pin To Net: NetName=S0_KI Pin=Q53001-1
+Added Pin To Net: NetName=GND Pin=Q53001-2
+Added Pin To Net: NetName=KORT_INNSATT Pin=Q53001-3
+Added Pin To Net: NetName=S0_KI Pin=Q53002-1
+Added Pin To Net: NetName=GND Pin=Q53002-2
+Added Pin To Net: NetName=KORT_INNSATT Pin=Q53002-3
+Added Pin To Net: NetName=S0_KI Pin=Q53003-1
+Added Pin To Net: NetName=VCC_P5V0 Pin=Q53003-3
+Added Pin To Net: NetName=S0_KI Pin=Q53004-1
+Added Pin To Net: NetName=VCC_P5V0 Pin=Q53004-3
+Added Pin To Net: NetName=S0_KI Pin=Q53005-1
+Added Pin To Net: NetName=VCC_P5V0 Pin=Q53005-3
+Added Pin To Net: NetName=S0_KI Pin=R53000-1
+Added Pin To Net: NetName=GND Pin=R53000-2
+Added Pin To Net: NetName=S0_KI Pin=R53001-1
+Added Pin To Net: NetName=GND Pin=R53001-2
+Added Pin To Net: NetName=S0_KI Pin=R53002-1
+Added Pin To Net: NetName=GND Pin=R53002-2
+Added Pin To Net: NetName=NetD53000_1 Pin=D53000-1
+Added Pin To Net: NetName=NetD53000_1 Pin=R53003-1
+Added Net: Name=NetD53000_1
+Added Pin To Net: NetName=NetD53001_1 Pin=D53001-1
+Added Pin To Net: NetName=NetD53001_1 Pin=R53004-1
+Added Net: Name=NetD53001_1
+Added Pin To Net: NetName=NetD53002_1 Pin=D53002-1
+Added Pin To Net: NetName=NetD53002_1 Pin=R53005-1
+Added Net: Name=NetD53002_1
+Added Pin To Net: NetName=NetJ53000_D1 Pin=J53003-1
+Added Net: Name=NetJ53000_D1
+Added Pin To Net: NetName=NetJ53000_D2 Pin=J53003-2
+Added Net: Name=NetJ53000_D2
+Added Pin To Net: NetName=NetJ53000_D3 Pin=J53003-3
+Added Net: Name=NetJ53000_D3
+Added Pin To Net: NetName=NetJ53000_D4 Pin=J53003-4
+Added Net: Name=NetJ53000_D4
+Added Pin To Net: NetName=NetJ53001_D1 Pin=J53004-1
+Added Net: Name=NetJ53001_D1
+Added Pin To Net: NetName=NetJ53001_D2 Pin=J53004-2
+Added Net: Name=NetJ53001_D2
+Added Pin To Net: NetName=NetJ53001_D3 Pin=J53004-3
+Added Net: Name=NetJ53001_D3
+Added Pin To Net: NetName=NetJ53001_D4 Pin=J53004-4
+Added Net: Name=NetJ53001_D4
+Added Pin To Net: NetName=NetJ53002_D1 Pin=J53005-1
+Added Net: Name=NetJ53002_D1
+Added Pin To Net: NetName=NetJ53002_D2 Pin=J53005-2
+Added Net: Name=NetJ53002_D2
+Added Pin To Net: NetName=NetJ53002_D3 Pin=J53005-3
+Added Net: Name=NetJ53002_D3
+Added Pin To Net: NetName=NetJ53002_D4 Pin=J53005-4
+Added Net: Name=NetJ53002_D4
+Added Pin To Net: NetName=NetQ53003_2 Pin=Q53003-2
+Added Pin To Net: NetName=NetQ53003_2 Pin=R53003-2
+Added Net: Name=NetQ53003_2
+Added Pin To Net: NetName=NetQ53004_2 Pin=Q53004-2
+Added Pin To Net: NetName=NetQ53004_2 Pin=R53004-2
+Added Net: Name=NetQ53004_2
+Added Pin To Net: NetName=NetQ53005_2 Pin=Q53005-2
+Added Pin To Net: NetName=NetQ53005_2 Pin=R53005-2
+Added Net: Name=NetQ53005_2
+Added Member To Class: ClassName=TK530_Kraftbakplan Member=Component D53000 LED
+Added Member To Class: ClassName=TK530_Kraftbakplan Member=Component D53001 LED
+Added Member To Class: ClassName=TK530_Kraftbakplan Member=Component D53002 LED
+Added Member To Class: ClassName=TK530_Kraftbakplan Member=Component J53000 MPXX-02-16-02
+Added Member To Class: ClassName=TK530_Kraftbakplan Member=Component J53001 MPXX-02-16-02
+Added Member To Class: ClassName=TK530_Kraftbakplan Member=Component J53002 MPXX-02-16-02
+Added Member To Class: ClassName=TK530_Kraftbakplan Member=Component J53003 4PConnector
+Added Member To Class: ClassName=TK530_Kraftbakplan Member=Component J53004 4PConnector
+Added Member To Class: ClassName=TK530_Kraftbakplan Member=Component J53005 4PConnector
+Added Member To Class: ClassName=TK530_Kraftbakplan Member=Component M53000 CardHolder
+Added Member To Class: ClassName=TK530_Kraftbakplan Member=Component M53001 CardHolder
+Added Member To Class: ClassName=TK530_Kraftbakplan Member=Component M53002 CardHolder
+Added Member To Class: ClassName=TK530_Kraftbakplan Member=Component M53003 CardHolder
+Added Member To Class: ClassName=TK530_Kraftbakplan Member=Component M53004 CardHolder
+Added Member To Class: ClassName=TK530_Kraftbakplan Member=Component M53005 CardHolder
+Added Member To Class: ClassName=TK530_Kraftbakplan Member=Component Q53000 TSM2314
+Added Member To Class: ClassName=TK530_Kraftbakplan Member=Component Q53001 TSM2314
+Added Member To Class: ClassName=TK530_Kraftbakplan Member=Component Q53002 TSM2314
+Added Member To Class: ClassName=TK530_Kraftbakplan Member=Component Q53003 IRLML6402
+Added Member To Class: ClassName=TK530_Kraftbakplan Member=Component Q53004 IRLML6402
+Added Member To Class: ClassName=TK530_Kraftbakplan Member=Component Q53005 IRLML6402
+Added Member To Class: ClassName=TK530_Kraftbakplan Member=Component R53000 Resistor2
+Added Member To Class: ClassName=TK530_Kraftbakplan Member=Component R53001 Resistor2
+Added Member To Class: ClassName=TK530_Kraftbakplan Member=Component R53002 Resistor2
+Added Member To Class: ClassName=TK530_Kraftbakplan Member=Component R53003 47R
+Added Member To Class: ClassName=TK530_Kraftbakplan Member=Component R53004 47R
+Added Member To Class: ClassName=TK530_Kraftbakplan Member=Component R53005 47R

@@ -1,0 +1,11 @@
+To kortkantconnectorer til utgangstrinn
+En kortkantconnector til utgangskondensatorbank
+mekaninsk støtte til kort
+
+To 4pin connectorer til innsignal
+
+Connector til LEDsignal til frontpanel
+Kort innsatt deteksjon
+
+Solid connector eller loddepunkt til 160VDC
+Solid connector eller loddepunkt til utgang

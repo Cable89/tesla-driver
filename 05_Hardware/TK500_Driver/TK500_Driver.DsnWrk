@@ -6,3 +6,5 @@ ProjectPath=TK500_Driver.PrjCor
 ProjectPath=TK510_Signalbakplan\TK510_Signalbakplan.PrjPcb
 [Project3]
 ProjectPath=TK530_Kraftbakplan\TK530_Kraftbakplan.PrjPcb
+[Project4]
+ProjectPath=TK512_Optisk_Mottaker\TK512_Optisk_Mottaker.PrjPcb

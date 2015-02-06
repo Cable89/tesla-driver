@@ -1,2 +1,3 @@
 Record=TopLevelDocument|FileName=TK510_Signalbakplan.SchDoc
 Record=SheetSymbol|Record=SheetSymbol|SourceDocument=TK510_Signalbakplan.SchDoc|Designator=TK510|SchDesignator=TK510|FileName=TK510_Mekanisk.SchDoc|SymbolType=Normal|RawFileName=TK510_Mekanisk.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|Record=SheetSymbol|SourceDocument=TK510_Signalbakplan.SchDoc|Designator=VCC_CONN|SchDesignator=VCC_CONN|FileName=TK510_VCC-Kontakter.SchDoc|SymbolType=Normal|RawFileName=TK510_VCC-Kontakter.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

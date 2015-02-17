@@ -5,8 +5,16 @@ ProjectPath=TK500_Driver.PrjCor
 [Project2]
 ProjectPath=TK510_Signalbakplan\TK510_Signalbakplan.PrjPcb
 [Project3]
-ProjectPath=TK530_Kraftbakplan\TK530_Kraftbakplan.PrjPcb
+ProjectPath=OLD_DC-PSU\TK511_DC-PSU.PrjPcb
 [Project4]
 ProjectPath=TK512_Optisk_Mottaker\TK512_Optisk_Mottaker.PrjPcb
 [Project5]
+ProjectPath=TK513_Limiter\TK513_Limiter.PrjPcb
+[Project6]
+ProjectPath=TK514_Interrupter\TK514_Interrupter.PrjPcb
+[Project7]
 ProjectPath=TK520_GDT-Trafo\TK520_GDT-Trafo.PrjPcb
+[Project8]
+ProjectPath=TK530_Kraftbakplan\TK530_Kraftbakplan.PrjPcb
+[Project9]
+ProjectPath=TK531_Utgangstrinn\TK531_Utgangstrinn.PrjPcb

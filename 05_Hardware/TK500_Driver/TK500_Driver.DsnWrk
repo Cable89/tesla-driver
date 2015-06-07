@@ -4,3 +4,5 @@ Version=1.0
 ProjectPath=TK530_Kraftbakplan\TK530_Kraftbakplan.PrjPcb
 [Project2]
 ProjectPath=TK531_Utgangstrinn\TK531_Utgangstrinn.PrjPcb
+[Project3]
+ProjectPath=TK532_Kondensatorkort\TK532_Kondensatorkort.PrjPcb

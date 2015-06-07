@@ -6,3 +6,11 @@ ProjectPath=TK530_Kraftbakplan\TK530_Kraftbakplan.PrjPcb
 ProjectPath=TK531_Utgangstrinn\TK531_Utgangstrinn.PrjPcb
 [Project3]
 ProjectPath=TK532_Kondensatorkort\TK532_Kondensatorkort.PrjPcb
+[Project4]
+ProjectPath=TK510_Signalbakplan\TK510_Signalbakplan.PrjPcb
+[Project5]
+ProjectPath=TK514_Interrupter\TK514_Interrupter.PrjPcb
+[Project6]
+ProjectPath=TK500_Driver.PrjCor
+[Project7]
+ProjectPath=TK511_Blindkort\TK511_Blindkort.PrjPcb

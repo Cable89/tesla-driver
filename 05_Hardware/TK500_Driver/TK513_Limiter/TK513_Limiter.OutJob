@@ -15,13 +15,13 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=Limiter.OutJob
+Name=
 Description=
-TargetOutputMedium=PDF
+TargetOutputMedium=New Folder Structure
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Virtual Printer
+TargetPrinter=Microsoft XPS Document Writer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -29,14 +29,17 @@ OutputMedium1_Printer=
 OutputMedium1_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputMedium2=PDF
 OutputMedium2_Type=Publish
+OutputMedium3=New Folder Structure
+OutputMedium3_Type=GeneratedFiles
 OutputType1=PCB Print
 OutputName1=Assembly Drawing
 OutputCategory1=Documentation
 OutputDocumentPath1=Limiter.PcbDoc
 OutputVariantName1=
-OutputEnabled1=1
+OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=3
+OutputEnabled1_OutputMedium3=0
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 Configuration1_Name1=OutputConfigurationParameter1
@@ -56,9 +59,10 @@ OutputName2=PCB 3D Print Top
 OutputCategory2=Documentation
 OutputDocumentPath2=Limiter.PcbDoc
 OutputVariantName2=
-OutputEnabled2=1
+OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=1
+OutputEnabled2_OutputMedium3=0
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=4.04|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 Configuration2_Name1=OutputConfigurationParameter1
@@ -68,13 +72,26 @@ OutputName3=PCB 3D Print Bot
 OutputCategory3=Documentation
 OutputDocumentPath3=Limiter.PcbDoc
 OutputVariantName3=
-OutputEnabled3=1
+OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=2
+OutputEnabled3_OutputMedium3=0
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=4.04|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 Configuration3_Name1=OutputConfigurationParameter1
 Configuration3_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=19685039|ViewY=19685039|LookAtX=19842520|LookAtY=19842520|LookAtZ=-1000|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.76276003313989E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=False|ViewConfig=
+OutputType4=ExportSTEP
+OutputName4=Export STEP
+OutputCategory4=Export
+OutputDocumentPath4=TK513_Limiter.PcbDoc
+OutputVariantName4=
+OutputEnabled4=1
+OutputEnabled4_OutputMedium1=0
+OutputEnabled4_OutputMedium2=0
+OutputEnabled4_OutputMedium3=1
+OutputDefault4=0
+Configuration4_Name1=OutputConfigurationParameter1
+Configuration4_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=False|IncludeElectricalPadHoles=False|IncludeFreePadHoles=False|ExportFoldedBoard=True|ExportFoldedBoardRate=0|ComponentSuffixType=0|ComponentSuffix= 
 
 [PublishSettings]
 OutputFilePath2=.\Limiter_assembly.PDF
@@ -102,8 +119,31 @@ MarkPortsId2=1
 GenerateTOC=1
 ShowComponentParameters2=0
 GlobalBookmarks2=0
+OutputFilePath3=Z:\brukere\tesla\Tesla-Driver\05_Hardware\TK500_Driver\TK513_Limiter\ProjectOutputs\
+ReleaseManaged3=1
+OutputBasePath3=ProjectOutputs
+OutputPathMedia3=
+OutputPathMediaValue3=
+OutputPathOutputer3=[Output Type]
+OutputPathOutputerPrefix3=
+OutputPathOutputerValue3=
+OutputFileName3=
+OutputFileNameMulti3=
+UseOutputNameForMulti3=1
+OutputFileNameSpecial3=
+OpenOutput3=1
 
 [GeneratedFilesSettings]
 RelativeOutputPath2=.\Limiter_assembly.PDF
 OpenOutputs2=1
+RelativeOutputPath3=Z:\brukere\tesla\Tesla-Driver\05_Hardware\TK500_Driver\TK513_Limiter\ProjectOutputs\
+OpenOutputs3=1
+AddToProject3=1
+TimestampFolder3=0
+UseOutputName3=0
+OpenODBOutput3=0
+OpenGerberOutput3=0
+OpenNCDrillOutput3=0
+OpenIPCOutput3=0
+EnableReload3=0
 

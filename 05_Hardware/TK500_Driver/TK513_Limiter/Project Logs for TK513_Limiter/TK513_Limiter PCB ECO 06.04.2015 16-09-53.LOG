@@ -1,0 +1,45 @@
+Change Component Comment : Designator=R18 Old Comment=10R New Comment=100k
+Change Component Designator: OldDesignator=C17 NewDesignator=C51300
+Change Component Designator: OldDesignator=C18 NewDesignator=C51301
+Change Component Designator: OldDesignator=C19 NewDesignator=C51302
+Change Component Designator: OldDesignator=C20 NewDesignator=C51304
+Change Component Designator: OldDesignator=C21 NewDesignator=C51305
+Change Component Designator: OldDesignator=C22 NewDesignator=C51303
+Change Component Designator: OldDesignator=D9 NewDesignator=D51300
+Change Component Designator: OldDesignator=D10 NewDesignator=D51301
+Change Component Designator: OldDesignator=D11 NewDesignator=D51302
+Change Component Designator: OldDesignator=D12 NewDesignator=D51303
+Change Component Designator: OldDesignator=J11 NewDesignator=J51300
+Change Component Designator: OldDesignator=J12 NewDesignator=J51301
+Change Component Designator: OldDesignator=J13 NewDesignator=J51304
+Change Component Designator: OldDesignator=J14 NewDesignator=J51303
+Change Component Designator: OldDesignator=J15 NewDesignator=J51302
+Change Component Designator: OldDesignator=J16 NewDesignator=J51305
+Change Component Designator: OldDesignator=R12 NewDesignator=R51300
+Change Component Designator: OldDesignator=R13 NewDesignator=R51301
+Change Component Designator: OldDesignator=R14 NewDesignator=R51302
+Change Component Designator: OldDesignator=R15 NewDesignator=R51304
+Change Component Designator: OldDesignator=R16 NewDesignator=R51305
+Change Component Designator: OldDesignator=R17 NewDesignator=R51303
+Change Component Designator: OldDesignator=R18 NewDesignator=R51306
+Change Component Designator: OldDesignator=U9 NewDesignator=U51300
+Change Component Designator: OldDesignator=U10 NewDesignator=U51301
+Change Component Designator: OldDesignator=U11 NewDesignator=U51302
+Change Component Designator: OldDesignator=U13 NewDesignator=U51303
+Change Net Name : Old Net Name=NetC17_2 New Net Name=NetC51300_2
+Change Net Name : Old Net Name=NetC18_1 New Net Name=NetC51301_1
+Change Net Name : Old Net Name=NetD9_A New Net Name=NetD51300_A
+Change Net Name : Old Net Name=NetD10_A New Net Name=NetD51301_A
+Change Net Name : Old Net Name=NetJ13_1 New Net Name=NetJ51304_1
+Change Net Name : Old Net Name=NetJ13_2 New Net Name=NetJ51304_2
+Change Net Name : Old Net Name=NetJ14_1 New Net Name=NetJ51303_1
+Change Net Name : Old Net Name=NetJ15_1 New Net Name=NetJ51302_1
+Change Net Name : Old Net Name=NetJ15_2 New Net Name=NetJ51302_2
+Change Net Name : Old Net Name=NetR15_1 New Net Name=NetR51304_1
+Change Net Name : Old Net Name=NetR16_1 New Net Name=NetR51305_1
+Change Net Name : Old Net Name=NetR17_1 New Net Name=NetR51303_1
+Change Net Name : Old Net Name=NetU9_9 New Net Name=NetU51300_9
+Change Net Name : Old Net Name=NetU9_11 New Net Name=NetU51300_11
+Change Net Name : Old Net Name=NetU10_5 New Net Name=NetU51301_5
+Change Net Name : Old Net Name=NetU11_2 New Net Name=NetU51302_2
+Change Class Name : Old Net Name=Limiter New Net Name=TK513_Limiter

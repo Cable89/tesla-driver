@@ -1,6 +1,12 @@
 function signal = generate_squarewave(f, Fs, t)
-time = 0:1/Fs:t - 1/Fs;
-wave = zeros(1,length(time));
+%% generate_squarewave generates square wave from the input.
+%
+%	f 	- freq
+%	Fs 	- Sampling rate
+%	t	- The length of the signal.
+
+time = 0:1/Fs:t - 1/Fs;     % vector that holds equally spaced time interval
+wave = zeros(1,length(time)); % initialize the wave data vector.
 
 sample_period = 1/Fs;
 

@@ -1,9 +1,9 @@
 ------------------------------------------------------------
 -- VHDL TK510_Signalbakplan
--- 2014 7 12 23 23 56
+-- 2015 7 5 14 55 25
 -- Created By "DXP VHDL Generator"
 -- "Copyright (c) 2002-2014 Altium Limited"
--- Product Version: 14.3.11.33708
+-- Product Version: 15.0.7.36915
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -210,6 +210,9 @@ Architecture Structure Of TK510_Signalbakplan Is
    End Component;
 
    Component TK510_Mekanisk                                  -- ObjectKind=Sheet Symbol|PrimaryId=TK510
+   End Component;
+
+   Component TK510_VCCMINUSKontakter                         -- ObjectKind=Sheet Symbol|PrimaryId=VCC_CONN
    End Component;
 
    Component TSM2314                                         -- ObjectKind=Part|PrimaryId=Q51000|SecondaryId=1
@@ -1659,6 +1662,9 @@ Architecture Structure Of TK510_Signalbakplan Is
 
 
 Begin
+    VCC_CONN : TK510_VCCMINUSKontakter                       -- ObjectKind=Sheet Symbol|PrimaryId=VCC_CONN
+;
+
     TK510 : TK510_Mekanisk                                   -- ObjectKind=Sheet Symbol|PrimaryId=TK510
 ;
 

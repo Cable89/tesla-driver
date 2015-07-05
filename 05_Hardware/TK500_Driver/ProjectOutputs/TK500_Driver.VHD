@@ -1,9 +1,9 @@
 ------------------------------------------------------------
 -- VHDL TK500_Driver
--- 2014 7 12 23 24 4
+-- 2015 7 5 14 55 23
 -- Created By "DXP VHDL Generator"
 -- "Copyright (c) 2002-2014 Altium Limited"
--- Product Version: 14.3.11.33708
+-- Product Version: 15.0.7.36915
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -185,11 +185,13 @@ Architecture Structure Of TK500_Driver Is
    Component TK525_Kraftforsyning                            -- ObjectKind=Sheet Symbol|PrimaryId=TK525
       port
       (
-        AC_S6  : inout STD_LOGIC;                            -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S6
-        AC_S7  : inout STD_LOGIC;                            -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S7
-        AC_S8  : inout STD_LOGIC;                            -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S8
-        GND_HV : out   STD_LOGIC;                            -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-GND_HV
-        P160V  : out   STD_LOGIC                             -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-P160V
+        AC_S6     : inout STD_LOGIC;                         -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S6
+        AC_S7     : inout STD_LOGIC;                         -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S7
+        AC_S8     : inout STD_LOGIC;                         -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S8
+        GND_HV    : out   STD_LOGIC;                         -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-GND_HV
+        L1_230VAC : in    STD_LOGIC;                         -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-L1_230VAC
+        L2_230VAC : in    STD_LOGIC;                         -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-L2_230VAC
+        P160V     : out   STD_LOGIC                          -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-P160V
       );
    End Component;
 

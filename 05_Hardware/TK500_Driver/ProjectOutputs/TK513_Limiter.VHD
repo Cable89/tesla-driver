@@ -1,9 +1,9 @@
 ------------------------------------------------------------
 -- VHDL TK513_Limiter
--- 2014 7 12 23 24 4
+-- 2015 7 5 14 55 24
 -- Created By "DXP VHDL Generator"
 -- "Copyright (c) 2002-2014 Altium Limited"
--- Product Version: 14.3.11.33708
+-- Product Version: 15.0.7.36915
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -136,7 +136,6 @@ Architecture Structure Of TK513_Limiter Is
     Signal NamedSignal_LED         : STD_LOGIC; -- ObjectKind=Net|PrimaryId=LED
     Signal NamedSignal_LIMITER_OUT : STD_LOGIC; -- ObjectKind=Net|PrimaryId=LIMITER_OUT
     Signal NamedSignal_POT         : STD_LOGIC; -- ObjectKind=Net|PrimaryId=POT
-    Signal PinSignal_C51301_1      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC51301_1
     Signal PinSignal_D51300_A      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD51300_A
     Signal PinSignal_D51301_A      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD51301_A
     Signal PinSignal_J51302_1      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ51302_1
@@ -378,7 +377,7 @@ Begin
       Port Map
       (
         X_1 => NamedSignal_DC_IN,                            -- ObjectKind=Pin|PrimaryId=R51301-1
-        X_2 => PinSignal_C51301_1                            -- ObjectKind=Pin|PrimaryId=R51301-2
+        X_2 => PowerSignal_GND                               -- ObjectKind=Pin|PrimaryId=R51301-2
       );
 
     R51300 : CMPMINUS1013MINUS00062MINUS1                    -- ObjectKind=Part|PrimaryId=R51300|SecondaryId=1
@@ -434,14 +433,14 @@ Begin
     D51303 : X_1N5819                                        -- ObjectKind=Part|PrimaryId=D51303|SecondaryId=1
       Port Map
       (
-        A => PinSignal_C51301_1,                             -- ObjectKind=Pin|PrimaryId=D51303-A
+        A => PowerSignal_GND,                                -- ObjectKind=Pin|PrimaryId=D51303-A
         K => PinSignal_D51301_A                              -- ObjectKind=Pin|PrimaryId=D51303-K
       );
 
     D51302 : X_1N5819                                        -- ObjectKind=Part|PrimaryId=D51302|SecondaryId=1
       Port Map
       (
-        A => PinSignal_C51301_1,                             -- ObjectKind=Pin|PrimaryId=D51302-A
+        A => PowerSignal_GND,                                -- ObjectKind=Pin|PrimaryId=D51302-A
         K => PinSignal_D51300_A                              -- ObjectKind=Pin|PrimaryId=D51302-K
       );
 
@@ -490,7 +489,7 @@ Begin
     C51301 : CMPMINUS1036MINUS04418MINUS1                    -- ObjectKind=Part|PrimaryId=C51301|SecondaryId=1
       Port Map
       (
-        X_1 => PinSignal_C51301_1,                           -- ObjectKind=Pin|PrimaryId=C51301-1
+        X_1 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=C51301-1
         X_2 => NamedSignal_DC_IN                             -- ObjectKind=Pin|PrimaryId=C51301-2
       );
 

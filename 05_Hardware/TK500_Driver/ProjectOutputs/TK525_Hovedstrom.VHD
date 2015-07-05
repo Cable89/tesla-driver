@@ -1,0 +1,252 @@
+------------------------------------------------------------
+-- VHDL TK525_Hovedstrom
+-- 2015 7 5 17 47 36
+-- Created By "DXP VHDL Generator"
+-- "Copyright (c) 2002-2014 Altium Limited"
+-- Product Version: 15.0.7.36915
+------------------------------------------------------------
+
+------------------------------------------------------------
+-- VHDL TK525_Hovedstrom
+------------------------------------------------------------
+
+Library IEEE;
+Use     IEEE.std_logic_1164.all;
+
+Entity TK525_Hovedstrom Is
+  port
+  (
+    L1_230VAC          : In    STD_LOGIC;                    -- ObjectKind=Port|PrimaryId=L1_230VAC
+    L1_230VAC_SWITCHED : Out   STD_LOGIC;                    -- ObjectKind=Port|PrimaryId=L1_230VAC_SWITCHED
+    L2_230VAC          : In    STD_LOGIC;                    -- ObjectKind=Port|PrimaryId=L2_230VAC
+    L2_230VAC_SWITCHED : Out   STD_LOGIC                     -- ObjectKind=Port|PrimaryId=L2_230VAC_SWITCHED
+  );
+  attribute MacroCell : boolean;
+
+End TK525_Hovedstrom;
+------------------------------------------------------------
+
+------------------------------------------------------------
+Architecture Structure Of TK525_Hovedstrom Is
+   Component X_2783                                          -- ObjectKind=Part|PrimaryId=R1|SecondaryId=1
+      port
+      (
+        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=R1-1
+        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=R1-2
+      );
+   End Component;
+
+   Component Automasjonsbryter                               -- ObjectKind=Part|PrimaryId=S52502|SecondaryId=5
+      port
+      (
+        X_53 : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=S52502-53
+        X_54 : inout STD_LOGIC                               -- ObjectKind=Pin|PrimaryId=S52502-54
+      );
+   End Component;
+
+   Component Kontaktor                                       -- ObjectKind=Part|PrimaryId=K52500|SecondaryId=5
+      port
+      (
+        X_43 : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=K52500-43
+        X_44 : inout STD_LOGIC                               -- ObjectKind=Pin|PrimaryId=K52500-44
+      );
+   End Component;
+
+   Component Lampe                                           -- ObjectKind=Part|PrimaryId=L52500|SecondaryId=1
+      port
+      (
+        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=L52500-1
+        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=L52500-2
+      );
+   End Component;
+
+
+    Signal PinSignal_K52500_43           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetK52500_43
+    Signal PinSignal_K52500_44           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetK52500_44
+    Signal PinSignal_K52500_54           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetK52500_54
+    Signal PinSignal_R1_1                : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetR1_1
+
+   attribute antall : string;
+   attribute antall of S52512 : Label is "40";
+   attribute antall of S52502 : Label is "40";
+   attribute antall of R1     : Label is "100";
+   attribute antall of L52500 : Label is "40";
+   attribute antall of K52500 : Label is "40";
+
+   attribute Database_Table_Name : string;
+   attribute Database_Table_Name of S52512 : Label is "altium";
+   attribute Database_Table_Name of S52502 : Label is "altium";
+   attribute Database_Table_Name of R1     : Label is "altium_Motstander";
+   attribute Database_Table_Name of L52500 : Label is "altium";
+   attribute Database_Table_Name of K52500 : Label is "altium";
+
+   attribute dybde : string;
+   attribute dybde of S52512 : Label is "0";
+   attribute dybde of S52502 : Label is "0";
+   attribute dybde of R1     : Label is "0";
+   attribute dybde of L52500 : Label is "0";
+   attribute dybde of K52500 : Label is "0";
+
+   attribute hylle : string;
+   attribute hylle of S52512 : Label is "2";
+   attribute hylle of S52502 : Label is "2";
+   attribute hylle of R1     : Label is "8";
+   attribute hylle of L52500 : Label is "2";
+   attribute hylle of K52500 : Label is "2";
+
+   attribute id : string;
+   attribute id of S52512 : Label is "3182";
+   attribute id of S52502 : Label is "3182";
+   attribute id of R1     : Label is "2783";
+   attribute id of L52500 : Label is "3184";
+   attribute id of K52500 : Label is "3181";
+
+   attribute kolonne : string;
+   attribute kolonne of S52512 : Label is "4";
+   attribute kolonne of S52502 : Label is "4";
+   attribute kolonne of R1     : Label is "0";
+   attribute kolonne of L52500 : Label is "4";
+   attribute kolonne of K52500 : Label is "4";
+
+   attribute lager_type : string;
+   attribute lager_type of S52512 : Label is "Fremlager";
+   attribute lager_type of S52502 : Label is "Fremlager";
+   attribute lager_type of R1     : Label is "Fremlager";
+   attribute lager_type of L52500 : Label is "Fremlager";
+   attribute lager_type of K52500 : Label is "Fremlager";
+
+   attribute navn : string;
+   attribute navn of S52512 : Label is "Automasjonsbryter";
+   attribute navn of S52502 : Label is "Automasjonsbryter";
+   attribute navn of R1     : Label is "100";
+   attribute navn of L52500 : Label is "Lampe";
+   attribute navn of K52500 : Label is "Kontaktor";
+
+   attribute nokkelord : string;
+   attribute nokkelord of S52512 : Label is "Narrow Band Multi-Channel RF Transceiver Module";
+   attribute nokkelord of S52502 : Label is "Narrow Band Multi-Channel RF Transceiver Module";
+   attribute nokkelord of R1     : Label is "Motstand, Resistor";
+   attribute nokkelord of L52500 : Label is "Lamp";
+   attribute nokkelord of K52500 : Label is "Contactor";
+
+   attribute pakke_opprettet : string;
+   attribute pakke_opprettet of S52512 : Label is "21.06.2014 17:19:32";
+   attribute pakke_opprettet of S52502 : Label is "21.06.2014 17:19:32";
+   attribute pakke_opprettet of R1     : Label is "28.06.2014 17:13:33";
+   attribute pakke_opprettet of L52500 : Label is "21.06.2014 17:19:32";
+   attribute pakke_opprettet of K52500 : Label is "21.06.2014 17:19:32";
+
+   attribute pakke_opprettet_av : string;
+   attribute pakke_opprettet_av of S52512 : Label is "809";
+   attribute pakke_opprettet_av of S52502 : Label is "809";
+   attribute pakke_opprettet_av of R1     : Label is "815";
+   attribute pakke_opprettet_av of L52500 : Label is "809";
+   attribute pakke_opprettet_av of K52500 : Label is "809";
+
+   attribute pakketype : string;
+   attribute pakketype of S52512 : Label is "6";
+   attribute pakketype of S52502 : Label is "6";
+   attribute pakketype of R1     : Label is "92";
+   attribute pakketype of L52500 : Label is "6";
+   attribute pakketype of K52500 : Label is "6";
+
+   attribute pris : string;
+   attribute pris of S52512 : Label is "0";
+   attribute pris of S52502 : Label is "0";
+   attribute pris of R1     : Label is "0";
+   attribute pris of L52500 : Label is "0";
+   attribute pris of K52500 : Label is "50";
+
+   attribute produsent : string;
+   attribute produsent of S52512 : Label is "Radiocrafts";
+   attribute produsent of S52502 : Label is "Radiocrafts";
+   attribute produsent of L52500 : Label is "Radiocrafts";
+   attribute produsent of K52500 : Label is "Radiocrafts";
+
+   attribute rad : string;
+   attribute rad of S52512 : Label is "4";
+   attribute rad of S52502 : Label is "4";
+   attribute rad of R1     : Label is "3";
+   attribute rad of L52500 : Label is "4";
+   attribute rad of K52500 : Label is "4";
+
+   attribute rom : string;
+   attribute rom of S52512 : Label is "OV";
+   attribute rom of S52502 : Label is "OV";
+   attribute rom of R1     : Label is "OV";
+   attribute rom of L52500 : Label is "OV";
+   attribute rom of K52500 : Label is "OV";
+
+   attribute symbol_opprettet : string;
+   attribute symbol_opprettet of S52512 : Label is "05.07.2015 13:10:20";
+   attribute symbol_opprettet of S52502 : Label is "05.07.2015 13:10:20";
+   attribute symbol_opprettet of R1     : Label is "08.07.2014 21:16:33";
+   attribute symbol_opprettet of L52500 : Label is "05.07.2015 14:08:53";
+   attribute symbol_opprettet of K52500 : Label is "04.07.2015 12:23:41";
+
+   attribute symbol_opprettet_av : string;
+   attribute symbol_opprettet_av of S52512 : Label is "815";
+   attribute symbol_opprettet_av of S52502 : Label is "815";
+   attribute symbol_opprettet_av of R1     : Label is "oystesm";
+   attribute symbol_opprettet_av of L52500 : Label is "815";
+   attribute symbol_opprettet_av of K52500 : Label is "815";
+
+
+Begin
+    S52512 : Automasjonsbryter                               -- ObjectKind=Part|PrimaryId=S52512|SecondaryId=7
+;
+
+    S52502 : Automasjonsbryter                               -- ObjectKind=Part|PrimaryId=S52502|SecondaryId=6
+      Port Map
+      (
+        X_63 => L2_230VAC,                                   -- ObjectKind=Pin|PrimaryId=S52502-63
+        X_64 => PinSignal_K52500_44                          -- ObjectKind=Pin|PrimaryId=S52502-64
+      );
+
+    S52502 : Automasjonsbryter                               -- ObjectKind=Part|PrimaryId=S52502|SecondaryId=5
+      Port Map
+      (
+        X_53 => PinSignal_R1_1,                              -- ObjectKind=Pin|PrimaryId=S52502-53
+        X_54 => PinSignal_K52500_54                          -- ObjectKind=Pin|PrimaryId=S52502-54
+      );
+
+    R1 : X_2783                                              -- ObjectKind=Part|PrimaryId=R1|SecondaryId=1
+      Port Map
+      (
+        X_1 => PinSignal_R1_1,                               -- ObjectKind=Pin|PrimaryId=R1-1
+        X_2 => L1_230VAC                                     -- ObjectKind=Pin|PrimaryId=R1-2
+      );
+
+    L52500 : Lampe                                           -- ObjectKind=Part|PrimaryId=L52500|SecondaryId=1
+      Port Map
+      (
+        X_1 => L1_230VAC,                                    -- ObjectKind=Pin|PrimaryId=L52500-1
+        X_2 => PinSignal_K52500_43                           -- ObjectKind=Pin|PrimaryId=L52500-2
+      );
+
+    K52500 : Kontaktor                                       -- ObjectKind=Part|PrimaryId=K52500|SecondaryId=6
+      Port Map
+      (
+        X_53 => L1_230VAC,                                   -- ObjectKind=Pin|PrimaryId=K52500-53
+        X_54 => PinSignal_K52500_54,                         -- ObjectKind=Pin|PrimaryId=K52500-54
+        X_63 => L2_230VAC,                                   -- ObjectKind=Pin|PrimaryId=K52500-63
+        X_64 => PinSignal_K52500_44                          -- ObjectKind=Pin|PrimaryId=K52500-64
+      );
+
+    K52500 : Kontaktor                                       -- ObjectKind=Part|PrimaryId=K52500|SecondaryId=5
+      Port Map
+      (
+        X_43 => PinSignal_K52500_43,                         -- ObjectKind=Pin|PrimaryId=K52500-43
+        X_44 => PinSignal_K52500_44                          -- ObjectKind=Pin|PrimaryId=K52500-44
+      );
+
+    -- Signal Assignments
+    ---------------------
+    L1_230VAC_SWITCHED  <= PinSignal_K52500_54; -- ObjectKind=Net|PrimaryId=NetK52500_54
+    L2_230VAC_SWITCHED  <= PinSignal_K52500_44; -- ObjectKind=Net|PrimaryId=NetK52500_44
+    PinSignal_K52500_44 <= L2_230VAC_SWITCHED; -- ObjectKind=Net|PrimaryId=NetK52500_44
+    PinSignal_K52500_54 <= L1_230VAC_SWITCHED; -- ObjectKind=Net|PrimaryId=NetK52500_54
+
+End Structure;
+------------------------------------------------------------
+

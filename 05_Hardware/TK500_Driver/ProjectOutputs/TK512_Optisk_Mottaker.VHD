@@ -1,9 +1,9 @@
 ------------------------------------------------------------
 -- VHDL TK512_Optisk_Mottaker
--- 2014 7 12 23 24 4
+-- 2015 7 5 14 55 23
 -- Created By "DXP VHDL Generator"
 -- "Copyright (c) 2002-2014 Altium Limited"
--- Product Version: 14.3.11.33708
+-- Product Version: 15.0.7.36915
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -31,6 +31,14 @@ Architecture Structure Of TK512_Optisk_Mottaker Is
       (
         A : inout STD_LOGIC;                                 -- ObjectKind=Pin|PrimaryId=D51200-A
         K : inout STD_LOGIC                                  -- ObjectKind=Pin|PrimaryId=D51200-K
+      );
+   End Component;
+
+   Component X_47R                                           -- ObjectKind=Part|PrimaryId=R51205|SecondaryId=1
+      port
+      (
+        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=R51205-1
+        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=R51205-2
       );
    End Component;
 
@@ -99,24 +107,38 @@ Architecture Structure Of TK512_Optisk_Mottaker Is
       );
    End Component;
 
+   Component SMD_LED_Red                                     -- ObjectKind=Part|PrimaryId=D51201|SecondaryId=1
+      port
+      (
+        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=D51201-1
+        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=D51201-2
+      );
+   End Component;
+
 
     Signal PinSignal_C51200_2        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC51200_2
     Signal PinSignal_C51201_1        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC51201_1
     Signal PinSignal_C51201_2        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC51201_2
     Signal PinSignal_C51203_2        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC51203_2
     Signal PinSignal_D51200_K        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD51200_K
+    Signal PinSignal_D51201_2        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD51201_2
     Signal PinSignal_J51200_1        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ51200_1
     Signal PinSignal_J51202_1        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ51202_1
     Signal PinSignal_L51200_1        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetL51200_1
+    Signal PinSignal_R51205_1        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetR51205_1
     Signal PinSignal_U51200_3        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU51200_3
     Signal PinSignal_U51201_11       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU51201_11
     Signal PinSignal_U51201_2        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU51201_2
-    Signal PinSignal_U51201_6        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU51201_6
     Signal PowerSignal_GND           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GND
-    Signal PowerSignal_PLUS5         : STD_LOGIC; -- ObjectKind=Net|PrimaryId=+5
+    Signal PowerSignal_VCC_P5V0      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=VCC_P5V0
+
+   attribute antall : string;
+   attribute antall of R51205 : Label is "100";
 
    attribute beskrivelse : string;
    attribute beskrivelse of U51200 : Label is "TOSLINK Reciever";
+   attribute beskrivelse of R51205 : Label is "47R 0.1W 5% Thick film resistor";
+   attribute beskrivelse of D51201 : Label is "SMD";
 
    attribute CaseMINUSEIA : string;
    attribute CaseMINUSEIA of R51204 : Label is "0805";
@@ -143,7 +165,27 @@ Architecture Structure Of TK512_Optisk_Mottaker Is
    attribute CaseMINUSMetric of C51200 : Label is "3216";
 
    attribute Database_Table_Name : string;
+   attribute Database_Table_Name of U51201 : Label is "altium";
    attribute Database_Table_Name of U51200 : Label is "altium";
+   attribute Database_Table_Name of R51205 : Label is "altium";
+   attribute Database_Table_Name of J51203 : Label is "altium";
+   attribute Database_Table_Name of J51202 : Label is "altium";
+   attribute Database_Table_Name of J51201 : Label is "altium";
+   attribute Database_Table_Name of J51200 : Label is "altium";
+   attribute Database_Table_Name of D51201 : Label is "altium";
+   attribute Database_Table_Name of D51200 : Label is "altium";
+
+   attribute dybde : string;
+   attribute dybde of R51205 : Label is "1";
+
+   attribute hylle : string;
+   attribute hylle of R51205 : Label is "6";
+
+   attribute kolonne : string;
+   attribute kolonne of R51205 : Label is "-1";
+
+   attribute lager_type : string;
+   attribute lager_type of R51205 : Label is "Fremlager";
 
    attribute leverandor : string;
    attribute leverandor of U51200 : Label is "Farnell";
@@ -160,18 +202,28 @@ Architecture Structure Of TK512_Optisk_Mottaker Is
 
    attribute navn : string;
    attribute navn of U51200 : Label is "GP1FAV50RK";
+   attribute navn of R51205 : Label is "47R";
+   attribute navn of D51201 : Label is "SMD LED Red";
 
    attribute nokkelord : string;
    attribute nokkelord of U51200 : Label is "Optic, fibre";
+   attribute nokkelord of R51205 : Label is "Resistor";
+   attribute nokkelord of D51201 : Label is "SMD";
 
    attribute pakke_opprettet : string;
    attribute pakke_opprettet of U51200 : Label is "28.06.2014 18:02:12";
+   attribute pakke_opprettet of R51205 : Label is "08.07.2014 21:15:30";
+   attribute pakke_opprettet of D51201 : Label is "06.07.2014 18:55:44";
 
    attribute pakke_opprettet_av : string;
    attribute pakke_opprettet_av of U51200 : Label is "815";
+   attribute pakke_opprettet_av of R51205 : Label is "815";
+   attribute pakke_opprettet_av of D51201 : Label is "815";
 
    attribute pakketype : string;
    attribute pakketype of U51200 : Label is "92";
+   attribute pakketype of R51205 : Label is "93";
+   attribute pakketype of D51201 : Label is "93";
 
    attribute Power : string;
    attribute Power of R51204 : Label is "0.125 W";
@@ -182,9 +234,14 @@ Architecture Structure Of TK512_Optisk_Mottaker Is
 
    attribute pris : string;
    attribute pris of U51200 : Label is "12";
+   attribute pris of R51205 : Label is "0";
+   attribute pris of D51201 : Label is "1";
 
    attribute produsent : string;
    attribute produsent of U51200 : Label is "Sharp";
+
+   attribute rad : string;
+   attribute rad of R51205 : Label is "-1";
 
    attribute Rated_Voltage : string;
    attribute Rated_Voltage of C51205 : Label is "25 V";
@@ -193,11 +250,18 @@ Architecture Structure Of TK512_Optisk_Mottaker Is
    attribute Rated_Voltage of C51201 : Label is "25 V";
    attribute Rated_Voltage of C51200 : Label is "25 V";
 
+   attribute rom : string;
+   attribute rom of R51205 : Label is "OV";
+
    attribute symbol_opprettet : string;
    attribute symbol_opprettet of U51200 : Label is "28.06.2014 15:42:01";
+   attribute symbol_opprettet of R51205 : Label is "08.07.2014 21:16:33";
+   attribute symbol_opprettet of D51201 : Label is "06.07.2014 18:59:47";
 
    attribute symbol_opprettet_av : string;
    attribute symbol_opprettet_av of U51200 : Label is "815";
+   attribute symbol_opprettet_av of R51205 : Label is "815";
+   attribute symbol_opprettet_av of D51201 : Label is "815";
 
    attribute Technology : string;
    attribute Technology of R51204 : Label is "SMT";
@@ -242,7 +306,7 @@ Begin
       Port Map
       (
         X_7  => PowerSignal_GND,                             -- ObjectKind=Pin|PrimaryId=U51201-7
-        X_14 => PowerSignal_PLUS5                            -- ObjectKind=Pin|PrimaryId=U51201-14
+        X_14 => PowerSignal_VCC_P5V0                         -- ObjectKind=Pin|PrimaryId=U51201-14
       );
 
     U51201 : X_74HC14                                        -- ObjectKind=Part|PrimaryId=U51201|SecondaryId=6
@@ -263,14 +327,14 @@ Begin
       Port Map
       (
         X_8 => PinSignal_J51202_1,                           -- ObjectKind=Pin|PrimaryId=U51201-8
-        X_9 => PinSignal_U51201_6                            -- ObjectKind=Pin|PrimaryId=U51201-9
+        X_9 => PinSignal_R51205_1                            -- ObjectKind=Pin|PrimaryId=U51201-9
       );
 
     U51201 : X_74HC14                                        -- ObjectKind=Part|PrimaryId=U51201|SecondaryId=3
       Port Map
       (
         X_5 => PinSignal_C51203_2,                           -- ObjectKind=Pin|PrimaryId=U51201-5
-        X_6 => PinSignal_U51201_6                            -- ObjectKind=Pin|PrimaryId=U51201-6
+        X_6 => PinSignal_R51205_1                            -- ObjectKind=Pin|PrimaryId=U51201-6
       );
 
     U51201 : X_74HC14                                        -- ObjectKind=Part|PrimaryId=U51201|SecondaryId=2
@@ -290,9 +354,16 @@ Begin
     U51200 : GP1FAV50RK                                      -- ObjectKind=Part|PrimaryId=U51200|SecondaryId=1
       Port Map
       (
-        X_1 => PowerSignal_PLUS5,                            -- ObjectKind=Pin|PrimaryId=U51200-1
+        X_1 => PowerSignal_VCC_P5V0,                         -- ObjectKind=Pin|PrimaryId=U51200-1
         X_2 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=U51200-2
         X_3 => PinSignal_U51200_3                            -- ObjectKind=Pin|PrimaryId=U51200-3
+      );
+
+    R51205 : X_47R                                           -- ObjectKind=Part|PrimaryId=R51205|SecondaryId=1
+      Port Map
+      (
+        X_1 => PinSignal_R51205_1,                           -- ObjectKind=Pin|PrimaryId=R51205-1
+        X_2 => PinSignal_D51201_2                            -- ObjectKind=Pin|PrimaryId=R51205-2
       );
 
     R51204 : CMPMINUS1013MINUS00062MINUS1                    -- ObjectKind=Part|PrimaryId=R51204|SecondaryId=1
@@ -340,7 +411,7 @@ Begin
     J51203 : JST_2pin                                        -- ObjectKind=Part|PrimaryId=J51203|SecondaryId=1
       Port Map
       (
-        X_1 => PowerSignal_PLUS5,                            -- ObjectKind=Pin|PrimaryId=J51203-1
+        X_1 => PowerSignal_VCC_P5V0,                         -- ObjectKind=Pin|PrimaryId=J51203-1
         X_2 => PowerSignal_GND                               -- ObjectKind=Pin|PrimaryId=J51203-2
       );
 
@@ -365,6 +436,13 @@ Begin
         X_2 => PowerSignal_GND                               -- ObjectKind=Pin|PrimaryId=J51200-2
       );
 
+    D51201 : SMD_LED_Red                                     -- ObjectKind=Part|PrimaryId=D51201|SecondaryId=1
+      Port Map
+      (
+        X_1 => PowerSignal_VCC_P5V0,                         -- ObjectKind=Pin|PrimaryId=D51201-1
+        X_2 => PinSignal_D51201_2                            -- ObjectKind=Pin|PrimaryId=D51201-2
+      );
+
     D51200 : X_1N4148                                        -- ObjectKind=Part|PrimaryId=D51200|SecondaryId=1
       Port Map
       (
@@ -376,14 +454,14 @@ Begin
       Port Map
       (
         X_1 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=C51205-1
-        X_2 => PowerSignal_PLUS5                             -- ObjectKind=Pin|PrimaryId=C51205-2
+        X_2 => PowerSignal_VCC_P5V0                          -- ObjectKind=Pin|PrimaryId=C51205-2
       );
 
     C51204 : CAP                                             -- ObjectKind=Part|PrimaryId=C51204|SecondaryId=1
       Port Map
       (
         X_1 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=C51204-1
-        X_2 => PowerSignal_PLUS5                             -- ObjectKind=Pin|PrimaryId=C51204-2
+        X_2 => PowerSignal_VCC_P5V0                          -- ObjectKind=Pin|PrimaryId=C51204-2
       );
 
     C51203 : CMPMINUS1036MINUS04408MINUS1                    -- ObjectKind=Part|PrimaryId=C51203|SecondaryId=1

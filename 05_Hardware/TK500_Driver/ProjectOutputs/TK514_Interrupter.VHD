@@ -1,9 +1,9 @@
 ------------------------------------------------------------
 -- VHDL TK514_Interrupter
--- 2014 7 12 23 24 5
+-- 2015 7 5 14 55 24
 -- Created By "DXP VHDL Generator"
 -- "Copyright (c) 2002-2014 Altium Limited"
--- Product Version: 14.3.11.33708
+-- Product Version: 15.0.7.36915
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -17,10 +17,7 @@ Entity TK514_Interrupter Is
   port
   (
     GATE_DRIVE_A : Out   STD_LOGIC;                          -- ObjectKind=Port|PrimaryId=GATE DRIVE A
-    GATE_DRIVE_B : Out   STD_LOGIC;                          -- ObjectKind=Port|PrimaryId=GATE DRIVE B
-    LIMIT1       : In    STD_LOGIC;                          -- ObjectKind=Port|PrimaryId=LIMIT1
-    LIMIT2       : In    STD_LOGIC;                          -- ObjectKind=Port|PrimaryId=LIMIT2
-    TRIGGER      : In    STD_LOGIC                           -- ObjectKind=Port|PrimaryId=TRIGGER
+    GATE_DRIVE_B : Out   STD_LOGIC                           -- ObjectKind=Port|PrimaryId=GATE DRIVE B
   );
   attribute MacroCell : boolean;
 
@@ -98,22 +95,6 @@ Architecture Structure Of TK514_Interrupter Is
       );
    End Component;
 
-   Component CMPMINUS1013MINUS00062MINUS1                    -- ObjectKind=Part|PrimaryId=R51403|SecondaryId=1
-      port
-      (
-        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=R51403-1
-        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=R51403-2
-      );
-   End Component;
-
-   Component CMPMINUS1013MINUS00074MINUS1                    -- ObjectKind=Part|PrimaryId=R51402|SecondaryId=1
-      port
-      (
-        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=R51402-1
-        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=R51402-2
-      );
-   End Component;
-
    Component CMPMINUS1013MINUS00510MINUS1                    -- ObjectKind=Part|PrimaryId=R51400|SecondaryId=1
       port
       (
@@ -170,11 +151,11 @@ Architecture Structure Of TK514_Interrupter Is
       );
    End Component;
 
-   Component JST_2pin                                        -- ObjectKind=Part|PrimaryId=J51400|SecondaryId=1
+   Component JST_2pin                                        -- ObjectKind=Part|PrimaryId=J51406|SecondaryId=1
       port
       (
-        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-1
-        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=J51400-2
+        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51406-1
+        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=J51406-2
       );
    End Component;
 
@@ -188,69 +169,81 @@ Architecture Structure Of TK514_Interrupter Is
       );
    End Component;
 
-   Component MOCD207R2M                                      -- ObjectKind=Part|PrimaryId=U51405|SecondaryId=1
+   Component PCIeX1MINUSGFMINUS2DMINUS1000MINUS1KMINUSO36    -- ObjectKind=Part|PrimaryId=J51400|SecondaryId=1
       port
       (
-        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=U51405-1
-        X_2 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=U51405-2
-        X_3 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=U51405-3
-        X_4 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=U51405-4
-        X_5 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=U51405-5
-        X_6 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=U51405-6
-        X_7 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=U51405-7
-        X_8 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=U51405-8
+        A1  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-A1
+        A2  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-A2
+        A3  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-A3
+        A4  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-A4
+        A5  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-A5
+        A6  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-A6
+        A7  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-A7
+        A8  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-A8
+        A9  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-A9
+        A10 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-A10
+        A11 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-A11
+        A12 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-A12
+        A13 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-A13
+        A14 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-A14
+        A15 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-A15
+        A16 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-A16
+        A17 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-A17
+        A18 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-A18
+        B1  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-B1
+        B2  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-B2
+        B3  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-B3
+        B4  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-B4
+        B5  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-B5
+        B6  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-B6
+        B7  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-B7
+        B8  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-B8
+        B9  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-B9
+        B10 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-B10
+        B11 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-B11
+        B12 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-B12
+        B13 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-B13
+        B14 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-B14
+        B15 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-B15
+        B16 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-B16
+        B17 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51400-B17
+        B18 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=J51400-B18
       );
    End Component;
 
 
-    Signal PinSignal_C51400_1      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC51400_1
-    Signal PinSignal_C51400_2      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC51400_2
-    Signal PinSignal_C51401_1      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC51401_1
-    Signal PinSignal_C51401_2      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC51401_2
-    Signal PinSignal_C51403_2      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC51403_2
-    Signal PinSignal_D51400_A      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD51400_A
-    Signal PinSignal_D51401_K      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD51401_K
-    Signal PinSignal_D51402_K      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD51402_K
-    Signal PinSignal_D51406_K      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD51406_K
-    Signal PinSignal_J51401_2      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ51401_2
-    Signal PinSignal_J51402_2      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ51402_2
-    Signal PinSignal_J51403_2      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ51403_2
-    Signal PinSignal_J51404_2      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ51404_2
-    Signal PinSignal_J51405_1      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ51405_1
-    Signal PinSignal_J51405_2      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ51405_2
-    Signal PinSignal_R51402_1      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetR51402_1
-    Signal PinSignal_R51403_1      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetR51403_1
-    Signal PinSignal_R51404_1      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetR51404_1
-    Signal PinSignal_R51405_1      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetR51405_1
-    Signal PinSignal_R51407_1      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetR51407_1
-    Signal PinSignal_R51408_1      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetR51408_1
-    Signal PinSignal_R51409_1      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetR51409_1
-    Signal PinSignal_R51410_1      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetR51410_1
-    Signal PinSignal_U51400_2      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU51400_2
-    Signal PinSignal_U51401_10     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU51401_10
-    Signal PinSignal_U51401_2      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU51401_2
-    Signal PinSignal_U51401_4      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU51401_4
-    Signal PinSignal_U51401_6      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU51401_6
-    Signal PinSignal_U51401_8      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU51401_8
-    Signal PinSignal_U51402_10     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU51402_10
-    Signal PinSignal_U51402_11     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU51402_11
-    Signal PinSignal_U51402_3      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU51402_3
-    Signal PinSignal_U51402_6      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU51402_6
-    Signal PinSignal_U51404_1      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU51404_1
-    Signal PowerSignal_GND         : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GND
-    Signal PowerSignal_PLUS18      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=+18
-    Signal PowerSignal_PLUS5       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=+5
+    Signal NamedSignal_INTERRUPT    : STD_LOGIC; -- ObjectKind=Net|PrimaryId=INTERRUPT
+    Signal NamedSignal_KORT_INNSATT : STD_LOGIC; -- ObjectKind=Net|PrimaryId=KORT_INNSATT
+    Signal NamedSignal_LIMIT        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=LIMIT
+    Signal NamedSignal_TRIGGER      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=TRIGGER
+    Signal PinSignal_C51400_1       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC51400_1
+    Signal PinSignal_C51400_2       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC51400_2
+    Signal PinSignal_C51401_1       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC51401_1
+    Signal PinSignal_C51401_2       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC51401_2
+    Signal PinSignal_C51403_2       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC51403_2
+    Signal PinSignal_D51400_A       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD51400_A
+    Signal PinSignal_D51401_K       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD51401_K
+    Signal PinSignal_D51402_K       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD51402_K
+    Signal PinSignal_D51406_K       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD51406_K
+    Signal PinSignal_J51400_A14     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ51400_A14
+    Signal PinSignal_U51400_2       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU51400_2
+    Signal PinSignal_U51401_10      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU51401_10
+    Signal PinSignal_U51401_2       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU51401_2
+    Signal PinSignal_U51401_4       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU51401_4
+    Signal PinSignal_U51401_8       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU51401_8
+    Signal PinSignal_U51402_10      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU51402_10
+    Signal PinSignal_U51402_11      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU51402_11
+    Signal PinSignal_U51402_3       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU51402_3
+    Signal PinSignal_U51404_1       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetU51404_1
+    Signal PowerSignal_GND          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GND
+    Signal PowerSignal_PLUS18       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=+18
+    Signal PowerSignal_PLUS5        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=+5
+    Signal PowerSignal_VCC_EXTRA    : STD_LOGIC; -- ObjectKind=Net|PrimaryId=VCC_EXTRA
+    Signal PowerSignal_VCC_P18V     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=VCC_P18V
+    Signal PowerSignal_VCC_P5V0     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=VCC_P5V0
 
    attribute CaseMINUSEIA : string;
-   attribute CaseMINUSEIA of R51410 : Label is "0805";
-   attribute CaseMINUSEIA of R51409 : Label is "0805";
-   attribute CaseMINUSEIA of R51408 : Label is "0805";
-   attribute CaseMINUSEIA of R51407 : Label is "0805";
    attribute CaseMINUSEIA of R51406 : Label is "0805";
-   attribute CaseMINUSEIA of R51405 : Label is "0805";
-   attribute CaseMINUSEIA of R51404 : Label is "0805";
-   attribute CaseMINUSEIA of R51403 : Label is "0805";
-   attribute CaseMINUSEIA of R51402 : Label is "0805";
    attribute CaseMINUSEIA of R51401 : Label is "0805";
    attribute CaseMINUSEIA of R51400 : Label is "0805";
    attribute CaseMINUSEIA of C51414 : Label is "0805";
@@ -269,15 +262,7 @@ Architecture Structure Of TK514_Interrupter Is
    attribute CaseMINUSEIA of C51400 : Label is "1206";
 
    attribute CaseMINUSMetric : string;
-   attribute CaseMINUSMetric of R51410 : Label is "2012";
-   attribute CaseMINUSMetric of R51409 : Label is "2012";
-   attribute CaseMINUSMetric of R51408 : Label is "2012";
-   attribute CaseMINUSMetric of R51407 : Label is "2012";
    attribute CaseMINUSMetric of R51406 : Label is "2012";
-   attribute CaseMINUSMetric of R51405 : Label is "2012";
-   attribute CaseMINUSMetric of R51404 : Label is "2012";
-   attribute CaseMINUSMetric of R51403 : Label is "2012";
-   attribute CaseMINUSMetric of R51402 : Label is "2012";
    attribute CaseMINUSMetric of R51401 : Label is "2012";
    attribute CaseMINUSMetric of R51400 : Label is "2012";
    attribute CaseMINUSMetric of C51414 : Label is "2012";
@@ -295,6 +280,14 @@ Architecture Structure Of TK514_Interrupter Is
    attribute CaseMINUSMetric of C51401 : Label is "2012";
    attribute CaseMINUSMetric of C51400 : Label is "3216";
 
+   attribute Database_Table_Name : string;
+   attribute Database_Table_Name of J51407 : Label is "altium";
+   attribute Database_Table_Name of J51406 : Label is "altium";
+   attribute Database_Table_Name of J51400 : Label is "altium";
+
+   attribute id : string;
+   attribute id of J51400 : Label is "3177";
+
    attribute Max_Thickness : string;
    attribute Max_Thickness of C51414 : Label is "1.45 mm";
    attribute Max_Thickness of C51413 : Label is "1.45 mm";
@@ -311,18 +304,39 @@ Architecture Structure Of TK514_Interrupter Is
    attribute Max_Thickness of C51401 : Label is "1.45 mm";
    attribute Max_Thickness of C51400 : Label is "1.9 mm";
 
+   attribute navn : string;
+   attribute navn of J51407 : Label is "JST 2pin";
+   attribute navn of J51406 : Label is "JST 2pin";
+   attribute navn of J51400 : Label is "PCIeX1-GF-2D-1000-1K-O36";
+
+   attribute nokkelord : string;
+   attribute nokkelord of J51407 : Label is "Connector, Kontakt";
+   attribute nokkelord of J51406 : Label is "Connector, Kontakt";
+
+   attribute pakke_opprettet : string;
+   attribute pakke_opprettet of J51407 : Label is "28.06.2014 18:25:03";
+   attribute pakke_opprettet of J51406 : Label is "28.06.2014 18:25:03";
+   attribute pakke_opprettet of J51400 : Label is "07.06.2015 17:49:10";
+
+   attribute pakke_opprettet_av : string;
+   attribute pakke_opprettet_av of J51407 : Label is "815";
+   attribute pakke_opprettet_av of J51406 : Label is "815";
+   attribute pakke_opprettet_av of J51400 : Label is "815";
+
+   attribute pakketype : string;
+   attribute pakketype of J51407 : Label is "92";
+   attribute pakketype of J51406 : Label is "92";
+   attribute pakketype of J51400 : Label is "6";
+
    attribute Power : string;
-   attribute Power of R51410 : Label is "0.125 W";
-   attribute Power of R51409 : Label is "0.125 W";
-   attribute Power of R51408 : Label is "0.125 W";
-   attribute Power of R51407 : Label is "0.125 W";
    attribute Power of R51406 : Label is "0.125 W";
-   attribute Power of R51405 : Label is "0.125 W";
-   attribute Power of R51404 : Label is "0.125 W";
-   attribute Power of R51403 : Label is "0.125 W";
-   attribute Power of R51402 : Label is "0.125 W";
    attribute Power of R51401 : Label is "0.125 W";
    attribute Power of R51400 : Label is "0.125 W";
+
+   attribute pris : string;
+   attribute pris of J51407 : Label is "2";
+   attribute pris of J51406 : Label is "2";
+   attribute pris of J51400 : Label is "0";
 
    attribute Rated_Voltage : string;
    attribute Rated_Voltage of C51414 : Label is "25 V";
@@ -340,16 +354,18 @@ Architecture Structure Of TK514_Interrupter Is
    attribute Rated_Voltage of C51401 : Label is "25 V";
    attribute Rated_Voltage of C51400 : Label is "25 V";
 
+   attribute symbol_opprettet : string;
+   attribute symbol_opprettet of J51407 : Label is "28.06.2014 15:33:17";
+   attribute symbol_opprettet of J51406 : Label is "28.06.2014 15:33:17";
+   attribute symbol_opprettet of J51400 : Label is "06.07.2014 17:26:37";
+
+   attribute symbol_opprettet_av : string;
+   attribute symbol_opprettet_av of J51407 : Label is "815";
+   attribute symbol_opprettet_av of J51406 : Label is "815";
+   attribute symbol_opprettet_av of J51400 : Label is "815";
+
    attribute Technology : string;
-   attribute Technology of R51410 : Label is "SMT";
-   attribute Technology of R51409 : Label is "SMT";
-   attribute Technology of R51408 : Label is "SMT";
-   attribute Technology of R51407 : Label is "SMT";
    attribute Technology of R51406 : Label is "SMT";
-   attribute Technology of R51405 : Label is "SMT";
-   attribute Technology of R51404 : Label is "SMT";
-   attribute Technology of R51403 : Label is "SMT";
-   attribute Technology of R51402 : Label is "SMT";
    attribute Technology of R51401 : Label is "SMT";
    attribute Technology of R51400 : Label is "SMT";
    attribute Technology of C51414 : Label is "SMT";
@@ -368,15 +384,7 @@ Architecture Structure Of TK514_Interrupter Is
    attribute Technology of C51400 : Label is "SMT";
 
    attribute Tolerance : string;
-   attribute Tolerance of R51410 : Label is "5 %";
-   attribute Tolerance of R51409 : Label is "5 %";
-   attribute Tolerance of R51408 : Label is "5 %";
-   attribute Tolerance of R51407 : Label is "5 %";
    attribute Tolerance of R51406 : Label is "1 %";
-   attribute Tolerance of R51405 : Label is "5 %";
-   attribute Tolerance of R51404 : Label is "5 %";
-   attribute Tolerance of R51403 : Label is "5 %";
-   attribute Tolerance of R51402 : Label is "5 %";
    attribute Tolerance of R51401 : Label is "5 %";
    attribute Tolerance of R51400 : Label is "1 %";
    attribute Tolerance of C51414 : Label is "±5%";
@@ -395,15 +403,7 @@ Architecture Structure Of TK514_Interrupter Is
    attribute Tolerance of C51400 : Label is "±10%";
 
    attribute Value : string;
-   attribute Value of R51410 : Label is "330R";
-   attribute Value of R51409 : Label is "1k";
-   attribute Value of R51408 : Label is "330R";
-   attribute Value of R51407 : Label is "1k";
    attribute Value of R51406 : Label is "20k";
-   attribute Value of R51405 : Label is "330R";
-   attribute Value of R51404 : Label is "1k";
-   attribute Value of R51403 : Label is "330R";
-   attribute Value of R51402 : Label is "1k";
    attribute Value of R51401 : Label is "10R";
    attribute Value of R51400 : Label is "1k";
    attribute Value of C51414 : Label is "1uF";
@@ -423,19 +423,6 @@ Architecture Structure Of TK514_Interrupter Is
 
 
 Begin
-    U51407 : MOCD207R2M                                      -- ObjectKind=Part|PrimaryId=U51407|SecondaryId=1
-      Port Map
-      (
-        X_1 => PinSignal_R51408_1,                           -- ObjectKind=Pin|PrimaryId=U51407-1
-        X_2 => PinSignal_J51404_2,                           -- ObjectKind=Pin|PrimaryId=U51407-2
-        X_3 => PinSignal_R51410_1,                           -- ObjectKind=Pin|PrimaryId=U51407-3
-        X_4 => PinSignal_J51405_2,                           -- ObjectKind=Pin|PrimaryId=U51407-4
-        X_5 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=U51407-5
-        X_6 => PinSignal_R51409_1,                           -- ObjectKind=Pin|PrimaryId=U51407-6
-        X_7 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=U51407-7
-        X_8 => PinSignal_R51407_1                            -- ObjectKind=Pin|PrimaryId=U51407-8
-      );
-
     U51406 : X_74HC14                                        -- ObjectKind=Part|PrimaryId=U51406|SecondaryId=7
       Port Map
       (
@@ -456,10 +443,7 @@ Begin
       );
 
     U51406 : X_74HC14                                        -- ObjectKind=Part|PrimaryId=U51406|SecondaryId=4
-      Port Map
-      (
-        X_9 => PinSignal_R51409_1                            -- ObjectKind=Pin|PrimaryId=U51406-9
-      );
+;
 
     U51406 : X_74HC14                                        -- ObjectKind=Part|PrimaryId=U51406|SecondaryId=3
       Port Map
@@ -477,21 +461,8 @@ Begin
     U51406 : X_74HC14                                        -- ObjectKind=Part|PrimaryId=U51406|SecondaryId=1
       Port Map
       (
-        X_1 => PinSignal_U51402_6,                           -- ObjectKind=Pin|PrimaryId=U51406-1
+        X_1 => PinSignal_U51402_3,                           -- ObjectKind=Pin|PrimaryId=U51406-1
         X_2 => PinSignal_D51406_K                            -- ObjectKind=Pin|PrimaryId=U51406-2
-      );
-
-    U51405 : MOCD207R2M                                      -- ObjectKind=Part|PrimaryId=U51405|SecondaryId=1
-      Port Map
-      (
-        X_1 => PinSignal_R51403_1,                           -- ObjectKind=Pin|PrimaryId=U51405-1
-        X_2 => PinSignal_J51402_2,                           -- ObjectKind=Pin|PrimaryId=U51405-2
-        X_3 => PinSignal_R51405_1,                           -- ObjectKind=Pin|PrimaryId=U51405-3
-        X_4 => PinSignal_J51403_2,                           -- ObjectKind=Pin|PrimaryId=U51405-4
-        X_5 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=U51405-5
-        X_6 => PinSignal_R51404_1,                           -- ObjectKind=Pin|PrimaryId=U51405-6
-        X_7 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=U51405-7
-        X_8 => PinSignal_R51402_1                            -- ObjectKind=Pin|PrimaryId=U51405-8
       );
 
     U51404 : X_74HC74                                        -- ObjectKind=Part|PrimaryId=U51404|SecondaryId=3
@@ -531,8 +502,8 @@ Begin
       Port Map
       (
         X_2 => PinSignal_U51402_11,                          -- ObjectKind=Pin|PrimaryId=U51403-2
-        X_6 => PinSignal_J51401_2,                           -- ObjectKind=Pin|PrimaryId=U51403-6
-        X_7 => PinSignal_J51401_2                            -- ObjectKind=Pin|PrimaryId=U51403-7
+        X_6 => PinSignal_J51400_A14,                         -- ObjectKind=Pin|PrimaryId=U51403-6
+        X_7 => PinSignal_J51400_A14                          -- ObjectKind=Pin|PrimaryId=U51403-7
       );
 
     U51402 : X_74HC08                                        -- ObjectKind=Part|PrimaryId=U51402|SecondaryId=5
@@ -559,12 +530,7 @@ Begin
       );
 
     U51402 : X_74HC08                                        -- ObjectKind=Part|PrimaryId=U51402|SecondaryId=2
-      Port Map
-      (
-        X_4 => PinSignal_U51402_3,                           -- ObjectKind=Pin|PrimaryId=U51402-4
-        X_5 => PinSignal_U51401_6,                           -- ObjectKind=Pin|PrimaryId=U51402-5
-        X_6 => PinSignal_U51402_6                            -- ObjectKind=Pin|PrimaryId=U51402-6
-      );
+;
 
     U51402 : X_74HC08                                        -- ObjectKind=Part|PrimaryId=U51402|SecondaryId=1
       Port Map
@@ -602,23 +568,19 @@ Begin
       );
 
     U51401 : X_74HC14                                        -- ObjectKind=Part|PrimaryId=U51401|SecondaryId=3
-      Port Map
-      (
-        X_5 => PinSignal_R51407_1,                           -- ObjectKind=Pin|PrimaryId=U51401-5
-        X_6 => PinSignal_U51401_6                            -- ObjectKind=Pin|PrimaryId=U51401-6
-      );
+;
 
     U51401 : X_74HC14                                        -- ObjectKind=Part|PrimaryId=U51401|SecondaryId=2
       Port Map
       (
-        X_3 => PinSignal_R51404_1,                           -- ObjectKind=Pin|PrimaryId=U51401-3
+        X_3 => NamedSignal_LIMIT,                            -- ObjectKind=Pin|PrimaryId=U51401-3
         X_4 => PinSignal_U51401_4                            -- ObjectKind=Pin|PrimaryId=U51401-4
       );
 
     U51401 : X_74HC14                                        -- ObjectKind=Part|PrimaryId=U51401|SecondaryId=1
       Port Map
       (
-        X_1 => PinSignal_R51402_1,                           -- ObjectKind=Pin|PrimaryId=U51401-1
+        X_1 => NamedSignal_TRIGGER,                          -- ObjectKind=Pin|PrimaryId=U51401-1
         X_2 => PinSignal_U51401_2                            -- ObjectKind=Pin|PrimaryId=U51401-2
       );
 
@@ -639,67 +601,11 @@ Begin
         X_7 => PinSignal_C51400_1                            -- ObjectKind=Pin|PrimaryId=U51400-7
       );
 
-    R51410 : CMPMINUS1013MINUS00062MINUS1                    -- ObjectKind=Part|PrimaryId=R51410|SecondaryId=1
-      Port Map
-      (
-        X_1 => PinSignal_R51410_1,                           -- ObjectKind=Pin|PrimaryId=R51410-1
-        X_2 => PinSignal_J51405_1                            -- ObjectKind=Pin|PrimaryId=R51410-2
-      );
-
-    R51409 : CMPMINUS1013MINUS00074MINUS1                    -- ObjectKind=Part|PrimaryId=R51409|SecondaryId=1
-      Port Map
-      (
-        X_1 => PinSignal_R51409_1,                           -- ObjectKind=Pin|PrimaryId=R51409-1
-        X_2 => PowerSignal_PLUS5                             -- ObjectKind=Pin|PrimaryId=R51409-2
-      );
-
-    R51408 : CMPMINUS1013MINUS00062MINUS1                    -- ObjectKind=Part|PrimaryId=R51408|SecondaryId=1
-      Port Map
-      (
-        X_1 => PinSignal_R51408_1,                           -- ObjectKind=Pin|PrimaryId=R51408-1
-        X_2 => LIMIT2                                        -- ObjectKind=Pin|PrimaryId=R51408-2
-      );
-
-    R51407 : CMPMINUS1013MINUS00074MINUS1                    -- ObjectKind=Part|PrimaryId=R51407|SecondaryId=1
-      Port Map
-      (
-        X_1 => PinSignal_R51407_1,                           -- ObjectKind=Pin|PrimaryId=R51407-1
-        X_2 => PowerSignal_PLUS5                             -- ObjectKind=Pin|PrimaryId=R51407-2
-      );
-
     R51406 : CMPMINUS1013MINUS00655MINUS1                    -- ObjectKind=Part|PrimaryId=R51406|SecondaryId=1
       Port Map
       (
         X_1 => PinSignal_D51406_K,                           -- ObjectKind=Pin|PrimaryId=R51406-1
         X_2 => PinSignal_C51403_2                            -- ObjectKind=Pin|PrimaryId=R51406-2
-      );
-
-    R51405 : CMPMINUS1013MINUS00062MINUS1                    -- ObjectKind=Part|PrimaryId=R51405|SecondaryId=1
-      Port Map
-      (
-        X_1 => PinSignal_R51405_1,                           -- ObjectKind=Pin|PrimaryId=R51405-1
-        X_2 => LIMIT1                                        -- ObjectKind=Pin|PrimaryId=R51405-2
-      );
-
-    R51404 : CMPMINUS1013MINUS00074MINUS1                    -- ObjectKind=Part|PrimaryId=R51404|SecondaryId=1
-      Port Map
-      (
-        X_1 => PinSignal_R51404_1,                           -- ObjectKind=Pin|PrimaryId=R51404-1
-        X_2 => PowerSignal_PLUS5                             -- ObjectKind=Pin|PrimaryId=R51404-2
-      );
-
-    R51403 : CMPMINUS1013MINUS00062MINUS1                    -- ObjectKind=Part|PrimaryId=R51403|SecondaryId=1
-      Port Map
-      (
-        X_1 => PinSignal_R51403_1,                           -- ObjectKind=Pin|PrimaryId=R51403-1
-        X_2 => TRIGGER                                       -- ObjectKind=Pin|PrimaryId=R51403-2
-      );
-
-    R51402 : CMPMINUS1013MINUS00074MINUS1                    -- ObjectKind=Part|PrimaryId=R51402|SecondaryId=1
-      Port Map
-      (
-        X_1 => PinSignal_R51402_1,                           -- ObjectKind=Pin|PrimaryId=R51402-1
-        X_2 => PowerSignal_PLUS5                             -- ObjectKind=Pin|PrimaryId=R51402-2
       );
 
     R51401 : CMPMINUS1013MINUS00026MINUS1                    -- ObjectKind=Part|PrimaryId=R51401|SecondaryId=1
@@ -730,46 +636,26 @@ Begin
         X_2 => PowerSignal_GND                               -- ObjectKind=Pin|PrimaryId=J51406-2
       );
 
-    J51405 : JST_2pin                                        -- ObjectKind=Part|PrimaryId=J51405|SecondaryId=1
+    J51400 : PCIeX1MINUSGFMINUS2DMINUS1000MINUS1KMINUSO36    -- ObjectKind=Part|PrimaryId=J51400|SecondaryId=1
       Port Map
       (
-        X_1 => PinSignal_J51405_1,                           -- ObjectKind=Pin|PrimaryId=J51405-1
-        X_2 => PinSignal_J51405_2                            -- ObjectKind=Pin|PrimaryId=J51405-2
-      );
-
-    J51404 : JST_2pin                                        -- ObjectKind=Part|PrimaryId=J51404|SecondaryId=1
-      Port Map
-      (
-        X_1 => LIMIT2,                                       -- ObjectKind=Pin|PrimaryId=J51404-1
-        X_2 => PinSignal_J51404_2                            -- ObjectKind=Pin|PrimaryId=J51404-2
-      );
-
-    J51403 : JST_2pin                                        -- ObjectKind=Part|PrimaryId=J51403|SecondaryId=1
-      Port Map
-      (
-        X_1 => LIMIT1,                                       -- ObjectKind=Pin|PrimaryId=J51403-1
-        X_2 => PinSignal_J51403_2                            -- ObjectKind=Pin|PrimaryId=J51403-2
-      );
-
-    J51402 : JST_2pin                                        -- ObjectKind=Part|PrimaryId=J51402|SecondaryId=1
-      Port Map
-      (
-        X_1 => TRIGGER,                                      -- ObjectKind=Pin|PrimaryId=J51402-1
-        X_2 => PinSignal_J51402_2                            -- ObjectKind=Pin|PrimaryId=J51402-2
-      );
-
-    J51401 : JST_2pin                                        -- ObjectKind=Part|PrimaryId=J51401|SecondaryId=1
-      Port Map
-      (
-        X_1 => PinSignal_C51400_2,                           -- ObjectKind=Pin|PrimaryId=J51401-1
-        X_2 => PinSignal_J51401_2                            -- ObjectKind=Pin|PrimaryId=J51401-2
-      );
-
-    J51400 : JST_2pin                                        -- ObjectKind=Part|PrimaryId=J51400|SecondaryId=1
-      Port Map
-      (
-        X_1 => PinSignal_C51401_1,                           -- ObjectKind=Pin|PrimaryId=J51400-1
-        X_2 => PowerSignal_GND                               -- ObjectKind=Pin|PrimaryId=J51400-2
+        A1  => PowerSignal_VCC_P5V0,                         -- ObjectKind=Pin|PrimaryId=J51400-A1
+        A11 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=J51400-A11
+        A12 => PinSignal_C51401_1,                           -- ObjectKind=Pin|PrimaryId=J51400-A12
+        A13 => PinSignal_C51400_2,                           -- ObjectKind=Pin|PrimaryId=J51400-A13
+        A14 => PinSignal_J51400_A14,                         -- ObjectKind=Pin|PrimaryId=J51400-A14
+        A15 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=J51400-A15
+        A16 => PowerSignal_VCC_EXTRA,                        -- ObjectKind=Pin|PrimaryId=J51400-A16
+        A17 => PowerSignal_VCC_P5V0,                         -- ObjectKind=Pin|PrimaryId=J51400-A17
+        A18 => PowerSignal_VCC_P18V,                         -- ObjectKind=Pin|PrimaryId=J51400-A18
+        B1  => NamedSignal_KORT_INNSATT,                     -- ObjectKind=Pin|PrimaryId=J51400-B1
+        B2  => NamedSignal_TRIGGER,                          -- ObjectKind=Pin|PrimaryId=J51400-B2
+        B3  => NamedSignal_LIMIT,                            -- ObjectKind=Pin|PrimaryId=J51400-B3
+        B4  => NamedSignal_INTERRUPT,                        -- ObjectKind=Pin|PrimaryId=J51400-B4
+        B15 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=J51400-B15
+        B16 => PowerSignal_VCC_EXTRA,                        -- ObjectKind=Pin|PrimaryId=J51400-B16
+        B17 => PowerSignal_VCC_P5V0,                         -- ObjectKind=Pin|PrimaryId=J51400-B17
+        B18 => PowerSignal_VCC_P18V                          -- ObjectKind=Pin|PrimaryId=J51400-B18
       );
 
     D51406 : X_1N4148                                        -- ObjectKind=Part|PrimaryId=D51406|SecondaryId=1
@@ -935,11 +821,11 @@ Begin
 
     -- Signal Assignments
     ---------------------
-    GATE_DRIVE_A       <= PinSignal_C51400_2; -- ObjectKind=Net|PrimaryId=NetC51400_2
-    GATE_DRIVE_B       <= PinSignal_J51401_2; -- ObjectKind=Net|PrimaryId=NetJ51401_2
-    PinSignal_C51400_2 <= GATE_DRIVE_A; -- ObjectKind=Net|PrimaryId=NetC51400_2
-    PinSignal_J51401_2 <= GATE_DRIVE_B; -- ObjectKind=Net|PrimaryId=NetJ51401_2
-    PowerSignal_GND    <= '0'; -- ObjectKind=Net|PrimaryId=GND
+    GATE_DRIVE_A         <= PinSignal_C51400_2; -- ObjectKind=Net|PrimaryId=NetC51400_2
+    GATE_DRIVE_B         <= PinSignal_J51400_A14; -- ObjectKind=Net|PrimaryId=NetJ51400_A14
+    PinSignal_C51400_2   <= GATE_DRIVE_A; -- ObjectKind=Net|PrimaryId=NetC51400_2
+    PinSignal_J51400_A14 <= GATE_DRIVE_B; -- ObjectKind=Net|PrimaryId=NetJ51400_A14
+    PowerSignal_GND      <= '0'; -- ObjectKind=Net|PrimaryId=GND
 
 End Structure;
 ------------------------------------------------------------

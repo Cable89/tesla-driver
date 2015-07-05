@@ -14,3 +14,5 @@ ProjectPath=TK510_Signalbakplan\TK510_Signalbakplan.PrjPcb
 ProjectPath=TK514_Interrupter\TK514_Interrupter.PrjPcb
 [Project7]
 ProjectPath=TK511_Blindkort\TK511_Blindkort.PrjPcb
+[Project8]
+ProjectPath=OLD_DC-PSU\TK511_DC-PSU.PrjPcb

@@ -9,10 +9,12 @@ ProjectPath=TK531_Utgangstrinn\TK531_Utgangstrinn.PrjPcb
 [Project4]
 ProjectPath=TK532_Kondensatorkort\TK532_Kondensatorkort.PrjPcb
 [Project5]
-ProjectPath=TK510_Signalbakplan\TK510_Signalbakplan.PrjPcb
-[Project6]
 ProjectPath=TK514_Interrupter\TK514_Interrupter.PrjPcb
-[Project7]
+[Project6]
 ProjectPath=TK511_Blindkort\TK511_Blindkort.PrjPcb
-[Project8]
+[Project7]
 ProjectPath=OLD_DC-PSU\TK511_DC-PSU.PrjPcb
+[Project8]
+ProjectPath=TK510_Signalbakplan\TK510_Signalbakplan.PrjPcb
+[Project9]
+ProjectPath=Y:\brukere\RosaSkjorte\Altium\YoloSwagg\RGB_ting\RGB_ting.PrjPcb

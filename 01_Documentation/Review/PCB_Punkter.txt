@@ -1,0 +1,11 @@
+Løkker mininmert
+God nok jording
+God nok fremføring av VCC
+Nok avkobling på VCC
+Silketrykk
+Monteringshull
+Plassering av konnektorer
+Via stitching
+Design rules overholdt
+Mekanisk kollisjon av komponenter
+Stackup

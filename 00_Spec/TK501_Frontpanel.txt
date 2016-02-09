@@ -13,7 +13,7 @@ Kortmatrisefelt:
 		5 LEDS:
 			Rød: Kort mangler
 			Rød: Feil
-			?: Reserve
+			?: Knappeled
 			Rød/Grønn: Status
 			Knappled: Interrupt
 

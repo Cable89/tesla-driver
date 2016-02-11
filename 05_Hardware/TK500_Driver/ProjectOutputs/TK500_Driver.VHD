@@ -1,9 +1,9 @@
 ------------------------------------------------------------
 -- VHDL TK500_Driver
--- 2015 7 5 14 55 23
+-- 2016 2 11 17 57 59
 -- Created By "DXP VHDL Generator"
 -- "Copyright (c) 2002-2014 Altium Limited"
--- Product Version: 15.0.7.36915
+-- Product Version: 16.0.6.282
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -24,12 +24,18 @@ Architecture Structure Of TK500_Driver Is
    Component TK510_Signalbakplan                             -- ObjectKind=Sheet Symbol|PrimaryId=TK510
       port
       (
-        AC_S6            : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S6
-        AC_S6_IN         : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S6_IN
-        AC_S7            : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S7
-        AC_S7_IN         : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S7_IN
-        AC_S8            : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S8
-        AC_S8_IN         : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S8_IN
+        AC_S6_L1         : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S6.L1
+        AC_S6_L2         : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S6.L2
+        AC_S6_IN_L1      : in    STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S6_IN.L1
+        AC_S6_IN_L2      : in    STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S6_IN.L2
+        AC_S7_L1         : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S7.L1
+        AC_S7_L2         : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S7.L2
+        AC_S7_IN_L1      : in    STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S7_IN.L1
+        AC_S7_IN_L2      : in    STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S7_IN.L2
+        AC_S8_L1         : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S8.L1
+        AC_S8_L2         : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S8.L2
+        AC_S8_IN_L1      : in    STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S8_IN.L1
+        AC_S8_IN_L2      : in    STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S8_IN.L2
         AUX1_SLOT0       : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AUX1_SLOT0
         AUX1_SLOT1       : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AUX1_SLOT1
         AUX1_SLOT2       : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AUX1_SLOT2
@@ -133,7 +139,8 @@ Architecture Structure Of TK500_Driver Is
    Component TK516_EKSTRAMINUSPSU                            -- ObjectKind=Sheet Symbol|PrimaryId=TK516
       port
       (
-        AC           : inout STD_LOGIC;                      -- ObjectKind=Sheet Entry|PrimaryId=TK516_EKSTRA-PSU.SchDoc-AC
+        AC_L1        : inout STD_LOGIC;                      -- ObjectKind=Sheet Entry|PrimaryId=TK516_EKSTRA-PSU.SchDoc-AC.L1
+        AC_L2        : inout STD_LOGIC;                      -- ObjectKind=Sheet Entry|PrimaryId=TK516_EKSTRA-PSU.SchDoc-AC.L2
         BUS          : inout STD_LOGIC;                      -- ObjectKind=Sheet Entry|PrimaryId=TK516_EKSTRA-PSU.SchDoc-BUS
         EKSTRA       : out   STD_LOGIC;                      -- ObjectKind=Sheet Entry|PrimaryId=TK516_EKSTRA-PSU.SchDoc-EKSTRA
         KORT_INNSATT : out   STD_LOGIC                       -- ObjectKind=Sheet Entry|PrimaryId=TK516_EKSTRA-PSU.SchDoc-KORT_INNSATT
@@ -143,7 +150,8 @@ Architecture Structure Of TK500_Driver Is
    Component TK517_P5V0MINUSPSU                              -- ObjectKind=Sheet Symbol|PrimaryId=TK517
       port
       (
-        AC           : inout STD_LOGIC;                      -- ObjectKind=Sheet Entry|PrimaryId=TK517_P5V0-PSU.SchDoc-AC
+        AC_L1        : inout STD_LOGIC;                      -- ObjectKind=Sheet Entry|PrimaryId=TK517_P5V0-PSU.SchDoc-AC.L1
+        AC_L2        : inout STD_LOGIC;                      -- ObjectKind=Sheet Entry|PrimaryId=TK517_P5V0-PSU.SchDoc-AC.L2
         BUS          : inout STD_LOGIC;                      -- ObjectKind=Sheet Entry|PrimaryId=TK517_P5V0-PSU.SchDoc-BUS
         KORT_INNSATT : out   STD_LOGIC;                      -- ObjectKind=Sheet Entry|PrimaryId=TK517_P5V0-PSU.SchDoc-KORT_INNSATT
         P5V0         : out   STD_LOGIC                       -- ObjectKind=Sheet Entry|PrimaryId=TK517_P5V0-PSU.SchDoc-P5V0
@@ -153,7 +161,8 @@ Architecture Structure Of TK500_Driver Is
    Component TK518_P18VMINUSPSU                              -- ObjectKind=Sheet Symbol|PrimaryId=TK518
       port
       (
-        AC           : inout STD_LOGIC;                      -- ObjectKind=Sheet Entry|PrimaryId=TK518_P18V-PSU.SchDoc-AC
+        AC_L1        : inout STD_LOGIC;                      -- ObjectKind=Sheet Entry|PrimaryId=TK518_P18V-PSU.SchDoc-AC.L1
+        AC_L2        : inout STD_LOGIC;                      -- ObjectKind=Sheet Entry|PrimaryId=TK518_P18V-PSU.SchDoc-AC.L2
         BUS          : inout STD_LOGIC;                      -- ObjectKind=Sheet Entry|PrimaryId=TK518_P18V-PSU.SchDoc-BUS
         KORT_INNSATT : out   STD_LOGIC;                      -- ObjectKind=Sheet Entry|PrimaryId=TK518_P18V-PSU.SchDoc-KORT_INNSATT
         P18V         : out   STD_LOGIC                       -- ObjectKind=Sheet Entry|PrimaryId=TK518_P18V-PSU.SchDoc-P18V
@@ -185,13 +194,16 @@ Architecture Structure Of TK500_Driver Is
    Component TK525_Kraftforsyning                            -- ObjectKind=Sheet Symbol|PrimaryId=TK525
       port
       (
-        AC_S6     : inout STD_LOGIC;                         -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S6
-        AC_S7     : inout STD_LOGIC;                         -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S7
-        AC_S8     : inout STD_LOGIC;                         -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S8
-        GND_HV    : out   STD_LOGIC;                         -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-GND_HV
-        L1_230VAC : in    STD_LOGIC;                         -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-L1_230VAC
-        L2_230VAC : in    STD_LOGIC;                         -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-L2_230VAC
-        P160V     : out   STD_LOGIC                          -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-P160V
+        AC_S6_L1  : out STD_LOGIC;                           -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S6.L1
+        AC_S6_L2  : out STD_LOGIC;                           -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S6.L2
+        AC_S7_L1  : out STD_LOGIC;                           -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S7.L1
+        AC_S7_L2  : out STD_LOGIC;                           -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S7.L2
+        AC_S8_L1  : out STD_LOGIC;                           -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S8.L1
+        AC_S8_L2  : out STD_LOGIC;                           -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S8.L2
+        GND_HV    : out STD_LOGIC;                           -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-GND_HV
+        L1_230VAC : in  STD_LOGIC;                           -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-L1_230VAC
+        L2_230VAC : in  STD_LOGIC;                           -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-L2_230VAC
+        P160V     : out STD_LOGIC                            -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-P160V
       );
    End Component;
 
@@ -279,15 +291,18 @@ Architecture Structure Of TK500_Driver Is
     Signal PinSignal_TK514_FRONT_IO       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=FRONT_IO_SLOT3
     Signal PinSignal_TK514_FRONT_LEDS     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=FRONT_LEDS_SLOT3
     Signal PinSignal_TK514_KORT_INNSATT   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=KI_SLOT3
-    Signal PinSignal_TK516_AC             : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S6
+    Signal PinSignal_TK516_AC_L1          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S6.L1
+    Signal PinSignal_TK516_AC_L2          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S6.L2
     Signal PinSignal_TK516_BUS            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=BUS_SLOT6
     Signal PinSignal_TK516_EKSTRA         : STD_LOGIC; -- ObjectKind=Net|PrimaryId=EKSTRA
     Signal PinSignal_TK516_KORT_INNSATT   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=KI_SLOT6
-    Signal PinSignal_TK517_AC             : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S7
+    Signal PinSignal_TK517_AC_L1          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S7.L1
+    Signal PinSignal_TK517_AC_L2          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S7.L2
     Signal PinSignal_TK517_BUS            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=BUS_SLOT7
     Signal PinSignal_TK517_KORT_INNSATT   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=KI_SLOT7
     Signal PinSignal_TK517_P5V0           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=P5V0
-    Signal PinSignal_TK518_AC             : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S8
+    Signal PinSignal_TK518_AC_L1          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S8.L1
+    Signal PinSignal_TK518_AC_L2          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S8.L2
     Signal PinSignal_TK518_BUS            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=BUS_SLOT8
     Signal PinSignal_TK518_KORT_INNSATT   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=KI_SLOT8
     Signal PinSignal_TK518_P18V           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=P18V
@@ -299,9 +314,12 @@ Architecture Structure Of TK500_Driver Is
     Signal PinSignal_TK519_KORT_INNSATT   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=KI_SLOT0
     Signal PinSignal_TK520_GATE_DRIVE_1   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GATE DRIVE 1
     Signal PinSignal_TK520_GATE_DRIVE_2   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GATE DRIVE 2
-    Signal PinSignal_TK525_AC_S6          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S6_IN
-    Signal PinSignal_TK525_AC_S7          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S7_IN
-    Signal PinSignal_TK525_AC_S8          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S8_IN
+    Signal PinSignal_TK525_AC_S6_L1       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S6_IN.L1
+    Signal PinSignal_TK525_AC_S6_L2       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S6_IN.L2
+    Signal PinSignal_TK525_AC_S7_L1       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S7_IN.L1
+    Signal PinSignal_TK525_AC_S7_L2       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S7_IN.L2
+    Signal PinSignal_TK525_AC_S8_L1       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S8_IN.L1
+    Signal PinSignal_TK525_AC_S8_L2       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S8_IN.L2
     Signal PinSignal_TK525_GND_HV         : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GND_HV
     Signal PinSignal_TK525_P160V          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=P160V
     Signal PinSignal_TK530_COUT           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=COUT
@@ -370,11 +388,14 @@ Begin
     TK525 : TK525_Kraftforsyning                             -- ObjectKind=Sheet Symbol|PrimaryId=TK525
       Port Map
       (
-        AC_S6  => PinSignal_TK525_AC_S6,                     -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S6
-        AC_S7  => PinSignal_TK525_AC_S7,                     -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S7
-        AC_S8  => PinSignal_TK525_AC_S8,                     -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S8
-        GND_HV => PinSignal_TK525_GND_HV,                    -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-GND_HV
-        P160V  => PinSignal_TK525_P160V                      -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-P160V
+        AC_S6_L1 => PinSignal_TK525_AC_S6_L1,                -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S6.L1
+        AC_S6_L2 => PinSignal_TK525_AC_S6_L2,                -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S6.L2
+        AC_S7_L1 => PinSignal_TK525_AC_S7_L1,                -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S7.L1
+        AC_S7_L2 => PinSignal_TK525_AC_S7_L2,                -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S7.L2
+        AC_S8_L1 => PinSignal_TK525_AC_S8_L1,                -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S8.L1
+        AC_S8_L2 => PinSignal_TK525_AC_S8_L2,                -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S8.L2
+        GND_HV   => PinSignal_TK525_GND_HV,                  -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-GND_HV
+        P160V    => PinSignal_TK525_P160V                    -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-P160V
       );
 
     TK520 : TK520_GDTMINUSTrafo                              -- ObjectKind=Sheet Symbol|PrimaryId=TK520
@@ -400,7 +421,8 @@ Begin
     TK518 : TK518_P18VMINUSPSU                               -- ObjectKind=Sheet Symbol|PrimaryId=TK518
       Port Map
       (
-        AC           => PinSignal_TK518_AC,                  -- ObjectKind=Sheet Entry|PrimaryId=TK518_P18V-PSU.SchDoc-AC
+        AC_L1        => PinSignal_TK518_AC_L1,               -- ObjectKind=Sheet Entry|PrimaryId=TK518_P18V-PSU.SchDoc-AC.L1
+        AC_L2        => PinSignal_TK518_AC_L2,               -- ObjectKind=Sheet Entry|PrimaryId=TK518_P18V-PSU.SchDoc-AC.L2
         BUS          => PinSignal_TK518_BUS,                 -- ObjectKind=Sheet Entry|PrimaryId=TK518_P18V-PSU.SchDoc-BUS
         KORT_INNSATT => PinSignal_TK518_KORT_INNSATT,        -- ObjectKind=Sheet Entry|PrimaryId=TK518_P18V-PSU.SchDoc-KORT_INNSATT
         P18V         => PinSignal_TK518_P18V                 -- ObjectKind=Sheet Entry|PrimaryId=TK518_P18V-PSU.SchDoc-P18V
@@ -409,7 +431,8 @@ Begin
     TK517 : TK517_P5V0MINUSPSU                               -- ObjectKind=Sheet Symbol|PrimaryId=TK517
       Port Map
       (
-        AC           => PinSignal_TK517_AC,                  -- ObjectKind=Sheet Entry|PrimaryId=TK517_P5V0-PSU.SchDoc-AC
+        AC_L1        => PinSignal_TK517_AC_L1,               -- ObjectKind=Sheet Entry|PrimaryId=TK517_P5V0-PSU.SchDoc-AC.L1
+        AC_L2        => PinSignal_TK517_AC_L2,               -- ObjectKind=Sheet Entry|PrimaryId=TK517_P5V0-PSU.SchDoc-AC.L2
         BUS          => PinSignal_TK517_BUS,                 -- ObjectKind=Sheet Entry|PrimaryId=TK517_P5V0-PSU.SchDoc-BUS
         KORT_INNSATT => PinSignal_TK517_KORT_INNSATT,        -- ObjectKind=Sheet Entry|PrimaryId=TK517_P5V0-PSU.SchDoc-KORT_INNSATT
         P5V0         => PinSignal_TK517_P5V0                 -- ObjectKind=Sheet Entry|PrimaryId=TK517_P5V0-PSU.SchDoc-P5V0
@@ -418,7 +441,8 @@ Begin
     TK516 : TK516_EKSTRAMINUSPSU                             -- ObjectKind=Sheet Symbol|PrimaryId=TK516
       Port Map
       (
-        AC           => PinSignal_TK516_AC,                  -- ObjectKind=Sheet Entry|PrimaryId=TK516_EKSTRA-PSU.SchDoc-AC
+        AC_L1        => PinSignal_TK516_AC_L1,               -- ObjectKind=Sheet Entry|PrimaryId=TK516_EKSTRA-PSU.SchDoc-AC.L1
+        AC_L2        => PinSignal_TK516_AC_L2,               -- ObjectKind=Sheet Entry|PrimaryId=TK516_EKSTRA-PSU.SchDoc-AC.L2
         BUS          => PinSignal_TK516_BUS,                 -- ObjectKind=Sheet Entry|PrimaryId=TK516_EKSTRA-PSU.SchDoc-BUS
         EKSTRA       => PinSignal_TK516_EKSTRA,              -- ObjectKind=Sheet Entry|PrimaryId=TK516_EKSTRA-PSU.SchDoc-EKSTRA
         KORT_INNSATT => PinSignal_TK516_KORT_INNSATT         -- ObjectKind=Sheet Entry|PrimaryId=TK516_EKSTRA-PSU.SchDoc-KORT_INNSATT
@@ -482,12 +506,18 @@ Begin
     TK510 : TK510_Signalbakplan                              -- ObjectKind=Sheet Symbol|PrimaryId=TK510
       Port Map
       (
-        AC_S6            => PinSignal_TK516_AC,              -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S6
-        AC_S6_IN         => PinSignal_TK525_AC_S6,           -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S6_IN
-        AC_S7            => PinSignal_TK517_AC,              -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S7
-        AC_S7_IN         => PinSignal_TK525_AC_S7,           -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S7_IN
-        AC_S8            => PinSignal_TK518_AC,              -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S8
-        AC_S8_IN         => PinSignal_TK525_AC_S8,           -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S8_IN
+        AC_S6_L1         => PinSignal_TK516_AC_L1,           -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S6.L1
+        AC_S6_L2         => PinSignal_TK516_AC_L2,           -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S6.L2
+        AC_S6_IN_L1      => PinSignal_TK525_AC_S6_L1,        -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S6_IN.L1
+        AC_S6_IN_L2      => PinSignal_TK525_AC_S6_L2,        -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S6_IN.L2
+        AC_S7_L1         => PinSignal_TK517_AC_L1,           -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S7.L1
+        AC_S7_L2         => PinSignal_TK517_AC_L2,           -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S7.L2
+        AC_S7_IN_L1      => PinSignal_TK525_AC_S7_L1,        -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S7_IN.L1
+        AC_S7_IN_L2      => PinSignal_TK525_AC_S7_L2,        -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S7_IN.L2
+        AC_S8_L1         => PinSignal_TK518_AC_L1,           -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S8.L1
+        AC_S8_L2         => PinSignal_TK518_AC_L2,           -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S8.L2
+        AC_S8_IN_L1      => PinSignal_TK525_AC_S8_L1,        -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S8_IN.L1
+        AC_S8_IN_L2      => PinSignal_TK525_AC_S8_L2,        -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S8_IN.L2
         AUX1_SLOT0       => PinSignal_TK519_AUX1,            -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AUX1_SLOT0
         AUX1_SLOT1       => PinSignal_TK512_AUX1,            -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AUX1_SLOT1
         AUX1_SLOT2       => PinSignal_TK513_AUX1,            -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AUX1_SLOT2

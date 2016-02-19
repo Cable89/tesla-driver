@@ -29,3 +29,5 @@ Felles kontakt med alle LED signaler til frontpanel
 Elektronikk på kortet for å indikere om et kort er satt i eller ikke (Aktiv høy)
 
 Mekanisk støtte for kortene
+
+Formfaktor på kortene:

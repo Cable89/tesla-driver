@@ -1,9 +1,9 @@
 ------------------------------------------------------------
 -- VHDL TK540_Frontpanel
--- 2014 7 12 23 24 5
+-- 2016 2 11 17 57 57
 -- Created By "DXP VHDL Generator"
 -- "Copyright (c) 2002-2014 Altium Limited"
--- Product Version: 14.3.11.33708
+-- Product Version: 16.0.6.282
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -21,9 +21,15 @@ End TK540_Frontpanel;
 
 ------------------------------------------------------------
 Architecture Structure Of TK540_Frontpanel Is
+   Component TK502_Frontpanel_LEDs                           -- ObjectKind=Sheet Symbol|PrimaryId=LEDs
+   End Component;
+
 
 
 Begin
+    LEDs : TK502_Frontpanel_LEDs                             -- ObjectKind=Sheet Symbol|PrimaryId=LEDs
+;
+
 End Structure;
 ------------------------------------------------------------
 

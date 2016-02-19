@@ -1,0 +1,81 @@
+Møte teslakom
+
+11 feb 2016
+
+Tilstedte: Ivar, Øystein, Morten, Karl, Andrè, Einar, Sigurd, Knut.
+Forfall: Resten
+
+1. Gjennomgang av todo fra forrige møte
+
+2. Review
+
+Alle kort:
+1. Burde ha tittel, nr og revisjon på skjematikk
+
+
+TK-530 - Kraftbakplan
+1. Definer J53_003 - GDT <-> driverkort 
+2. Definer J53_004 - GDT <-> driverkort
+3. J53_005 - Reserved for future use
+4. Thermistor e.l. ved kjøleribbe for å kunne detektere overheat.
+    -- Ikke nødvendig nå, kan komme i fremtidig revisjon av kortet.
+5. Ved J53-006: Schottky for overspenning + polyfuse for overstrøm. Schottky nærmest kraftbakplan.
+6. 2 pin JST for kobling av kort instattbus
+    -- Gir oss mulighet for å eksperimentere med hvor og om vi vil bruke denne. 
+    --- Koble til kort insatt på signalbakplan?
+    --- Koble bryter til kontaktor via denne?
+    --- Koble holdekrets til kontaktor via denne?
+7. Mangler pull på kort innsatt bus
+8. Skruhull for å feste bakplan i chassis
+9. Partnumber i kobber, slik at man får det med hvis det etses
+10. Avstand mellom banene til 0,4mm.
+11. Endre slik at hvis kondensatorkortet er satt inn i drivtrinnslot, detekteres det ikke som innsatt. Ref tegning på papir
+12. OV logo i silketrykk
+13. Kortnr i kobber
+14. Kort instatt tegnes inn på buss.
+
+TK-531 - Utgangstrinn
+1. Gå over spec til tranistorer
+2. Gå over linking mot bibliotek.
+3. Lag kort 2cm lenger, lag festehull for håntak og kjøleribbe
+4. Bane på top layer for å slippe stor greenwire
+5. Endre trykk
+6. Forandringe for å gjennspeile forandringe i innsatt kort.
+7. Rett opp nettnavn "feil" -> "5v" i tekst ved kort. 
+
+TK-532 Utgangskondensator
+1. Utladningsmotstand: Ikke nødvendig da lagret energi i kortet er ca 1mJ 
+2. Finn optimal kobling av kondenstatorene.
+3. Lag kort 2cm lenger, lag festehull for håndtak
+4. Kort insatt må rettes opp for å gjennspeile fornadringe i insatt kort.
+
+Forslag:
+- Hakk i instikkskort for å sikre kort på riktig plass.
+- Chassieclamp for å holde fast kort.
+- Vurdere egen 5V forsyning til kraftbakplan. 
+
+Signalbakplan
+1. Footprint til 2-pin JST for kort instatt kraftbakplan. 
+
+
+// End review
+
+2b. Resten av review utsatt
+
+3. Mail
+Utkast hundrefossen sendt
+Morten svarer Magnus. Det blir tesling på søndag.
+Øystein svarer Delta, vi stiller.
+Vitensentertingen: Øystein diskuterer med PA.
+
+4. Annet
+Telsafane på OV sin nettside?
+Teslakom burde ha google kalender.
+
+5. Dato neste møte
+Doodle har kommet, svar før lørdag.
+
+6. Issues
+Ryddet. Ting fra i dag må legges inn.  
+ 
+

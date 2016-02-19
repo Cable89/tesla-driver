@@ -1,9 +1,9 @@
 ------------------------------------------------------------
 -- VHDL TK520_GDTMINUSTrafo
--- 2014 7 12 23 24 5
+-- 2016 2 11 17 57 57
 -- Created By "DXP VHDL Generator"
 -- "Copyright (c) 2002-2014 Altium Limited"
--- Product Version: 14.3.11.33708
+-- Product Version: 16.0.6.282
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -34,18 +34,6 @@ End TK520_GDTMINUSTrafo;
 
 ------------------------------------------------------------
 Architecture Structure Of TK520_GDTMINUSTrafo Is
-   Component GDT_1_1_1                                       -- ObjectKind=Part|PrimaryId=T52000|SecondaryId=1
-      port
-      (
-        X_1  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=T52000-1
-        X_5  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=T52000-5
-        X_6  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=T52000-6
-        X_7  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=T52000-7
-        X_9  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=T52000-9
-        X_10 : inout STD_LOGIC                               -- ObjectKind=Pin|PrimaryId=T52000-10
-      );
-   End Component;
-
    Component JST_2pin                                        -- ObjectKind=Part|PrimaryId=J52001|SecondaryId=1
       port
       (
@@ -64,6 +52,18 @@ Architecture Structure Of TK520_GDTMINUSTrafo Is
       );
    End Component;
 
+   Component SD250MINUS3                                     -- ObjectKind=Part|PrimaryId=T52000|SecondaryId=1
+      port
+      (
+        X_1  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=T52000-1
+        X_5  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=T52000-5
+        X_6  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=T52000-6
+        X_7  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=T52000-7
+        X_9  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=T52000-9
+        X_10 : inout STD_LOGIC                               -- ObjectKind=Pin|PrimaryId=T52000-10
+      );
+   End Component;
+
 
     Signal PinSignal_J52000_1 : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ52000_1
     Signal PinSignal_J52000_2 : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ52000_2
@@ -74,8 +74,56 @@ Architecture Structure Of TK520_GDTMINUSTrafo Is
     Signal PinSignal_J52002_3 : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ52002_3
     Signal PinSignal_J52002_4 : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ52002_4
 
+   attribute beskrivelse : string;
+   attribute beskrivelse of T52001 : Label is "Dual Gate Drive Transformer";
+   attribute beskrivelse of T52000 : Label is "Dual Gate Drive Transformer";
+
+   attribute Database_Table_Name : string;
+   attribute Database_Table_Name of T52001 : Label is "altium";
+   attribute Database_Table_Name of T52000 : Label is "altium";
+   attribute Database_Table_Name of J52002 : Label is "altium";
+   attribute Database_Table_Name of J52001 : Label is "altium";
+   attribute Database_Table_Name of J52000 : Label is "altium";
+
+   attribute navn : string;
+   attribute navn of T52001 : Label is "SD250-3";
+   attribute navn of T52000 : Label is "SD250-3";
+
+   attribute nokkelord : string;
+   attribute nokkelord of T52001 : Label is "GDT, Tesla";
+   attribute nokkelord of T52000 : Label is "GDT, Tesla";
+
+   attribute pakke_opprettet : string;
+   attribute pakke_opprettet of T52001 : Label is "28.06.2014 18:37:26";
+   attribute pakke_opprettet of T52000 : Label is "28.06.2014 18:37:26";
+
+   attribute pakke_opprettet_av : string;
+   attribute pakke_opprettet_av of T52001 : Label is "815";
+   attribute pakke_opprettet_av of T52000 : Label is "815";
+
+   attribute pakketype : string;
+   attribute pakketype of T52001 : Label is "92";
+   attribute pakketype of T52000 : Label is "92";
+
+   attribute pris : string;
+   attribute pris of T52001 : Label is "-1";
+   attribute pris of T52000 : Label is "-1";
+
+   attribute produsent : string;
+   attribute produsent of T52001 : Label is "Coilcraft";
+   attribute produsent of T52000 : Label is "Coilcraft";
+
+   attribute symbol_opprettet : string;
+   attribute symbol_opprettet of T52001 : Label is "28.06.2014 15:27:34";
+   attribute symbol_opprettet of T52000 : Label is "28.06.2014 15:27:34";
+
+   attribute symbol_opprettet_av : string;
+   attribute symbol_opprettet_av of T52001 : Label is "815";
+   attribute symbol_opprettet_av of T52000 : Label is "815";
+
+
 Begin
-    T52001 : GDT_1_1_1                                       -- ObjectKind=Part|PrimaryId=T52001|SecondaryId=1
+    T52001 : SD250MINUS3                                     -- ObjectKind=Part|PrimaryId=T52001|SecondaryId=1
       Port Map
       (
         X_1  => GDT2_IN,                                     -- ObjectKind=Pin|PrimaryId=T52001-1
@@ -86,7 +134,7 @@ Begin
         X_10 => PinSignal_J52002_4                           -- ObjectKind=Pin|PrimaryId=T52001-10
       );
 
-    T52000 : GDT_1_1_1                                       -- ObjectKind=Part|PrimaryId=T52000|SecondaryId=1
+    T52000 : SD250MINUS3                                     -- ObjectKind=Part|PrimaryId=T52000|SecondaryId=1
       Port Map
       (
         X_1  => GDT1_IN,                                     -- ObjectKind=Pin|PrimaryId=T52000-1

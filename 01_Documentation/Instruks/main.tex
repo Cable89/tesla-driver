@@ -1,0 +1,54 @@
+\documentclass[12pt,Norwegian,a4paper,twoside,openright,titlepage]{article}
+\title{Autopilot}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper, bottom=4.0cm]{geometry}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{amsthm}                   
+\usepackage{graphicx}  
+\usepackage{subfig}         
+\usepackage{listings}             
+\usepackage{float}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage[]{natbib} %referanser
+\usepackage{cleveref}
+\pagestyle{fancy}
+\usepackage{makeidx}  
+\usepackage{ulem}
+\usepackage{pdfpages}
+\usepackage{url}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{graphicx}			%Figurer
+\usepackage{fancyhdr}			%Fancy headere
+ 
+\makeindex
+\fancyhf{}
+\chead{Teslacoilinstruks}
+\setlength{\oddsidemargin}{5mm}
+\setlength{\evensidemargin}{5mm}
+
+\begin{document}
+
+  \input{forside}
+  \cleardoublepage
+
+  \cfoot{page \thepage}  
+	\newpage
+  \tableofcontents
+
+  \newpage
+
+  \pagenumbering{arabic}
+  \cfoot{page \thepage\ of \pageref{LastPage}} 
+  
+  \input{overordnet}
+  
+  
+  
+  \newpage
+  \bibliographystyle{plain}
+  \bibliography{ref}
+
+\end{document}

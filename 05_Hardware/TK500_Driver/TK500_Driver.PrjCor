@@ -146,6 +146,23 @@ GenerateClassCluster=0
 DocumentUniqueId=BPYUJRYO
 
 [Document7]
+DocumentPath=TK510_Signalbakplan\TK510_Signalbakplan.SchDoc
+AnnotationEnabled=0
+AnnotateStartValue=51000
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=7
+DoLibraryUpdate=0
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UJFUBCFS
+
+[Document8]
 DocumentPath=TK530_Kraftbakplan\TK530_Kraftbakplan.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=53000
@@ -162,7 +179,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BNSPLGEX
 
-[Document8]
+[Document9]
 DocumentPath=TK531_Utgangstrinn\TK531_Utgangstrinn.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=53100
@@ -179,7 +196,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PTYLVMDA
 
-[Document9]
+[Document10]
 DocumentPath=TK532_Utgangskondensator.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=53200
@@ -196,7 +213,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EFPDASLO
 
-[Document10]
+[Document11]
 DocumentPath=TK519_Spenningsvakt\TK519_Spenningsvakt.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=51900
@@ -213,7 +230,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WUUDATQX
 
-[Document11]
+[Document12]
 DocumentPath=TK511_Blindkort\TK511_Blindkort.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=51100
@@ -230,7 +247,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HAYSRGUV
 
-[Document12]
+[Document13]
 DocumentPath=TK518_P18V-PSU\TK518_P18V-PSU.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=51800
@@ -247,7 +264,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MLRRJIFS
 
-[Document13]
+[Document14]
 DocumentPath=TK517_P5V0-PSU\TK517_P5V0-PSU.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=51700
@@ -263,23 +280,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OKBPIEXM
-
-[Document14]
-DocumentPath=TK540_Frontpanel.SchDoc
-AnnotationEnabled=0
-AnnotateStartValue=54000
-AnnotationIndexControlEnabled=1
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=19
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=ECVOTMTM
 
 [Document15]
 DocumentPath=TK516_EKSTRA-PSU.SchDoc
@@ -299,21 +299,21 @@ GenerateClassCluster=0
 DocumentUniqueId=OJRHTVGC
 
 [Document16]
-DocumentPath=TK510_Signalbakplan\TK510_Signalbakplan.SchDoc
-AnnotationEnabled=0
-AnnotateStartValue=51000
-AnnotationIndexControlEnabled=1
+DocumentPath=TK540_Frontpanel.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=7
-DoLibraryUpdate=0
+AnnotateOrder=-1
+DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=UJFUBCFS
+DocumentUniqueId=XASGDMAC
 
 [Document17]
 DocumentPath=TK525_Hovedstrom.SchDoc
@@ -350,6 +350,40 @@ GenerateClassCluster=0
 DocumentUniqueId=EUKYXSYX
 
 [Document19]
+DocumentPath=TK510_Signalbakplan\TK510_Spenningsforsyninger.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ECIFQFPV
+
+[Document20]
+DocumentPath=TK502_Frontpanel_LEDs\TK502_Frontpanel_LEDs.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XGHXJSEE
+
+[Document21]
 DocumentPath=TK510_Signalbakplan\TK510_Mekanisk.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=51000
@@ -366,7 +400,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XSIQVKDB
 
-[Document20]
+[Document22]
 DocumentPath=Schlib1.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -383,7 +417,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CWUAGGIN
 
-[Document21]
+[Document23]
 DocumentPath=PcbLib1.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -400,7 +434,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DJARYCUC
 
-[Document22]
+[Document24]
 DocumentPath=TeslaPSU2\DF01S.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -417,7 +451,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VXOSFYDU
 
-[Document23]
+[Document25]
 DocumentPath=TK500.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -434,7 +468,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document24]
+[Document26]
 DocumentPath=TK525_Kraftforsyning.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -450,23 +484,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
-
-[Document25]
-DocumentPath=TK510_Signalbakplan\TK510_Spenningsforsyninger.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=ECIFQFPV
 
 [GeneratedDocument1]
 DocumentPath=ProjectOutputs\BOM\Bill of Materials-TK500_Driver.txt

@@ -89,23 +89,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document4]
-DocumentPath=F:\OVLib\Altium\PcbLib\SMD\Chip\SODFL535X245-2N.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=AUKHEQUQ
-
 [GeneratedDocument1]
 DocumentPath=Project Outputs for TK530_Kraftbakplan\Design Rule Check - TK530_Kraftbakplan.html
 DItemRevisionGUID=

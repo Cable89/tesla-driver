@@ -1,0 +1,18 @@
+Optisk Mottaker
+	-tar inn optisk signal, sender ut Trigger og Carrier detect
+
+Tilkobling:
+	Inngang:
+		-J51203 og U51201G 5V inn (JST 2pin)
+		-U51200 Optical Reciever
+	Utgang:
+		-J51200 og J51201 for trigger(JST 2pin)
+		-J51202 for Carrier Detect(JST 2pin)
+			*Aktiverer også LED D51201 som vister carrier detect. (Rød)
+
+Virkemåte:
+	Skiller Triggersignal og carrier-signal, videresender (med kort pause på carrier).
+
+Todo:
+	-Replace U51201A og U51201B med op amp(?)
+

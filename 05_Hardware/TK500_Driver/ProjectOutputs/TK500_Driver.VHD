@@ -1,9 +1,9 @@
 ------------------------------------------------------------
 -- VHDL TK500_Driver
--- 2016 2 11 17 57 59
+-- 2016 4 26 17 34 8
 -- Created By "DXP VHDL Generator"
 -- "Copyright (c) 2002-2014 Altium Limited"
--- Product Version: 16.0.6.282
+-- Product Version: 16.0.5.271
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -184,10 +184,14 @@ Architecture Structure Of TK500_Driver Is
    Component TK520_GDTMINUSTrafo                             -- ObjectKind=Sheet Symbol|PrimaryId=TK520
       port
       (
-        GATE_DRIVE_1 : inout STD_LOGIC;                      -- ObjectKind=Sheet Entry|PrimaryId=TK520_GDT-Trafo.SchDoc-GATE DRIVE 1
-        GATE_DRIVE_2 : inout STD_LOGIC;                      -- ObjectKind=Sheet Entry|PrimaryId=TK520_GDT-Trafo.SchDoc-GATE DRIVE 2
-        GATE_DRIVE_A : in    STD_LOGIC;                      -- ObjectKind=Sheet Entry|PrimaryId=TK520_GDT-Trafo.SchDoc-GATE DRIVE A
-        GATE_DRIVE_B : in    STD_LOGIC                       -- ObjectKind=Sheet Entry|PrimaryId=TK520_GDT-Trafo.SchDoc-GATE DRIVE B
+        GATE_DRIVE_1_A1 : inout STD_LOGIC;                   -- ObjectKind=Sheet Entry|PrimaryId=TK520_GDT-Trafo.SchDoc-GATE DRIVE 1.A1
+        GATE_DRIVE_1_B1 : inout STD_LOGIC;                   -- ObjectKind=Sheet Entry|PrimaryId=TK520_GDT-Trafo.SchDoc-GATE DRIVE 1.B1
+        GATE_DRIVE_1_B2 : inout STD_LOGIC;                   -- ObjectKind=Sheet Entry|PrimaryId=TK520_GDT-Trafo.SchDoc-GATE DRIVE 1.B2
+        GATE_DRIVE_2_A1 : inout STD_LOGIC;                   -- ObjectKind=Sheet Entry|PrimaryId=TK520_GDT-Trafo.SchDoc-GATE DRIVE 2.A1
+        GATE_DRIVE_2_B1 : inout STD_LOGIC;                   -- ObjectKind=Sheet Entry|PrimaryId=TK520_GDT-Trafo.SchDoc-GATE DRIVE 2.B1
+        GATE_DRIVE_2_B2 : inout STD_LOGIC;                   -- ObjectKind=Sheet Entry|PrimaryId=TK520_GDT-Trafo.SchDoc-GATE DRIVE 2.B2
+        GATE_DRIVE_A    : in    STD_LOGIC;                   -- ObjectKind=Sheet Entry|PrimaryId=TK520_GDT-Trafo.SchDoc-GATE DRIVE A
+        GATE_DRIVE_B    : in    STD_LOGIC                    -- ObjectKind=Sheet Entry|PrimaryId=TK520_GDT-Trafo.SchDoc-GATE DRIVE B
       );
    End Component;
 
@@ -210,22 +214,26 @@ Architecture Structure Of TK500_Driver Is
    Component TK530_Kraftbakplan                              -- ObjectKind=Sheet Symbol|PrimaryId=TK530
       port
       (
-        CIN              : in    STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-CIN
-        COUT             : out   STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-COUT
-        GATE_DRIVE_1_IN  : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-GATE DRIVE 1_IN
-        GATE_DRIVE_1_OUT : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-GATE DRIVE 1_OUT
-        GATE_DRIVE_2_IN  : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-GATE DRIVE 2_IN
-        GATE_DRIVE_2_OUT : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-GATE DRIVE 2_OUT
-        GND_HV           : in    STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-GND_HV
-        IN_A             : in    STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-IN_A
-        IN_B             : in    STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-IN_B
-        KI_UTGANG1       : in    STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-KI_UTGANG1
-        KI_UTGANG2       : in    STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-KI_UTGANG2
-        KI_UTKONDENSATOR : in    STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-KI_UTKONDENSATOR
-        LEDS             : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-LEDS
-        OUT_A            : out   STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-OUT_A
-        OUT_B            : out   STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-OUT_B
-        P160V            : in    STD_LOGIC                   -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-P160V
+        CIN                : in    STD_LOGIC;                -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-CIN
+        COUT               : out   STD_LOGIC;                -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-COUT
+        GATE_DRIVE_1_IN_A1 : inout STD_LOGIC;                -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-GATE DRIVE 1_IN.A1
+        GATE_DRIVE_1_IN_B1 : inout STD_LOGIC;                -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-GATE DRIVE 1_IN.B1
+        GATE_DRIVE_1_IN_B2 : inout STD_LOGIC;                -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-GATE DRIVE 1_IN.B2
+        GATE_DRIVE_1_OUT   : inout STD_LOGIC;                -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-GATE DRIVE 1_OUT
+        GATE_DRIVE_2_IN_A1 : inout STD_LOGIC;                -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-GATE DRIVE 2_IN.A1
+        GATE_DRIVE_2_IN_B1 : inout STD_LOGIC;                -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-GATE DRIVE 2_IN.B1
+        GATE_DRIVE_2_IN_B2 : inout STD_LOGIC;                -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-GATE DRIVE 2_IN.B2
+        GATE_DRIVE_2_OUT   : inout STD_LOGIC;                -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-GATE DRIVE 2_OUT
+        GND_HV             : in    STD_LOGIC;                -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-GND_HV
+        IN_A               : in    STD_LOGIC;                -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-IN_A
+        IN_B               : in    STD_LOGIC;                -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-IN_B
+        KI_UTGANG1         : in    STD_LOGIC;                -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-KI_UTGANG1
+        KI_UTGANG2         : in    STD_LOGIC;                -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-KI_UTGANG2
+        KI_UTKONDENSATOR   : in    STD_LOGIC;                -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-KI_UTKONDENSATOR
+        LEDS               : inout STD_LOGIC;                -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-LEDS
+        OUT_A              : out   STD_LOGIC;                -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-OUT_A
+        OUT_B              : out   STD_LOGIC;                -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-OUT_B
+        P160V              : in    STD_LOGIC                 -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-P160V
       );
    End Component;
 
@@ -257,81 +265,85 @@ Architecture Structure Of TK500_Driver Is
    End Component;
 
 
-    Signal PinSignal_TK510_FRONT_IO       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=FRONT_IO
-    Signal PinSignal_TK510_FRONT_LEDS     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=FRONT_LEDS
-    Signal PinSignal_TK510_GATE_DRIVE_A   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GATE DRIVE A
-    Signal PinSignal_TK510_GATE_DRIVE_B   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GATE DRIVE B
-    Signal PinSignal_TK511_2_AUX1         : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AUX1_SLOT5
-    Signal PinSignal_TK511_2_AUX2         : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AUX2_SLOT5
-    Signal PinSignal_TK511_2_BUS          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=BUS_SLOT5
-    Signal PinSignal_TK511_2_FRONT_IO     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=FRONT_IO_SLOT5
-    Signal PinSignal_TK511_2_FRONT_LEDS   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=FRONT_LEDS_SLOT5
-    Signal PinSignal_TK511_2_KORT_INNSATT : STD_LOGIC; -- ObjectKind=Net|PrimaryId=KI_SLOT5
-    Signal PinSignal_TK511_AUX1           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AUX1_SLOT4
-    Signal PinSignal_TK511_AUX2           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AUX2_SLOT4
-    Signal PinSignal_TK511_BUS            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=BUS_SLOT4
-    Signal PinSignal_TK511_FRONT_IO       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=FRONT_IO_SLOT4
-    Signal PinSignal_TK511_FRONT_LEDS     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=FRONT_LEDS_SLOT4
-    Signal PinSignal_TK511_KORT_INNSATT   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=KI_SLOT4
-    Signal PinSignal_TK512_AUX1           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AUX1_SLOT1
-    Signal PinSignal_TK512_AUX2           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AUX2_SLOT1
-    Signal PinSignal_TK512_BUS            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=BUS_SLOT1
-    Signal PinSignal_TK512_FRONT_IO       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=FRONT_IO_SLOT1
-    Signal PinSignal_TK512_FRONT_LEDS     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=FRONT_LEDS_SLOT1
-    Signal PinSignal_TK512_KORT_INNSATT   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=KI_SLOT1
-    Signal PinSignal_TK513_AUX1           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AUX1_SLOT2
-    Signal PinSignal_TK513_AUX2           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AUX2_SLOT2
-    Signal PinSignal_TK513_BUS            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=BUS_SLOT2
-    Signal PinSignal_TK513_FRONT_IO       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=FRONT_IO_SLOT2
-    Signal PinSignal_TK513_FRONT_LEDS     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=FRONT_LEDS_SLOT2
-    Signal PinSignal_TK513_KORT_INNSATT   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=KI_SLOT2
-    Signal PinSignal_TK514_AUX1           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AUX1_SLOT3
-    Signal PinSignal_TK514_AUX2           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AUX2_SLOT3
-    Signal PinSignal_TK514_BUS            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=BUS_SLOT3
-    Signal PinSignal_TK514_FRONT_IO       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=FRONT_IO_SLOT3
-    Signal PinSignal_TK514_FRONT_LEDS     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=FRONT_LEDS_SLOT3
-    Signal PinSignal_TK514_KORT_INNSATT   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=KI_SLOT3
-    Signal PinSignal_TK516_AC_L1          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S6.L1
-    Signal PinSignal_TK516_AC_L2          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S6.L2
-    Signal PinSignal_TK516_BUS            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=BUS_SLOT6
-    Signal PinSignal_TK516_EKSTRA         : STD_LOGIC; -- ObjectKind=Net|PrimaryId=EKSTRA
-    Signal PinSignal_TK516_KORT_INNSATT   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=KI_SLOT6
-    Signal PinSignal_TK517_AC_L1          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S7.L1
-    Signal PinSignal_TK517_AC_L2          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S7.L2
-    Signal PinSignal_TK517_BUS            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=BUS_SLOT7
-    Signal PinSignal_TK517_KORT_INNSATT   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=KI_SLOT7
-    Signal PinSignal_TK517_P5V0           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=P5V0
-    Signal PinSignal_TK518_AC_L1          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S8.L1
-    Signal PinSignal_TK518_AC_L2          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S8.L2
-    Signal PinSignal_TK518_BUS            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=BUS_SLOT8
-    Signal PinSignal_TK518_KORT_INNSATT   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=KI_SLOT8
-    Signal PinSignal_TK518_P18V           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=P18V
-    Signal PinSignal_TK519_AUX1           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AUX1_SLOT0
-    Signal PinSignal_TK519_AUX2           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AUX2_SLOT0
-    Signal PinSignal_TK519_BUS            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=BUS_SLOT0
-    Signal PinSignal_TK519_FRONT_IO       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=FRONT_IO_SLOT0
-    Signal PinSignal_TK519_FRONT_LEDS     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=FRONT_LEDS_SLOT0
-    Signal PinSignal_TK519_KORT_INNSATT   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=KI_SLOT0
-    Signal PinSignal_TK520_GATE_DRIVE_1   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GATE DRIVE 1
-    Signal PinSignal_TK520_GATE_DRIVE_2   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GATE DRIVE 2
-    Signal PinSignal_TK525_AC_S6_L1       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S6_IN.L1
-    Signal PinSignal_TK525_AC_S6_L2       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S6_IN.L2
-    Signal PinSignal_TK525_AC_S7_L1       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S7_IN.L1
-    Signal PinSignal_TK525_AC_S7_L2       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S7_IN.L2
-    Signal PinSignal_TK525_AC_S8_L1       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S8_IN.L1
-    Signal PinSignal_TK525_AC_S8_L2       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S8_IN.L2
-    Signal PinSignal_TK525_GND_HV         : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GND_HV
-    Signal PinSignal_TK525_P160V          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=P160V
-    Signal PinSignal_TK530_COUT           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=COUT
-    Signal PinSignal_TK531_1_GATE_DRIVE   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GATE DRIVE 1_OUT
-    Signal PinSignal_TK531_1_KORT_INNSATT : STD_LOGIC; -- ObjectKind=Net|PrimaryId=KI_UTGANG1
-    Signal PinSignal_TK531_1_OUT          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=IN_A
-    Signal PinSignal_TK531_2_GATE_DRIVE   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GATE DRIVE 2_OUT
-    Signal PinSignal_TK531_2_KORT_INNSATT : STD_LOGIC; -- ObjectKind=Net|PrimaryId=KI_UTGANG2
-    Signal PinSignal_TK531_2_OUT          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=IN_B
-    Signal PinSignal_TK532_KORT_INNSATT   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=KI_UTKONDENSATOR
-    Signal PinSignal_TK532_OUT            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=CIN
-    Signal PinSignal_TK540_KRAFT_LEDS     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=LEDS
+    Signal PinSignal_TK510_FRONT_IO        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=FRONT_IO
+    Signal PinSignal_TK510_FRONT_LEDS      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=FRONT_LEDS
+    Signal PinSignal_TK510_GATE_DRIVE_A    : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GATE DRIVE A
+    Signal PinSignal_TK510_GATE_DRIVE_B    : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GATE DRIVE B
+    Signal PinSignal_TK511_2_AUX1          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AUX1_SLOT5
+    Signal PinSignal_TK511_2_AUX2          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AUX2_SLOT5
+    Signal PinSignal_TK511_2_BUS           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=BUS_SLOT5
+    Signal PinSignal_TK511_2_FRONT_IO      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=FRONT_IO_SLOT5
+    Signal PinSignal_TK511_2_FRONT_LEDS    : STD_LOGIC; -- ObjectKind=Net|PrimaryId=FRONT_LEDS_SLOT5
+    Signal PinSignal_TK511_2_KORT_INNSATT  : STD_LOGIC; -- ObjectKind=Net|PrimaryId=KI_SLOT5
+    Signal PinSignal_TK511_AUX1            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AUX1_SLOT4
+    Signal PinSignal_TK511_AUX2            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AUX2_SLOT4
+    Signal PinSignal_TK511_BUS             : STD_LOGIC; -- ObjectKind=Net|PrimaryId=BUS_SLOT4
+    Signal PinSignal_TK511_FRONT_IO        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=FRONT_IO_SLOT4
+    Signal PinSignal_TK511_FRONT_LEDS      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=FRONT_LEDS_SLOT4
+    Signal PinSignal_TK511_KORT_INNSATT    : STD_LOGIC; -- ObjectKind=Net|PrimaryId=KI_SLOT4
+    Signal PinSignal_TK512_AUX1            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AUX1_SLOT1
+    Signal PinSignal_TK512_AUX2            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AUX2_SLOT1
+    Signal PinSignal_TK512_BUS             : STD_LOGIC; -- ObjectKind=Net|PrimaryId=BUS_SLOT1
+    Signal PinSignal_TK512_FRONT_IO        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=FRONT_IO_SLOT1
+    Signal PinSignal_TK512_FRONT_LEDS      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=FRONT_LEDS_SLOT1
+    Signal PinSignal_TK512_KORT_INNSATT    : STD_LOGIC; -- ObjectKind=Net|PrimaryId=KI_SLOT1
+    Signal PinSignal_TK513_AUX1            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AUX1_SLOT2
+    Signal PinSignal_TK513_AUX2            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AUX2_SLOT2
+    Signal PinSignal_TK513_BUS             : STD_LOGIC; -- ObjectKind=Net|PrimaryId=BUS_SLOT2
+    Signal PinSignal_TK513_FRONT_IO        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=FRONT_IO_SLOT2
+    Signal PinSignal_TK513_FRONT_LEDS      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=FRONT_LEDS_SLOT2
+    Signal PinSignal_TK513_KORT_INNSATT    : STD_LOGIC; -- ObjectKind=Net|PrimaryId=KI_SLOT2
+    Signal PinSignal_TK514_AUX1            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AUX1_SLOT3
+    Signal PinSignal_TK514_AUX2            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AUX2_SLOT3
+    Signal PinSignal_TK514_BUS             : STD_LOGIC; -- ObjectKind=Net|PrimaryId=BUS_SLOT3
+    Signal PinSignal_TK514_FRONT_IO        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=FRONT_IO_SLOT3
+    Signal PinSignal_TK514_FRONT_LEDS      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=FRONT_LEDS_SLOT3
+    Signal PinSignal_TK514_KORT_INNSATT    : STD_LOGIC; -- ObjectKind=Net|PrimaryId=KI_SLOT3
+    Signal PinSignal_TK516_AC_L1           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S6.L1
+    Signal PinSignal_TK516_AC_L2           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S6.L2
+    Signal PinSignal_TK516_BUS             : STD_LOGIC; -- ObjectKind=Net|PrimaryId=BUS_SLOT6
+    Signal PinSignal_TK516_EKSTRA          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=EKSTRA
+    Signal PinSignal_TK516_KORT_INNSATT    : STD_LOGIC; -- ObjectKind=Net|PrimaryId=KI_SLOT6
+    Signal PinSignal_TK517_AC_L1           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S7.L1
+    Signal PinSignal_TK517_AC_L2           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S7.L2
+    Signal PinSignal_TK517_BUS             : STD_LOGIC; -- ObjectKind=Net|PrimaryId=BUS_SLOT7
+    Signal PinSignal_TK517_KORT_INNSATT    : STD_LOGIC; -- ObjectKind=Net|PrimaryId=KI_SLOT7
+    Signal PinSignal_TK517_P5V0            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=P5V0
+    Signal PinSignal_TK518_AC_L1           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S8.L1
+    Signal PinSignal_TK518_AC_L2           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S8.L2
+    Signal PinSignal_TK518_BUS             : STD_LOGIC; -- ObjectKind=Net|PrimaryId=BUS_SLOT8
+    Signal PinSignal_TK518_KORT_INNSATT    : STD_LOGIC; -- ObjectKind=Net|PrimaryId=KI_SLOT8
+    Signal PinSignal_TK518_P18V            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=P18V
+    Signal PinSignal_TK519_AUX1            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AUX1_SLOT0
+    Signal PinSignal_TK519_AUX2            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AUX2_SLOT0
+    Signal PinSignal_TK519_BUS             : STD_LOGIC; -- ObjectKind=Net|PrimaryId=BUS_SLOT0
+    Signal PinSignal_TK519_FRONT_IO        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=FRONT_IO_SLOT0
+    Signal PinSignal_TK519_FRONT_LEDS      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=FRONT_LEDS_SLOT0
+    Signal PinSignal_TK519_KORT_INNSATT    : STD_LOGIC; -- ObjectKind=Net|PrimaryId=KI_SLOT0
+    Signal PinSignal_TK520_GATE_DRIVE_1_A1 : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GATE DRIVE 1.A1
+    Signal PinSignal_TK520_GATE_DRIVE_1_B1 : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GATE DRIVE 1.B1
+    Signal PinSignal_TK520_GATE_DRIVE_1_B2 : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GATE DRIVE 1.B2
+    Signal PinSignal_TK520_GATE_DRIVE_2_A1 : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GATE DRIVE 2.A1
+    Signal PinSignal_TK520_GATE_DRIVE_2_B1 : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GATE DRIVE 2.B1
+    Signal PinSignal_TK520_GATE_DRIVE_2_B2 : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GATE DRIVE 2.B2
+    Signal PinSignal_TK525_AC_S6_L1        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S6_IN.L1
+    Signal PinSignal_TK525_AC_S6_L2        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S6_IN.L2
+    Signal PinSignal_TK525_AC_S7_L1        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S7_IN.L1
+    Signal PinSignal_TK525_AC_S7_L2        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S7_IN.L2
+    Signal PinSignal_TK525_AC_S8_L1        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S8_IN.L1
+    Signal PinSignal_TK525_AC_S8_L2        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AC_S8_IN.L2
+    Signal PinSignal_TK525_GND_HV          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GND_HV
+    Signal PinSignal_TK525_P160V           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=P160V
+    Signal PinSignal_TK530_COUT            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=COUT
+    Signal PinSignal_TK531_1_GATE_DRIVE    : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GATE DRIVE 1_OUT
+    Signal PinSignal_TK531_1_KORT_INNSATT  : STD_LOGIC; -- ObjectKind=Net|PrimaryId=KI_UTGANG1
+    Signal PinSignal_TK531_1_OUT           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=IN_A
+    Signal PinSignal_TK531_2_GATE_DRIVE    : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GATE DRIVE 2_OUT
+    Signal PinSignal_TK531_2_KORT_INNSATT  : STD_LOGIC; -- ObjectKind=Net|PrimaryId=KI_UTGANG2
+    Signal PinSignal_TK531_2_OUT           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=IN_B
+    Signal PinSignal_TK532_KORT_INNSATT    : STD_LOGIC; -- ObjectKind=Net|PrimaryId=KI_UTKONDENSATOR
+    Signal PinSignal_TK532_OUT             : STD_LOGIC; -- ObjectKind=Net|PrimaryId=CIN
+    Signal PinSignal_TK540_KRAFT_LEDS      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=LEDS
 
 Begin
     TK540 : TK540_Frontpanel                                 -- ObjectKind=Sheet Symbol|PrimaryId=TK540
@@ -369,20 +381,24 @@ Begin
     TK530 : TK530_Kraftbakplan                               -- ObjectKind=Sheet Symbol|PrimaryId=TK530
       Port Map
       (
-        CIN              => PinSignal_TK532_OUT,             -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-CIN
-        COUT             => PinSignal_TK530_COUT,            -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-COUT
-        GATE_DRIVE_1_IN  => PinSignal_TK520_GATE_DRIVE_1,    -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-GATE DRIVE 1_IN
-        GATE_DRIVE_1_OUT => PinSignal_TK531_1_GATE_DRIVE,    -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-GATE DRIVE 1_OUT
-        GATE_DRIVE_2_IN  => PinSignal_TK520_GATE_DRIVE_2,    -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-GATE DRIVE 2_IN
-        GATE_DRIVE_2_OUT => PinSignal_TK531_2_GATE_DRIVE,    -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-GATE DRIVE 2_OUT
-        GND_HV           => PinSignal_TK525_GND_HV,          -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-GND_HV
-        IN_A             => PinSignal_TK531_1_OUT,           -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-IN_A
-        IN_B             => PinSignal_TK531_2_OUT,           -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-IN_B
-        KI_UTGANG1       => PinSignal_TK531_1_KORT_INNSATT,  -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-KI_UTGANG1
-        KI_UTGANG2       => PinSignal_TK531_2_KORT_INNSATT,  -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-KI_UTGANG2
-        KI_UTKONDENSATOR => PinSignal_TK532_KORT_INNSATT,    -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-KI_UTKONDENSATOR
-        LEDS             => PinSignal_TK540_KRAFT_LEDS,      -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-LEDS
-        P160V            => PinSignal_TK525_P160V            -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-P160V
+        CIN                => PinSignal_TK532_OUT,           -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-CIN
+        COUT               => PinSignal_TK530_COUT,          -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-COUT
+        GATE_DRIVE_1_IN_A1 => PinSignal_TK520_GATE_DRIVE_1_A1, -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-GATE DRIVE 1_IN.A1
+        GATE_DRIVE_1_IN_B1 => PinSignal_TK520_GATE_DRIVE_1_B1, -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-GATE DRIVE 1_IN.B1
+        GATE_DRIVE_1_IN_B2 => PinSignal_TK520_GATE_DRIVE_1_B2, -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-GATE DRIVE 1_IN.B2
+        GATE_DRIVE_1_OUT   => PinSignal_TK531_1_GATE_DRIVE,  -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-GATE DRIVE 1_OUT
+        GATE_DRIVE_2_IN_A1 => PinSignal_TK520_GATE_DRIVE_2_A1, -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-GATE DRIVE 2_IN.A1
+        GATE_DRIVE_2_IN_B1 => PinSignal_TK520_GATE_DRIVE_2_B1, -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-GATE DRIVE 2_IN.B1
+        GATE_DRIVE_2_IN_B2 => PinSignal_TK520_GATE_DRIVE_2_B2, -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-GATE DRIVE 2_IN.B2
+        GATE_DRIVE_2_OUT   => PinSignal_TK531_2_GATE_DRIVE,  -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-GATE DRIVE 2_OUT
+        GND_HV             => PinSignal_TK525_GND_HV,        -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-GND_HV
+        IN_A               => PinSignal_TK531_1_OUT,         -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-IN_A
+        IN_B               => PinSignal_TK531_2_OUT,         -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-IN_B
+        KI_UTGANG1         => PinSignal_TK531_1_KORT_INNSATT, -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-KI_UTGANG1
+        KI_UTGANG2         => PinSignal_TK531_2_KORT_INNSATT, -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-KI_UTGANG2
+        KI_UTKONDENSATOR   => PinSignal_TK532_KORT_INNSATT,  -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-KI_UTKONDENSATOR
+        LEDS               => PinSignal_TK540_KRAFT_LEDS,    -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-LEDS
+        P160V              => PinSignal_TK525_P160V          -- ObjectKind=Sheet Entry|PrimaryId=TK530_Kraftbakplan.SchDoc-P160V
       );
 
     TK525 : TK525_Kraftforsyning                             -- ObjectKind=Sheet Symbol|PrimaryId=TK525
@@ -401,10 +417,14 @@ Begin
     TK520 : TK520_GDTMINUSTrafo                              -- ObjectKind=Sheet Symbol|PrimaryId=TK520
       Port Map
       (
-        GATE_DRIVE_1 => PinSignal_TK520_GATE_DRIVE_1,        -- ObjectKind=Sheet Entry|PrimaryId=TK520_GDT-Trafo.SchDoc-GATE DRIVE 1
-        GATE_DRIVE_2 => PinSignal_TK520_GATE_DRIVE_2,        -- ObjectKind=Sheet Entry|PrimaryId=TK520_GDT-Trafo.SchDoc-GATE DRIVE 2
-        GATE_DRIVE_A => PinSignal_TK510_GATE_DRIVE_A,        -- ObjectKind=Sheet Entry|PrimaryId=TK520_GDT-Trafo.SchDoc-GATE DRIVE A
-        GATE_DRIVE_B => PinSignal_TK510_GATE_DRIVE_B         -- ObjectKind=Sheet Entry|PrimaryId=TK520_GDT-Trafo.SchDoc-GATE DRIVE B
+        GATE_DRIVE_1_A1 => PinSignal_TK520_GATE_DRIVE_1_A1,  -- ObjectKind=Sheet Entry|PrimaryId=TK520_GDT-Trafo.SchDoc-GATE DRIVE 1.A1
+        GATE_DRIVE_1_B1 => PinSignal_TK520_GATE_DRIVE_1_B1,  -- ObjectKind=Sheet Entry|PrimaryId=TK520_GDT-Trafo.SchDoc-GATE DRIVE 1.B1
+        GATE_DRIVE_1_B2 => PinSignal_TK520_GATE_DRIVE_1_B2,  -- ObjectKind=Sheet Entry|PrimaryId=TK520_GDT-Trafo.SchDoc-GATE DRIVE 1.B2
+        GATE_DRIVE_2_A1 => PinSignal_TK520_GATE_DRIVE_2_A1,  -- ObjectKind=Sheet Entry|PrimaryId=TK520_GDT-Trafo.SchDoc-GATE DRIVE 2.A1
+        GATE_DRIVE_2_B1 => PinSignal_TK520_GATE_DRIVE_2_B1,  -- ObjectKind=Sheet Entry|PrimaryId=TK520_GDT-Trafo.SchDoc-GATE DRIVE 2.B1
+        GATE_DRIVE_2_B2 => PinSignal_TK520_GATE_DRIVE_2_B2,  -- ObjectKind=Sheet Entry|PrimaryId=TK520_GDT-Trafo.SchDoc-GATE DRIVE 2.B2
+        GATE_DRIVE_A    => PinSignal_TK510_GATE_DRIVE_A,     -- ObjectKind=Sheet Entry|PrimaryId=TK520_GDT-Trafo.SchDoc-GATE DRIVE A
+        GATE_DRIVE_B    => PinSignal_TK510_GATE_DRIVE_B      -- ObjectKind=Sheet Entry|PrimaryId=TK520_GDT-Trafo.SchDoc-GATE DRIVE B
       );
 
     TK519 : TK519_Spenningsvakt                              -- ObjectKind=Sheet Symbol|PrimaryId=TK519

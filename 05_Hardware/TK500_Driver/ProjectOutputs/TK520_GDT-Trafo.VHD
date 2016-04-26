@@ -1,9 +1,9 @@
 ------------------------------------------------------------
 -- VHDL TK520_GDTMINUSTrafo
--- 2016 2 11 17 57 57
+-- 2016 4 26 17 34 7
 -- Created By "DXP VHDL Generator"
 -- "Copyright (c) 2002-2014 Altium Limited"
--- Product Version: 16.0.6.282
+-- Product Version: 16.0.5.271
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -16,16 +16,14 @@ Use     IEEE.std_logic_1164.all;
 Entity TK520_GDTMINUSTrafo Is
   port
   (
-    GDT1_1  : Out   STD_LOGIC;                               -- ObjectKind=Port|PrimaryId=GDT1_1
-    GDT1_2  : Out   STD_LOGIC;                               -- ObjectKind=Port|PrimaryId=GDT1_2
-    GDT1_IN : In    STD_LOGIC;                               -- ObjectKind=Port|PrimaryId=GDT1_IN
-    GDT2_1  : Out   STD_LOGIC;                               -- ObjectKind=Port|PrimaryId=GDT2_1
-    GDT2_2  : Out   STD_LOGIC;                               -- ObjectKind=Port|PrimaryId=GDT2_2
-    GDT2_IN : In    STD_LOGIC;                               -- ObjectKind=Port|PrimaryId=GDT2_IN
-    GDT3_1  : Out   STD_LOGIC;                               -- ObjectKind=Port|PrimaryId=GDT3_1
-    GDT3_2  : Out   STD_LOGIC;                               -- ObjectKind=Port|PrimaryId=GDT3_2
-    GDT4_1  : Out   STD_LOGIC;                               -- ObjectKind=Port|PrimaryId=GDT4_1
-    GDT4_2  : Out   STD_LOGIC                                -- ObjectKind=Port|PrimaryId=GDT4_2
+    GATE_DRIVE_1_A1 : InOut STD_LOGIC;                       -- ObjectKind=Port|PrimaryId=GATE DRIVE 1.A1
+    GATE_DRIVE_1_B1 : InOut STD_LOGIC;                       -- ObjectKind=Port|PrimaryId=GATE DRIVE 1.B1
+    GATE_DRIVE_1_B2 : InOut STD_LOGIC;                       -- ObjectKind=Port|PrimaryId=GATE DRIVE 1.B2
+    GATE_DRIVE_2_A1 : InOut STD_LOGIC;                       -- ObjectKind=Port|PrimaryId=GATE DRIVE 2.A1
+    GATE_DRIVE_2_B1 : InOut STD_LOGIC;                       -- ObjectKind=Port|PrimaryId=GATE DRIVE 2.B1
+    GATE_DRIVE_2_B2 : InOut STD_LOGIC;                       -- ObjectKind=Port|PrimaryId=GATE DRIVE 2.B2
+    GATE_DRIVE_A    : In    STD_LOGIC;                       -- ObjectKind=Port|PrimaryId=GATE DRIVE A
+    GATE_DRIVE_B    : In    STD_LOGIC                        -- ObjectKind=Port|PrimaryId=GATE DRIVE B
   );
   attribute MacroCell : boolean;
 
@@ -65,14 +63,16 @@ Architecture Structure Of TK520_GDTMINUSTrafo Is
    End Component;
 
 
-    Signal PinSignal_J52000_1 : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ52000_1
-    Signal PinSignal_J52000_2 : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ52000_2
-    Signal PinSignal_J52000_3 : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ52000_3
-    Signal PinSignal_J52000_4 : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ52000_4
-    Signal PinSignal_J52002_1 : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ52002_1
-    Signal PinSignal_J52002_2 : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ52002_2
-    Signal PinSignal_J52002_3 : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ52002_3
-    Signal PinSignal_J52002_4 : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ52002_4
+    Signal NamedSignal_GDT_A_IN       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GDT_A_IN
+    Signal NamedSignal_GDT_A1_OUT     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GDT_A1_OUT
+    Signal NamedSignal_GDT_A2_OUT     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GDT_A2_OUT
+    Signal NamedSignal_GDT_A3_OUT     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GDT_A3_OUT
+    Signal NamedSignal_GDT_A4_OUT     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GDT_A4_OUT
+    Signal NamedSignal_GDT_B_IN       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GDT_B_IN
+    Signal NamedSignal_GDT_B1_OUT     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GDT_A2_OUT
+    Signal NamedSignal_GDT_B2_OUT     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GDT_B2_OUT
+    Signal NamedSignal_GDT_B3_OUT     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GDT_A4_OUT
+    Signal NamedSignal_GDT_B4_OUT     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GDT_B4_OUT
 
    attribute beskrivelse : string;
    attribute beskrivelse of T52001 : Label is "Dual Gate Drive Transformer";
@@ -126,68 +126,62 @@ Begin
     T52001 : SD250MINUS3                                     -- ObjectKind=Part|PrimaryId=T52001|SecondaryId=1
       Port Map
       (
-        X_1  => GDT2_IN,                                     -- ObjectKind=Pin|PrimaryId=T52001-1
-        X_5  => GDT1_IN,                                     -- ObjectKind=Pin|PrimaryId=T52001-5
-        X_6  => PinSignal_J52002_1,                          -- ObjectKind=Pin|PrimaryId=T52001-6
-        X_7  => PinSignal_J52002_2,                          -- ObjectKind=Pin|PrimaryId=T52001-7
-        X_9  => PinSignal_J52002_3,                          -- ObjectKind=Pin|PrimaryId=T52001-9
-        X_10 => PinSignal_J52002_4                           -- ObjectKind=Pin|PrimaryId=T52001-10
+        X_1  => NamedSignal_GDT_B_IN,                        -- ObjectKind=Pin|PrimaryId=T52001-1
+        X_5  => NamedSignal_GDT_A_IN,                        -- ObjectKind=Pin|PrimaryId=T52001-5
+        X_6  => NamedSignal_GDT_B3_OUT,                      -- ObjectKind=Pin|PrimaryId=T52001-6
+        X_7  => NamedSignal_GDT_A3_OUT,                      -- ObjectKind=Pin|PrimaryId=T52001-7
+        X_9  => NamedSignal_GDT_B4_OUT,                      -- ObjectKind=Pin|PrimaryId=T52001-9
+        X_10 => NamedSignal_GDT_A4_OUT                       -- ObjectKind=Pin|PrimaryId=T52001-10
       );
 
     T52000 : SD250MINUS3                                     -- ObjectKind=Part|PrimaryId=T52000|SecondaryId=1
       Port Map
       (
-        X_1  => GDT1_IN,                                     -- ObjectKind=Pin|PrimaryId=T52000-1
-        X_5  => GDT2_IN,                                     -- ObjectKind=Pin|PrimaryId=T52000-5
-        X_6  => PinSignal_J52000_1,                          -- ObjectKind=Pin|PrimaryId=T52000-6
-        X_7  => PinSignal_J52000_2,                          -- ObjectKind=Pin|PrimaryId=T52000-7
-        X_9  => PinSignal_J52000_3,                          -- ObjectKind=Pin|PrimaryId=T52000-9
-        X_10 => PinSignal_J52000_4                           -- ObjectKind=Pin|PrimaryId=T52000-10
+        X_1  => NamedSignal_GDT_A_IN,                        -- ObjectKind=Pin|PrimaryId=T52000-1
+        X_5  => NamedSignal_GDT_B_IN,                        -- ObjectKind=Pin|PrimaryId=T52000-5
+        X_6  => NamedSignal_GDT_B1_OUT,                      -- ObjectKind=Pin|PrimaryId=T52000-6
+        X_7  => NamedSignal_GDT_A1_OUT,                      -- ObjectKind=Pin|PrimaryId=T52000-7
+        X_9  => NamedSignal_GDT_B2_OUT,                      -- ObjectKind=Pin|PrimaryId=T52000-9
+        X_10 => NamedSignal_GDT_A2_OUT                       -- ObjectKind=Pin|PrimaryId=T52000-10
       );
 
     J52002 : JST_4pin                                        -- ObjectKind=Part|PrimaryId=J52002|SecondaryId=1
       Port Map
       (
-        X_1 => PinSignal_J52002_1,                           -- ObjectKind=Pin|PrimaryId=J52002-1
-        X_2 => PinSignal_J52002_2,                           -- ObjectKind=Pin|PrimaryId=J52002-2
-        X_3 => PinSignal_J52002_3,                           -- ObjectKind=Pin|PrimaryId=J52002-3
-        X_4 => PinSignal_J52002_4                            -- ObjectKind=Pin|PrimaryId=J52002-4
+        X_1 => NamedSignal_GDT_B3_OUT,                       -- ObjectKind=Pin|PrimaryId=J52002-1
+        X_2 => NamedSignal_GDT_A3_OUT,                       -- ObjectKind=Pin|PrimaryId=J52002-2
+        X_3 => NamedSignal_GDT_B4_OUT,                       -- ObjectKind=Pin|PrimaryId=J52002-3
+        X_4 => NamedSignal_GDT_A4_OUT                        -- ObjectKind=Pin|PrimaryId=J52002-4
       );
 
     J52001 : JST_2pin                                        -- ObjectKind=Part|PrimaryId=J52001|SecondaryId=1
       Port Map
       (
-        X_1 => GDT1_IN,                                      -- ObjectKind=Pin|PrimaryId=J52001-1
-        X_2 => GDT2_IN                                       -- ObjectKind=Pin|PrimaryId=J52001-2
+        X_1 => NamedSignal_GDT_A_IN,                         -- ObjectKind=Pin|PrimaryId=J52001-1
+        X_2 => NamedSignal_GDT_B_IN                          -- ObjectKind=Pin|PrimaryId=J52001-2
       );
 
     J52000 : JST_4pin                                        -- ObjectKind=Part|PrimaryId=J52000|SecondaryId=1
       Port Map
       (
-        X_1 => PinSignal_J52000_1,                           -- ObjectKind=Pin|PrimaryId=J52000-1
-        X_2 => PinSignal_J52000_2,                           -- ObjectKind=Pin|PrimaryId=J52000-2
-        X_3 => PinSignal_J52000_3,                           -- ObjectKind=Pin|PrimaryId=J52000-3
-        X_4 => PinSignal_J52000_4                            -- ObjectKind=Pin|PrimaryId=J52000-4
+        X_1 => NamedSignal_GDT_B1_OUT,                       -- ObjectKind=Pin|PrimaryId=J52000-1
+        X_2 => NamedSignal_GDT_A1_OUT,                       -- ObjectKind=Pin|PrimaryId=J52000-2
+        X_3 => NamedSignal_GDT_B2_OUT,                       -- ObjectKind=Pin|PrimaryId=J52000-3
+        X_4 => NamedSignal_GDT_A2_OUT                        -- ObjectKind=Pin|PrimaryId=J52000-4
       );
 
     -- Signal Assignments
     ---------------------
-    GDT1_1             <= PinSignal_J52000_1; -- ObjectKind=Net|PrimaryId=NetJ52000_1
-    GDT1_2             <= PinSignal_J52002_1; -- ObjectKind=Net|PrimaryId=NetJ52002_1
-    GDT2_1             <= PinSignal_J52000_2; -- ObjectKind=Net|PrimaryId=NetJ52000_2
-    GDT2_2             <= PinSignal_J52002_2; -- ObjectKind=Net|PrimaryId=NetJ52002_2
-    GDT3_1             <= PinSignal_J52000_3; -- ObjectKind=Net|PrimaryId=NetJ52000_3
-    GDT3_2             <= PinSignal_J52002_3; -- ObjectKind=Net|PrimaryId=NetJ52002_3
-    GDT4_1             <= PinSignal_J52000_4; -- ObjectKind=Net|PrimaryId=NetJ52000_4
-    GDT4_2             <= PinSignal_J52002_4; -- ObjectKind=Net|PrimaryId=NetJ52002_4
-    PinSignal_J52000_1 <= GDT1_1; -- ObjectKind=Net|PrimaryId=NetJ52000_1
-    PinSignal_J52000_2 <= GDT2_1; -- ObjectKind=Net|PrimaryId=NetJ52000_2
-    PinSignal_J52000_3 <= GDT3_1; -- ObjectKind=Net|PrimaryId=NetJ52000_3
-    PinSignal_J52000_4 <= GDT4_1; -- ObjectKind=Net|PrimaryId=NetJ52000_4
-    PinSignal_J52002_1 <= GDT1_2; -- ObjectKind=Net|PrimaryId=NetJ52002_1
-    PinSignal_J52002_2 <= GDT2_2; -- ObjectKind=Net|PrimaryId=NetJ52002_2
-    PinSignal_J52002_3 <= GDT3_2; -- ObjectKind=Net|PrimaryId=NetJ52002_3
-    PinSignal_J52002_4 <= GDT4_2; -- ObjectKind=Net|PrimaryId=NetJ52002_4
+    GATE_DRIVE_1_A1      <= NamedSignal_GDT_A1_OUT; -- ObjectKind=Net|PrimaryId=GDT_A1_OUT
+    GATE_DRIVE_1_B1      <= NamedSignal_GDT_A2_OUT; -- ObjectKind=Net|PrimaryId=GDT_A2_OUT
+    GATE_DRIVE_1_B1      <= NamedSignal_GDT_B1_OUT; -- ObjectKind=Net|PrimaryId=GDT_A2_OUT
+    GATE_DRIVE_1_B2      <= NamedSignal_GDT_B2_OUT; -- ObjectKind=Net|PrimaryId=GDT_B2_OUT
+    GATE_DRIVE_2_A1      <= NamedSignal_GDT_A3_OUT; -- ObjectKind=Net|PrimaryId=GDT_A3_OUT
+    GATE_DRIVE_2_B1      <= NamedSignal_GDT_A4_OUT; -- ObjectKind=Net|PrimaryId=GDT_A4_OUT
+    GATE_DRIVE_2_B1      <= NamedSignal_GDT_B3_OUT; -- ObjectKind=Net|PrimaryId=GDT_A4_OUT
+    GATE_DRIVE_2_B2      <= NamedSignal_GDT_B4_OUT; -- ObjectKind=Net|PrimaryId=GDT_B4_OUT
+    NamedSignal_GDT_A_IN <= GATE_DRIVE_A; -- ObjectKind=Net|PrimaryId=GDT_A_IN
+    NamedSignal_GDT_B_IN <= GATE_DRIVE_B; -- ObjectKind=Net|PrimaryId=GDT_B_IN
 
 End Structure;
 ------------------------------------------------------------

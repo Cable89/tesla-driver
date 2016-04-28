@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=TK511.OutJob
+Name=
 Description=
 TargetOutputMedium=Generate manufacturing data
 VariantName=[No Variations]

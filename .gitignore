@@ -1,8 +1,24 @@
+# Files
 *.PrjPCBStructure
 *.PrjPcbStructure
+*.PrjCorStructure
 *.SchDocPreview
 *.PcbDocPreview
 *.PcbDoc.htm
+
+# Folders
 __Previews/
 History/
 Project Logs for*/
+
+# Generated output
+!Project Outputs/*.PDF
+!Project Outputs/*.pdf
+Status Report.txt
+BOM/
+ExportSTEP/
+Gerber/
+NC Drill/
+ODB/
+Pick Place/
+Test Points/

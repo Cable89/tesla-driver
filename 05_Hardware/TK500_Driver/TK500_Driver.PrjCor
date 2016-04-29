@@ -62,12 +62,12 @@ DocumentUniqueId=LLGHQLPS
 
 [Document2]
 DocumentPath=TK502_Frontpanel_LEDs\TK502_Frontpanel_LEDs.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationEnabled=0
+AnnotateStartValue=50200
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=23
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -113,7 +113,7 @@ DocumentUniqueId=XSIQVKDB
 
 [Document5]
 DocumentPath=TK511_Blindkort\TK511_Blindkort.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=51100
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -181,12 +181,12 @@ DocumentUniqueId=TKBQHGRR
 
 [Document9]
 DocumentPath=TK516_EKSTRA-PSU\TK516_EKSTRA-PSU.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationEnabled=0
+AnnotateStartValue=51600
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=24
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -266,7 +266,7 @@ DocumentUniqueId=BPYUJRYO
 
 [Document14]
 DocumentPath=TK525_Kraftforsyning.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=52500
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -283,7 +283,7 @@ DocumentUniqueId=ORRWOWVQ
 
 [Document15]
 DocumentPath=TK525_Hovedstrom.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=52500
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -300,7 +300,7 @@ DocumentUniqueId=SBYRUAYB
 
 [Document16]
 DocumentPath=TK525_HVDC.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=52500
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -351,12 +351,12 @@ DocumentUniqueId=PTYLVMDA
 
 [Document19]
 DocumentPath=TK532_Kondensatorkort\TK532_Kondensatorkort.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationEnabled=0
+AnnotateStartValue=53200
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=25
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -368,12 +368,12 @@ DocumentUniqueId=TPHFSBJW
 
 [Document20]
 DocumentPath=TK540_Frontpanel.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationEnabled=0
+AnnotateStartValue=54000
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=26
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1

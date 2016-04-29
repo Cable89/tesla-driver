@@ -5,6 +5,8 @@
 *.SchDocPreview
 *.PcbDocPreview
 *.PcbDoc.htm
+*.drc
+*.html
 
 # Folders
 __Previews/

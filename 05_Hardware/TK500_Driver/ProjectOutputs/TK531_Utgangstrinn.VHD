@@ -1,9 +1,9 @@
 ------------------------------------------------------------
 -- VHDL TK531_Utgangstrinn
--- 2016 4 28 20 30 5
+-- 2016 4 30 0 12 25
 -- Created By "DXP VHDL Generator"
 -- "Copyright (c) 2002-2014 Altium Limited"
--- Product Version: 15.0.15.41991
+-- Product Version: 16.0.5.271
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -403,7 +403,7 @@ Begin
         X_10 => PowerSignal_VCC_P5V0,                        -- ObjectKind=Pin|PrimaryId=J53100-10
         X_11 => PowerSignal_GND,                             -- ObjectKind=Pin|PrimaryId=J53100-11
         X_12 => PowerSignal_VCC_P5V0,                        -- ObjectKind=Pin|PrimaryId=J53100-12
-        X_13 => PowerSignal_VCC_P5V0,                        -- ObjectKind=Pin|PrimaryId=J53100-13
+        X_13 => PowerSignal_GND,                             -- ObjectKind=Pin|PrimaryId=J53100-13
         X_14 => PowerSignal_VCC_P5V0,                        -- ObjectKind=Pin|PrimaryId=J53100-14
         X_15 => PowerSignal_VCC_P5V0,                        -- ObjectKind=Pin|PrimaryId=J53100-15
         X_17 => PinSignal_J53100_17,                         -- ObjectKind=Pin|PrimaryId=J53100-17

@@ -1,9 +1,9 @@
 ------------------------------------------------------------
 -- VHDL TK500_Driver
--- 2016 4 28 20 30 8
+-- 2016 4 30 0 12 26
 -- Created By "DXP VHDL Generator"
 -- "Copyright (c) 2002-2014 Altium Limited"
--- Product Version: 15.0.15.41991
+-- Product Version: 16.0.5.271
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -26,16 +26,16 @@ Architecture Structure Of TK500_Driver Is
       (
         AC_S6_L1         : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S6.L1
         AC_S6_L2         : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S6.L2
-        AC_S6_IN_L1      : in    STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S6_IN.L1
-        AC_S6_IN_L2      : in    STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S6_IN.L2
+        AC_S6_IN_L1      : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S6_IN.L1
+        AC_S6_IN_L2      : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S6_IN.L2
         AC_S7_L1         : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S7.L1
         AC_S7_L2         : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S7.L2
-        AC_S7_IN_L1      : in    STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S7_IN.L1
-        AC_S7_IN_L2      : in    STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S7_IN.L2
+        AC_S7_IN_L1      : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S7_IN.L1
+        AC_S7_IN_L2      : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S7_IN.L2
         AC_S8_L1         : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S8.L1
         AC_S8_L2         : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S8.L2
-        AC_S8_IN_L1      : in    STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S8_IN.L1
-        AC_S8_IN_L2      : in    STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S8_IN.L2
+        AC_S8_IN_L1      : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S8_IN.L1
+        AC_S8_IN_L2      : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AC_S8_IN.L2
         AUX1_SLOT0       : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AUX1_SLOT0
         AUX1_SLOT1       : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AUX1_SLOT1
         AUX1_SLOT2       : inout STD_LOGIC;                  -- ObjectKind=Sheet Entry|PrimaryId=TK510_Signalbakplan.SchDoc-AUX1_SLOT2
@@ -198,16 +198,16 @@ Architecture Structure Of TK500_Driver Is
    Component TK525_Kraftforsyning                            -- ObjectKind=Sheet Symbol|PrimaryId=TK525
       port
       (
-        AC_S6_L1  : out STD_LOGIC;                           -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S6.L1
-        AC_S6_L2  : out STD_LOGIC;                           -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S6.L2
-        AC_S7_L1  : out STD_LOGIC;                           -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S7.L1
-        AC_S7_L2  : out STD_LOGIC;                           -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S7.L2
-        AC_S8_L1  : out STD_LOGIC;                           -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S8.L1
-        AC_S8_L2  : out STD_LOGIC;                           -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S8.L2
-        GND_HV    : out STD_LOGIC;                           -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-GND_HV
-        L1_230VAC : in  STD_LOGIC;                           -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-L1_230VAC
-        L2_230VAC : in  STD_LOGIC;                           -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-L2_230VAC
-        P160V     : out STD_LOGIC                            -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-P160V
+        AC_S6_L1  : inout STD_LOGIC;                         -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S6.L1
+        AC_S6_L2  : inout STD_LOGIC;                         -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S6.L2
+        AC_S7_L1  : inout STD_LOGIC;                         -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S7.L1
+        AC_S7_L2  : inout STD_LOGIC;                         -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S7.L2
+        AC_S8_L1  : inout STD_LOGIC;                         -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S8.L1
+        AC_S8_L2  : inout STD_LOGIC;                         -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-AC_S8.L2
+        GND_HV    : out   STD_LOGIC;                         -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-GND_HV
+        L1_230VAC : in    STD_LOGIC;                         -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-L1_230VAC
+        L2_230VAC : in    STD_LOGIC;                         -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-L2_230VAC
+        P160V     : out   STD_LOGIC                          -- ObjectKind=Sheet Entry|PrimaryId=TK525_Kraftforsyning.SchDoc-P160V
       );
    End Component;
 

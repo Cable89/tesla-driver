@@ -1,9 +1,9 @@
 ------------------------------------------------------------
 -- VHDL TK510_Signalbakplan
--- 2016 4 28 20 30 5
+-- 2016 4 30 0 12 24
 -- Created By "DXP VHDL Generator"
 -- "Copyright (c) 2002-2014 Altium Limited"
--- Product Version: 15.0.15.41991
+-- Product Version: 16.0.5.271
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -83,6 +83,28 @@ Architecture Structure Of TK510_Signalbakplan Is
       (
         X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=R51000-1
         X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=R51000-2
+      );
+   End Component;
+
+   Component X_2227                                          -- ObjectKind=Part|PrimaryId=J51006|SecondaryId=1
+      port
+      (
+        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51006-1
+        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=J51006-2
+      );
+   End Component;
+
+   Component X_2379                                          -- ObjectKind=Part|PrimaryId=U51000|SecondaryId=1
+      port
+      (
+        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=U51000-1
+        X_2 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=U51000-2
+        X_3 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=U51000-3
+        X_4 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=U51000-4
+        X_5 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=U51000-5
+        X_6 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=U51000-6
+        X_7 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=U51000-7
+        X_8 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=U51000-8
       );
    End Component;
 
@@ -329,19 +351,40 @@ Architecture Structure Of TK510_Signalbakplan Is
     Signal PinSignal_J51005_A12        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ51005_A12
     Signal PinSignal_J51005_A13        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ51005_A13
     Signal PinSignal_J51005_A14        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ51005_A14
+    Signal PinSignal_J51006_1          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ51006_1
+    Signal PinSignal_J51006_2          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ51006_2
     Signal PinSignal_Q51003_2          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetQ51003_2
     Signal PinSignal_Q51004_2          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetQ51004_2
     Signal PinSignal_Q51005_2          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetQ51005_2
     Signal PinSignal_Q51009_2          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetQ51009_2
     Signal PinSignal_Q51010_2          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetQ51010_2
     Signal PinSignal_Q51011_2          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetQ51011_2
+    Signal PinSignal_Q51012_1          : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetQ51012_1
     Signal PowerSignal_GND             : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GND
     Signal PowerSignal_VCC_EXTRA       : STD_LOGIC; -- ObjectKind=Net|PrimaryId=VCC_EXTRA
     Signal PowerSignal_VCC_P18V        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=VCC_P18V
     Signal PowerSignal_VCC_P5V0        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=VCC_P5V0
 
    attribute antall : string;
-   attribute antall of R?     : Label is "100";
+   attribute antall of R51040 : Label is "100";
+   attribute antall of R51039 : Label is "100";
+   attribute antall of R51038 : Label is "100";
+   attribute antall of R51037 : Label is "100";
+   attribute antall of R51036 : Label is "100";
+   attribute antall of R51035 : Label is "100";
+   attribute antall of R51034 : Label is "100";
+   attribute antall of R51033 : Label is "100";
+   attribute antall of R51032 : Label is "100";
+   attribute antall of R51031 : Label is "100";
+   attribute antall of R51030 : Label is "100";
+   attribute antall of R51029 : Label is "100";
+   attribute antall of R51028 : Label is "100";
+   attribute antall of R51027 : Label is "100";
+   attribute antall of R51026 : Label is "100";
+   attribute antall of R51025 : Label is "100";
+   attribute antall of R51024 : Label is "100";
+   attribute antall of R51023 : Label is "100";
+   attribute antall of R51022 : Label is "100";
    attribute antall of R51021 : Label is "100";
    attribute antall of R51020 : Label is "100";
    attribute antall of R51019 : Label is "100";
@@ -366,7 +409,25 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute antall of R51000 : Label is "100";
 
    attribute beskrivelse : string;
-   attribute beskrivelse of R?     : Label is "100k 0.1W 5% Thick film resistor";
+   attribute beskrivelse of R51040 : Label is "100k 0.1W 5% Thick film resistor";
+   attribute beskrivelse of R51039 : Label is "100k 0.1W 5% Thick film resistor";
+   attribute beskrivelse of R51038 : Label is "100k 0.1W 5% Thick film resistor";
+   attribute beskrivelse of R51037 : Label is "100k 0.1W 5% Thick film resistor";
+   attribute beskrivelse of R51036 : Label is "100k 0.1W 5% Thick film resistor";
+   attribute beskrivelse of R51035 : Label is "100k 0.1W 5% Thick film resistor";
+   attribute beskrivelse of R51034 : Label is "100k 0.1W 5% Thick film resistor";
+   attribute beskrivelse of R51033 : Label is "100k 0.1W 5% Thick film resistor";
+   attribute beskrivelse of R51032 : Label is "100k 0.1W 5% Thick film resistor";
+   attribute beskrivelse of R51031 : Label is "100k 0.1W 5% Thick film resistor";
+   attribute beskrivelse of R51030 : Label is "100k 0.1W 5% Thick film resistor";
+   attribute beskrivelse of R51029 : Label is "100k 0.1W 5% Thick film resistor";
+   attribute beskrivelse of R51028 : Label is "100k 0.1W 5% Thick film resistor";
+   attribute beskrivelse of R51027 : Label is "100k 0.1W 5% Thick film resistor";
+   attribute beskrivelse of R51026 : Label is "100k 0.1W 5% Thick film resistor";
+   attribute beskrivelse of R51025 : Label is "100k 0.1W 5% Thick film resistor";
+   attribute beskrivelse of R51024 : Label is "100k 0.1W 5% Thick film resistor";
+   attribute beskrivelse of R51023 : Label is "100k 0.1W 5% Thick film resistor";
+   attribute beskrivelse of R51022 : Label is "100k 0.1W 5% Thick film resistor";
    attribute beskrivelse of R51021 : Label is "100k 0.1W 5% Thick film resistor";
    attribute beskrivelse of R51020 : Label is "47R 0.1W 5% Thick film resistor";
    attribute beskrivelse of R51019 : Label is "47R 0.1W 5% Thick film resistor";
@@ -389,6 +450,7 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute beskrivelse of R51002 : Label is "100k 0.1W 5% Thick film resistor";
    attribute beskrivelse of R51001 : Label is "100k 0.1W 5% Thick film resistor";
    attribute beskrivelse of R51000 : Label is "100k 0.1W 5% Thick film resistor";
+   attribute beskrivelse of Q51012 : Label is "N-Channel MOSFET";
    attribute beskrivelse of Q51011 : Label is "P-ch. MOSFET. -30V, -3.7A continuous,RDS(ON)=0.05Ohm@VGS=-4,5V, RDS(ON)=0.08Ohm@VGS=-2.5V";
    attribute beskrivelse of Q51010 : Label is "P-ch. MOSFET. -30V, -3.7A continuous,RDS(ON)=0.05Ohm@VGS=-4,5V, RDS(ON)=0.08Ohm@VGS=-2.5V";
    attribute beskrivelse of Q51009 : Label is "P-ch. MOSFET. -30V, -3.7A continuous,RDS(ON)=0.05Ohm@VGS=-4,5V, RDS(ON)=0.08Ohm@VGS=-2.5V";
@@ -433,7 +495,26 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute beskrivelse of D51000 : Label is "SMD";
 
    attribute Database_Table_Name : string;
-   attribute Database_Table_Name of R?     : Label is "altium";
+   attribute Database_Table_Name of U51000 : Label is "altium";
+   attribute Database_Table_Name of R51040 : Label is "altium";
+   attribute Database_Table_Name of R51039 : Label is "altium";
+   attribute Database_Table_Name of R51038 : Label is "altium";
+   attribute Database_Table_Name of R51037 : Label is "altium";
+   attribute Database_Table_Name of R51036 : Label is "altium";
+   attribute Database_Table_Name of R51035 : Label is "altium";
+   attribute Database_Table_Name of R51034 : Label is "altium";
+   attribute Database_Table_Name of R51033 : Label is "altium";
+   attribute Database_Table_Name of R51032 : Label is "altium";
+   attribute Database_Table_Name of R51031 : Label is "altium";
+   attribute Database_Table_Name of R51030 : Label is "altium";
+   attribute Database_Table_Name of R51029 : Label is "altium";
+   attribute Database_Table_Name of R51028 : Label is "altium";
+   attribute Database_Table_Name of R51027 : Label is "altium";
+   attribute Database_Table_Name of R51026 : Label is "altium";
+   attribute Database_Table_Name of R51025 : Label is "altium";
+   attribute Database_Table_Name of R51024 : Label is "altium";
+   attribute Database_Table_Name of R51023 : Label is "altium";
+   attribute Database_Table_Name of R51022 : Label is "altium";
    attribute Database_Table_Name of R51021 : Label is "altium";
    attribute Database_Table_Name of R51020 : Label is "altium";
    attribute Database_Table_Name of R51019 : Label is "altium";
@@ -456,6 +537,7 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute Database_Table_Name of R51002 : Label is "altium";
    attribute Database_Table_Name of R51001 : Label is "altium";
    attribute Database_Table_Name of R51000 : Label is "altium";
+   attribute Database_Table_Name of Q51012 : Label is "altium";
    attribute Database_Table_Name of Q51011 : Label is "altium";
    attribute Database_Table_Name of Q51010 : Label is "altium";
    attribute Database_Table_Name of Q51009 : Label is "altium";
@@ -487,6 +569,7 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute Database_Table_Name of J51011 : Label is "altium";
    attribute Database_Table_Name of J51010 : Label is "altium";
    attribute Database_Table_Name of J51009 : Label is "altium";
+   attribute Database_Table_Name of J51006 : Label is "altium";
    attribute Database_Table_Name of J51005 : Label is "altium";
    attribute Database_Table_Name of J51004 : Label is "altium";
    attribute Database_Table_Name of J51003 : Label is "altium";
@@ -509,7 +592,25 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute Design_comment of Q51003 : Label is "";
 
    attribute dybde : string;
-   attribute dybde of R?     : Label is "0";
+   attribute dybde of R51040 : Label is "0";
+   attribute dybde of R51039 : Label is "0";
+   attribute dybde of R51038 : Label is "0";
+   attribute dybde of R51037 : Label is "0";
+   attribute dybde of R51036 : Label is "0";
+   attribute dybde of R51035 : Label is "0";
+   attribute dybde of R51034 : Label is "0";
+   attribute dybde of R51033 : Label is "0";
+   attribute dybde of R51032 : Label is "0";
+   attribute dybde of R51031 : Label is "0";
+   attribute dybde of R51030 : Label is "0";
+   attribute dybde of R51029 : Label is "0";
+   attribute dybde of R51028 : Label is "0";
+   attribute dybde of R51027 : Label is "0";
+   attribute dybde of R51026 : Label is "0";
+   attribute dybde of R51025 : Label is "0";
+   attribute dybde of R51024 : Label is "0";
+   attribute dybde of R51023 : Label is "0";
+   attribute dybde of R51022 : Label is "0";
    attribute dybde of R51021 : Label is "0";
    attribute dybde of R51020 : Label is "1";
    attribute dybde of R51019 : Label is "1";
@@ -534,7 +635,25 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute dybde of R51000 : Label is "0";
 
    attribute hylle : string;
-   attribute hylle of R?     : Label is "6";
+   attribute hylle of R51040 : Label is "6";
+   attribute hylle of R51039 : Label is "6";
+   attribute hylle of R51038 : Label is "6";
+   attribute hylle of R51037 : Label is "6";
+   attribute hylle of R51036 : Label is "6";
+   attribute hylle of R51035 : Label is "6";
+   attribute hylle of R51034 : Label is "6";
+   attribute hylle of R51033 : Label is "6";
+   attribute hylle of R51032 : Label is "6";
+   attribute hylle of R51031 : Label is "6";
+   attribute hylle of R51030 : Label is "6";
+   attribute hylle of R51029 : Label is "6";
+   attribute hylle of R51028 : Label is "6";
+   attribute hylle of R51027 : Label is "6";
+   attribute hylle of R51026 : Label is "6";
+   attribute hylle of R51025 : Label is "6";
+   attribute hylle of R51024 : Label is "6";
+   attribute hylle of R51023 : Label is "6";
+   attribute hylle of R51022 : Label is "6";
    attribute hylle of R51021 : Label is "6";
    attribute hylle of R51020 : Label is "6";
    attribute hylle of R51019 : Label is "6";
@@ -559,10 +678,30 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute hylle of R51000 : Label is "6";
 
    attribute id : string;
+   attribute id of U51000 : Label is "2379";
    attribute id of J51027 : Label is "2390";
+   attribute id of J51006 : Label is "2227";
 
    attribute kolonne : string;
-   attribute kolonne of R?     : Label is "-1";
+   attribute kolonne of R51040 : Label is "-1";
+   attribute kolonne of R51039 : Label is "-1";
+   attribute kolonne of R51038 : Label is "-1";
+   attribute kolonne of R51037 : Label is "-1";
+   attribute kolonne of R51036 : Label is "-1";
+   attribute kolonne of R51035 : Label is "-1";
+   attribute kolonne of R51034 : Label is "-1";
+   attribute kolonne of R51033 : Label is "-1";
+   attribute kolonne of R51032 : Label is "-1";
+   attribute kolonne of R51031 : Label is "-1";
+   attribute kolonne of R51030 : Label is "-1";
+   attribute kolonne of R51029 : Label is "-1";
+   attribute kolonne of R51028 : Label is "-1";
+   attribute kolonne of R51027 : Label is "-1";
+   attribute kolonne of R51026 : Label is "-1";
+   attribute kolonne of R51025 : Label is "-1";
+   attribute kolonne of R51024 : Label is "-1";
+   attribute kolonne of R51023 : Label is "-1";
+   attribute kolonne of R51022 : Label is "-1";
    attribute kolonne of R51021 : Label is "-1";
    attribute kolonne of R51020 : Label is "-1";
    attribute kolonne of R51019 : Label is "-1";
@@ -587,7 +726,25 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute kolonne of R51000 : Label is "-1";
 
    attribute lager_type : string;
-   attribute lager_type of R?     : Label is "Fremlager";
+   attribute lager_type of R51040 : Label is "Fremlager";
+   attribute lager_type of R51039 : Label is "Fremlager";
+   attribute lager_type of R51038 : Label is "Fremlager";
+   attribute lager_type of R51037 : Label is "Fremlager";
+   attribute lager_type of R51036 : Label is "Fremlager";
+   attribute lager_type of R51035 : Label is "Fremlager";
+   attribute lager_type of R51034 : Label is "Fremlager";
+   attribute lager_type of R51033 : Label is "Fremlager";
+   attribute lager_type of R51032 : Label is "Fremlager";
+   attribute lager_type of R51031 : Label is "Fremlager";
+   attribute lager_type of R51030 : Label is "Fremlager";
+   attribute lager_type of R51029 : Label is "Fremlager";
+   attribute lager_type of R51028 : Label is "Fremlager";
+   attribute lager_type of R51027 : Label is "Fremlager";
+   attribute lager_type of R51026 : Label is "Fremlager";
+   attribute lager_type of R51025 : Label is "Fremlager";
+   attribute lager_type of R51024 : Label is "Fremlager";
+   attribute lager_type of R51023 : Label is "Fremlager";
+   attribute lager_type of R51022 : Label is "Fremlager";
    attribute lager_type of R51021 : Label is "Fremlager";
    attribute lager_type of R51020 : Label is "Fremlager";
    attribute lager_type of R51019 : Label is "Fremlager";
@@ -612,6 +769,8 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute lager_type of R51000 : Label is "Fremlager";
 
    attribute leverandor : string;
+   attribute leverandor of U51000 : Label is "Farnell";
+   attribute leverandor of Q51012 : Label is "Farnell";
    attribute leverandor of Q51011 : Label is "Farnell";
    attribute leverandor of Q51010 : Label is "Farnell";
    attribute leverandor of Q51009 : Label is "Farnell";
@@ -632,6 +791,8 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute leverandor of J51000 : Label is "Farnell";
 
    attribute leverandor_varenr : string;
+   attribute leverandor_varenr of U51000 : Label is "1086672";
+   attribute leverandor_varenr of Q51012 : Label is "1864589";
    attribute leverandor_varenr of Q51011 : Label is "9103503RL";
    attribute leverandor_varenr of Q51010 : Label is "9103503RL";
    attribute leverandor_varenr of Q51009 : Label is "9103503RL";
@@ -652,7 +813,26 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute leverandor_varenr of J51000 : Label is "1144435";
 
    attribute navn : string;
-   attribute navn of R?     : Label is "100k";
+   attribute navn of U51000 : Label is "MOCD207R2M";
+   attribute navn of R51040 : Label is "100k";
+   attribute navn of R51039 : Label is "100k";
+   attribute navn of R51038 : Label is "100k";
+   attribute navn of R51037 : Label is "100k";
+   attribute navn of R51036 : Label is "100k";
+   attribute navn of R51035 : Label is "100k";
+   attribute navn of R51034 : Label is "100k";
+   attribute navn of R51033 : Label is "100k";
+   attribute navn of R51032 : Label is "100k";
+   attribute navn of R51031 : Label is "100k";
+   attribute navn of R51030 : Label is "100k";
+   attribute navn of R51029 : Label is "100k";
+   attribute navn of R51028 : Label is "100k";
+   attribute navn of R51027 : Label is "100k";
+   attribute navn of R51026 : Label is "100k";
+   attribute navn of R51025 : Label is "100k";
+   attribute navn of R51024 : Label is "100k";
+   attribute navn of R51023 : Label is "100k";
+   attribute navn of R51022 : Label is "100k";
    attribute navn of R51021 : Label is "100k";
    attribute navn of R51020 : Label is "47R";
    attribute navn of R51019 : Label is "47R";
@@ -675,6 +855,7 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute navn of R51002 : Label is "100k";
    attribute navn of R51001 : Label is "100k";
    attribute navn of R51000 : Label is "100k";
+   attribute navn of Q51012 : Label is "TSM2314";
    attribute navn of Q51011 : Label is "IRLML6402";
    attribute navn of Q51010 : Label is "IRLML6402";
    attribute navn of Q51009 : Label is "IRLML6402";
@@ -706,6 +887,7 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute navn of J51011 : Label is "Header Shrouded 2X5P";
    attribute navn of J51010 : Label is "Header Shrouded 2X5P";
    attribute navn of J51009 : Label is "Header Shrouded 2X5P";
+   attribute navn of J51006 : Label is "JST 2pin";
    attribute navn of J51005 : Label is "PCI_Express-36P";
    attribute navn of J51004 : Label is "PCI_Express-36P";
    attribute navn of J51003 : Label is "PCI_Express-36P";
@@ -720,7 +902,25 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute navn of D51000 : Label is "SMD LED Red";
 
    attribute nokkelord : string;
-   attribute nokkelord of R?     : Label is "Resistor";
+   attribute nokkelord of R51040 : Label is "Resistor";
+   attribute nokkelord of R51039 : Label is "Resistor";
+   attribute nokkelord of R51038 : Label is "Resistor";
+   attribute nokkelord of R51037 : Label is "Resistor";
+   attribute nokkelord of R51036 : Label is "Resistor";
+   attribute nokkelord of R51035 : Label is "Resistor";
+   attribute nokkelord of R51034 : Label is "Resistor";
+   attribute nokkelord of R51033 : Label is "Resistor";
+   attribute nokkelord of R51032 : Label is "Resistor";
+   attribute nokkelord of R51031 : Label is "Resistor";
+   attribute nokkelord of R51030 : Label is "Resistor";
+   attribute nokkelord of R51029 : Label is "Resistor";
+   attribute nokkelord of R51028 : Label is "Resistor";
+   attribute nokkelord of R51027 : Label is "Resistor";
+   attribute nokkelord of R51026 : Label is "Resistor";
+   attribute nokkelord of R51025 : Label is "Resistor";
+   attribute nokkelord of R51024 : Label is "Resistor";
+   attribute nokkelord of R51023 : Label is "Resistor";
+   attribute nokkelord of R51022 : Label is "Resistor";
    attribute nokkelord of R51021 : Label is "Resistor";
    attribute nokkelord of R51020 : Label is "Resistor";
    attribute nokkelord of R51019 : Label is "Resistor";
@@ -743,6 +943,7 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute nokkelord of R51002 : Label is "Resistor";
    attribute nokkelord of R51001 : Label is "Resistor";
    attribute nokkelord of R51000 : Label is "Resistor";
+   attribute nokkelord of Q51012 : Label is "mosfet";
    attribute nokkelord of Q51011 : Label is "PMOS";
    attribute nokkelord of Q51010 : Label is "PMOS";
    attribute nokkelord of Q51009 : Label is "PMOS";
@@ -774,6 +975,7 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute nokkelord of J51011 : Label is "Header";
    attribute nokkelord of J51010 : Label is "Header";
    attribute nokkelord of J51009 : Label is "Header";
+   attribute nokkelord of J51006 : Label is "Connector, Kontakt";
    attribute nokkelord of J51005 : Label is "Card-edge";
    attribute nokkelord of J51004 : Label is "Card-edge";
    attribute nokkelord of J51003 : Label is "Card-edge";
@@ -788,7 +990,26 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute nokkelord of D51000 : Label is "SMD";
 
    attribute pakke_opprettet : string;
-   attribute pakke_opprettet of R?     : Label is "08.07.2014 21:15:30";
+   attribute pakke_opprettet of U51000 : Label is "23.08.2014 14:54:32";
+   attribute pakke_opprettet of R51040 : Label is "08.07.2014 21:15:30";
+   attribute pakke_opprettet of R51039 : Label is "08.07.2014 21:15:30";
+   attribute pakke_opprettet of R51038 : Label is "08.07.2014 21:15:30";
+   attribute pakke_opprettet of R51037 : Label is "08.07.2014 21:15:30";
+   attribute pakke_opprettet of R51036 : Label is "08.07.2014 21:15:30";
+   attribute pakke_opprettet of R51035 : Label is "08.07.2014 21:15:30";
+   attribute pakke_opprettet of R51034 : Label is "08.07.2014 21:15:30";
+   attribute pakke_opprettet of R51033 : Label is "08.07.2014 21:15:30";
+   attribute pakke_opprettet of R51032 : Label is "08.07.2014 21:15:30";
+   attribute pakke_opprettet of R51031 : Label is "08.07.2014 21:15:30";
+   attribute pakke_opprettet of R51030 : Label is "08.07.2014 21:15:30";
+   attribute pakke_opprettet of R51029 : Label is "08.07.2014 21:15:30";
+   attribute pakke_opprettet of R51028 : Label is "08.07.2014 21:15:30";
+   attribute pakke_opprettet of R51027 : Label is "08.07.2014 21:15:30";
+   attribute pakke_opprettet of R51026 : Label is "08.07.2014 21:15:30";
+   attribute pakke_opprettet of R51025 : Label is "08.07.2014 21:15:30";
+   attribute pakke_opprettet of R51024 : Label is "08.07.2014 21:15:30";
+   attribute pakke_opprettet of R51023 : Label is "08.07.2014 21:15:30";
+   attribute pakke_opprettet of R51022 : Label is "08.07.2014 21:15:30";
    attribute pakke_opprettet of R51021 : Label is "08.07.2014 21:15:30";
    attribute pakke_opprettet of R51020 : Label is "08.07.2014 21:15:30";
    attribute pakke_opprettet of R51019 : Label is "08.07.2014 21:15:30";
@@ -811,6 +1032,7 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute pakke_opprettet of R51002 : Label is "08.07.2014 21:15:30";
    attribute pakke_opprettet of R51001 : Label is "08.07.2014 21:15:30";
    attribute pakke_opprettet of R51000 : Label is "08.07.2014 21:15:30";
+   attribute pakke_opprettet of Q51012 : Label is "11.07.2014 23:17:33";
    attribute pakke_opprettet of Q51011 : Label is "08.07.2014 20:46:37";
    attribute pakke_opprettet of Q51010 : Label is "08.07.2014 20:46:37";
    attribute pakke_opprettet of Q51009 : Label is "08.07.2014 20:46:37";
@@ -842,6 +1064,7 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute pakke_opprettet of J51011 : Label is "12.07.2014 17:42:52";
    attribute pakke_opprettet of J51010 : Label is "12.07.2014 17:42:52";
    attribute pakke_opprettet of J51009 : Label is "12.07.2014 17:42:52";
+   attribute pakke_opprettet of J51006 : Label is "28.06.2014 18:25:03";
    attribute pakke_opprettet of J51005 : Label is "06.07.2014 17:26:47";
    attribute pakke_opprettet of J51004 : Label is "06.07.2014 17:26:47";
    attribute pakke_opprettet of J51003 : Label is "06.07.2014 17:26:47";
@@ -856,7 +1079,26 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute pakke_opprettet of D51000 : Label is "06.07.2014 18:55:44";
 
    attribute pakke_opprettet_av : string;
-   attribute pakke_opprettet_av of R?     : Label is "815";
+   attribute pakke_opprettet_av of U51000 : Label is "774";
+   attribute pakke_opprettet_av of R51040 : Label is "815";
+   attribute pakke_opprettet_av of R51039 : Label is "815";
+   attribute pakke_opprettet_av of R51038 : Label is "815";
+   attribute pakke_opprettet_av of R51037 : Label is "815";
+   attribute pakke_opprettet_av of R51036 : Label is "815";
+   attribute pakke_opprettet_av of R51035 : Label is "815";
+   attribute pakke_opprettet_av of R51034 : Label is "815";
+   attribute pakke_opprettet_av of R51033 : Label is "815";
+   attribute pakke_opprettet_av of R51032 : Label is "815";
+   attribute pakke_opprettet_av of R51031 : Label is "815";
+   attribute pakke_opprettet_av of R51030 : Label is "815";
+   attribute pakke_opprettet_av of R51029 : Label is "815";
+   attribute pakke_opprettet_av of R51028 : Label is "815";
+   attribute pakke_opprettet_av of R51027 : Label is "815";
+   attribute pakke_opprettet_av of R51026 : Label is "815";
+   attribute pakke_opprettet_av of R51025 : Label is "815";
+   attribute pakke_opprettet_av of R51024 : Label is "815";
+   attribute pakke_opprettet_av of R51023 : Label is "815";
+   attribute pakke_opprettet_av of R51022 : Label is "815";
    attribute pakke_opprettet_av of R51021 : Label is "815";
    attribute pakke_opprettet_av of R51020 : Label is "815";
    attribute pakke_opprettet_av of R51019 : Label is "815";
@@ -879,6 +1121,7 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute pakke_opprettet_av of R51002 : Label is "815";
    attribute pakke_opprettet_av of R51001 : Label is "815";
    attribute pakke_opprettet_av of R51000 : Label is "815";
+   attribute pakke_opprettet_av of Q51012 : Label is "774";
    attribute pakke_opprettet_av of Q51011 : Label is "815";
    attribute pakke_opprettet_av of Q51010 : Label is "815";
    attribute pakke_opprettet_av of Q51009 : Label is "815";
@@ -910,6 +1153,7 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute pakke_opprettet_av of J51011 : Label is "815";
    attribute pakke_opprettet_av of J51010 : Label is "815";
    attribute pakke_opprettet_av of J51009 : Label is "815";
+   attribute pakke_opprettet_av of J51006 : Label is "815";
    attribute pakke_opprettet_av of J51005 : Label is "815";
    attribute pakke_opprettet_av of J51004 : Label is "815";
    attribute pakke_opprettet_av of J51003 : Label is "815";
@@ -924,7 +1168,26 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute pakke_opprettet_av of D51000 : Label is "815";
 
    attribute pakketype : string;
-   attribute pakketype of R?     : Label is "93";
+   attribute pakketype of U51000 : Label is "SOIC";
+   attribute pakketype of R51040 : Label is "93";
+   attribute pakketype of R51039 : Label is "93";
+   attribute pakketype of R51038 : Label is "93";
+   attribute pakketype of R51037 : Label is "93";
+   attribute pakketype of R51036 : Label is "93";
+   attribute pakketype of R51035 : Label is "93";
+   attribute pakketype of R51034 : Label is "93";
+   attribute pakketype of R51033 : Label is "93";
+   attribute pakketype of R51032 : Label is "93";
+   attribute pakketype of R51031 : Label is "93";
+   attribute pakketype of R51030 : Label is "93";
+   attribute pakketype of R51029 : Label is "93";
+   attribute pakketype of R51028 : Label is "93";
+   attribute pakketype of R51027 : Label is "93";
+   attribute pakketype of R51026 : Label is "93";
+   attribute pakketype of R51025 : Label is "93";
+   attribute pakketype of R51024 : Label is "93";
+   attribute pakketype of R51023 : Label is "93";
+   attribute pakketype of R51022 : Label is "93";
    attribute pakketype of R51021 : Label is "93";
    attribute pakketype of R51020 : Label is "93";
    attribute pakketype of R51019 : Label is "93";
@@ -947,6 +1210,7 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute pakketype of R51002 : Label is "93";
    attribute pakketype of R51001 : Label is "93";
    attribute pakketype of R51000 : Label is "93";
+   attribute pakketype of Q51012 : Label is "77";
    attribute pakketype of Q51011 : Label is "77";
    attribute pakketype of Q51010 : Label is "77";
    attribute pakketype of Q51009 : Label is "77";
@@ -978,6 +1242,7 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute pakketype of J51011 : Label is "92";
    attribute pakketype of J51010 : Label is "92";
    attribute pakketype of J51009 : Label is "92";
+   attribute pakketype of J51006 : Label is "TH";
    attribute pakketype of J51005 : Label is "92";
    attribute pakketype of J51004 : Label is "92";
    attribute pakketype of J51003 : Label is "92";
@@ -992,7 +1257,26 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute pakketype of D51000 : Label is "93";
 
    attribute pris : string;
-   attribute pris of R?     : Label is "0";
+   attribute pris of U51000 : Label is "4";
+   attribute pris of R51040 : Label is "0";
+   attribute pris of R51039 : Label is "0";
+   attribute pris of R51038 : Label is "0";
+   attribute pris of R51037 : Label is "0";
+   attribute pris of R51036 : Label is "0";
+   attribute pris of R51035 : Label is "0";
+   attribute pris of R51034 : Label is "0";
+   attribute pris of R51033 : Label is "0";
+   attribute pris of R51032 : Label is "0";
+   attribute pris of R51031 : Label is "0";
+   attribute pris of R51030 : Label is "0";
+   attribute pris of R51029 : Label is "0";
+   attribute pris of R51028 : Label is "0";
+   attribute pris of R51027 : Label is "0";
+   attribute pris of R51026 : Label is "0";
+   attribute pris of R51025 : Label is "0";
+   attribute pris of R51024 : Label is "0";
+   attribute pris of R51023 : Label is "0";
+   attribute pris of R51022 : Label is "0";
    attribute pris of R51021 : Label is "0";
    attribute pris of R51020 : Label is "0";
    attribute pris of R51019 : Label is "0";
@@ -1015,6 +1299,7 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute pris of R51002 : Label is "0";
    attribute pris of R51001 : Label is "0";
    attribute pris of R51000 : Label is "0";
+   attribute pris of Q51012 : Label is "-1";
    attribute pris of Q51011 : Label is "3";
    attribute pris of Q51010 : Label is "3";
    attribute pris of Q51009 : Label is "3";
@@ -1046,6 +1331,7 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute pris of J51011 : Label is "5";
    attribute pris of J51010 : Label is "5";
    attribute pris of J51009 : Label is "5";
+   attribute pris of J51006 : Label is "2";
    attribute pris of J51005 : Label is "16";
    attribute pris of J51004 : Label is "16";
    attribute pris of J51003 : Label is "16";
@@ -1060,6 +1346,8 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute pris of D51000 : Label is "1";
 
    attribute produsent : string;
+   attribute produsent of U51000 : Label is "Fairchild";
+   attribute produsent of Q51012 : Label is "Taiwan Semiconductor";
    attribute produsent of Q51011 : Label is "International Rectifier";
    attribute produsent of Q51010 : Label is "International Rectifier";
    attribute produsent of Q51009 : Label is "International Rectifier";
@@ -1080,7 +1368,25 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute produsent of J51000 : Label is "FCI";
 
    attribute rad : string;
-   attribute rad of R?     : Label is "-1";
+   attribute rad of R51040 : Label is "-1";
+   attribute rad of R51039 : Label is "-1";
+   attribute rad of R51038 : Label is "-1";
+   attribute rad of R51037 : Label is "-1";
+   attribute rad of R51036 : Label is "-1";
+   attribute rad of R51035 : Label is "-1";
+   attribute rad of R51034 : Label is "-1";
+   attribute rad of R51033 : Label is "-1";
+   attribute rad of R51032 : Label is "-1";
+   attribute rad of R51031 : Label is "-1";
+   attribute rad of R51030 : Label is "-1";
+   attribute rad of R51029 : Label is "-1";
+   attribute rad of R51028 : Label is "-1";
+   attribute rad of R51027 : Label is "-1";
+   attribute rad of R51026 : Label is "-1";
+   attribute rad of R51025 : Label is "-1";
+   attribute rad of R51024 : Label is "-1";
+   attribute rad of R51023 : Label is "-1";
+   attribute rad of R51022 : Label is "-1";
    attribute rad of R51021 : Label is "-1";
    attribute rad of R51020 : Label is "-1";
    attribute rad of R51019 : Label is "-1";
@@ -1105,7 +1411,25 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute rad of R51000 : Label is "-1";
 
    attribute rom : string;
-   attribute rom of R?     : Label is "OV";
+   attribute rom of R51040 : Label is "OV";
+   attribute rom of R51039 : Label is "OV";
+   attribute rom of R51038 : Label is "OV";
+   attribute rom of R51037 : Label is "OV";
+   attribute rom of R51036 : Label is "OV";
+   attribute rom of R51035 : Label is "OV";
+   attribute rom of R51034 : Label is "OV";
+   attribute rom of R51033 : Label is "OV";
+   attribute rom of R51032 : Label is "OV";
+   attribute rom of R51031 : Label is "OV";
+   attribute rom of R51030 : Label is "OV";
+   attribute rom of R51029 : Label is "OV";
+   attribute rom of R51028 : Label is "OV";
+   attribute rom of R51027 : Label is "OV";
+   attribute rom of R51026 : Label is "OV";
+   attribute rom of R51025 : Label is "OV";
+   attribute rom of R51024 : Label is "OV";
+   attribute rom of R51023 : Label is "OV";
+   attribute rom of R51022 : Label is "OV";
    attribute rom of R51021 : Label is "OV";
    attribute rom of R51020 : Label is "OV";
    attribute rom of R51019 : Label is "OV";
@@ -1138,7 +1462,26 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute Status of Q51003 : Label is "New";
 
    attribute symbol_opprettet : string;
-   attribute symbol_opprettet of R?     : Label is "08.07.2014 21:16:33";
+   attribute symbol_opprettet of U51000 : Label is "28.06.2014 15:40:47";
+   attribute symbol_opprettet of R51040 : Label is "08.07.2014 21:16:33";
+   attribute symbol_opprettet of R51039 : Label is "08.07.2014 21:16:33";
+   attribute symbol_opprettet of R51038 : Label is "08.07.2014 21:16:33";
+   attribute symbol_opprettet of R51037 : Label is "08.07.2014 21:16:33";
+   attribute symbol_opprettet of R51036 : Label is "08.07.2014 21:16:33";
+   attribute symbol_opprettet of R51035 : Label is "08.07.2014 21:16:33";
+   attribute symbol_opprettet of R51034 : Label is "08.07.2014 21:16:33";
+   attribute symbol_opprettet of R51033 : Label is "08.07.2014 21:16:33";
+   attribute symbol_opprettet of R51032 : Label is "08.07.2014 21:16:33";
+   attribute symbol_opprettet of R51031 : Label is "08.07.2014 21:16:33";
+   attribute symbol_opprettet of R51030 : Label is "08.07.2014 21:16:33";
+   attribute symbol_opprettet of R51029 : Label is "08.07.2014 21:16:33";
+   attribute symbol_opprettet of R51028 : Label is "08.07.2014 21:16:33";
+   attribute symbol_opprettet of R51027 : Label is "08.07.2014 21:16:33";
+   attribute symbol_opprettet of R51026 : Label is "08.07.2014 21:16:33";
+   attribute symbol_opprettet of R51025 : Label is "08.07.2014 21:16:33";
+   attribute symbol_opprettet of R51024 : Label is "08.07.2014 21:16:33";
+   attribute symbol_opprettet of R51023 : Label is "08.07.2014 21:16:33";
+   attribute symbol_opprettet of R51022 : Label is "08.07.2014 21:16:33";
    attribute symbol_opprettet of R51021 : Label is "08.07.2014 21:16:33";
    attribute symbol_opprettet of R51020 : Label is "08.07.2014 21:16:33";
    attribute symbol_opprettet of R51019 : Label is "08.07.2014 21:16:33";
@@ -1161,6 +1504,7 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute symbol_opprettet of R51002 : Label is "08.07.2014 21:16:33";
    attribute symbol_opprettet of R51001 : Label is "08.07.2014 21:16:33";
    attribute symbol_opprettet of R51000 : Label is "08.07.2014 21:16:33";
+   attribute symbol_opprettet of Q51012 : Label is "11.07.2014 23:17:04";
    attribute symbol_opprettet of Q51011 : Label is "08.07.2014 20:45:45";
    attribute symbol_opprettet of Q51010 : Label is "08.07.2014 20:45:45";
    attribute symbol_opprettet of Q51009 : Label is "08.07.2014 20:45:45";
@@ -1192,6 +1536,7 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute symbol_opprettet of J51011 : Label is "12.07.2014 17:43:40";
    attribute symbol_opprettet of J51010 : Label is "12.07.2014 17:43:40";
    attribute symbol_opprettet of J51009 : Label is "12.07.2014 17:43:40";
+   attribute symbol_opprettet of J51006 : Label is "28.06.2014 15:33:17";
    attribute symbol_opprettet of J51005 : Label is "06.07.2014 17:26:37";
    attribute symbol_opprettet of J51004 : Label is "06.07.2014 17:26:37";
    attribute symbol_opprettet of J51003 : Label is "06.07.2014 17:26:37";
@@ -1206,7 +1551,26 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute symbol_opprettet of D51000 : Label is "06.07.2014 18:59:47";
 
    attribute symbol_opprettet_av : string;
-   attribute symbol_opprettet_av of R?     : Label is "815";
+   attribute symbol_opprettet_av of U51000 : Label is "815";
+   attribute symbol_opprettet_av of R51040 : Label is "815";
+   attribute symbol_opprettet_av of R51039 : Label is "815";
+   attribute symbol_opprettet_av of R51038 : Label is "815";
+   attribute symbol_opprettet_av of R51037 : Label is "815";
+   attribute symbol_opprettet_av of R51036 : Label is "815";
+   attribute symbol_opprettet_av of R51035 : Label is "815";
+   attribute symbol_opprettet_av of R51034 : Label is "815";
+   attribute symbol_opprettet_av of R51033 : Label is "815";
+   attribute symbol_opprettet_av of R51032 : Label is "815";
+   attribute symbol_opprettet_av of R51031 : Label is "815";
+   attribute symbol_opprettet_av of R51030 : Label is "815";
+   attribute symbol_opprettet_av of R51029 : Label is "815";
+   attribute symbol_opprettet_av of R51028 : Label is "815";
+   attribute symbol_opprettet_av of R51027 : Label is "815";
+   attribute symbol_opprettet_av of R51026 : Label is "815";
+   attribute symbol_opprettet_av of R51025 : Label is "815";
+   attribute symbol_opprettet_av of R51024 : Label is "815";
+   attribute symbol_opprettet_av of R51023 : Label is "815";
+   attribute symbol_opprettet_av of R51022 : Label is "815";
    attribute symbol_opprettet_av of R51021 : Label is "815";
    attribute symbol_opprettet_av of R51020 : Label is "815";
    attribute symbol_opprettet_av of R51019 : Label is "815";
@@ -1229,6 +1593,7 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute symbol_opprettet_av of R51002 : Label is "815";
    attribute symbol_opprettet_av of R51001 : Label is "815";
    attribute symbol_opprettet_av of R51000 : Label is "815";
+   attribute symbol_opprettet_av of Q51012 : Label is "774";
    attribute symbol_opprettet_av of Q51011 : Label is "815";
    attribute symbol_opprettet_av of Q51010 : Label is "815";
    attribute symbol_opprettet_av of Q51009 : Label is "815";
@@ -1260,6 +1625,7 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute symbol_opprettet_av of J51011 : Label is "815";
    attribute symbol_opprettet_av of J51010 : Label is "815";
    attribute symbol_opprettet_av of J51009 : Label is "815";
+   attribute symbol_opprettet_av of J51006 : Label is "815";
    attribute symbol_opprettet_av of J51005 : Label is "815";
    attribute symbol_opprettet_av of J51004 : Label is "815";
    attribute symbol_opprettet_av of J51003 : Label is "815";
@@ -1297,130 +1663,146 @@ Begin
     TK510 : TK510_Mekanisk                                   -- ObjectKind=Sheet Symbol|PrimaryId=TK510
 ;
 
-    R : X_100k                                               -- ObjectKind=Part|PrimaryId=R?|SecondaryId=1
+    U51000 : X_2379                                          -- ObjectKind=Part|PrimaryId=U51000|SecondaryId=1
       Port Map
       (
-        X_1 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=R?-1
-        X_2 => NamedSignal_B14                               -- ObjectKind=Pin|PrimaryId=R?-2
+        X_1 => PinSignal_J51006_1,                           -- ObjectKind=Pin|PrimaryId=U51000-1
+        X_2 => PinSignal_J51006_2,                           -- ObjectKind=Pin|PrimaryId=U51000-2
+        X_7 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=U51000-7
+        X_8 => PinSignal_Q51012_1                            -- ObjectKind=Pin|PrimaryId=U51000-8
       );
 
-    R : X_100k                                               -- ObjectKind=Part|PrimaryId=R?|SecondaryId=1
+    R51040 : X_100k                                          -- ObjectKind=Part|PrimaryId=R51040|SecondaryId=1
       Port Map
       (
-        X_1 => NamedSignal_B14,                              -- ObjectKind=Pin|PrimaryId=R?-1
-        X_2 => PowerSignal_VCC_P5V0                          -- ObjectKind=Pin|PrimaryId=R?-2
+        X_1 => PinSignal_Q51012_1,                           -- ObjectKind=Pin|PrimaryId=R51040-1
+        X_2 => PowerSignal_VCC_P5V0                          -- ObjectKind=Pin|PrimaryId=R51040-2
       );
 
-    R : X_100k                                               -- ObjectKind=Part|PrimaryId=R?|SecondaryId=1
+    R51039 : X_100k                                          -- ObjectKind=Part|PrimaryId=R51039|SecondaryId=1
       Port Map
       (
-        X_1 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=R?-1
-        X_2 => NamedSignal_B13                               -- ObjectKind=Pin|PrimaryId=R?-2
+        X_1 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=R51039-1
+        X_2 => NamedSignal_B14                               -- ObjectKind=Pin|PrimaryId=R51039-2
       );
 
-    R : X_100k                                               -- ObjectKind=Part|PrimaryId=R?|SecondaryId=1
+    R51038 : X_100k                                          -- ObjectKind=Part|PrimaryId=R51038|SecondaryId=1
       Port Map
       (
-        X_1 => NamedSignal_B13,                              -- ObjectKind=Pin|PrimaryId=R?-1
-        X_2 => PowerSignal_VCC_P5V0                          -- ObjectKind=Pin|PrimaryId=R?-2
+        X_1 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=R51038-1
+        X_2 => NamedSignal_B13                               -- ObjectKind=Pin|PrimaryId=R51038-2
       );
 
-    R : X_100k                                               -- ObjectKind=Part|PrimaryId=R?|SecondaryId=1
+    R51037 : X_100k                                          -- ObjectKind=Part|PrimaryId=R51037|SecondaryId=1
       Port Map
       (
-        X_1 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=R?-1
-        X_2 => NamedSignal_B12                               -- ObjectKind=Pin|PrimaryId=R?-2
+        X_1 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=R51037-1
+        X_2 => NamedSignal_B12                               -- ObjectKind=Pin|PrimaryId=R51037-2
       );
 
-    R : X_100k                                               -- ObjectKind=Part|PrimaryId=R?|SecondaryId=1
+    R51036 : X_100k                                          -- ObjectKind=Part|PrimaryId=R51036|SecondaryId=1
       Port Map
       (
-        X_1 => NamedSignal_B12,                              -- ObjectKind=Pin|PrimaryId=R?-1
-        X_2 => PowerSignal_VCC_P5V0                          -- ObjectKind=Pin|PrimaryId=R?-2
+        X_1 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=R51036-1
+        X_2 => NamedSignal_B11                               -- ObjectKind=Pin|PrimaryId=R51036-2
       );
 
-    R : X_100k                                               -- ObjectKind=Part|PrimaryId=R?|SecondaryId=1
+    R51035 : X_100k                                          -- ObjectKind=Part|PrimaryId=R51035|SecondaryId=1
       Port Map
       (
-        X_1 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=R?-1
-        X_2 => NamedSignal_B11                               -- ObjectKind=Pin|PrimaryId=R?-2
+        X_1 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=R51035-1
+        X_2 => NamedSignal_B10                               -- ObjectKind=Pin|PrimaryId=R51035-2
       );
 
-    R : X_100k                                               -- ObjectKind=Part|PrimaryId=R?|SecondaryId=1
+    R51034 : X_100k                                          -- ObjectKind=Part|PrimaryId=R51034|SecondaryId=1
       Port Map
       (
-        X_1 => NamedSignal_B11,                              -- ObjectKind=Pin|PrimaryId=R?-1
-        X_2 => PowerSignal_VCC_P5V0                          -- ObjectKind=Pin|PrimaryId=R?-2
+        X_1 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=R51034-1
+        X_2 => NamedSignal_B9                                -- ObjectKind=Pin|PrimaryId=R51034-2
       );
 
-    R : X_100k                                               -- ObjectKind=Part|PrimaryId=R?|SecondaryId=1
+    R51033 : X_100k                                          -- ObjectKind=Part|PrimaryId=R51033|SecondaryId=1
       Port Map
       (
-        X_1 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=R?-1
-        X_2 => NamedSignal_B10                               -- ObjectKind=Pin|PrimaryId=R?-2
+        X_1 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=R51033-1
+        X_2 => NamedSignal_B8                                -- ObjectKind=Pin|PrimaryId=R51033-2
       );
 
-    R : X_100k                                               -- ObjectKind=Part|PrimaryId=R?|SecondaryId=1
+    R51032 : X_100k                                          -- ObjectKind=Part|PrimaryId=R51032|SecondaryId=1
       Port Map
       (
-        X_1 => NamedSignal_B10,                              -- ObjectKind=Pin|PrimaryId=R?-1
-        X_2 => PowerSignal_VCC_P5V0                          -- ObjectKind=Pin|PrimaryId=R?-2
+        X_1 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=R51032-1
+        X_2 => NamedSignal_B7                                -- ObjectKind=Pin|PrimaryId=R51032-2
       );
 
-    R : X_100k                                               -- ObjectKind=Part|PrimaryId=R?|SecondaryId=1
+    R51031 : X_100k                                          -- ObjectKind=Part|PrimaryId=R51031|SecondaryId=1
       Port Map
       (
-        X_1 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=R?-1
-        X_2 => NamedSignal_B9                                -- ObjectKind=Pin|PrimaryId=R?-2
+        X_1 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=R51031-1
+        X_2 => NamedSignal_B6                                -- ObjectKind=Pin|PrimaryId=R51031-2
       );
 
-    R : X_100k                                               -- ObjectKind=Part|PrimaryId=R?|SecondaryId=1
+    R51030 : X_100k                                          -- ObjectKind=Part|PrimaryId=R51030|SecondaryId=1
       Port Map
       (
-        X_1 => NamedSignal_B9,                               -- ObjectKind=Pin|PrimaryId=R?-1
-        X_2 => PowerSignal_VCC_P5V0                          -- ObjectKind=Pin|PrimaryId=R?-2
+        X_1 => NamedSignal_B14,                              -- ObjectKind=Pin|PrimaryId=R51030-1
+        X_2 => PowerSignal_VCC_P5V0                          -- ObjectKind=Pin|PrimaryId=R51030-2
       );
 
-    R : X_100k                                               -- ObjectKind=Part|PrimaryId=R?|SecondaryId=1
+    R51029 : X_100k                                          -- ObjectKind=Part|PrimaryId=R51029|SecondaryId=1
       Port Map
       (
-        X_1 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=R?-1
-        X_2 => NamedSignal_B8                                -- ObjectKind=Pin|PrimaryId=R?-2
+        X_1 => NamedSignal_B13,                              -- ObjectKind=Pin|PrimaryId=R51029-1
+        X_2 => PowerSignal_VCC_P5V0                          -- ObjectKind=Pin|PrimaryId=R51029-2
       );
 
-    R : X_100k                                               -- ObjectKind=Part|PrimaryId=R?|SecondaryId=1
+    R51028 : X_100k                                          -- ObjectKind=Part|PrimaryId=R51028|SecondaryId=1
       Port Map
       (
-        X_1 => NamedSignal_B8,                               -- ObjectKind=Pin|PrimaryId=R?-1
-        X_2 => PowerSignal_VCC_P5V0                          -- ObjectKind=Pin|PrimaryId=R?-2
+        X_1 => NamedSignal_B12,                              -- ObjectKind=Pin|PrimaryId=R51028-1
+        X_2 => PowerSignal_VCC_P5V0                          -- ObjectKind=Pin|PrimaryId=R51028-2
       );
 
-    R : X_100k                                               -- ObjectKind=Part|PrimaryId=R?|SecondaryId=1
+    R51027 : X_100k                                          -- ObjectKind=Part|PrimaryId=R51027|SecondaryId=1
       Port Map
       (
-        X_1 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=R?-1
-        X_2 => NamedSignal_B7                                -- ObjectKind=Pin|PrimaryId=R?-2
+        X_1 => NamedSignal_B11,                              -- ObjectKind=Pin|PrimaryId=R51027-1
+        X_2 => PowerSignal_VCC_P5V0                          -- ObjectKind=Pin|PrimaryId=R51027-2
       );
 
-    R : X_100k                                               -- ObjectKind=Part|PrimaryId=R?|SecondaryId=1
+    R51026 : X_100k                                          -- ObjectKind=Part|PrimaryId=R51026|SecondaryId=1
       Port Map
       (
-        X_1 => NamedSignal_B7,                               -- ObjectKind=Pin|PrimaryId=R?-1
-        X_2 => PowerSignal_VCC_P5V0                          -- ObjectKind=Pin|PrimaryId=R?-2
+        X_1 => NamedSignal_B10,                              -- ObjectKind=Pin|PrimaryId=R51026-1
+        X_2 => PowerSignal_VCC_P5V0                          -- ObjectKind=Pin|PrimaryId=R51026-2
       );
 
-    R : X_100k                                               -- ObjectKind=Part|PrimaryId=R?|SecondaryId=1
+    R51025 : X_100k                                          -- ObjectKind=Part|PrimaryId=R51025|SecondaryId=1
       Port Map
       (
-        X_1 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=R?-1
-        X_2 => NamedSignal_B6                                -- ObjectKind=Pin|PrimaryId=R?-2
+        X_1 => NamedSignal_B9,                               -- ObjectKind=Pin|PrimaryId=R51025-1
+        X_2 => PowerSignal_VCC_P5V0                          -- ObjectKind=Pin|PrimaryId=R51025-2
       );
 
-    R : X_100k                                               -- ObjectKind=Part|PrimaryId=R?|SecondaryId=1
+    R51024 : X_100k                                          -- ObjectKind=Part|PrimaryId=R51024|SecondaryId=1
       Port Map
       (
-        X_1 => NamedSignal_B6,                               -- ObjectKind=Pin|PrimaryId=R?-1
-        X_2 => PowerSignal_VCC_P5V0                          -- ObjectKind=Pin|PrimaryId=R?-2
+        X_1 => NamedSignal_B8,                               -- ObjectKind=Pin|PrimaryId=R51024-1
+        X_2 => PowerSignal_VCC_P5V0                          -- ObjectKind=Pin|PrimaryId=R51024-2
+      );
+
+    R51023 : X_100k                                          -- ObjectKind=Part|PrimaryId=R51023|SecondaryId=1
+      Port Map
+      (
+        X_1 => NamedSignal_B7,                               -- ObjectKind=Pin|PrimaryId=R51023-1
+        X_2 => PowerSignal_VCC_P5V0                          -- ObjectKind=Pin|PrimaryId=R51023-2
+      );
+
+    R51022 : X_100k                                          -- ObjectKind=Part|PrimaryId=R51022|SecondaryId=1
+      Port Map
+      (
+        X_1 => NamedSignal_B6,                               -- ObjectKind=Pin|PrimaryId=R51022-1
+        X_2 => PowerSignal_VCC_P5V0                          -- ObjectKind=Pin|PrimaryId=R51022-2
       );
 
     R51021 : X_100k                                          -- ObjectKind=Part|PrimaryId=R51021|SecondaryId=1
@@ -1575,6 +1957,14 @@ Begin
       (
         X_1 => NamedSignal_KORT_INNSATT,                     -- ObjectKind=Pin|PrimaryId=R51000-1
         X_2 => PowerSignal_VCC_P5V0                          -- ObjectKind=Pin|PrimaryId=R51000-2
+      );
+
+    Q51012 : TSM2314                                         -- ObjectKind=Part|PrimaryId=Q51012|SecondaryId=1
+      Port Map
+      (
+        X_1 => PinSignal_Q51012_1,                           -- ObjectKind=Pin|PrimaryId=Q51012-1
+        X_2 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=Q51012-2
+        X_3 => NamedSignal_KORT_INNSATT                      -- ObjectKind=Pin|PrimaryId=Q51012-3
       );
 
     Q51011 : IRLML6402                                       -- ObjectKind=Part|PrimaryId=Q51011|SecondaryId=1
@@ -1884,6 +2274,13 @@ Begin
         X_8  => PowerSignal_GND,                             -- ObjectKind=Pin|PrimaryId=J51009-8
         X_9  => NamedSignal_FP_0_5,                          -- ObjectKind=Pin|PrimaryId=J51009-9
         X_10 => PowerSignal_GND                              -- ObjectKind=Pin|PrimaryId=J51009-10
+      );
+
+    J51006 : X_2227                                          -- ObjectKind=Part|PrimaryId=J51006|SecondaryId=1
+      Port Map
+      (
+        X_1 => PinSignal_J51006_1,                           -- ObjectKind=Pin|PrimaryId=J51006-1
+        X_2 => PinSignal_J51006_2                            -- ObjectKind=Pin|PrimaryId=J51006-2
       );
 
     J51005 : PCI_ExpressMINUS36P                             -- ObjectKind=Part|PrimaryId=J51005|SecondaryId=1

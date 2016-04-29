@@ -1,9 +1,9 @@
 ------------------------------------------------------------
 -- VHDL TK525_HVDC
--- 2016 4 28 20 30 6
+-- 2016 4 30 0 12 25
 -- Created By "DXP VHDL Generator"
 -- "Copyright (c) 2002-2014 Altium Limited"
--- Product Version: 15.0.15.41991
+-- Product Version: 16.0.5.271
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -41,6 +41,16 @@ Architecture Structure Of TK525_HVDC Is
       (
         X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=R52502-1
         X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=R52502-2
+      );
+   End Component;
+
+   Component X_3643                                          -- ObjectKind=Part|PrimaryId=L52501|SecondaryId=1
+      port
+      (
+        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=L52501-1
+        X_2 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=L52501-2
+        X_3 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=L52501-3
+        X_4 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=L52501-4
       );
    End Component;
 
@@ -88,6 +98,8 @@ Architecture Structure Of TK525_HVDC Is
 
 
     Signal PinSignal_C52500_1   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC52500_1
+    Signal PinSignal_D52500_1   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD52500_1
+    Signal PinSignal_D52500_2   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD52500_2
     Signal PinSignal_D52500_3   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetC52500_2
     Signal PinSignal_D52501_1   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD52501_1
     Signal PinSignal_K52500_31  : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetK52500_31
@@ -97,6 +109,7 @@ Architecture Structure Of TK525_HVDC Is
    attribute antall of S52502 : Label is "40";
    attribute antall of R52502 : Label is "100";
    attribute antall of R52500 : Label is "100";
+   attribute antall of L52501 : Label is "40";
    attribute antall of K52500 : Label is "40";
    attribute antall of D52501 : Label is "50";
 
@@ -104,6 +117,7 @@ Architecture Structure Of TK525_HVDC Is
    attribute Database_Table_Name of S52502 : Label is "altium";
    attribute Database_Table_Name of R52502 : Label is "altium_Motstander";
    attribute Database_Table_Name of R52500 : Label is "altium_Motstander";
+   attribute Database_Table_Name of L52501 : Label is "altium_Spoler";
    attribute Database_Table_Name of K52500 : Label is "altium";
    attribute Database_Table_Name of D52501 : Label is "altium";
    attribute Database_Table_Name of D52500 : Label is "altium";
@@ -113,6 +127,7 @@ Architecture Structure Of TK525_HVDC Is
    attribute dybde of S52502 : Label is "0";
    attribute dybde of R52502 : Label is "1";
    attribute dybde of R52500 : Label is "0";
+   attribute dybde of L52501 : Label is "0";
    attribute dybde of K52500 : Label is "0";
    attribute dybde of D52501 : Label is "2";
 
@@ -120,6 +135,7 @@ Architecture Structure Of TK525_HVDC Is
    attribute hylle of S52502 : Label is "2";
    attribute hylle of R52502 : Label is "8";
    attribute hylle of R52500 : Label is "8";
+   attribute hylle of L52501 : Label is "2";
    attribute hylle of K52500 : Label is "2";
    attribute hylle of D52501 : Label is "13";
 
@@ -127,6 +143,7 @@ Architecture Structure Of TK525_HVDC Is
    attribute id of S52502 : Label is "3182";
    attribute id of R52502 : Label is "2836";
    attribute id of R52500 : Label is "2783";
+   attribute id of L52501 : Label is "3643";
    attribute id of K52500 : Label is "3181";
    attribute id of D52501 : Label is "2209";
    attribute id of D52500 : Label is "1629";
@@ -136,6 +153,7 @@ Architecture Structure Of TK525_HVDC Is
    attribute kolonne of S52502 : Label is "4";
    attribute kolonne of R52502 : Label is "1";
    attribute kolonne of R52500 : Label is "0";
+   attribute kolonne of L52501 : Label is "4";
    attribute kolonne of K52500 : Label is "4";
    attribute kolonne of D52501 : Label is "0";
 
@@ -143,6 +161,7 @@ Architecture Structure Of TK525_HVDC Is
    attribute lager_type of S52502 : Label is "Fremlager";
    attribute lager_type of R52502 : Label is "Fremlager";
    attribute lager_type of R52500 : Label is "Fremlager";
+   attribute lager_type of L52501 : Label is "Fremlager";
    attribute lager_type of K52500 : Label is "Fremlager";
    attribute lager_type of D52501 : Label is "Fremlager";
 
@@ -158,6 +177,7 @@ Architecture Structure Of TK525_HVDC Is
    attribute navn of S52502 : Label is "Automasjonsbryter";
    attribute navn of R52502 : Label is "16k";
    attribute navn of R52500 : Label is "100";
+   attribute navn of L52501 : Label is "Skilletrafo 1:2";
    attribute navn of K52500 : Label is "Kontaktor";
    attribute navn of D52501 : Label is "SMD LED Red";
    attribute navn of D52500 : Label is "GBJ2504";
@@ -167,6 +187,7 @@ Architecture Structure Of TK525_HVDC Is
    attribute nokkelord of S52502 : Label is "Narrow Band Multi-Channel RF Transceiver Module";
    attribute nokkelord of R52502 : Label is "Motstand, Resistor";
    attribute nokkelord of R52500 : Label is "Motstand, Resistor";
+   attribute nokkelord of L52501 : Label is "Trafo, transformer";
    attribute nokkelord of K52500 : Label is "Contactor";
    attribute nokkelord of D52501 : Label is "SMD";
    attribute nokkelord of C52500 : Label is "Capacitor, Kondensator";
@@ -175,6 +196,7 @@ Architecture Structure Of TK525_HVDC Is
    attribute pakke_opprettet of S52502 : Label is "21.06.2014 17:19:32";
    attribute pakke_opprettet of R52502 : Label is "28.06.2014 17:13:33";
    attribute pakke_opprettet of R52500 : Label is "28.06.2014 17:13:33";
+   attribute pakke_opprettet of L52501 : Label is "21.06.2014 17:19:32";
    attribute pakke_opprettet of K52500 : Label is "21.06.2014 17:19:32";
    attribute pakke_opprettet of D52501 : Label is "06.07.2014 18:55:44";
 
@@ -182,6 +204,7 @@ Architecture Structure Of TK525_HVDC Is
    attribute pakke_opprettet_av of S52502 : Label is "809";
    attribute pakke_opprettet_av of R52502 : Label is "815";
    attribute pakke_opprettet_av of R52500 : Label is "815";
+   attribute pakke_opprettet_av of L52501 : Label is "809";
    attribute pakke_opprettet_av of K52500 : Label is "809";
    attribute pakke_opprettet_av of D52501 : Label is "815";
 
@@ -189,6 +212,7 @@ Architecture Structure Of TK525_HVDC Is
    attribute pakketype of S52502 : Label is "6";
    attribute pakketype of R52502 : Label is "92";
    attribute pakketype of R52500 : Label is "92";
+   attribute pakketype of L52501 : Label is "-";
    attribute pakketype of K52500 : Label is "6";
    attribute pakketype of D52501 : Label is "93";
    attribute pakketype of D52500 : Label is "92";
@@ -198,6 +222,7 @@ Architecture Structure Of TK525_HVDC Is
    attribute pris of S52502 : Label is "0";
    attribute pris of R52502 : Label is "0";
    attribute pris of R52500 : Label is "0";
+   attribute pris of L52501 : Label is "500";
    attribute pris of K52500 : Label is "50";
    attribute pris of D52501 : Label is "1";
    attribute pris of D52500 : Label is "15";
@@ -205,6 +230,7 @@ Architecture Structure Of TK525_HVDC Is
 
    attribute produsent : string;
    attribute produsent of S52502 : Label is "Radiocrafts";
+   attribute produsent of L52501 : Label is "Radiocrafts";
    attribute produsent of K52500 : Label is "Radiocrafts";
    attribute produsent of D52501 : Label is "Avago";
    attribute produsent of C52500 : Label is "Vishay";
@@ -213,6 +239,7 @@ Architecture Structure Of TK525_HVDC Is
    attribute rad of S52502 : Label is "4";
    attribute rad of R52502 : Label is "7";
    attribute rad of R52500 : Label is "3";
+   attribute rad of L52501 : Label is "4";
    attribute rad of K52500 : Label is "4";
    attribute rad of D52501 : Label is "0";
 
@@ -220,6 +247,7 @@ Architecture Structure Of TK525_HVDC Is
    attribute rom of S52502 : Label is "OV";
    attribute rom of R52502 : Label is "OV";
    attribute rom of R52500 : Label is "OV";
+   attribute rom of L52501 : Label is "OV";
    attribute rom of K52500 : Label is "OV";
    attribute rom of D52501 : Label is "OV";
 
@@ -227,6 +255,7 @@ Architecture Structure Of TK525_HVDC Is
    attribute symbol_opprettet of S52502 : Label is "05.07.2015 13:10:20";
    attribute symbol_opprettet of R52502 : Label is "08.07.2014 21:16:33";
    attribute symbol_opprettet of R52500 : Label is "08.07.2014 21:16:33";
+   attribute symbol_opprettet of L52501 : Label is "30.04.2016 00:07:18";
    attribute symbol_opprettet of K52500 : Label is "04.07.2015 12:23:41";
    attribute symbol_opprettet of D52501 : Label is "06.07.2014 18:59:47";
    attribute symbol_opprettet of D52500 : Label is "09.06.2015 22:09:39";
@@ -236,6 +265,7 @@ Architecture Structure Of TK525_HVDC Is
    attribute symbol_opprettet_av of S52502 : Label is "815";
    attribute symbol_opprettet_av of R52502 : Label is "oystesm";
    attribute symbol_opprettet_av of R52500 : Label is "oystesm";
+   attribute symbol_opprettet_av of L52501 : Label is "815";
    attribute symbol_opprettet_av of K52500 : Label is "815";
    attribute symbol_opprettet_av of D52501 : Label is "815";
    attribute symbol_opprettet_av of D52500 : Label is "815";
@@ -264,6 +294,15 @@ Begin
         X_2 => PinSignal_K52500_32                           -- ObjectKind=Pin|PrimaryId=R52500-2
       );
 
+    L52501 : X_3643                                          -- ObjectKind=Part|PrimaryId=L52501|SecondaryId=1
+      Port Map
+      (
+        X_1 => L1_230VAC,                                    -- ObjectKind=Pin|PrimaryId=L52501-1
+        X_2 => L2_230VAC,                                    -- ObjectKind=Pin|PrimaryId=L52501-2
+        X_3 => PinSignal_D52500_1,                           -- ObjectKind=Pin|PrimaryId=L52501-3
+        X_4 => PinSignal_D52500_2                            -- ObjectKind=Pin|PrimaryId=L52501-4
+      );
+
     K52500 : Kontaktor                                       -- ObjectKind=Part|PrimaryId=K52500|SecondaryId=4
       Port Map
       (
@@ -281,8 +320,8 @@ Begin
     D52500 : GBJ2504                                         -- ObjectKind=Part|PrimaryId=D52500|SecondaryId=1
       Port Map
       (
-        X_1 => L1_230VAC,                                    -- ObjectKind=Pin|PrimaryId=D52500-1
-        X_2 => L2_230VAC,                                    -- ObjectKind=Pin|PrimaryId=D52500-2
+        X_1 => PinSignal_D52500_1,                           -- ObjectKind=Pin|PrimaryId=D52500-1
+        X_2 => PinSignal_D52500_2,                           -- ObjectKind=Pin|PrimaryId=D52500-2
         X_3 => PinSignal_D52500_3,                           -- ObjectKind=Pin|PrimaryId=D52500-3
         X_4 => PinSignal_C52500_1                            -- ObjectKind=Pin|PrimaryId=D52500-4
       );

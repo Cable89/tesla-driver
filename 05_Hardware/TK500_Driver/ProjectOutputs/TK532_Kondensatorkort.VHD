@@ -1,9 +1,9 @@
 ------------------------------------------------------------
 -- VHDL TK532_Kondensatorkort
--- 2016 4 28 20 30 6
+-- 2016 4 30 0 12 25
 -- Created By "DXP VHDL Generator"
 -- "Copyright (c) 2002-2014 Altium Limited"
--- Product Version: 15.0.15.41991
+-- Product Version: 16.0.5.271
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -223,7 +223,7 @@ Begin
         X_12 => PowerSignal_VCC_P5V0,                        -- ObjectKind=Pin|PrimaryId=J53200-12
         X_14 => PowerSignal_VCC_P5V0,                        -- ObjectKind=Pin|PrimaryId=J53200-14
         X_15 => PowerSignal_VCC_P5V0,                        -- ObjectKind=Pin|PrimaryId=J53200-15
-        X_16 => PowerSignal_VCC_P5V0                         -- ObjectKind=Pin|PrimaryId=J53200-16
+        X_16 => PowerSignal_GND                              -- ObjectKind=Pin|PrimaryId=J53200-16
       );
 
     C53207 : PC_HV_S_WF_22NF                                 -- ObjectKind=Part|PrimaryId=C53207|SecondaryId=1

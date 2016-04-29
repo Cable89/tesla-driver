@@ -79,7 +79,7 @@ DocumentUniqueId=XGHXJSEE
 
 [Document3]
 DocumentPath=TK510_Signalbakplan\TK510_Signalbakplan.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=51000
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -113,7 +113,7 @@ DocumentUniqueId=XSIQVKDB
 
 [Document5]
 DocumentPath=TK511_Blindkort\TK511_Blindkort.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=51100
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=

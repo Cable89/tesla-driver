@@ -1,6 +1,6 @@
 Project Outputs Generation Report
 ---------------------------------
-Start Output Generation At 10:40:53 On 23.09.2016
+Start Output Generation At 15:49:09 On 23.09.2016
 
 Output: Bill of Materials
 Type  : BOM
@@ -11,4 +11,4 @@ From  : Variant [[No Variations]] of Project [TK500_Driver.PrjCor]
 Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 10:41:37 On 23.09.2016
+Finished Output Generation At 15:51:10 On 23.09.2016

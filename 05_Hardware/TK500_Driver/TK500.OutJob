@@ -62,7 +62,7 @@ Configuration2_Item3=OpenExported=False|AddToProject=False|ForceFit=True|NotFitt
 Configuration2_Name4=GroupOrder
 Configuration2_Item4=
 Configuration2_Name5=SortOrder
-Configuration2_Item5=navn=Down
+Configuration2_Item5=Designator=Up
 Configuration2_Name6=VisibleOrder
 Configuration2_Item6=Designator=165|navn=115|beskrivelse=338|pris=340
 

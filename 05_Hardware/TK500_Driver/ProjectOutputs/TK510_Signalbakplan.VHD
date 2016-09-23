@@ -1,6 +1,6 @@
 ------------------------------------------------------------
 -- VHDL TK510_Signalbakplan
--- 2016 9 23 14 15 14
+-- 2016 9 23 14 47 9
 -- Created By "DXP VHDL Generator"
 -- "Copyright (c) 2002-2014 Altium Limited"
 -- Product Version: 16.0.5.271
@@ -70,6 +70,14 @@ End TK510_Signalbakplan;
 
 ------------------------------------------------------------
 Architecture Structure Of TK510_Signalbakplan Is
+   Component X_2209                                          -- ObjectKind=Part|PrimaryId=D51000|SecondaryId=1
+      port
+      (
+        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=D51000-1
+        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=D51000-2
+      );
+   End Component;
+
    Component X_2227                                          -- ObjectKind=Part|PrimaryId=J51006|SecondaryId=1
       port
       (
@@ -224,27 +232,10 @@ Architecture Structure Of TK510_Signalbakplan Is
       );
    End Component;
 
-   Component SMD_LED_Red                                     -- ObjectKind=Part|PrimaryId=D51000|SecondaryId=1
-      port
-      (
-        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=D51000-1
-        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=D51000-2
-      );
-   End Component;
-
    Component TK510_Mekanisk                                  -- ObjectKind=Sheet Symbol|PrimaryId=TK510
    End Component;
 
    Component TK510_Spenningsforsyninger                      -- ObjectKind=Sheet Symbol|PrimaryId=VCC_SLOTS
-   End Component;
-
-   Component TSM2314                                         -- ObjectKind=Part|PrimaryId=Q51006|SecondaryId=1
-      port
-      (
-        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=Q51006-1
-        X_2 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=Q51006-2
-        X_3 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=Q51006-3
-      );
    End Component;
 
 
@@ -420,10 +411,14 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute antall of J51014 : Label is "100";
    attribute antall of J51013 : Label is "100";
    attribute antall of J51012 : Label is "100";
+   attribute antall of D51008 : Label is "50";
+   attribute antall of D51007 : Label is "50";
+   attribute antall of D51006 : Label is "50";
+   attribute antall of D51005 : Label is "50";
+   attribute antall of D51004 : Label is "50";
+   attribute antall of D51000 : Label is "50";
 
    attribute beskrivelse : string;
-   attribute beskrivelse of Q51007 : Label is "N-Channel MOSFET";
-   attribute beskrivelse of Q51006 : Label is "N-Channel MOSFET";
    attribute beskrivelse of D51008 : Label is "SMD";
    attribute beskrivelse of D51007 : Label is "SMD";
    attribute beskrivelse of D51006 : Label is "SMD";
@@ -479,8 +474,8 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute Database_Table_Name of Q51010 : Label is "altium_Transistorer";
    attribute Database_Table_Name of Q51009 : Label is "altium_Transistorer";
    attribute Database_Table_Name of Q51008 : Label is "altium_Transistorer";
-   attribute Database_Table_Name of Q51007 : Label is "altium";
-   attribute Database_Table_Name of Q51006 : Label is "altium";
+   attribute Database_Table_Name of Q51007 : Label is "altium_Transistorer";
+   attribute Database_Table_Name of Q51006 : Label is "altium_Transistorer";
    attribute Database_Table_Name of Q51005 : Label is "altium_Transistorer";
    attribute Database_Table_Name of Q51004 : Label is "altium_Transistorer";
    attribute Database_Table_Name of Q51003 : Label is "altium_Transistorer";
@@ -513,12 +508,12 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute Database_Table_Name of J51002 : Label is "altium";
    attribute Database_Table_Name of J51001 : Label is "altium";
    attribute Database_Table_Name of J51000 : Label is "altium";
-   attribute Database_Table_Name of D51008 : Label is "altium";
-   attribute Database_Table_Name of D51007 : Label is "altium";
-   attribute Database_Table_Name of D51006 : Label is "altium";
-   attribute Database_Table_Name of D51005 : Label is "altium";
-   attribute Database_Table_Name of D51004 : Label is "altium";
-   attribute Database_Table_Name of D51000 : Label is "altium";
+   attribute Database_Table_Name of D51008 : Label is "altium_Dioder";
+   attribute Database_Table_Name of D51007 : Label is "altium_Dioder";
+   attribute Database_Table_Name of D51006 : Label is "altium_Dioder";
+   attribute Database_Table_Name of D51005 : Label is "altium_Dioder";
+   attribute Database_Table_Name of D51004 : Label is "altium_Dioder";
+   attribute Database_Table_Name of D51000 : Label is "altium_Dioder";
 
    attribute Design_comment : string;
    attribute Design_comment of Q51011 : Label is "";
@@ -582,6 +577,12 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute dybde of J51014 : Label is "0";
    attribute dybde of J51013 : Label is "0";
    attribute dybde of J51012 : Label is "0";
+   attribute dybde of D51008 : Label is "2";
+   attribute dybde of D51007 : Label is "2";
+   attribute dybde of D51006 : Label is "2";
+   attribute dybde of D51005 : Label is "2";
+   attribute dybde of D51004 : Label is "2";
+   attribute dybde of D51000 : Label is "2";
 
    attribute hylle : string;
    attribute hylle of R51040 : Label is "6";
@@ -637,6 +638,12 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute hylle of J51014 : Label is "10";
    attribute hylle of J51013 : Label is "10";
    attribute hylle of J51012 : Label is "10";
+   attribute hylle of D51008 : Label is "13";
+   attribute hylle of D51007 : Label is "13";
+   attribute hylle of D51006 : Label is "13";
+   attribute hylle of D51005 : Label is "13";
+   attribute hylle of D51004 : Label is "13";
+   attribute hylle of D51000 : Label is "13";
 
    attribute id : string;
    attribute id of U51000 : Label is "2379";
@@ -686,6 +693,8 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute id of Q51010 : Label is "2383";
    attribute id of Q51009 : Label is "2383";
    attribute id of Q51008 : Label is "2389";
+   attribute id of Q51007 : Label is "2389";
+   attribute id of Q51006 : Label is "2389";
    attribute id of Q51005 : Label is "2383";
    attribute id of Q51004 : Label is "2383";
    attribute id of Q51003 : Label is "2383";
@@ -718,6 +727,12 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute id of J51002 : Label is "2382";
    attribute id of J51001 : Label is "2382";
    attribute id of J51000 : Label is "2382";
+   attribute id of D51008 : Label is "2209";
+   attribute id of D51007 : Label is "2209";
+   attribute id of D51006 : Label is "2209";
+   attribute id of D51005 : Label is "2209";
+   attribute id of D51004 : Label is "2209";
+   attribute id of D51000 : Label is "2209";
 
    attribute kolonne : string;
    attribute kolonne of R51040 : Label is "0";
@@ -773,6 +788,12 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute kolonne of J51014 : Label is "0";
    attribute kolonne of J51013 : Label is "0";
    attribute kolonne of J51012 : Label is "0";
+   attribute kolonne of D51008 : Label is "0";
+   attribute kolonne of D51007 : Label is "0";
+   attribute kolonne of D51006 : Label is "0";
+   attribute kolonne of D51005 : Label is "0";
+   attribute kolonne of D51004 : Label is "0";
+   attribute kolonne of D51000 : Label is "0";
 
    attribute lager_type : string;
    attribute lager_type of R51040 : Label is "Fremlager";
@@ -828,6 +849,12 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute lager_type of J51014 : Label is "Fremlager";
    attribute lager_type of J51013 : Label is "Fremlager";
    attribute lager_type of J51012 : Label is "Fremlager";
+   attribute lager_type of D51008 : Label is "Fremlager";
+   attribute lager_type of D51007 : Label is "Fremlager";
+   attribute lager_type of D51006 : Label is "Fremlager";
+   attribute lager_type of D51005 : Label is "Fremlager";
+   attribute lager_type of D51004 : Label is "Fremlager";
+   attribute lager_type of D51000 : Label is "Fremlager";
 
    attribute leverandor : string;
    attribute leverandor of U51000 : Label is "Farnell";
@@ -850,6 +877,12 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute leverandor of J51002 : Label is "Farnell";
    attribute leverandor of J51001 : Label is "Farnell";
    attribute leverandor of J51000 : Label is "Farnell";
+   attribute leverandor of D51008 : Label is "Farnell";
+   attribute leverandor of D51007 : Label is "Farnell";
+   attribute leverandor of D51006 : Label is "Farnell";
+   attribute leverandor of D51005 : Label is "Farnell";
+   attribute leverandor of D51004 : Label is "Farnell";
+   attribute leverandor of D51000 : Label is "Farnell";
 
    attribute leverandor_varenr : string;
    attribute leverandor_varenr of U51000 : Label is "1086672";
@@ -872,6 +905,12 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute leverandor_varenr of J51002 : Label is "1144435";
    attribute leverandor_varenr of J51001 : Label is "1144435";
    attribute leverandor_varenr of J51000 : Label is "1144435";
+   attribute leverandor_varenr of D51008 : Label is "8554641";
+   attribute leverandor_varenr of D51007 : Label is "8554641";
+   attribute leverandor_varenr of D51006 : Label is "8554641";
+   attribute leverandor_varenr of D51005 : Label is "8554641";
+   attribute leverandor_varenr of D51004 : Label is "8554641";
+   attribute leverandor_varenr of D51000 : Label is "8554641";
 
    attribute navn : string;
    attribute navn of U51000 : Label is "MOCD207R2M";
@@ -1276,8 +1315,8 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute pakketype of Q51010 : Label is "SOT";
    attribute pakketype of Q51009 : Label is "SOT";
    attribute pakketype of Q51008 : Label is "SOT";
-   attribute pakketype of Q51007 : Label is "77";
-   attribute pakketype of Q51006 : Label is "77";
+   attribute pakketype of Q51007 : Label is "SOT";
+   attribute pakketype of Q51006 : Label is "SOT";
    attribute pakketype of Q51005 : Label is "SOT";
    attribute pakketype of Q51004 : Label is "SOT";
    attribute pakketype of Q51003 : Label is "SOT";
@@ -1310,12 +1349,12 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute pakketype of J51002 : Label is "TH";
    attribute pakketype of J51001 : Label is "TH";
    attribute pakketype of J51000 : Label is "TH";
-   attribute pakketype of D51008 : Label is "93";
-   attribute pakketype of D51007 : Label is "93";
-   attribute pakketype of D51006 : Label is "93";
-   attribute pakketype of D51005 : Label is "93";
-   attribute pakketype of D51004 : Label is "93";
-   attribute pakketype of D51000 : Label is "93";
+   attribute pakketype of D51008 : Label is "0603";
+   attribute pakketype of D51007 : Label is "0603";
+   attribute pakketype of D51006 : Label is "0603";
+   attribute pakketype of D51005 : Label is "0603";
+   attribute pakketype of D51004 : Label is "0603";
+   attribute pakketype of D51000 : Label is "0603";
 
    attribute pris : string;
    attribute pris of U51000 : Label is "4";
@@ -1427,6 +1466,12 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute produsent of J51002 : Label is "FCI";
    attribute produsent of J51001 : Label is "FCI";
    attribute produsent of J51000 : Label is "FCI";
+   attribute produsent of D51008 : Label is "Avago";
+   attribute produsent of D51007 : Label is "Avago";
+   attribute produsent of D51006 : Label is "Avago";
+   attribute produsent of D51005 : Label is "Avago";
+   attribute produsent of D51004 : Label is "Avago";
+   attribute produsent of D51000 : Label is "Avago";
 
    attribute rad : string;
    attribute rad of R51040 : Label is "-1";
@@ -1482,6 +1527,12 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute rad of J51014 : Label is "3";
    attribute rad of J51013 : Label is "3";
    attribute rad of J51012 : Label is "3";
+   attribute rad of D51008 : Label is "0";
+   attribute rad of D51007 : Label is "0";
+   attribute rad of D51006 : Label is "0";
+   attribute rad of D51005 : Label is "0";
+   attribute rad of D51004 : Label is "0";
+   attribute rad of D51000 : Label is "0";
 
    attribute rom : string;
    attribute rom of R51040 : Label is "OV";
@@ -1537,6 +1588,12 @@ Architecture Structure Of TK510_Signalbakplan Is
    attribute rom of J51014 : Label is "OV";
    attribute rom of J51013 : Label is "OV";
    attribute rom of J51012 : Label is "OV";
+   attribute rom of D51008 : Label is "OV";
+   attribute rom of D51007 : Label is "OV";
+   attribute rom of D51006 : Label is "OV";
+   attribute rom of D51005 : Label is "OV";
+   attribute rom of D51004 : Label is "OV";
+   attribute rom of D51000 : Label is "OV";
 
    attribute Status : string;
    attribute Status of Q51011 : Label is "New";
@@ -2084,7 +2141,7 @@ Begin
         X_3 => NamedSignal_KORT_INNSATT                      -- ObjectKind=Pin|PrimaryId=Q51008-3
       );
 
-    Q51007 : TSM2314                                         -- ObjectKind=Part|PrimaryId=Q51007|SecondaryId=1
+    Q51007 : X_2389                                          -- ObjectKind=Part|PrimaryId=Q51007|SecondaryId=1
       Port Map
       (
         X_1 => NamedSignal_4_KI,                             -- ObjectKind=Pin|PrimaryId=Q51007-1
@@ -2092,7 +2149,7 @@ Begin
         X_3 => NamedSignal_KORT_INNSATT                      -- ObjectKind=Pin|PrimaryId=Q51007-3
       );
 
-    Q51006 : TSM2314                                         -- ObjectKind=Part|PrimaryId=Q51006|SecondaryId=1
+    Q51006 : X_2389                                          -- ObjectKind=Part|PrimaryId=Q51006|SecondaryId=1
       Port Map
       (
         X_1 => NamedSignal_3_KI,                             -- ObjectKind=Pin|PrimaryId=Q51006-1
@@ -2614,42 +2671,42 @@ Begin
         B18 => PowerSignal_VCC_P18V                          -- ObjectKind=Pin|PrimaryId=J51000-B18
       );
 
-    D51008 : SMD_LED_Red                                     -- ObjectKind=Part|PrimaryId=D51008|SecondaryId=1
+    D51008 : X_2209                                          -- ObjectKind=Part|PrimaryId=D51008|SecondaryId=1
       Port Map
       (
         X_1 => PinSignal_D51008_1,                           -- ObjectKind=Pin|PrimaryId=D51008-1
         X_2 => PowerSignal_GND                               -- ObjectKind=Pin|PrimaryId=D51008-2
       );
 
-    D51007 : SMD_LED_Red                                     -- ObjectKind=Part|PrimaryId=D51007|SecondaryId=1
+    D51007 : X_2209                                          -- ObjectKind=Part|PrimaryId=D51007|SecondaryId=1
       Port Map
       (
         X_1 => PinSignal_D51007_1,                           -- ObjectKind=Pin|PrimaryId=D51007-1
         X_2 => PowerSignal_GND                               -- ObjectKind=Pin|PrimaryId=D51007-2
       );
 
-    D51006 : SMD_LED_Red                                     -- ObjectKind=Part|PrimaryId=D51006|SecondaryId=1
+    D51006 : X_2209                                          -- ObjectKind=Part|PrimaryId=D51006|SecondaryId=1
       Port Map
       (
         X_1 => PinSignal_D51006_1,                           -- ObjectKind=Pin|PrimaryId=D51006-1
         X_2 => PowerSignal_GND                               -- ObjectKind=Pin|PrimaryId=D51006-2
       );
 
-    D51005 : SMD_LED_Red                                     -- ObjectKind=Part|PrimaryId=D51005|SecondaryId=1
+    D51005 : X_2209                                          -- ObjectKind=Part|PrimaryId=D51005|SecondaryId=1
       Port Map
       (
         X_1 => PinSignal_D51005_1,                           -- ObjectKind=Pin|PrimaryId=D51005-1
         X_2 => PowerSignal_GND                               -- ObjectKind=Pin|PrimaryId=D51005-2
       );
 
-    D51004 : SMD_LED_Red                                     -- ObjectKind=Part|PrimaryId=D51004|SecondaryId=1
+    D51004 : X_2209                                          -- ObjectKind=Part|PrimaryId=D51004|SecondaryId=1
       Port Map
       (
         X_1 => PinSignal_D51004_1,                           -- ObjectKind=Pin|PrimaryId=D51004-1
         X_2 => PowerSignal_GND                               -- ObjectKind=Pin|PrimaryId=D51004-2
       );
 
-    D51000 : SMD_LED_Red                                     -- ObjectKind=Part|PrimaryId=D51000|SecondaryId=1
+    D51000 : X_2209                                          -- ObjectKind=Part|PrimaryId=D51000|SecondaryId=1
       Port Map
       (
         X_1 => PinSignal_D51000_1,                           -- ObjectKind=Pin|PrimaryId=D51000-1

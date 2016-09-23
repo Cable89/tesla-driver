@@ -1,6 +1,6 @@
 ------------------------------------------------------------
 -- VHDL TK525_HVDC
--- 2016 9 23 13 35 53
+-- 2016 9 23 14 15 15
 -- Created By "DXP VHDL Generator"
 -- "Copyright (c) 2002-2014 Altium Limited"
 -- Product Version: 16.0.5.271

@@ -1,6 +1,6 @@
 ------------------------------------------------------------
 -- VHDL TK532_Kondensatorkort
--- 2016 4 30 0 12 25
+-- 2016 9 23 13 35 53
 -- Created By "DXP VHDL Generator"
 -- "Copyright (c) 2002-2014 Altium Limited"
 -- Product Version: 16.0.5.271
@@ -21,7 +21,7 @@ End TK532_Kondensatorkort;
 
 ------------------------------------------------------------
 Architecture Structure Of TK532_Kondensatorkort Is
-   Component MPTCMINUS02MINUS16MINUS02MINUS01MINUS03MINUSLMINUSRAMINUSSD -- ObjectKind=Part|PrimaryId=J53200|SecondaryId=1
+   Component X_2393                                          -- ObjectKind=Part|PrimaryId=J53200|SecondaryId=1
       port
       (
         X_1  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53200-1
@@ -47,7 +47,7 @@ Architecture Structure Of TK532_Kondensatorkort Is
       );
    End Component;
 
-   Component PC_HV_S_WF_22NF                                 -- ObjectKind=Part|PrimaryId=C53200|SecondaryId=1
+   Component X_3176                                          -- ObjectKind=Part|PrimaryId=C53200|SecondaryId=1
       port
       (
         X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=C53200-1
@@ -151,15 +151,15 @@ Architecture Structure Of TK532_Kondensatorkort Is
    attribute pakke_opprettet_av of C53200 : Label is "815";
 
    attribute pakketype : string;
-   attribute pakketype of J53200 : Label is "92";
-   attribute pakketype of C53207 : Label is "92";
-   attribute pakketype of C53206 : Label is "92";
-   attribute pakketype of C53205 : Label is "92";
-   attribute pakketype of C53204 : Label is "92";
-   attribute pakketype of C53203 : Label is "92";
-   attribute pakketype of C53202 : Label is "92";
-   attribute pakketype of C53201 : Label is "92";
-   attribute pakketype of C53200 : Label is "92";
+   attribute pakketype of J53200 : Label is "TH";
+   attribute pakketype of C53207 : Label is "TH";
+   attribute pakketype of C53206 : Label is "TH";
+   attribute pakketype of C53205 : Label is "TH";
+   attribute pakketype of C53204 : Label is "TH";
+   attribute pakketype of C53203 : Label is "TH";
+   attribute pakketype of C53202 : Label is "TH";
+   attribute pakketype of C53201 : Label is "TH";
+   attribute pakketype of C53200 : Label is "TH";
 
    attribute pris : string;
    attribute pris of J53200 : Label is "30";
@@ -207,7 +207,7 @@ Architecture Structure Of TK532_Kondensatorkort Is
 
 
 Begin
-    J53200 : MPTCMINUS02MINUS16MINUS02MINUS01MINUS03MINUSLMINUSRAMINUSSD -- ObjectKind=Part|PrimaryId=J53200|SecondaryId=1
+    J53200 : X_2393                                          -- ObjectKind=Part|PrimaryId=J53200|SecondaryId=1
       Port Map
       (
         X_1  => PinSignal_C53200_2,                          -- ObjectKind=Pin|PrimaryId=J53200-1
@@ -226,56 +226,56 @@ Begin
         X_16 => PowerSignal_GND                              -- ObjectKind=Pin|PrimaryId=J53200-16
       );
 
-    C53207 : PC_HV_S_WF_22NF                                 -- ObjectKind=Part|PrimaryId=C53207|SecondaryId=1
+    C53207 : X_3176                                          -- ObjectKind=Part|PrimaryId=C53207|SecondaryId=1
       Port Map
       (
         X_1 => PinSignal_C53204_1,                           -- ObjectKind=Pin|PrimaryId=C53207-1
         X_2 => PinSignal_C53203_1                            -- ObjectKind=Pin|PrimaryId=C53207-2
       );
 
-    C53206 : PC_HV_S_WF_22NF                                 -- ObjectKind=Part|PrimaryId=C53206|SecondaryId=1
+    C53206 : X_3176                                          -- ObjectKind=Part|PrimaryId=C53206|SecondaryId=1
       Port Map
       (
         X_1 => PinSignal_C53204_1,                           -- ObjectKind=Pin|PrimaryId=C53206-1
         X_2 => PinSignal_C53202_1                            -- ObjectKind=Pin|PrimaryId=C53206-2
       );
 
-    C53205 : PC_HV_S_WF_22NF                                 -- ObjectKind=Part|PrimaryId=C53205|SecondaryId=1
+    C53205 : X_3176                                          -- ObjectKind=Part|PrimaryId=C53205|SecondaryId=1
       Port Map
       (
         X_1 => PinSignal_C53204_1,                           -- ObjectKind=Pin|PrimaryId=C53205-1
         X_2 => PinSignal_C53201_1                            -- ObjectKind=Pin|PrimaryId=C53205-2
       );
 
-    C53204 : PC_HV_S_WF_22NF                                 -- ObjectKind=Part|PrimaryId=C53204|SecondaryId=1
+    C53204 : X_3176                                          -- ObjectKind=Part|PrimaryId=C53204|SecondaryId=1
       Port Map
       (
         X_1 => PinSignal_C53204_1,                           -- ObjectKind=Pin|PrimaryId=C53204-1
         X_2 => PinSignal_C53200_1                            -- ObjectKind=Pin|PrimaryId=C53204-2
       );
 
-    C53203 : PC_HV_S_WF_22NF                                 -- ObjectKind=Part|PrimaryId=C53203|SecondaryId=1
+    C53203 : X_3176                                          -- ObjectKind=Part|PrimaryId=C53203|SecondaryId=1
       Port Map
       (
         X_1 => PinSignal_C53203_1,                           -- ObjectKind=Pin|PrimaryId=C53203-1
         X_2 => PinSignal_C53200_2                            -- ObjectKind=Pin|PrimaryId=C53203-2
       );
 
-    C53202 : PC_HV_S_WF_22NF                                 -- ObjectKind=Part|PrimaryId=C53202|SecondaryId=1
+    C53202 : X_3176                                          -- ObjectKind=Part|PrimaryId=C53202|SecondaryId=1
       Port Map
       (
         X_1 => PinSignal_C53202_1,                           -- ObjectKind=Pin|PrimaryId=C53202-1
         X_2 => PinSignal_C53200_2                            -- ObjectKind=Pin|PrimaryId=C53202-2
       );
 
-    C53201 : PC_HV_S_WF_22NF                                 -- ObjectKind=Part|PrimaryId=C53201|SecondaryId=1
+    C53201 : X_3176                                          -- ObjectKind=Part|PrimaryId=C53201|SecondaryId=1
       Port Map
       (
         X_1 => PinSignal_C53201_1,                           -- ObjectKind=Pin|PrimaryId=C53201-1
         X_2 => PinSignal_C53200_2                            -- ObjectKind=Pin|PrimaryId=C53201-2
       );
 
-    C53200 : PC_HV_S_WF_22NF                                 -- ObjectKind=Part|PrimaryId=C53200|SecondaryId=1
+    C53200 : X_3176                                          -- ObjectKind=Part|PrimaryId=C53200|SecondaryId=1
       Port Map
       (
         X_1 => PinSignal_C53200_1,                           -- ObjectKind=Pin|PrimaryId=C53200-1

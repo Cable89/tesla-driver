@@ -1,6 +1,6 @@
 ------------------------------------------------------------
 -- VHDL TK530_Kraftbakplan
--- 2016 4 30 0 12 26
+-- 2016 9 23 13 35 55
 -- Created By "DXP VHDL Generator"
 -- "Copyright (c) 2002-2014 Altium Limited"
 -- Product Version: 16.0.5.271
@@ -32,19 +32,11 @@ End TK530_Kraftbakplan;
 
 ------------------------------------------------------------
 Architecture Structure Of TK530_Kraftbakplan Is
-   Component X_47R                                           -- ObjectKind=Part|PrimaryId=R53003|SecondaryId=1
+   Component X_2209                                          -- ObjectKind=Part|PrimaryId=D53000|SecondaryId=1
       port
       (
-        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=R53003-1
-        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=R53003-2
-      );
-   End Component;
-
-   Component X_100k                                          -- ObjectKind=Part|PrimaryId=R53000|SecondaryId=1
-      port
-      (
-        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=R53000-1
-        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=R53000-2
+        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=D53000-1
+        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=D53000-2
       );
    End Component;
 
@@ -58,20 +50,65 @@ Architecture Structure Of TK530_Kraftbakplan Is
       );
    End Component;
 
-   Component X_2227                                          -- ObjectKind=Part|PrimaryId=J53008|SecondaryId=1
+   Component X_2227                                          -- ObjectKind=Part|PrimaryId=J53006|SecondaryId=1
       port
       (
-        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J53008-1
-        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=J53008-2
+        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J53006-1
+        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=J53006-2
       );
    End Component;
 
-   Component X_2384                                          -- ObjectKind=Part|PrimaryId=R53006|SecondaryId=1
+   Component X_2383                                          -- ObjectKind=Part|PrimaryId=Q53003|SecondaryId=1
       port
       (
-        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=R53006-1
-        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=R53006-2
+        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=Q53003-1
+        X_2 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=Q53003-2
+        X_3 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=Q53003-3
       );
+   End Component;
+
+   Component X_2384                                          -- ObjectKind=Part|PrimaryId=R53000|SecondaryId=1
+      port
+      (
+        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=R53000-1
+        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=R53000-2
+      );
+   End Component;
+
+   Component X_2388                                          -- ObjectKind=Part|PrimaryId=R53003|SecondaryId=1
+      port
+      (
+        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=R53003-1
+        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=R53003-2
+      );
+   End Component;
+
+   Component X_2389                                          -- ObjectKind=Part|PrimaryId=Q53000|SecondaryId=1
+      port
+      (
+        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=Q53000-1
+        X_2 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=Q53000-2
+        X_3 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=Q53000-3
+      );
+   End Component;
+
+   Component X_2391                                          -- ObjectKind=Part|PrimaryId=J53007|SecondaryId=1
+      port
+      (
+        X_1  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53007-1
+        X_2  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53007-2
+        X_3  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53007-3
+        X_4  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53007-4
+        X_5  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53007-5
+        X_6  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53007-6
+        X_7  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53007-7
+        X_8  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53007-8
+        X_9  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53007-9
+        X_10 : inout STD_LOGIC                               -- ObjectKind=Pin|PrimaryId=J53007-10
+      );
+   End Component;
+
+   Component X_2392                                          -- ObjectKind=Part|PrimaryId=M53000|SecondaryId=1
    End Component;
 
    Component X_2394                                          -- ObjectKind=Part|PrimaryId=J53000|SecondaryId=1
@@ -124,85 +161,6 @@ Architecture Structure Of TK530_Kraftbakplan Is
       );
    End Component;
 
-   Component Header_Shrouded_2X5P                            -- ObjectKind=Part|PrimaryId=J53007|SecondaryId=1
-      port
-      (
-        X_1  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53007-1
-        X_2  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53007-2
-        X_3  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53007-3
-        X_4  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53007-4
-        X_5  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53007-5
-        X_6  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53007-6
-        X_7  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53007-7
-        X_8  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53007-8
-        X_9  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53007-9
-        X_10 : inout STD_LOGIC                               -- ObjectKind=Pin|PrimaryId=J53007-10
-      );
-   End Component;
-
-   Component IRLML6402                                       -- ObjectKind=Part|PrimaryId=Q53003|SecondaryId=1
-      port
-      (
-        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=Q53003-1
-        X_2 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=Q53003-2
-        X_3 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=Q53003-3
-      );
-   End Component;
-
-   Component JST_2pin                                        -- ObjectKind=Part|PrimaryId=J53006|SecondaryId=1
-      port
-      (
-        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J53006-1
-        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=J53006-2
-      );
-   End Component;
-
-   Component KortSt_tte                                      -- ObjectKind=Part|PrimaryId=M53000|SecondaryId=1
-   End Component;
-
-   Component MPSCMINUS02MINUS16MINUS02MINUS7_70MINUS03MINUSLMINUSVMINUSLC -- ObjectKind=Part|PrimaryId=J53001|SecondaryId=1
-      port
-      (
-        X_1  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53001-1
-        X_2  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53001-2
-        X_3  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53001-3
-        X_4  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53001-4
-        X_5  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53001-5
-        X_6  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53001-6
-        X_7  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53001-7
-        X_8  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53001-8
-        X_9  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53001-9
-        X_10 : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53001-10
-        X_11 : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53001-11
-        X_12 : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53001-12
-        X_13 : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53001-13
-        X_14 : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53001-14
-        X_15 : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53001-15
-        X_16 : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53001-16
-        X_17 : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53001-17
-        X_18 : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53001-18
-        X_19 : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53001-19
-        X_20 : inout STD_LOGIC                               -- ObjectKind=Pin|PrimaryId=J53001-20
-      );
-   End Component;
-
-   Component SMD_LED_Red                                     -- ObjectKind=Part|PrimaryId=D53000|SecondaryId=1
-      port
-      (
-        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=D53000-1
-        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=D53000-2
-      );
-   End Component;
-
-   Component TSM2314                                         -- ObjectKind=Part|PrimaryId=Q53000|SecondaryId=1
-      port
-      (
-        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=Q53000-1
-        X_2 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=Q53000-2
-        X_3 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=Q53000-3
-      );
-   End Component;
-
 
     Signal NamedSignal_GDT_A1         : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GDT_A1
     Signal NamedSignal_GDT_A2         : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GDT_A2
@@ -231,11 +189,11 @@ Architecture Structure Of TK530_Kraftbakplan Is
     Signal PinSignal_D53002_1         : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD53002_1
     Signal PinSignal_D53003_2         : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD53003_2
     Signal PinSignal_F53000_1         : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetF53000_1
+    Signal PinSignal_J53000_13        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ53000_13
     Signal PinSignal_J53002_17        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ53002_17
     Signal PinSignal_J53002_18        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ53002_18
     Signal PinSignal_J53002_19        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ53002_19
     Signal PinSignal_J53002_20        : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ53002_20
-    Signal PinSignal_Q53003_2         : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetQ53003_2
     Signal PinSignal_Q53004_2         : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetQ53004_2
     Signal PinSignal_Q53005_2         : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetQ53005_2
     Signal PowerSignal_GND            : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GND
@@ -257,28 +215,12 @@ Architecture Structure Of TK530_Kraftbakplan Is
    attribute antall of M53002 : Label is "30";
    attribute antall of M53001 : Label is "30";
    attribute antall of M53000 : Label is "30";
+   attribute antall of J53006 : Label is "100";
+   attribute antall of D53002 : Label is "50";
+   attribute antall of D53001 : Label is "50";
+   attribute antall of D53000 : Label is "50";
 
    attribute beskrivelse : string;
-   attribute beskrivelse of R53005 : Label is "47R 0.1W 5% Thick film resistor";
-   attribute beskrivelse of R53004 : Label is "47R 0.1W 5% Thick film resistor";
-   attribute beskrivelse of R53003 : Label is "47R 0.1W 5% Thick film resistor";
-   attribute beskrivelse of R53002 : Label is "100k 0.1W 5% Thick film resistor";
-   attribute beskrivelse of R53001 : Label is "100k 0.1W 5% Thick film resistor";
-   attribute beskrivelse of R53000 : Label is "100k 0.1W 5% Thick film resistor";
-   attribute beskrivelse of Q53005 : Label is "P-ch. MOSFET. -30V, -3.7A continuous,RDS(ON)=0.05Ohm@VGS=-4,5V, RDS(ON)=0.08Ohm@VGS=-2.5V";
-   attribute beskrivelse of Q53004 : Label is "P-ch. MOSFET. -30V, -3.7A continuous,RDS(ON)=0.05Ohm@VGS=-4,5V, RDS(ON)=0.08Ohm@VGS=-2.5V";
-   attribute beskrivelse of Q53003 : Label is "P-ch. MOSFET. -30V, -3.7A continuous,RDS(ON)=0.05Ohm@VGS=-4,5V, RDS(ON)=0.08Ohm@VGS=-2.5V";
-   attribute beskrivelse of Q53002 : Label is "N-Channel MOSFET";
-   attribute beskrivelse of Q53001 : Label is "N-Channel MOSFET";
-   attribute beskrivelse of Q53000 : Label is "N-Channel MOSFET";
-   attribute beskrivelse of M53005 : Label is "Støtter kort i bakplan";
-   attribute beskrivelse of M53004 : Label is "Støtter kort i bakplan";
-   attribute beskrivelse of M53003 : Label is "Støtter kort i bakplan";
-   attribute beskrivelse of M53002 : Label is "Støtter kort i bakplan";
-   attribute beskrivelse of M53001 : Label is "Støtter kort i bakplan";
-   attribute beskrivelse of M53000 : Label is "Støtter kort i bakplan";
-   attribute beskrivelse of J53002 : Label is "SAMTEC Connector";
-   attribute beskrivelse of J53001 : Label is "SAMTEC Connector";
    attribute beskrivelse of D53003 : Label is "Transient Voltage Suppressor, TVS, Transil SMBJ Series, Unidirectional, 5 V, SMD, 2, 6.4 V";
    attribute beskrivelse of D53002 : Label is "SMD";
    attribute beskrivelse of D53001 : Label is "SMD";
@@ -286,18 +228,18 @@ Architecture Structure Of TK530_Kraftbakplan Is
 
    attribute Database_Table_Name : string;
    attribute Database_Table_Name of R53006 : Label is "altium_Motstander";
-   attribute Database_Table_Name of R53005 : Label is "altium";
-   attribute Database_Table_Name of R53004 : Label is "altium";
-   attribute Database_Table_Name of R53003 : Label is "altium";
-   attribute Database_Table_Name of R53002 : Label is "altium";
-   attribute Database_Table_Name of R53001 : Label is "altium";
-   attribute Database_Table_Name of R53000 : Label is "altium";
-   attribute Database_Table_Name of Q53005 : Label is "altium";
-   attribute Database_Table_Name of Q53004 : Label is "altium";
-   attribute Database_Table_Name of Q53003 : Label is "altium";
-   attribute Database_Table_Name of Q53002 : Label is "altium";
-   attribute Database_Table_Name of Q53001 : Label is "altium";
-   attribute Database_Table_Name of Q53000 : Label is "altium";
+   attribute Database_Table_Name of R53005 : Label is "altium_Motstander";
+   attribute Database_Table_Name of R53004 : Label is "altium_Motstander";
+   attribute Database_Table_Name of R53003 : Label is "altium_Motstander";
+   attribute Database_Table_Name of R53002 : Label is "altium_Motstander";
+   attribute Database_Table_Name of R53001 : Label is "altium_Motstander";
+   attribute Database_Table_Name of R53000 : Label is "altium_Motstander";
+   attribute Database_Table_Name of Q53005 : Label is "altium_Transistorer";
+   attribute Database_Table_Name of Q53004 : Label is "altium_Transistorer";
+   attribute Database_Table_Name of Q53003 : Label is "altium_Transistorer";
+   attribute Database_Table_Name of Q53002 : Label is "altium_Transistorer";
+   attribute Database_Table_Name of Q53001 : Label is "altium_Transistorer";
+   attribute Database_Table_Name of Q53000 : Label is "altium_Transistorer";
    attribute Database_Table_Name of M53005 : Label is "altium";
    attribute Database_Table_Name of M53004 : Label is "altium";
    attribute Database_Table_Name of M53003 : Label is "altium";
@@ -316,9 +258,9 @@ Architecture Structure Of TK530_Kraftbakplan Is
    attribute Database_Table_Name of F53001 : Label is "altium";
    attribute Database_Table_Name of F53000 : Label is "altium";
    attribute Database_Table_Name of D53003 : Label is "altium_Dioder";
-   attribute Database_Table_Name of D53002 : Label is "altium";
-   attribute Database_Table_Name of D53001 : Label is "altium";
-   attribute Database_Table_Name of D53000 : Label is "altium";
+   attribute Database_Table_Name of D53002 : Label is "altium_Dioder";
+   attribute Database_Table_Name of D53001 : Label is "altium_Dioder";
+   attribute Database_Table_Name of D53000 : Label is "altium_Dioder";
    attribute Database_Table_Name of C53000 : Label is "altium_Kondensatorer";
 
    attribute Design_comment : string;
@@ -331,15 +273,19 @@ Architecture Structure Of TK530_Kraftbakplan Is
    attribute dybde of R53005 : Label is "1";
    attribute dybde of R53004 : Label is "1";
    attribute dybde of R53003 : Label is "1";
-   attribute dybde of R53002 : Label is "0";
-   attribute dybde of R53001 : Label is "0";
-   attribute dybde of R53000 : Label is "0";
+   attribute dybde of R53002 : Label is "96";
+   attribute dybde of R53001 : Label is "96";
+   attribute dybde of R53000 : Label is "96";
    attribute dybde of M53005 : Label is "0";
    attribute dybde of M53004 : Label is "0";
    attribute dybde of M53003 : Label is "0";
    attribute dybde of M53002 : Label is "0";
    attribute dybde of M53001 : Label is "0";
    attribute dybde of M53000 : Label is "0";
+   attribute dybde of J53006 : Label is "0";
+   attribute dybde of D53002 : Label is "2";
+   attribute dybde of D53001 : Label is "2";
+   attribute dybde of D53000 : Label is "2";
 
    attribute hylle : string;
    attribute hylle of R53006 : Label is "6";
@@ -355,17 +301,46 @@ Architecture Structure Of TK530_Kraftbakplan Is
    attribute hylle of M53002 : Label is "15";
    attribute hylle of M53001 : Label is "15";
    attribute hylle of M53000 : Label is "15";
+   attribute hylle of J53006 : Label is "10";
+   attribute hylle of D53002 : Label is "13";
+   attribute hylle of D53001 : Label is "13";
+   attribute hylle of D53000 : Label is "13";
 
    attribute id : string;
    attribute id of R53006 : Label is "2384";
+   attribute id of R53005 : Label is "2388";
+   attribute id of R53004 : Label is "2388";
+   attribute id of R53003 : Label is "2388";
+   attribute id of R53002 : Label is "2384";
+   attribute id of R53001 : Label is "2384";
+   attribute id of R53000 : Label is "2384";
+   attribute id of Q53005 : Label is "2383";
+   attribute id of Q53004 : Label is "2383";
+   attribute id of Q53003 : Label is "2383";
+   attribute id of Q53002 : Label is "2389";
+   attribute id of Q53001 : Label is "2389";
+   attribute id of Q53000 : Label is "2389";
+   attribute id of M53005 : Label is "2392";
+   attribute id of M53004 : Label is "2392";
+   attribute id of M53003 : Label is "2392";
+   attribute id of M53002 : Label is "2392";
+   attribute id of M53001 : Label is "2392";
+   attribute id of M53000 : Label is "2392";
    attribute id of J53008 : Label is "2227";
+   attribute id of J53007 : Label is "2391";
+   attribute id of J53006 : Label is "2227";
    attribute id of J53005 : Label is "2225";
    attribute id of J53004 : Label is "2225";
    attribute id of J53003 : Label is "2225";
+   attribute id of J53002 : Label is "2394";
+   attribute id of J53001 : Label is "2394";
    attribute id of J53000 : Label is "2394";
    attribute id of F53001 : Label is "3606";
    attribute id of F53000 : Label is "3606";
    attribute id of D53003 : Label is "3612";
+   attribute id of D53002 : Label is "2209";
+   attribute id of D53001 : Label is "2209";
+   attribute id of D53000 : Label is "2209";
    attribute id of C53000 : Label is "3028";
 
    attribute kolonne : string;
@@ -373,15 +348,19 @@ Architecture Structure Of TK530_Kraftbakplan Is
    attribute kolonne of R53005 : Label is "-1";
    attribute kolonne of R53004 : Label is "-1";
    attribute kolonne of R53003 : Label is "-1";
-   attribute kolonne of R53002 : Label is "-1";
-   attribute kolonne of R53001 : Label is "-1";
-   attribute kolonne of R53000 : Label is "-1";
+   attribute kolonne of R53002 : Label is "0";
+   attribute kolonne of R53001 : Label is "0";
+   attribute kolonne of R53000 : Label is "0";
    attribute kolonne of M53005 : Label is "2";
    attribute kolonne of M53004 : Label is "2";
    attribute kolonne of M53003 : Label is "2";
    attribute kolonne of M53002 : Label is "2";
    attribute kolonne of M53001 : Label is "2";
    attribute kolonne of M53000 : Label is "2";
+   attribute kolonne of J53006 : Label is "0";
+   attribute kolonne of D53002 : Label is "0";
+   attribute kolonne of D53001 : Label is "0";
+   attribute kolonne of D53000 : Label is "0";
 
    attribute lager_type : string;
    attribute lager_type of R53006 : Label is "Fremlager";
@@ -397,6 +376,10 @@ Architecture Structure Of TK530_Kraftbakplan Is
    attribute lager_type of M53002 : Label is "Fremlager";
    attribute lager_type of M53001 : Label is "Fremlager";
    attribute lager_type of M53000 : Label is "Fremlager";
+   attribute lager_type of J53006 : Label is "Fremlager";
+   attribute lager_type of D53002 : Label is "Fremlager";
+   attribute lager_type of D53001 : Label is "Fremlager";
+   attribute lager_type of D53000 : Label is "Fremlager";
 
    attribute leverandor : string;
    attribute leverandor of Q53005 : Label is "Farnell";
@@ -408,6 +391,9 @@ Architecture Structure Of TK530_Kraftbakplan Is
    attribute leverandor of F53001 : Label is "Farnell";
    attribute leverandor of F53000 : Label is "Farnell";
    attribute leverandor of D53003 : Label is "Farnell";
+   attribute leverandor of D53002 : Label is "Farnell";
+   attribute leverandor of D53001 : Label is "Farnell";
+   attribute leverandor of D53000 : Label is "Farnell";
    attribute leverandor of C53000 : Label is "Farnell";
 
    attribute leverandor_varenr : string;
@@ -420,6 +406,9 @@ Architecture Structure Of TK530_Kraftbakplan Is
    attribute leverandor_varenr of F53001 : Label is "1861181";
    attribute leverandor_varenr of F53000 : Label is "1861181";
    attribute leverandor_varenr of D53003 : Label is "9886311";
+   attribute leverandor_varenr of D53002 : Label is "8554641";
+   attribute leverandor_varenr of D53001 : Label is "8554641";
+   attribute leverandor_varenr of D53000 : Label is "8554641";
    attribute leverandor_varenr of C53000 : Label is "1759122";
 
    attribute navn : string;
@@ -566,39 +555,39 @@ Architecture Structure Of TK530_Kraftbakplan Is
 
    attribute pakketype : string;
    attribute pakketype of R53006 : Label is "0603";
-   attribute pakketype of R53005 : Label is "93";
-   attribute pakketype of R53004 : Label is "93";
-   attribute pakketype of R53003 : Label is "93";
-   attribute pakketype of R53002 : Label is "93";
-   attribute pakketype of R53001 : Label is "93";
-   attribute pakketype of R53000 : Label is "93";
-   attribute pakketype of Q53005 : Label is "77";
-   attribute pakketype of Q53004 : Label is "77";
-   attribute pakketype of Q53003 : Label is "77";
-   attribute pakketype of Q53002 : Label is "77";
-   attribute pakketype of Q53001 : Label is "77";
-   attribute pakketype of Q53000 : Label is "77";
-   attribute pakketype of M53005 : Label is "92";
-   attribute pakketype of M53004 : Label is "92";
-   attribute pakketype of M53003 : Label is "92";
-   attribute pakketype of M53002 : Label is "92";
-   attribute pakketype of M53001 : Label is "92";
-   attribute pakketype of M53000 : Label is "92";
+   attribute pakketype of R53005 : Label is "0603";
+   attribute pakketype of R53004 : Label is "0603";
+   attribute pakketype of R53003 : Label is "0603";
+   attribute pakketype of R53002 : Label is "0603";
+   attribute pakketype of R53001 : Label is "0603";
+   attribute pakketype of R53000 : Label is "0603";
+   attribute pakketype of Q53005 : Label is "SOT";
+   attribute pakketype of Q53004 : Label is "SOT";
+   attribute pakketype of Q53003 : Label is "SOT";
+   attribute pakketype of Q53002 : Label is "SOT";
+   attribute pakketype of Q53001 : Label is "SOT";
+   attribute pakketype of Q53000 : Label is "SOT";
+   attribute pakketype of M53005 : Label is "TH";
+   attribute pakketype of M53004 : Label is "TH";
+   attribute pakketype of M53003 : Label is "TH";
+   attribute pakketype of M53002 : Label is "TH";
+   attribute pakketype of M53001 : Label is "TH";
+   attribute pakketype of M53000 : Label is "TH";
    attribute pakketype of J53008 : Label is "TH";
-   attribute pakketype of J53007 : Label is "92";
-   attribute pakketype of J53006 : Label is "92";
+   attribute pakketype of J53007 : Label is "TH";
+   attribute pakketype of J53006 : Label is "TH";
    attribute pakketype of J53005 : Label is "TH";
    attribute pakketype of J53004 : Label is "TH";
    attribute pakketype of J53003 : Label is "TH";
-   attribute pakketype of J53002 : Label is "92";
-   attribute pakketype of J53001 : Label is "92";
+   attribute pakketype of J53002 : Label is "TH";
+   attribute pakketype of J53001 : Label is "TH";
    attribute pakketype of J53000 : Label is "TH";
    attribute pakketype of F53001 : Label is "0805";
    attribute pakketype of F53000 : Label is "0805";
    attribute pakketype of D53003 : Label is "SMD";
-   attribute pakketype of D53002 : Label is "93";
-   attribute pakketype of D53001 : Label is "93";
-   attribute pakketype of D53000 : Label is "93";
+   attribute pakketype of D53002 : Label is "0603";
+   attribute pakketype of D53001 : Label is "0603";
+   attribute pakketype of D53000 : Label is "0603";
    attribute pakketype of C53000 : Label is "0603";
 
    attribute pris : string;
@@ -651,6 +640,9 @@ Architecture Structure Of TK530_Kraftbakplan Is
    attribute produsent of F53001 : Label is "Multicomp";
    attribute produsent of F53000 : Label is "Multicomp";
    attribute produsent of D53003 : Label is "ST Microelectronics";
+   attribute produsent of D53002 : Label is "Avago";
+   attribute produsent of D53001 : Label is "Avago";
+   attribute produsent of D53000 : Label is "Avago";
    attribute produsent of C53000 : Label is "Multikomp";
 
    attribute rad : string;
@@ -667,6 +659,10 @@ Architecture Structure Of TK530_Kraftbakplan Is
    attribute rad of M53002 : Label is "5";
    attribute rad of M53001 : Label is "5";
    attribute rad of M53000 : Label is "5";
+   attribute rad of J53006 : Label is "3";
+   attribute rad of D53002 : Label is "0";
+   attribute rad of D53001 : Label is "0";
+   attribute rad of D53000 : Label is "0";
 
    attribute rom : string;
    attribute rom of R53006 : Label is "OV";
@@ -682,6 +678,10 @@ Architecture Structure Of TK530_Kraftbakplan Is
    attribute rom of M53002 : Label is "OV";
    attribute rom of M53001 : Label is "OV";
    attribute rom of M53000 : Label is "OV";
+   attribute rom of J53006 : Label is "OV";
+   attribute rom of D53002 : Label is "OV";
+   attribute rom of D53001 : Label is "OV";
+   attribute rom of D53000 : Label is "OV";
 
    attribute Status : string;
    attribute Status of Q53005 : Label is "New";
@@ -781,49 +781,49 @@ Begin
         X_2 => NamedSignal_KORT_INNSATT                      -- ObjectKind=Pin|PrimaryId=R53006-2
       );
 
-    R53005 : X_47R                                           -- ObjectKind=Part|PrimaryId=R53005|SecondaryId=1
+    R53005 : X_2388                                          -- ObjectKind=Part|PrimaryId=R53005|SecondaryId=1
       Port Map
       (
         X_1 => PinSignal_D53002_1,                           -- ObjectKind=Pin|PrimaryId=R53005-1
         X_2 => PinSignal_Q53005_2                            -- ObjectKind=Pin|PrimaryId=R53005-2
       );
 
-    R53004 : X_47R                                           -- ObjectKind=Part|PrimaryId=R53004|SecondaryId=1
+    R53004 : X_2388                                          -- ObjectKind=Part|PrimaryId=R53004|SecondaryId=1
       Port Map
       (
         X_1 => PinSignal_D53001_1,                           -- ObjectKind=Pin|PrimaryId=R53004-1
         X_2 => PinSignal_Q53004_2                            -- ObjectKind=Pin|PrimaryId=R53004-2
       );
 
-    R53003 : X_47R                                           -- ObjectKind=Part|PrimaryId=R53003|SecondaryId=1
+    R53003 : X_2388                                          -- ObjectKind=Part|PrimaryId=R53003|SecondaryId=1
       Port Map
       (
         X_1 => PinSignal_D53000_1,                           -- ObjectKind=Pin|PrimaryId=R53003-1
-        X_2 => PinSignal_Q53003_2                            -- ObjectKind=Pin|PrimaryId=R53003-2
+        X_2 => NamedSignal_S0_KI                             -- ObjectKind=Pin|PrimaryId=R53003-2
       );
 
-    R53002 : X_100k                                          -- ObjectKind=Part|PrimaryId=R53002|SecondaryId=1
+    R53002 : X_2384                                          -- ObjectKind=Part|PrimaryId=R53002|SecondaryId=1
       Port Map
       (
         X_1 => NamedSignal_S2_KI,                            -- ObjectKind=Pin|PrimaryId=R53002-1
         X_2 => PowerSignal_GND                               -- ObjectKind=Pin|PrimaryId=R53002-2
       );
 
-    R53001 : X_100k                                          -- ObjectKind=Part|PrimaryId=R53001|SecondaryId=1
+    R53001 : X_2384                                          -- ObjectKind=Part|PrimaryId=R53001|SecondaryId=1
       Port Map
       (
         X_1 => NamedSignal_S1_KI,                            -- ObjectKind=Pin|PrimaryId=R53001-1
         X_2 => PowerSignal_GND                               -- ObjectKind=Pin|PrimaryId=R53001-2
       );
 
-    R53000 : X_100k                                          -- ObjectKind=Part|PrimaryId=R53000|SecondaryId=1
+    R53000 : X_2384                                          -- ObjectKind=Part|PrimaryId=R53000|SecondaryId=1
       Port Map
       (
-        X_1 => NamedSignal_S0_KI,                            -- ObjectKind=Pin|PrimaryId=R53000-1
-        X_2 => PowerSignal_GND                               -- ObjectKind=Pin|PrimaryId=R53000-2
+        X_1 => PinSignal_J53000_13,                          -- ObjectKind=Pin|PrimaryId=R53000-1
+        X_2 => PowerSignal_VCC_P5V0                          -- ObjectKind=Pin|PrimaryId=R53000-2
       );
 
-    Q53005 : IRLML6402                                       -- ObjectKind=Part|PrimaryId=Q53005|SecondaryId=1
+    Q53005 : X_2383                                          -- ObjectKind=Part|PrimaryId=Q53005|SecondaryId=1
       Port Map
       (
         X_1 => NamedSignal_S2_KI,                            -- ObjectKind=Pin|PrimaryId=Q53005-1
@@ -831,7 +831,7 @@ Begin
         X_3 => PowerSignal_VCC_P5V0                          -- ObjectKind=Pin|PrimaryId=Q53005-3
       );
 
-    Q53004 : IRLML6402                                       -- ObjectKind=Part|PrimaryId=Q53004|SecondaryId=1
+    Q53004 : X_2383                                          -- ObjectKind=Part|PrimaryId=Q53004|SecondaryId=1
       Port Map
       (
         X_1 => NamedSignal_S1_KI,                            -- ObjectKind=Pin|PrimaryId=Q53004-1
@@ -839,15 +839,15 @@ Begin
         X_3 => PowerSignal_VCC_P5V0                          -- ObjectKind=Pin|PrimaryId=Q53004-3
       );
 
-    Q53003 : IRLML6402                                       -- ObjectKind=Part|PrimaryId=Q53003|SecondaryId=1
+    Q53003 : X_2383                                          -- ObjectKind=Part|PrimaryId=Q53003|SecondaryId=1
       Port Map
       (
-        X_1 => NamedSignal_S0_KI,                            -- ObjectKind=Pin|PrimaryId=Q53003-1
-        X_2 => PinSignal_Q53003_2,                           -- ObjectKind=Pin|PrimaryId=Q53003-2
+        X_1 => PinSignal_J53000_13,                          -- ObjectKind=Pin|PrimaryId=Q53003-1
+        X_2 => NamedSignal_S0_KI,                            -- ObjectKind=Pin|PrimaryId=Q53003-2
         X_3 => PowerSignal_VCC_P5V0                          -- ObjectKind=Pin|PrimaryId=Q53003-3
       );
 
-    Q53002 : TSM2314                                         -- ObjectKind=Part|PrimaryId=Q53002|SecondaryId=1
+    Q53002 : X_2389                                          -- ObjectKind=Part|PrimaryId=Q53002|SecondaryId=1
       Port Map
       (
         X_1 => NamedSignal_S2_KI,                            -- ObjectKind=Pin|PrimaryId=Q53002-1
@@ -855,7 +855,7 @@ Begin
         X_3 => NamedSignal_KORT_INNSATT                      -- ObjectKind=Pin|PrimaryId=Q53002-3
       );
 
-    Q53001 : TSM2314                                         -- ObjectKind=Part|PrimaryId=Q53001|SecondaryId=1
+    Q53001 : X_2389                                          -- ObjectKind=Part|PrimaryId=Q53001|SecondaryId=1
       Port Map
       (
         X_1 => NamedSignal_S1_KI,                            -- ObjectKind=Pin|PrimaryId=Q53001-1
@@ -863,30 +863,30 @@ Begin
         X_3 => NamedSignal_KORT_INNSATT                      -- ObjectKind=Pin|PrimaryId=Q53001-3
       );
 
-    Q53000 : TSM2314                                         -- ObjectKind=Part|PrimaryId=Q53000|SecondaryId=1
+    Q53000 : X_2389                                          -- ObjectKind=Part|PrimaryId=Q53000|SecondaryId=1
       Port Map
       (
-        X_1 => NamedSignal_S0_KI,                            -- ObjectKind=Pin|PrimaryId=Q53000-1
+        X_1 => PinSignal_J53000_13,                          -- ObjectKind=Pin|PrimaryId=Q53000-1
         X_2 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=Q53000-2
         X_3 => NamedSignal_KORT_INNSATT                      -- ObjectKind=Pin|PrimaryId=Q53000-3
       );
 
-    M53005 : KortSt_tte                                      -- ObjectKind=Part|PrimaryId=M53005|SecondaryId=1
+    M53005 : X_2392                                          -- ObjectKind=Part|PrimaryId=M53005|SecondaryId=1
 ;
 
-    M53004 : KortSt_tte                                      -- ObjectKind=Part|PrimaryId=M53004|SecondaryId=1
+    M53004 : X_2392                                          -- ObjectKind=Part|PrimaryId=M53004|SecondaryId=1
 ;
 
-    M53003 : KortSt_tte                                      -- ObjectKind=Part|PrimaryId=M53003|SecondaryId=1
+    M53003 : X_2392                                          -- ObjectKind=Part|PrimaryId=M53003|SecondaryId=1
 ;
 
-    M53002 : KortSt_tte                                      -- ObjectKind=Part|PrimaryId=M53002|SecondaryId=1
+    M53002 : X_2392                                          -- ObjectKind=Part|PrimaryId=M53002|SecondaryId=1
 ;
 
-    M53001 : KortSt_tte                                      -- ObjectKind=Part|PrimaryId=M53001|SecondaryId=1
+    M53001 : X_2392                                          -- ObjectKind=Part|PrimaryId=M53001|SecondaryId=1
 ;
 
-    M53000 : KortSt_tte                                      -- ObjectKind=Part|PrimaryId=M53000|SecondaryId=1
+    M53000 : X_2392                                          -- ObjectKind=Part|PrimaryId=M53000|SecondaryId=1
 ;
 
     J53008 : X_2227                                          -- ObjectKind=Part|PrimaryId=J53008|SecondaryId=1
@@ -896,7 +896,7 @@ Begin
         X_2 => PowerSignal_GND                               -- ObjectKind=Pin|PrimaryId=J53008-2
       );
 
-    J53007 : Header_Shrouded_2X5P                            -- ObjectKind=Part|PrimaryId=J53007|SecondaryId=1
+    J53007 : X_2391                                          -- ObjectKind=Part|PrimaryId=J53007|SecondaryId=1
       Port Map
       (
         X_1  => NamedSignal_S0_KI,                           -- ObjectKind=Pin|PrimaryId=J53007-1
@@ -911,7 +911,7 @@ Begin
         X_10 => PowerSignal_GND                              -- ObjectKind=Pin|PrimaryId=J53007-10
       );
 
-    J53006 : JST_2pin                                        -- ObjectKind=Part|PrimaryId=J53006|SecondaryId=1
+    J53006 : X_2227                                          -- ObjectKind=Part|PrimaryId=J53006|SecondaryId=1
       Port Map
       (
         X_1 => PinSignal_F53000_1,                           -- ObjectKind=Pin|PrimaryId=J53006-1
@@ -945,7 +945,7 @@ Begin
         X_4 => NamedSignal_GDT_A2                            -- ObjectKind=Pin|PrimaryId=J53003-4
       );
 
-    J53002 : MPSCMINUS02MINUS16MINUS02MINUS7_70MINUS03MINUSLMINUSVMINUSLC -- ObjectKind=Part|PrimaryId=J53002|SecondaryId=1
+    J53002 : X_2394                                          -- ObjectKind=Part|PrimaryId=J53002|SecondaryId=1
       Port Map
       (
         X_1  => NamedSignal_TESLA_OUT_A,                     -- ObjectKind=Pin|PrimaryId=J53002-1
@@ -969,7 +969,7 @@ Begin
         X_20 => PinSignal_J53002_20                          -- ObjectKind=Pin|PrimaryId=J53002-20
       );
 
-    J53001 : MPSCMINUS02MINUS16MINUS02MINUS7_70MINUS03MINUSLMINUSVMINUSLC -- ObjectKind=Part|PrimaryId=J53001|SecondaryId=1
+    J53001 : X_2394                                          -- ObjectKind=Part|PrimaryId=J53001|SecondaryId=1
       Port Map
       (
         X_1  => NamedSignal_HVDC_VCC,                        -- ObjectKind=Pin|PrimaryId=J53001-1
@@ -1008,7 +1008,7 @@ Begin
         X_10 => PowerSignal_VCC_P5V0,                        -- ObjectKind=Pin|PrimaryId=J53000-10
         X_11 => PowerSignal_GND,                             -- ObjectKind=Pin|PrimaryId=J53000-11
         X_12 => NamedSignal_S0_OK,                           -- ObjectKind=Pin|PrimaryId=J53000-12
-        X_13 => NamedSignal_S0_KI,                           -- ObjectKind=Pin|PrimaryId=J53000-13
+        X_13 => PinSignal_J53000_13,                         -- ObjectKind=Pin|PrimaryId=J53000-13
         X_14 => PowerSignal_VCC_P5V0,                        -- ObjectKind=Pin|PrimaryId=J53000-14
         X_15 => PowerSignal_VCC_P5V0,                        -- ObjectKind=Pin|PrimaryId=J53000-15
         X_17 => NamedSignal_GDT_B1,                          -- ObjectKind=Pin|PrimaryId=J53000-17
@@ -1038,21 +1038,21 @@ Begin
         X_2 => PinSignal_D53003_2                            -- ObjectKind=Pin|PrimaryId=D53003-2
       );
 
-    D53002 : SMD_LED_Red                                     -- ObjectKind=Part|PrimaryId=D53002|SecondaryId=1
+    D53002 : X_2209                                          -- ObjectKind=Part|PrimaryId=D53002|SecondaryId=1
       Port Map
       (
         X_1 => PinSignal_D53002_1,                           -- ObjectKind=Pin|PrimaryId=D53002-1
         X_2 => PowerSignal_GND                               -- ObjectKind=Pin|PrimaryId=D53002-2
       );
 
-    D53001 : SMD_LED_Red                                     -- ObjectKind=Part|PrimaryId=D53001|SecondaryId=1
+    D53001 : X_2209                                          -- ObjectKind=Part|PrimaryId=D53001|SecondaryId=1
       Port Map
       (
         X_1 => PinSignal_D53001_1,                           -- ObjectKind=Pin|PrimaryId=D53001-1
         X_2 => PowerSignal_GND                               -- ObjectKind=Pin|PrimaryId=D53001-2
       );
 
-    D53000 : SMD_LED_Red                                     -- ObjectKind=Part|PrimaryId=D53000|SecondaryId=1
+    D53000 : X_2209                                          -- ObjectKind=Part|PrimaryId=D53000|SecondaryId=1
       Port Map
       (
         X_1 => PinSignal_D53000_1,                           -- ObjectKind=Pin|PrimaryId=D53000-1

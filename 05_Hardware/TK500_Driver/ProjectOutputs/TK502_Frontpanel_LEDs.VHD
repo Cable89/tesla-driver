@@ -1,6 +1,6 @@
 ------------------------------------------------------------
 -- VHDL TK502_Frontpanel_LEDs
--- 2016 4 30 0 12 24
+-- 2016 9 23 13 35 53
 -- Created By "DXP VHDL Generator"
 -- "Copyright (c) 2002-2014 Altium Limited"
 -- Product Version: 16.0.5.271
@@ -35,14 +35,6 @@ Architecture Structure Of TK502_Frontpanel_LEDs Is
         X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J50200-1
         X_2 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J50200-2
         X_3 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=J50200-3
-      );
-   End Component;
-
-   Component X_2384                                          -- ObjectKind=Part|PrimaryId=R50200|SecondaryId=1
-      port
-      (
-        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=R50200-1
-        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=R50200-2
       );
    End Component;
 
@@ -86,11 +78,27 @@ Architecture Structure Of TK502_Frontpanel_LEDs Is
       );
    End Component;
 
+   Component X_2444                                          -- ObjectKind=Part|PrimaryId=R50200|SecondaryId=1
+      port
+      (
+        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=R50200-1
+        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=R50200-2
+      );
+   End Component;
+
    Component X_2448                                          -- ObjectKind=Part|PrimaryId=R50202|SecondaryId=1
       port
       (
         X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=R50202-1
         X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=R50202-2
+      );
+   End Component;
+
+   Component X_3186                                          -- ObjectKind=Part|PrimaryId=R50224|SecondaryId=1
+      port
+      (
+        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=R50224-1
+        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=R50224-2
       );
    End Component;
 
@@ -151,6 +159,12 @@ Architecture Structure Of TK502_Frontpanel_LEDs Is
     Signal PinSignal_D50215_1   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD50215_1
     Signal PinSignal_D50216_1   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD50216_1
     Signal PinSignal_D50217_1   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetD50217_1
+    Signal PinSignal_J50200_1   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ50200_1
+    Signal PinSignal_J50201_1   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ50201_1
+    Signal PinSignal_J50202_1   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ50202_1
+    Signal PinSignal_J50203_1   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ50203_1
+    Signal PinSignal_J50204_1   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ50204_1
+    Signal PinSignal_J50205_1   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetJ50205_1
     Signal PowerSignal_GND      : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GND
     Signal PowerSignal_VCC_P5V0 : STD_LOGIC; -- ObjectKind=Net|PrimaryId=VCC_P5V0
 
@@ -201,6 +215,12 @@ Architecture Structure Of TK502_Frontpanel_LEDs Is
    attribute beskrivelse of D50200 : Label is "LED, Green, 5mm, 572 nm, 2.1 V, 20 mA, 150 mcd";
 
    attribute Database_Table_Name : string;
+   attribute Database_Table_Name of R50229 : Label is "altium_Motstander";
+   attribute Database_Table_Name of R50228 : Label is "altium_Motstander";
+   attribute Database_Table_Name of R50227 : Label is "altium_Motstander";
+   attribute Database_Table_Name of R50226 : Label is "altium_Motstander";
+   attribute Database_Table_Name of R50225 : Label is "altium_Motstander";
+   attribute Database_Table_Name of R50224 : Label is "altium_Motstander";
    attribute Database_Table_Name of R50223 : Label is "altium_Motstander";
    attribute Database_Table_Name of R50222 : Label is "altium_Motstander";
    attribute Database_Table_Name of R50221 : Label is "altium_Motstander";
@@ -258,24 +278,24 @@ Architecture Structure Of TK502_Frontpanel_LEDs Is
    attribute dybde of R50220 : Label is "36";
    attribute dybde of R50219 : Label is "36";
    attribute dybde of R50218 : Label is "36";
-   attribute dybde of R50217 : Label is "96";
-   attribute dybde of R50216 : Label is "96";
+   attribute dybde of R50217 : Label is "72";
+   attribute dybde of R50216 : Label is "72";
    attribute dybde of R50215 : Label is "36";
    attribute dybde of R50214 : Label is "36";
    attribute dybde of R50213 : Label is "36";
    attribute dybde of R50212 : Label is "36";
    attribute dybde of R50211 : Label is "36";
    attribute dybde of R50210 : Label is "36";
-   attribute dybde of R50209 : Label is "96";
-   attribute dybde of R50208 : Label is "96";
+   attribute dybde of R50209 : Label is "72";
+   attribute dybde of R50208 : Label is "72";
    attribute dybde of R50207 : Label is "36";
    attribute dybde of R50206 : Label is "36";
    attribute dybde of R50205 : Label is "36";
    attribute dybde of R50204 : Label is "36";
    attribute dybde of R50203 : Label is "36";
    attribute dybde of R50202 : Label is "36";
-   attribute dybde of R50201 : Label is "96";
-   attribute dybde of R50200 : Label is "96";
+   attribute dybde of R50201 : Label is "72";
+   attribute dybde of R50200 : Label is "72";
 
    attribute hylle : string;
    attribute hylle of R50223 : Label is "6";
@@ -304,30 +324,36 @@ Architecture Structure Of TK502_Frontpanel_LEDs Is
    attribute hylle of R50200 : Label is "6";
 
    attribute id : string;
+   attribute id of R50229 : Label is "3186";
+   attribute id of R50228 : Label is "3186";
+   attribute id of R50227 : Label is "3186";
+   attribute id of R50226 : Label is "3186";
+   attribute id of R50225 : Label is "3186";
+   attribute id of R50224 : Label is "3186";
    attribute id of R50223 : Label is "2448";
    attribute id of R50222 : Label is "2448";
    attribute id of R50221 : Label is "2448";
    attribute id of R50220 : Label is "2448";
    attribute id of R50219 : Label is "2448";
    attribute id of R50218 : Label is "2448";
-   attribute id of R50217 : Label is "2384";
-   attribute id of R50216 : Label is "2384";
+   attribute id of R50217 : Label is "2444";
+   attribute id of R50216 : Label is "2444";
    attribute id of R50215 : Label is "2448";
    attribute id of R50214 : Label is "2448";
    attribute id of R50213 : Label is "2448";
    attribute id of R50212 : Label is "2448";
    attribute id of R50211 : Label is "2448";
    attribute id of R50210 : Label is "2448";
-   attribute id of R50209 : Label is "2384";
-   attribute id of R50208 : Label is "2384";
+   attribute id of R50209 : Label is "2444";
+   attribute id of R50208 : Label is "2444";
    attribute id of R50207 : Label is "2448";
    attribute id of R50206 : Label is "2448";
    attribute id of R50205 : Label is "2448";
    attribute id of R50204 : Label is "2448";
    attribute id of R50203 : Label is "2448";
    attribute id of R50202 : Label is "2448";
-   attribute id of R50201 : Label is "2384";
-   attribute id of R50200 : Label is "2384";
+   attribute id of R50201 : Label is "2444";
+   attribute id of R50200 : Label is "2444";
    attribute id of J50206 : Label is "2390";
    attribute id of J50205 : Label is "2226";
    attribute id of J50204 : Label is "2226";
@@ -407,6 +433,12 @@ Architecture Structure Of TK502_Frontpanel_LEDs Is
    attribute lager_type of R50200 : Label is "Fremlager";
 
    attribute leverandor : string;
+   attribute leverandor of R50217 : Label is "Farnell";
+   attribute leverandor of R50216 : Label is "Farnell";
+   attribute leverandor of R50209 : Label is "Farnell";
+   attribute leverandor of R50208 : Label is "Farnell";
+   attribute leverandor of R50201 : Label is "Farnell";
+   attribute leverandor of R50200 : Label is "Farnell";
    attribute leverandor of D50217 : Label is "Farnell";
    attribute leverandor of D50216 : Label is "Farnell";
    attribute leverandor of D50215 : Label is "Farnell";
@@ -427,6 +459,12 @@ Architecture Structure Of TK502_Frontpanel_LEDs Is
    attribute leverandor of D50200 : Label is "Farnell";
 
    attribute leverandor_varenr : string;
+   attribute leverandor_varenr of R50217 : Label is "2447230";
+   attribute leverandor_varenr of R50216 : Label is "2447230";
+   attribute leverandor_varenr of R50209 : Label is "2447230";
+   attribute leverandor_varenr of R50208 : Label is "2447230";
+   attribute leverandor_varenr of R50201 : Label is "2447230";
+   attribute leverandor_varenr of R50200 : Label is "2447230";
    attribute leverandor_varenr of D50217 : Label is "2112108";
    attribute leverandor_varenr of D50216 : Label is "2112111";
    attribute leverandor_varenr of D50215 : Label is "2112108";
@@ -447,30 +485,36 @@ Architecture Structure Of TK502_Frontpanel_LEDs Is
    attribute leverandor_varenr of D50200 : Label is "2112108";
 
    attribute navn : string;
+   attribute navn of R50229 : Label is "0R";
+   attribute navn of R50228 : Label is "0R";
+   attribute navn of R50227 : Label is "0R";
+   attribute navn of R50226 : Label is "0R";
+   attribute navn of R50225 : Label is "0R";
+   attribute navn of R50224 : Label is "0R";
    attribute navn of R50223 : Label is "330R";
    attribute navn of R50222 : Label is "330R";
    attribute navn of R50221 : Label is "330R";
    attribute navn of R50220 : Label is "330R";
    attribute navn of R50219 : Label is "330R";
    attribute navn of R50218 : Label is "330R";
-   attribute navn of R50217 : Label is "100k";
-   attribute navn of R50216 : Label is "100k";
+   attribute navn of R50217 : Label is "10k";
+   attribute navn of R50216 : Label is "10k";
    attribute navn of R50215 : Label is "330R";
    attribute navn of R50214 : Label is "330R";
    attribute navn of R50213 : Label is "330R";
    attribute navn of R50212 : Label is "330R";
    attribute navn of R50211 : Label is "330R";
    attribute navn of R50210 : Label is "330R";
-   attribute navn of R50209 : Label is "100k";
-   attribute navn of R50208 : Label is "100k";
+   attribute navn of R50209 : Label is "10k";
+   attribute navn of R50208 : Label is "10k";
    attribute navn of R50207 : Label is "330R";
    attribute navn of R50206 : Label is "330R";
    attribute navn of R50205 : Label is "330R";
    attribute navn of R50204 : Label is "330R";
    attribute navn of R50203 : Label is "330R";
    attribute navn of R50202 : Label is "330R";
-   attribute navn of R50201 : Label is "100k";
-   attribute navn of R50200 : Label is "100k";
+   attribute navn of R50201 : Label is "10k";
+   attribute navn of R50200 : Label is "10k";
    attribute navn of J50206 : Label is "Header Shrouded 2X17P";
    attribute navn of J50205 : Label is "JST 3pin";
    attribute navn of J50204 : Label is "JST 3pin";
@@ -498,30 +542,36 @@ Architecture Structure Of TK502_Frontpanel_LEDs Is
    attribute navn of D50200 : Label is "Grønn LED 5mm";
 
    attribute nokkelord : string;
+   attribute nokkelord of R50229 : Label is "Resistor Motstand Jumper Lask";
+   attribute nokkelord of R50228 : Label is "Resistor Motstand Jumper Lask";
+   attribute nokkelord of R50227 : Label is "Resistor Motstand Jumper Lask";
+   attribute nokkelord of R50226 : Label is "Resistor Motstand Jumper Lask";
+   attribute nokkelord of R50225 : Label is "Resistor Motstand Jumper Lask";
+   attribute nokkelord of R50224 : Label is "Resistor Motstand Jumper Lask";
    attribute nokkelord of R50223 : Label is "Resistor Motstand";
    attribute nokkelord of R50222 : Label is "Resistor Motstand";
    attribute nokkelord of R50221 : Label is "Resistor Motstand";
    attribute nokkelord of R50220 : Label is "Resistor Motstand";
    attribute nokkelord of R50219 : Label is "Resistor Motstand";
    attribute nokkelord of R50218 : Label is "Resistor Motstand";
-   attribute nokkelord of R50217 : Label is "Resistor";
-   attribute nokkelord of R50216 : Label is "Resistor";
+   attribute nokkelord of R50217 : Label is "Resistor Motstand";
+   attribute nokkelord of R50216 : Label is "Resistor Motstand";
    attribute nokkelord of R50215 : Label is "Resistor Motstand";
    attribute nokkelord of R50214 : Label is "Resistor Motstand";
    attribute nokkelord of R50213 : Label is "Resistor Motstand";
    attribute nokkelord of R50212 : Label is "Resistor Motstand";
    attribute nokkelord of R50211 : Label is "Resistor Motstand";
    attribute nokkelord of R50210 : Label is "Resistor Motstand";
-   attribute nokkelord of R50209 : Label is "Resistor";
-   attribute nokkelord of R50208 : Label is "Resistor";
+   attribute nokkelord of R50209 : Label is "Resistor Motstand";
+   attribute nokkelord of R50208 : Label is "Resistor Motstand";
    attribute nokkelord of R50207 : Label is "Resistor Motstand";
    attribute nokkelord of R50206 : Label is "Resistor Motstand";
    attribute nokkelord of R50205 : Label is "Resistor Motstand";
    attribute nokkelord of R50204 : Label is "Resistor Motstand";
    attribute nokkelord of R50203 : Label is "Resistor Motstand";
    attribute nokkelord of R50202 : Label is "Resistor Motstand";
-   attribute nokkelord of R50201 : Label is "Resistor";
-   attribute nokkelord of R50200 : Label is "Resistor";
+   attribute nokkelord of R50201 : Label is "Resistor Motstand";
+   attribute nokkelord of R50200 : Label is "Resistor Motstand";
    attribute nokkelord of J50206 : Label is "IDE";
    attribute nokkelord of J50205 : Label is "Connector, Kontakt";
    attribute nokkelord of J50204 : Label is "Connector, Kontakt";
@@ -543,6 +593,12 @@ Architecture Structure Of TK502_Frontpanel_LEDs Is
    attribute nokkelord of D50200 : Label is "diode, led, lys, green";
 
    attribute pakke_opprettet : string;
+   attribute pakke_opprettet of R50229 : Label is "08.07.2014 21.15.30";
+   attribute pakke_opprettet of R50228 : Label is "08.07.2014 21.15.30";
+   attribute pakke_opprettet of R50227 : Label is "08.07.2014 21.15.30";
+   attribute pakke_opprettet of R50226 : Label is "08.07.2014 21.15.30";
+   attribute pakke_opprettet of R50225 : Label is "08.07.2014 21.15.30";
+   attribute pakke_opprettet of R50224 : Label is "08.07.2014 21.15.30";
    attribute pakke_opprettet of R50223 : Label is "08.07.2014 21:15:30";
    attribute pakke_opprettet of R50222 : Label is "08.07.2014 21:15:30";
    attribute pakke_opprettet of R50221 : Label is "08.07.2014 21:15:30";
@@ -594,6 +650,12 @@ Architecture Structure Of TK502_Frontpanel_LEDs Is
    attribute pakke_opprettet of D50200 : Label is "09.02.2016 18:21:00";
 
    attribute pakke_opprettet_av : string;
+   attribute pakke_opprettet_av of R50229 : Label is "815";
+   attribute pakke_opprettet_av of R50228 : Label is "815";
+   attribute pakke_opprettet_av of R50227 : Label is "815";
+   attribute pakke_opprettet_av of R50226 : Label is "815";
+   attribute pakke_opprettet_av of R50225 : Label is "815";
+   attribute pakke_opprettet_av of R50224 : Label is "815";
    attribute pakke_opprettet_av of R50223 : Label is "815";
    attribute pakke_opprettet_av of R50222 : Label is "815";
    attribute pakke_opprettet_av of R50221 : Label is "815";
@@ -645,6 +707,12 @@ Architecture Structure Of TK502_Frontpanel_LEDs Is
    attribute pakke_opprettet_av of D50200 : Label is "1366";
 
    attribute pakketype : string;
+   attribute pakketype of R50229 : Label is "0603";
+   attribute pakketype of R50228 : Label is "0603";
+   attribute pakketype of R50227 : Label is "0603";
+   attribute pakketype of R50226 : Label is "0603";
+   attribute pakketype of R50225 : Label is "0603";
+   attribute pakketype of R50224 : Label is "0603";
    attribute pakketype of R50223 : Label is "0603";
    attribute pakketype of R50222 : Label is "0603";
    attribute pakketype of R50221 : Label is "0603";
@@ -696,6 +764,12 @@ Architecture Structure Of TK502_Frontpanel_LEDs Is
    attribute pakketype of D50200 : Label is "TH";
 
    attribute pris : string;
+   attribute pris of R50229 : Label is "0";
+   attribute pris of R50228 : Label is "0";
+   attribute pris of R50227 : Label is "0";
+   attribute pris of R50226 : Label is "0";
+   attribute pris of R50225 : Label is "0";
+   attribute pris of R50224 : Label is "0";
    attribute pris of R50223 : Label is "0";
    attribute pris of R50222 : Label is "0";
    attribute pris of R50221 : Label is "0";
@@ -747,6 +821,18 @@ Architecture Structure Of TK502_Frontpanel_LEDs Is
    attribute pris of D50200 : Label is "3";
 
    attribute produsent : string;
+   attribute produsent of R50229 : Label is "Multikomp";
+   attribute produsent of R50228 : Label is "Multikomp";
+   attribute produsent of R50227 : Label is "Multikomp";
+   attribute produsent of R50226 : Label is "Multikomp";
+   attribute produsent of R50225 : Label is "Multikomp";
+   attribute produsent of R50224 : Label is "Multikomp";
+   attribute produsent of R50217 : Label is "Multikomp";
+   attribute produsent of R50216 : Label is "Multikomp";
+   attribute produsent of R50209 : Label is "Multikomp";
+   attribute produsent of R50208 : Label is "Multikomp";
+   attribute produsent of R50201 : Label is "Multikomp";
+   attribute produsent of R50200 : Label is "Multikomp";
    attribute produsent of D50217 : Label is "Multikomp";
    attribute produsent of D50216 : Label is "Multicomp";
    attribute produsent of D50215 : Label is "Multikomp";
@@ -819,6 +905,12 @@ Architecture Structure Of TK502_Frontpanel_LEDs Is
    attribute rom of R50200 : Label is "OV";
 
    attribute symbol_opprettet : string;
+   attribute symbol_opprettet of R50229 : Label is "08.07.2014 21.16.33";
+   attribute symbol_opprettet of R50228 : Label is "08.07.2014 21.16.33";
+   attribute symbol_opprettet of R50227 : Label is "08.07.2014 21.16.33";
+   attribute symbol_opprettet of R50226 : Label is "08.07.2014 21.16.33";
+   attribute symbol_opprettet of R50225 : Label is "08.07.2014 21.16.33";
+   attribute symbol_opprettet of R50224 : Label is "08.07.2014 21.16.33";
    attribute symbol_opprettet of R50223 : Label is "08.07.2014 21:16:33";
    attribute symbol_opprettet of R50222 : Label is "08.07.2014 21:16:33";
    attribute symbol_opprettet of R50221 : Label is "08.07.2014 21:16:33";
@@ -870,6 +962,12 @@ Architecture Structure Of TK502_Frontpanel_LEDs Is
    attribute symbol_opprettet of D50200 : Label is "06.07.2014 18:59:47";
 
    attribute symbol_opprettet_av : string;
+   attribute symbol_opprettet_av of R50229 : Label is "815";
+   attribute symbol_opprettet_av of R50228 : Label is "815";
+   attribute symbol_opprettet_av of R50227 : Label is "815";
+   attribute symbol_opprettet_av of R50226 : Label is "815";
+   attribute symbol_opprettet_av of R50225 : Label is "815";
+   attribute symbol_opprettet_av of R50224 : Label is "815";
    attribute symbol_opprettet_av of R50223 : Label is "815";
    attribute symbol_opprettet_av of R50222 : Label is "815";
    attribute symbol_opprettet_av of R50221 : Label is "815";
@@ -922,6 +1020,48 @@ Architecture Structure Of TK502_Frontpanel_LEDs Is
 
 
 Begin
+    R50229 : X_3186                                          -- ObjectKind=Part|PrimaryId=R50229|SecondaryId=1
+      Port Map
+      (
+        X_1 => NamedSignal_5_INT,                            -- ObjectKind=Pin|PrimaryId=R50229-1
+        X_2 => PinSignal_J50205_1                            -- ObjectKind=Pin|PrimaryId=R50229-2
+      );
+
+    R50228 : X_3186                                          -- ObjectKind=Part|PrimaryId=R50228|SecondaryId=1
+      Port Map
+      (
+        X_1 => NamedSignal_4_INT,                            -- ObjectKind=Pin|PrimaryId=R50228-1
+        X_2 => PinSignal_J50204_1                            -- ObjectKind=Pin|PrimaryId=R50228-2
+      );
+
+    R50227 : X_3186                                          -- ObjectKind=Part|PrimaryId=R50227|SecondaryId=1
+      Port Map
+      (
+        X_1 => NamedSignal_3_INT,                            -- ObjectKind=Pin|PrimaryId=R50227-1
+        X_2 => PinSignal_J50203_1                            -- ObjectKind=Pin|PrimaryId=R50227-2
+      );
+
+    R50226 : X_3186                                          -- ObjectKind=Part|PrimaryId=R50226|SecondaryId=1
+      Port Map
+      (
+        X_1 => NamedSignal_2_INT,                            -- ObjectKind=Pin|PrimaryId=R50226-1
+        X_2 => PinSignal_J50202_1                            -- ObjectKind=Pin|PrimaryId=R50226-2
+      );
+
+    R50225 : X_3186                                          -- ObjectKind=Part|PrimaryId=R50225|SecondaryId=1
+      Port Map
+      (
+        X_1 => NamedSignal_1_INT,                            -- ObjectKind=Pin|PrimaryId=R50225-1
+        X_2 => PinSignal_J50201_1                            -- ObjectKind=Pin|PrimaryId=R50225-2
+      );
+
+    R50224 : X_3186                                          -- ObjectKind=Part|PrimaryId=R50224|SecondaryId=1
+      Port Map
+      (
+        X_1 => NamedSignal_0_INT,                            -- ObjectKind=Pin|PrimaryId=R50224-1
+        X_2 => PinSignal_J50200_1                            -- ObjectKind=Pin|PrimaryId=R50224-2
+      );
+
     R50223 : X_2448                                          -- ObjectKind=Part|PrimaryId=R50223|SecondaryId=1
       Port Map
       (
@@ -964,14 +1104,14 @@ Begin
         X_2 => NamedSignal_4_KI                              -- ObjectKind=Pin|PrimaryId=R50218-2
       );
 
-    R50217 : X_2384                                          -- ObjectKind=Part|PrimaryId=R50217|SecondaryId=1
+    R50217 : X_2444                                          -- ObjectKind=Part|PrimaryId=R50217|SecondaryId=1
       Port Map
       (
         X_1 => NamedSignal_5_KNP,                            -- ObjectKind=Pin|PrimaryId=R50217-1
         X_2 => PowerSignal_VCC_P5V0                          -- ObjectKind=Pin|PrimaryId=R50217-2
       );
 
-    R50216 : X_2384                                          -- ObjectKind=Part|PrimaryId=R50216|SecondaryId=1
+    R50216 : X_2444                                          -- ObjectKind=Part|PrimaryId=R50216|SecondaryId=1
       Port Map
       (
         X_1 => NamedSignal_4_KNP,                            -- ObjectKind=Pin|PrimaryId=R50216-1
@@ -1020,14 +1160,14 @@ Begin
         X_2 => NamedSignal_2_KI                              -- ObjectKind=Pin|PrimaryId=R50210-2
       );
 
-    R50209 : X_2384                                          -- ObjectKind=Part|PrimaryId=R50209|SecondaryId=1
+    R50209 : X_2444                                          -- ObjectKind=Part|PrimaryId=R50209|SecondaryId=1
       Port Map
       (
         X_1 => NamedSignal_3_KNP,                            -- ObjectKind=Pin|PrimaryId=R50209-1
         X_2 => PowerSignal_VCC_P5V0                          -- ObjectKind=Pin|PrimaryId=R50209-2
       );
 
-    R50208 : X_2384                                          -- ObjectKind=Part|PrimaryId=R50208|SecondaryId=1
+    R50208 : X_2444                                          -- ObjectKind=Part|PrimaryId=R50208|SecondaryId=1
       Port Map
       (
         X_1 => NamedSignal_2_KNP,                            -- ObjectKind=Pin|PrimaryId=R50208-1
@@ -1076,14 +1216,14 @@ Begin
         X_2 => NamedSignal_0_KI                              -- ObjectKind=Pin|PrimaryId=R50202-2
       );
 
-    R50201 : X_2384                                          -- ObjectKind=Part|PrimaryId=R50201|SecondaryId=1
+    R50201 : X_2444                                          -- ObjectKind=Part|PrimaryId=R50201|SecondaryId=1
       Port Map
       (
         X_1 => NamedSignal_1_KNP,                            -- ObjectKind=Pin|PrimaryId=R50201-1
         X_2 => PowerSignal_VCC_P5V0                          -- ObjectKind=Pin|PrimaryId=R50201-2
       );
 
-    R50200 : X_2384                                          -- ObjectKind=Part|PrimaryId=R50200|SecondaryId=1
+    R50200 : X_2444                                          -- ObjectKind=Part|PrimaryId=R50200|SecondaryId=1
       Port Map
       (
         X_1 => NamedSignal_0_KNP,                            -- ObjectKind=Pin|PrimaryId=R50200-1
@@ -1132,7 +1272,7 @@ Begin
     J50205 : X_2226                                          -- ObjectKind=Part|PrimaryId=J50205|SecondaryId=1
       Port Map
       (
-        X_1 => NamedSignal_5_INT,                            -- ObjectKind=Pin|PrimaryId=J50205-1
+        X_1 => PinSignal_J50205_1,                           -- ObjectKind=Pin|PrimaryId=J50205-1
         X_2 => NamedSignal_5_KNP,                            -- ObjectKind=Pin|PrimaryId=J50205-2
         X_3 => PowerSignal_GND                               -- ObjectKind=Pin|PrimaryId=J50205-3
       );
@@ -1140,7 +1280,7 @@ Begin
     J50204 : X_2226                                          -- ObjectKind=Part|PrimaryId=J50204|SecondaryId=1
       Port Map
       (
-        X_1 => NamedSignal_4_INT,                            -- ObjectKind=Pin|PrimaryId=J50204-1
+        X_1 => PinSignal_J50204_1,                           -- ObjectKind=Pin|PrimaryId=J50204-1
         X_2 => NamedSignal_4_KNP,                            -- ObjectKind=Pin|PrimaryId=J50204-2
         X_3 => PowerSignal_GND                               -- ObjectKind=Pin|PrimaryId=J50204-3
       );
@@ -1148,7 +1288,7 @@ Begin
     J50203 : X_2226                                          -- ObjectKind=Part|PrimaryId=J50203|SecondaryId=1
       Port Map
       (
-        X_1 => NamedSignal_3_INT,                            -- ObjectKind=Pin|PrimaryId=J50203-1
+        X_1 => PinSignal_J50203_1,                           -- ObjectKind=Pin|PrimaryId=J50203-1
         X_2 => NamedSignal_3_KNP,                            -- ObjectKind=Pin|PrimaryId=J50203-2
         X_3 => PowerSignal_GND                               -- ObjectKind=Pin|PrimaryId=J50203-3
       );
@@ -1156,7 +1296,7 @@ Begin
     J50202 : X_2226                                          -- ObjectKind=Part|PrimaryId=J50202|SecondaryId=1
       Port Map
       (
-        X_1 => NamedSignal_2_INT,                            -- ObjectKind=Pin|PrimaryId=J50202-1
+        X_1 => PinSignal_J50202_1,                           -- ObjectKind=Pin|PrimaryId=J50202-1
         X_2 => NamedSignal_2_KNP,                            -- ObjectKind=Pin|PrimaryId=J50202-2
         X_3 => PowerSignal_GND                               -- ObjectKind=Pin|PrimaryId=J50202-3
       );
@@ -1164,7 +1304,7 @@ Begin
     J50201 : X_2226                                          -- ObjectKind=Part|PrimaryId=J50201|SecondaryId=1
       Port Map
       (
-        X_1 => NamedSignal_1_INT,                            -- ObjectKind=Pin|PrimaryId=J50201-1
+        X_1 => PinSignal_J50201_1,                           -- ObjectKind=Pin|PrimaryId=J50201-1
         X_2 => NamedSignal_1_KNP,                            -- ObjectKind=Pin|PrimaryId=J50201-2
         X_3 => PowerSignal_GND                               -- ObjectKind=Pin|PrimaryId=J50201-3
       );
@@ -1172,7 +1312,7 @@ Begin
     J50200 : X_2226                                          -- ObjectKind=Part|PrimaryId=J50200|SecondaryId=1
       Port Map
       (
-        X_1 => NamedSignal_0_INT,                            -- ObjectKind=Pin|PrimaryId=J50200-1
+        X_1 => PinSignal_J50200_1,                           -- ObjectKind=Pin|PrimaryId=J50200-1
         X_2 => NamedSignal_0_KNP,                            -- ObjectKind=Pin|PrimaryId=J50200-2
         X_3 => PowerSignal_GND                               -- ObjectKind=Pin|PrimaryId=J50200-3
       );

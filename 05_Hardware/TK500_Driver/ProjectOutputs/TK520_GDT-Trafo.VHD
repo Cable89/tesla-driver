@@ -1,6 +1,6 @@
 ------------------------------------------------------------
 -- VHDL TK520_GDTMINUSTrafo
--- 2016 4 30 0 12 25
+-- 2016 9 23 13 35 55
 -- Created By "DXP VHDL Generator"
 -- "Copyright (c) 2002-2014 Altium Limited"
 -- Product Version: 16.0.5.271
@@ -32,15 +32,7 @@ End TK520_GDTMINUSTrafo;
 
 ------------------------------------------------------------
 Architecture Structure Of TK520_GDTMINUSTrafo Is
-   Component JST_2pin                                        -- ObjectKind=Part|PrimaryId=J52001|SecondaryId=1
-      port
-      (
-        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J52001-1
-        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=J52001-2
-      );
-   End Component;
-
-   Component JST_4pin                                        -- ObjectKind=Part|PrimaryId=J52000|SecondaryId=1
+   Component X_2225                                          -- ObjectKind=Part|PrimaryId=J52000|SecondaryId=1
       port
       (
         X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J52000-1
@@ -50,7 +42,15 @@ Architecture Structure Of TK520_GDTMINUSTrafo Is
       );
    End Component;
 
-   Component SD250MINUS3                                     -- ObjectKind=Part|PrimaryId=T52000|SecondaryId=1
+   Component X_2227                                          -- ObjectKind=Part|PrimaryId=J52001|SecondaryId=1
+      port
+      (
+        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J52001-1
+        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=J52001-2
+      );
+   End Component;
+
+   Component X_2374                                          -- ObjectKind=Part|PrimaryId=T52000|SecondaryId=1
       port
       (
         X_1  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=T52000-1
@@ -74,9 +74,10 @@ Architecture Structure Of TK520_GDTMINUSTrafo Is
     Signal NamedSignal_GDT_B3_OUT     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GDT_A4_OUT
     Signal NamedSignal_GDT_B4_OUT     : STD_LOGIC; -- ObjectKind=Net|PrimaryId=GDT_B4_OUT
 
-   attribute beskrivelse : string;
-   attribute beskrivelse of T52001 : Label is "Dual Gate Drive Transformer";
-   attribute beskrivelse of T52000 : Label is "Dual Gate Drive Transformer";
+   attribute antall : string;
+   attribute antall of J52002 : Label is "100";
+   attribute antall of J52001 : Label is "100";
+   attribute antall of J52000 : Label is "100";
 
    attribute Database_Table_Name : string;
    attribute Database_Table_Name of T52001 : Label is "altium";
@@ -85,45 +86,106 @@ Architecture Structure Of TK520_GDTMINUSTrafo Is
    attribute Database_Table_Name of J52001 : Label is "altium";
    attribute Database_Table_Name of J52000 : Label is "altium";
 
+   attribute dybde : string;
+   attribute dybde of J52002 : Label is "0";
+   attribute dybde of J52001 : Label is "0";
+   attribute dybde of J52000 : Label is "0";
+
+   attribute hylle : string;
+   attribute hylle of J52002 : Label is "10";
+   attribute hylle of J52001 : Label is "10";
+   attribute hylle of J52000 : Label is "10";
+
+   attribute id : string;
+   attribute id of T52001 : Label is "2374";
+   attribute id of T52000 : Label is "2374";
+   attribute id of J52002 : Label is "2225";
+   attribute id of J52001 : Label is "2227";
+   attribute id of J52000 : Label is "2225";
+
+   attribute kolonne : string;
+   attribute kolonne of J52002 : Label is "2";
+   attribute kolonne of J52001 : Label is "0";
+   attribute kolonne of J52000 : Label is "2";
+
+   attribute lager_type : string;
+   attribute lager_type of J52002 : Label is "Fremlager";
+   attribute lager_type of J52001 : Label is "Fremlager";
+   attribute lager_type of J52000 : Label is "Fremlager";
+
    attribute navn : string;
    attribute navn of T52001 : Label is "SD250-3";
    attribute navn of T52000 : Label is "SD250-3";
+   attribute navn of J52002 : Label is "JST 4pin";
+   attribute navn of J52001 : Label is "JST 2pin";
+   attribute navn of J52000 : Label is "JST 4pin";
 
    attribute nokkelord : string;
    attribute nokkelord of T52001 : Label is "GDT, Tesla";
    attribute nokkelord of T52000 : Label is "GDT, Tesla";
+   attribute nokkelord of J52002 : Label is "Connector, Kontakt";
+   attribute nokkelord of J52001 : Label is "Connector, Kontakt";
+   attribute nokkelord of J52000 : Label is "Connector, Kontakt";
 
    attribute pakke_opprettet : string;
    attribute pakke_opprettet of T52001 : Label is "28.06.2014 18:37:26";
    attribute pakke_opprettet of T52000 : Label is "28.06.2014 18:37:26";
+   attribute pakke_opprettet of J52002 : Label is "28.06.2014 18:25:23";
+   attribute pakke_opprettet of J52001 : Label is "28.06.2014 18:25:03";
+   attribute pakke_opprettet of J52000 : Label is "28.06.2014 18:25:23";
 
    attribute pakke_opprettet_av : string;
    attribute pakke_opprettet_av of T52001 : Label is "815";
    attribute pakke_opprettet_av of T52000 : Label is "815";
+   attribute pakke_opprettet_av of J52002 : Label is "815";
+   attribute pakke_opprettet_av of J52001 : Label is "815";
+   attribute pakke_opprettet_av of J52000 : Label is "815";
 
    attribute pakketype : string;
-   attribute pakketype of T52001 : Label is "92";
-   attribute pakketype of T52000 : Label is "92";
+   attribute pakketype of T52001 : Label is "TH";
+   attribute pakketype of T52000 : Label is "TH";
+   attribute pakketype of J52002 : Label is "TH";
+   attribute pakketype of J52001 : Label is "TH";
+   attribute pakketype of J52000 : Label is "TH";
 
    attribute pris : string;
    attribute pris of T52001 : Label is "-1";
    attribute pris of T52000 : Label is "-1";
+   attribute pris of J52002 : Label is "2";
+   attribute pris of J52001 : Label is "2";
+   attribute pris of J52000 : Label is "2";
 
    attribute produsent : string;
    attribute produsent of T52001 : Label is "Coilcraft";
    attribute produsent of T52000 : Label is "Coilcraft";
 
+   attribute rad : string;
+   attribute rad of J52002 : Label is "3";
+   attribute rad of J52001 : Label is "3";
+   attribute rad of J52000 : Label is "3";
+
+   attribute rom : string;
+   attribute rom of J52002 : Label is "OV";
+   attribute rom of J52001 : Label is "OV";
+   attribute rom of J52000 : Label is "OV";
+
    attribute symbol_opprettet : string;
    attribute symbol_opprettet of T52001 : Label is "28.06.2014 15:27:34";
    attribute symbol_opprettet of T52000 : Label is "28.06.2014 15:27:34";
+   attribute symbol_opprettet of J52002 : Label is "28.06.2014 15:33:28";
+   attribute symbol_opprettet of J52001 : Label is "28.06.2014 15:33:17";
+   attribute symbol_opprettet of J52000 : Label is "28.06.2014 15:33:28";
 
    attribute symbol_opprettet_av : string;
    attribute symbol_opprettet_av of T52001 : Label is "815";
    attribute symbol_opprettet_av of T52000 : Label is "815";
+   attribute symbol_opprettet_av of J52002 : Label is "815";
+   attribute symbol_opprettet_av of J52001 : Label is "815";
+   attribute symbol_opprettet_av of J52000 : Label is "815";
 
 
 Begin
-    T52001 : SD250MINUS3                                     -- ObjectKind=Part|PrimaryId=T52001|SecondaryId=1
+    T52001 : X_2374                                          -- ObjectKind=Part|PrimaryId=T52001|SecondaryId=1
       Port Map
       (
         X_1  => NamedSignal_GDT_B_IN,                        -- ObjectKind=Pin|PrimaryId=T52001-1
@@ -134,7 +196,7 @@ Begin
         X_10 => NamedSignal_GDT_A4_OUT                       -- ObjectKind=Pin|PrimaryId=T52001-10
       );
 
-    T52000 : SD250MINUS3                                     -- ObjectKind=Part|PrimaryId=T52000|SecondaryId=1
+    T52000 : X_2374                                          -- ObjectKind=Part|PrimaryId=T52000|SecondaryId=1
       Port Map
       (
         X_1  => NamedSignal_GDT_A_IN,                        -- ObjectKind=Pin|PrimaryId=T52000-1
@@ -145,7 +207,7 @@ Begin
         X_10 => NamedSignal_GDT_A2_OUT                       -- ObjectKind=Pin|PrimaryId=T52000-10
       );
 
-    J52002 : JST_4pin                                        -- ObjectKind=Part|PrimaryId=J52002|SecondaryId=1
+    J52002 : X_2225                                          -- ObjectKind=Part|PrimaryId=J52002|SecondaryId=1
       Port Map
       (
         X_1 => NamedSignal_GDT_B3_OUT,                       -- ObjectKind=Pin|PrimaryId=J52002-1
@@ -154,14 +216,14 @@ Begin
         X_4 => NamedSignal_GDT_A4_OUT                        -- ObjectKind=Pin|PrimaryId=J52002-4
       );
 
-    J52001 : JST_2pin                                        -- ObjectKind=Part|PrimaryId=J52001|SecondaryId=1
+    J52001 : X_2227                                          -- ObjectKind=Part|PrimaryId=J52001|SecondaryId=1
       Port Map
       (
         X_1 => NamedSignal_GDT_A_IN,                         -- ObjectKind=Pin|PrimaryId=J52001-1
         X_2 => NamedSignal_GDT_B_IN                          -- ObjectKind=Pin|PrimaryId=J52001-2
       );
 
-    J52000 : JST_4pin                                        -- ObjectKind=Part|PrimaryId=J52000|SecondaryId=1
+    J52000 : X_2225                                          -- ObjectKind=Part|PrimaryId=J52000|SecondaryId=1
       Port Map
       (
         X_1 => NamedSignal_GDT_B1_OUT,                       -- ObjectKind=Pin|PrimaryId=J52000-1

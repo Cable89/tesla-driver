@@ -1,6 +1,6 @@
 ------------------------------------------------------------
 -- VHDL TK525_Hovedstrom
--- 2016 4 30 0 12 25
+-- 2016 9 23 13 35 53
 -- Created By "DXP VHDL Generator"
 -- "Copyright (c) 2002-2014 Altium Limited"
 -- Product Version: 16.0.5.271
@@ -36,15 +36,7 @@ Architecture Structure Of TK525_Hovedstrom Is
       );
    End Component;
 
-   Component Automasjonsbryter                               -- ObjectKind=Part|PrimaryId=S52502|SecondaryId=5
-      port
-      (
-        X_53 : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=S52502-53
-        X_54 : inout STD_LOGIC                               -- ObjectKind=Pin|PrimaryId=S52502-54
-      );
-   End Component;
-
-   Component Kontaktor                                       -- ObjectKind=Part|PrimaryId=K52500|SecondaryId=6
+   Component X_3181                                          -- ObjectKind=Part|PrimaryId=K52500|SecondaryId=6
       port
       (
         X_53 : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=K52500-53
@@ -56,16 +48,21 @@ Architecture Structure Of TK525_Hovedstrom Is
       );
    End Component;
 
+   Component X_3182                                          -- ObjectKind=Part|PrimaryId=S52502|SecondaryId=5
+      port
+      (
+        X_53 : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=S52502-53
+        X_54 : inout STD_LOGIC                               -- ObjectKind=Pin|PrimaryId=S52502-54
+      );
+   End Component;
+
 
     Signal PinSignal_K52500_54           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetK52500_54
     Signal PinSignal_K52500_64           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetK52500_64
     Signal PinSignal_R1_1                : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetR1_1
 
    attribute antall : string;
-   attribute antall of S52512 : Label is "40";
-   attribute antall of S52502 : Label is "40";
-   attribute antall of R1     : Label is "100";
-   attribute antall of K52500 : Label is "40";
+   attribute antall of R1 : Label is "100";
 
    attribute Database_Table_Name : string;
    attribute Database_Table_Name of S52512 : Label is "altium";
@@ -74,16 +71,10 @@ Architecture Structure Of TK525_Hovedstrom Is
    attribute Database_Table_Name of K52500 : Label is "altium";
 
    attribute dybde : string;
-   attribute dybde of S52512 : Label is "0";
-   attribute dybde of S52502 : Label is "0";
-   attribute dybde of R1     : Label is "0";
-   attribute dybde of K52500 : Label is "0";
+   attribute dybde of R1 : Label is "0";
 
    attribute hylle : string;
-   attribute hylle of S52512 : Label is "2";
-   attribute hylle of S52502 : Label is "2";
-   attribute hylle of R1     : Label is "8";
-   attribute hylle of K52500 : Label is "2";
+   attribute hylle of R1 : Label is "8";
 
    attribute id : string;
    attribute id of S52512 : Label is "3182";
@@ -92,16 +83,10 @@ Architecture Structure Of TK525_Hovedstrom Is
    attribute id of K52500 : Label is "3181";
 
    attribute kolonne : string;
-   attribute kolonne of S52512 : Label is "4";
-   attribute kolonne of S52502 : Label is "4";
-   attribute kolonne of R1     : Label is "0";
-   attribute kolonne of K52500 : Label is "4";
+   attribute kolonne of R1 : Label is "0";
 
    attribute lager_type : string;
-   attribute lager_type of S52512 : Label is "Fremlager";
-   attribute lager_type of S52502 : Label is "Fremlager";
-   attribute lager_type of R1     : Label is "Fremlager";
-   attribute lager_type of K52500 : Label is "Fremlager";
+   attribute lager_type of R1 : Label is "Fremlager";
 
    attribute navn : string;
    attribute navn of S52512 : Label is "Automasjonsbryter";
@@ -110,51 +95,32 @@ Architecture Structure Of TK525_Hovedstrom Is
    attribute navn of K52500 : Label is "Kontaktor";
 
    attribute nokkelord : string;
-   attribute nokkelord of S52512 : Label is "Narrow Band Multi-Channel RF Transceiver Module";
-   attribute nokkelord of S52502 : Label is "Narrow Band Multi-Channel RF Transceiver Module";
    attribute nokkelord of R1     : Label is "Motstand, Resistor";
    attribute nokkelord of K52500 : Label is "Contactor";
 
    attribute pakke_opprettet : string;
-   attribute pakke_opprettet of S52512 : Label is "21.06.2014 17:19:32";
-   attribute pakke_opprettet of S52502 : Label is "21.06.2014 17:19:32";
-   attribute pakke_opprettet of R1     : Label is "28.06.2014 17:13:33";
-   attribute pakke_opprettet of K52500 : Label is "21.06.2014 17:19:32";
+   attribute pakke_opprettet of R1 : Label is "28.06.2014 17:13:33";
 
    attribute pakke_opprettet_av : string;
-   attribute pakke_opprettet_av of S52512 : Label is "809";
-   attribute pakke_opprettet_av of S52502 : Label is "809";
-   attribute pakke_opprettet_av of R1     : Label is "815";
-   attribute pakke_opprettet_av of K52500 : Label is "809";
+   attribute pakke_opprettet_av of R1 : Label is "815";
 
    attribute pakketype : string;
-   attribute pakketype of S52512 : Label is "6";
-   attribute pakketype of S52502 : Label is "6";
+   attribute pakketype of S52512 : Label is "-";
+   attribute pakketype of S52502 : Label is "-";
    attribute pakketype of R1     : Label is "92";
-   attribute pakketype of K52500 : Label is "6";
+   attribute pakketype of K52500 : Label is "-";
 
    attribute pris : string;
-   attribute pris of S52512 : Label is "0";
-   attribute pris of S52502 : Label is "0";
+   attribute pris of S52512 : Label is "100";
+   attribute pris of S52502 : Label is "100";
    attribute pris of R1     : Label is "0";
    attribute pris of K52500 : Label is "50";
 
-   attribute produsent : string;
-   attribute produsent of S52512 : Label is "Radiocrafts";
-   attribute produsent of S52502 : Label is "Radiocrafts";
-   attribute produsent of K52500 : Label is "Radiocrafts";
-
    attribute rad : string;
-   attribute rad of S52512 : Label is "4";
-   attribute rad of S52502 : Label is "4";
-   attribute rad of R1     : Label is "3";
-   attribute rad of K52500 : Label is "4";
+   attribute rad of R1 : Label is "3";
 
    attribute rom : string;
-   attribute rom of S52512 : Label is "OV";
-   attribute rom of S52502 : Label is "OV";
-   attribute rom of R1     : Label is "OV";
-   attribute rom of K52500 : Label is "OV";
+   attribute rom of R1 : Label is "OV";
 
    attribute symbol_opprettet : string;
    attribute symbol_opprettet of S52512 : Label is "05.07.2015 13:10:20";
@@ -170,17 +136,17 @@ Architecture Structure Of TK525_Hovedstrom Is
 
 
 Begin
-    S52512 : Automasjonsbryter                               -- ObjectKind=Part|PrimaryId=S52512|SecondaryId=7
+    S52512 : X_3182                                          -- ObjectKind=Part|PrimaryId=S52512|SecondaryId=7
 ;
 
-    S52502 : Automasjonsbryter                               -- ObjectKind=Part|PrimaryId=S52502|SecondaryId=6
+    S52502 : X_3182                                          -- ObjectKind=Part|PrimaryId=S52502|SecondaryId=6
       Port Map
       (
         X_63 => L2_230VAC,                                   -- ObjectKind=Pin|PrimaryId=S52502-63
         X_64 => PinSignal_K52500_64                          -- ObjectKind=Pin|PrimaryId=S52502-64
       );
 
-    S52502 : Automasjonsbryter                               -- ObjectKind=Part|PrimaryId=S52502|SecondaryId=5
+    S52502 : X_3182                                          -- ObjectKind=Part|PrimaryId=S52502|SecondaryId=5
       Port Map
       (
         X_53 => PinSignal_R1_1,                              -- ObjectKind=Pin|PrimaryId=S52502-53
@@ -194,7 +160,7 @@ Begin
         X_2 => L1_230VAC                                     -- ObjectKind=Pin|PrimaryId=R1-2
       );
 
-    K52500 : Kontaktor                                       -- ObjectKind=Part|PrimaryId=K52500|SecondaryId=6
+    K52500 : X_3181                                          -- ObjectKind=Part|PrimaryId=K52500|SecondaryId=6
       Port Map
       (
         X_53 => L1_230VAC,                                   -- ObjectKind=Pin|PrimaryId=K52500-53

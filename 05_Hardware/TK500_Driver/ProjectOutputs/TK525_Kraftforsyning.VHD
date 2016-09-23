@@ -1,6 +1,6 @@
 ------------------------------------------------------------
 -- VHDL TK525_Kraftforsyning
--- 2016 4 30 0 12 26
+-- 2016 9 23 13 35 55
 -- Created By "DXP VHDL Generator"
 -- "Copyright (c) 2002-2014 Altium Limited"
 -- Product Version: 16.0.5.271
@@ -42,15 +42,7 @@ Architecture Structure Of TK525_Kraftforsyning Is
       );
    End Component;
 
-   Component X_3182                                          -- ObjectKind=Part|PrimaryId=S52503|SecondaryId=1
-      port
-      (
-        X_11 : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=S52503-11
-        X_12 : inout STD_LOGIC                               -- ObjectKind=Pin|PrimaryId=S52503-12
-      );
-   End Component;
-
-   Component Automasjonsbryter                               -- ObjectKind=Part|PrimaryId=S52500|SecondaryId=4
+   Component X_3182                                          -- ObjectKind=Part|PrimaryId=S52500|SecondaryId=4
       port
       (
         X_43 : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=S52500-43
@@ -58,7 +50,7 @@ Architecture Structure Of TK525_Kraftforsyning Is
       );
    End Component;
 
-   Component Automatsikring                                  -- ObjectKind=Part|PrimaryId=F52500|SecondaryId=1
+   Component X_3183                                          -- ObjectKind=Part|PrimaryId=F52500|SecondaryId=1
       port
       (
         X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=F52500-1
@@ -66,11 +58,19 @@ Architecture Structure Of TK525_Kraftforsyning Is
       );
    End Component;
 
-   Component Lampe                                           -- ObjectKind=Part|PrimaryId=L52500|SecondaryId=1
+   Component X_3184                                          -- ObjectKind=Part|PrimaryId=L52500|SecondaryId=1
       port
       (
         X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=L52500-1
         X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=L52500-2
+      );
+   End Component;
+
+   Component Automasjonsbryter                               -- ObjectKind=Part|PrimaryId=S52501|SecondaryId=1
+      port
+      (
+        X_11 : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=S52501-11
+        X_12 : inout STD_LOGIC                               -- ObjectKind=Pin|PrimaryId=S52501-12
       );
    End Component;
 
@@ -102,7 +102,7 @@ Architecture Structure Of TK525_Kraftforsyning Is
     Signal PinSignal_K52500_43                  : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetK52500_43
     Signal PinSignal_K52500_44                  : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetK52500_44
     Signal PinSignal_K52500_A1                  : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetK52500_A1
-    Signal PinSignal_K52501_21                  : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetK52501_21
+    Signal PinSignal_K52501_43                  : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetK52501_43
     Signal PinSignal_S52500_44                  : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetS52500_44
     Signal PinSignal_S52503_12                  : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetS52503_12
     Signal PinSignal_S52503_22                  : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetS52503_22
@@ -112,15 +112,8 @@ Architecture Structure Of TK525_Kraftforsyning Is
     Signal PinSignal_TK525_2_HVDC_VCC           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=HVDC_VCC
 
    attribute antall : string;
-   attribute antall of S52504 : Label is "40";
-   attribute antall of S52503 : Label is "40";
    attribute antall of S52502 : Label is "40";
    attribute antall of S52501 : Label is "40";
-   attribute antall of S52500 : Label is "40";
-   attribute antall of L52500 : Label is "40";
-   attribute antall of K52501 : Label is "40";
-   attribute antall of K52500 : Label is "40";
-   attribute antall of F52500 : Label is "40";
 
    attribute Database_Table_Name : string;
    attribute Database_Table_Name of S52504 : Label is "altium";
@@ -128,32 +121,19 @@ Architecture Structure Of TK525_Kraftforsyning Is
    attribute Database_Table_Name of S52502 : Label is "altium";
    attribute Database_Table_Name of S52501 : Label is "altium";
    attribute Database_Table_Name of S52500 : Label is "altium";
+   attribute Database_Table_Name of L52501 : Label is "altium";
    attribute Database_Table_Name of L52500 : Label is "altium";
    attribute Database_Table_Name of K52501 : Label is "altium";
    attribute Database_Table_Name of K52500 : Label is "altium";
    attribute Database_Table_Name of F52500 : Label is "altium";
 
    attribute dybde : string;
-   attribute dybde of S52504 : Label is "0";
-   attribute dybde of S52503 : Label is "0";
    attribute dybde of S52502 : Label is "0";
    attribute dybde of S52501 : Label is "0";
-   attribute dybde of S52500 : Label is "0";
-   attribute dybde of L52500 : Label is "0";
-   attribute dybde of K52501 : Label is "0";
-   attribute dybde of K52500 : Label is "0";
-   attribute dybde of F52500 : Label is "0";
 
    attribute hylle : string;
-   attribute hylle of S52504 : Label is "2";
-   attribute hylle of S52503 : Label is "2";
    attribute hylle of S52502 : Label is "2";
    attribute hylle of S52501 : Label is "2";
-   attribute hylle of S52500 : Label is "2";
-   attribute hylle of L52500 : Label is "2";
-   attribute hylle of K52501 : Label is "2";
-   attribute hylle of K52500 : Label is "2";
-   attribute hylle of F52500 : Label is "2";
 
    attribute id : string;
    attribute id of S52504 : Label is "3182";
@@ -161,32 +141,19 @@ Architecture Structure Of TK525_Kraftforsyning Is
    attribute id of S52502 : Label is "3182";
    attribute id of S52501 : Label is "3182";
    attribute id of S52500 : Label is "3182";
+   attribute id of L52501 : Label is "3184";
    attribute id of L52500 : Label is "3184";
    attribute id of K52501 : Label is "3181";
    attribute id of K52500 : Label is "3181";
    attribute id of F52500 : Label is "3183";
 
    attribute kolonne : string;
-   attribute kolonne of S52504 : Label is "4";
-   attribute kolonne of S52503 : Label is "4";
    attribute kolonne of S52502 : Label is "4";
    attribute kolonne of S52501 : Label is "4";
-   attribute kolonne of S52500 : Label is "4";
-   attribute kolonne of L52500 : Label is "4";
-   attribute kolonne of K52501 : Label is "4";
-   attribute kolonne of K52500 : Label is "4";
-   attribute kolonne of F52500 : Label is "4";
 
    attribute lager_type : string;
-   attribute lager_type of S52504 : Label is "Fremlager";
-   attribute lager_type of S52503 : Label is "Fremlager";
    attribute lager_type of S52502 : Label is "Fremlager";
    attribute lager_type of S52501 : Label is "Fremlager";
-   attribute lager_type of S52500 : Label is "Fremlager";
-   attribute lager_type of L52500 : Label is "Fremlager";
-   attribute lager_type of K52501 : Label is "Fremlager";
-   attribute lager_type of K52500 : Label is "Fremlager";
-   attribute lager_type of F52500 : Label is "Fremlager";
 
    attribute navn : string;
    attribute navn of S52504 : Label is "Automasjonsbryter";
@@ -194,98 +161,64 @@ Architecture Structure Of TK525_Kraftforsyning Is
    attribute navn of S52502 : Label is "Automasjonsbryter";
    attribute navn of S52501 : Label is "Automasjonsbryter";
    attribute navn of S52500 : Label is "Automasjonsbryter";
+   attribute navn of L52501 : Label is "Lampe";
    attribute navn of L52500 : Label is "Lampe";
    attribute navn of K52501 : Label is "Kontaktor";
    attribute navn of K52500 : Label is "Kontaktor";
    attribute navn of F52500 : Label is "Automatsikring";
 
    attribute nokkelord : string;
-   attribute nokkelord of S52504 : Label is "Narrow Band Multi-Channel RF Transceiver Module";
-   attribute nokkelord of S52503 : Label is "Narrow Band Multi-Channel RF Transceiver Module";
    attribute nokkelord of S52502 : Label is "Narrow Band Multi-Channel RF Transceiver Module";
    attribute nokkelord of S52501 : Label is "Narrow Band Multi-Channel RF Transceiver Module";
-   attribute nokkelord of S52500 : Label is "Narrow Band Multi-Channel RF Transceiver Module";
+   attribute nokkelord of L52501 : Label is "Lamp";
    attribute nokkelord of L52500 : Label is "Lamp";
    attribute nokkelord of K52501 : Label is "Contactor";
    attribute nokkelord of K52500 : Label is "Contactor";
    attribute nokkelord of F52500 : Label is "Sikring, Fuse";
 
    attribute pakke_opprettet : string;
-   attribute pakke_opprettet of S52504 : Label is "21.06.2014 17:19:32";
-   attribute pakke_opprettet of S52503 : Label is "21.06.2014 17:19:32";
    attribute pakke_opprettet of S52502 : Label is "21.06.2014 17:19:32";
    attribute pakke_opprettet of S52501 : Label is "21.06.2014 17:19:32";
-   attribute pakke_opprettet of S52500 : Label is "21.06.2014 17:19:32";
-   attribute pakke_opprettet of L52500 : Label is "21.06.2014 17:19:32";
-   attribute pakke_opprettet of K52501 : Label is "21.06.2014 17:19:32";
-   attribute pakke_opprettet of K52500 : Label is "21.06.2014 17:19:32";
-   attribute pakke_opprettet of F52500 : Label is "21.06.2014 17:19:32";
 
    attribute pakke_opprettet_av : string;
-   attribute pakke_opprettet_av of S52504 : Label is "809";
-   attribute pakke_opprettet_av of S52503 : Label is "809";
    attribute pakke_opprettet_av of S52502 : Label is "809";
    attribute pakke_opprettet_av of S52501 : Label is "809";
-   attribute pakke_opprettet_av of S52500 : Label is "809";
-   attribute pakke_opprettet_av of L52500 : Label is "809";
-   attribute pakke_opprettet_av of K52501 : Label is "809";
-   attribute pakke_opprettet_av of K52500 : Label is "809";
-   attribute pakke_opprettet_av of F52500 : Label is "809";
 
    attribute pakketype : string;
    attribute pakketype of S52504 : Label is "-";
    attribute pakketype of S52503 : Label is "-";
-   attribute pakketype of S52502 : Label is "6";
-   attribute pakketype of S52501 : Label is "6";
-   attribute pakketype of S52500 : Label is "6";
-   attribute pakketype of L52500 : Label is "6";
+   attribute pakketype of S52502 : Label is "-";
+   attribute pakketype of S52501 : Label is "-";
+   attribute pakketype of S52500 : Label is "-";
+   attribute pakketype of L52501 : Label is "-";
+   attribute pakketype of L52500 : Label is "-";
    attribute pakketype of K52501 : Label is "-";
    attribute pakketype of K52500 : Label is "-";
-   attribute pakketype of F52500 : Label is "6";
+   attribute pakketype of F52500 : Label is "-";
 
    attribute pris : string;
-   attribute pris of S52504 : Label is "0";
-   attribute pris of S52503 : Label is "0";
-   attribute pris of S52502 : Label is "0";
-   attribute pris of S52501 : Label is "0";
-   attribute pris of S52500 : Label is "0";
+   attribute pris of S52504 : Label is "100";
+   attribute pris of S52503 : Label is "100";
+   attribute pris of S52502 : Label is "100";
+   attribute pris of S52501 : Label is "100";
+   attribute pris of S52500 : Label is "100";
+   attribute pris of L52501 : Label is "0";
    attribute pris of L52500 : Label is "0";
    attribute pris of K52501 : Label is "50";
    attribute pris of K52500 : Label is "50";
    attribute pris of F52500 : Label is "0";
 
    attribute produsent : string;
-   attribute produsent of S52504 : Label is "Radiocrafts";
-   attribute produsent of S52503 : Label is "Radiocrafts";
    attribute produsent of S52502 : Label is "Radiocrafts";
    attribute produsent of S52501 : Label is "Radiocrafts";
-   attribute produsent of S52500 : Label is "Radiocrafts";
-   attribute produsent of L52500 : Label is "Radiocrafts";
-   attribute produsent of K52501 : Label is "Radiocrafts";
-   attribute produsent of K52500 : Label is "Radiocrafts";
-   attribute produsent of F52500 : Label is "Radiocrafts";
 
    attribute rad : string;
-   attribute rad of S52504 : Label is "4";
-   attribute rad of S52503 : Label is "4";
    attribute rad of S52502 : Label is "4";
    attribute rad of S52501 : Label is "4";
-   attribute rad of S52500 : Label is "4";
-   attribute rad of L52500 : Label is "4";
-   attribute rad of K52501 : Label is "4";
-   attribute rad of K52500 : Label is "4";
-   attribute rad of F52500 : Label is "4";
 
    attribute rom : string;
-   attribute rom of S52504 : Label is "OV";
-   attribute rom of S52503 : Label is "OV";
    attribute rom of S52502 : Label is "OV";
    attribute rom of S52501 : Label is "OV";
-   attribute rom of S52500 : Label is "OV";
-   attribute rom of L52500 : Label is "OV";
-   attribute rom of K52501 : Label is "OV";
-   attribute rom of K52500 : Label is "OV";
-   attribute rom of F52500 : Label is "OV";
 
    attribute symbol_opprettet : string;
    attribute symbol_opprettet of S52504 : Label is "05.07.2015 13:10:20";
@@ -293,6 +226,7 @@ Architecture Structure Of TK525_Kraftforsyning Is
    attribute symbol_opprettet of S52502 : Label is "05.07.2015 13:10:20";
    attribute symbol_opprettet of S52501 : Label is "05.07.2015 13:10:20";
    attribute symbol_opprettet of S52500 : Label is "05.07.2015 13:10:20";
+   attribute symbol_opprettet of L52501 : Label is "05.07.2015 14:08:53";
    attribute symbol_opprettet of L52500 : Label is "05.07.2015 14:08:53";
    attribute symbol_opprettet of K52501 : Label is "04.07.2015 12:23:41";
    attribute symbol_opprettet of K52500 : Label is "04.07.2015 12:23:41";
@@ -304,6 +238,7 @@ Architecture Structure Of TK525_Kraftforsyning Is
    attribute symbol_opprettet_av of S52502 : Label is "815";
    attribute symbol_opprettet_av of S52501 : Label is "815";
    attribute symbol_opprettet_av of S52500 : Label is "815";
+   attribute symbol_opprettet_av of L52501 : Label is "815";
    attribute symbol_opprettet_av of L52500 : Label is "815";
    attribute symbol_opprettet_av of K52501 : Label is "815";
    attribute symbol_opprettet_av of K52500 : Label is "815";
@@ -363,7 +298,7 @@ Begin
         X_12 => PinSignal_S52503_12                          -- ObjectKind=Pin|PrimaryId=S52503-12
       );
 
-    S52502 : Automasjonsbryter                               -- ObjectKind=Part|PrimaryId=S52502|SecondaryId=7
+    S52502 : X_3182                                          -- ObjectKind=Part|PrimaryId=S52502|SecondaryId=7
 ;
 
     S52502 : Automasjonsbryter                               -- ObjectKind=Part|PrimaryId=S52502|SecondaryId=4
@@ -373,38 +308,45 @@ Begin
         X_44 => PinSignal_K52500_14                          -- ObjectKind=Pin|PrimaryId=S52502-44
       );
 
-    S52501 : Automasjonsbryter                               -- ObjectKind=Part|PrimaryId=S52501|SecondaryId=7
+    S52501 : X_3182                                          -- ObjectKind=Part|PrimaryId=S52501|SecondaryId=7
 ;
 
     S52501 : Automasjonsbryter                               -- ObjectKind=Part|PrimaryId=S52501|SecondaryId=1
       Port Map
       (
         X_11 => PinSignal_K52500_14,                         -- ObjectKind=Pin|PrimaryId=S52501-11
-        X_12 => PinSignal_K52501_21                          -- ObjectKind=Pin|PrimaryId=S52501-12
+        X_12 => PinSignal_K52501_43                          -- ObjectKind=Pin|PrimaryId=S52501-12
       );
 
-    S52500 : Automasjonsbryter                               -- ObjectKind=Part|PrimaryId=S52500|SecondaryId=7
+    S52500 : X_3182                                          -- ObjectKind=Part|PrimaryId=S52500|SecondaryId=7
 ;
 
-    S52500 : Automasjonsbryter                               -- ObjectKind=Part|PrimaryId=S52500|SecondaryId=4
+    S52500 : X_3182                                          -- ObjectKind=Part|PrimaryId=S52500|SecondaryId=4
       Port Map
       (
         X_43 => NamedSignal_L1_230VAC,                       -- ObjectKind=Pin|PrimaryId=S52500-43
         X_44 => PinSignal_S52500_44                          -- ObjectKind=Pin|PrimaryId=S52500-44
       );
 
-    L52500 : Lampe                                           -- ObjectKind=Part|PrimaryId=L52500|SecondaryId=1
+    L52501 : X_3184                                          -- ObjectKind=Part|PrimaryId=L52501|SecondaryId=1
+      Port Map
+      (
+        X_1 => NamedSignal_L1_230VAC,                        -- ObjectKind=Pin|PrimaryId=L52501-1
+        X_2 => PinSignal_K52500_43                           -- ObjectKind=Pin|PrimaryId=L52501-2
+      );
+
+    L52500 : X_3184                                          -- ObjectKind=Part|PrimaryId=L52500|SecondaryId=1
       Port Map
       (
         X_1 => NamedSignal_L1_230VAC,                        -- ObjectKind=Pin|PrimaryId=L52500-1
-        X_2 => PinSignal_K52500_43                           -- ObjectKind=Pin|PrimaryId=L52500-2
+        X_2 => PinSignal_K52500_44                           -- ObjectKind=Pin|PrimaryId=L52500-2
       );
 
-    K52501 : X_3181                                          -- ObjectKind=Part|PrimaryId=K52501|SecondaryId=3
+    K52501 : X_3181                                          -- ObjectKind=Part|PrimaryId=K52501|SecondaryId=5
       Port Map
       (
-        X_21 => PinSignal_K52501_21,                         -- ObjectKind=Pin|PrimaryId=K52501-21
-        X_22 => PinSignal_K52500_A1                          -- ObjectKind=Pin|PrimaryId=K52501-22
+        X_43 => PinSignal_K52501_43,                         -- ObjectKind=Pin|PrimaryId=K52501-43
+        X_44 => PinSignal_K52500_A1                          -- ObjectKind=Pin|PrimaryId=K52501-44
       );
 
     K52501 : X_3181                                          -- ObjectKind=Part|PrimaryId=K52501|SecondaryId=1
@@ -431,14 +373,14 @@ Begin
         A2 => PinSignal_K52500_44                            -- ObjectKind=Pin|PrimaryId=K52500-A2
       );
 
-    F52500 : Automatsikring                                  -- ObjectKind=Part|PrimaryId=F52500|SecondaryId=2
+    F52500 : X_3183                                          -- ObjectKind=Part|PrimaryId=F52500|SecondaryId=2
       Port Map
       (
         X_2 => L2_230VAC,                                    -- ObjectKind=Pin|PrimaryId=F52500-2
         X_4 => PinSignal_F52500_4                            -- ObjectKind=Pin|PrimaryId=F52500-4
       );
 
-    F52500 : Automatsikring                                  -- ObjectKind=Part|PrimaryId=F52500|SecondaryId=1
+    F52500 : X_3183                                          -- ObjectKind=Part|PrimaryId=F52500|SecondaryId=1
       Port Map
       (
         X_1 => L1_230VAC,                                    -- ObjectKind=Pin|PrimaryId=F52500-1

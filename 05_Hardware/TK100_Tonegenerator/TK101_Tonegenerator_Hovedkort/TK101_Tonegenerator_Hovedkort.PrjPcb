@@ -72,6 +72,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KWTWOLIG
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for TK101_Tonegenerator_Hovedkort\Design Rule Check - TK101_Tonegenerator_Hovedkort.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0

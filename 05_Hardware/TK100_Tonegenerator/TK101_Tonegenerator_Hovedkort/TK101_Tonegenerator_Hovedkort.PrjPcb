@@ -72,7 +72,32 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KWTWOLIG
 
+[Document3]
+DocumentPath=TK101.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
+DocumentPath=Project Outputs for TK101_Tonegenerator_Hovedkort\BOM\Bill of Materials-TK101_Tonegenerator_Hovedkort.txt
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for TK101_Tonegenerator_Hovedkort\BOM\Bill of Materials-TK101_Tonegenerator_Hovedkort.xls
+DItemRevisionGUID=
+
+[GeneratedDocument3]
 DocumentPath=Project Outputs for TK101_Tonegenerator_Hovedkort\Design Rule Check - TK101_Tonegenerator_Hovedkort.html
 DItemRevisionGUID=
 

@@ -1,6 +1,6 @@
 ------------------------------------------------------------
 -- VHDL TK510_Mekanisk
--- 2016 4 30 0 12 24
+-- 2016 9 23 14 15 15
 -- Created By "DXP VHDL Generator"
 -- "Copyright (c) 2002-2014 Altium Limited"
 -- Product Version: 16.0.5.271
@@ -21,7 +21,7 @@ End TK510_Mekanisk;
 
 ------------------------------------------------------------
 Architecture Structure Of TK510_Mekanisk Is
-   Component KortSt_tte                                      -- ObjectKind=Part|PrimaryId=M51000|SecondaryId=1
+   Component X_2392                                          -- ObjectKind=Part|PrimaryId=M51000|SecondaryId=1
    End Component;
 
 
@@ -45,26 +45,6 @@ Architecture Structure Of TK510_Mekanisk Is
    attribute antall of M51002 : Label is "30";
    attribute antall of M51001 : Label is "30";
    attribute antall of M51000 : Label is "30";
-
-   attribute beskrivelse : string;
-   attribute beskrivelse of M51017 : Label is "Støtter kort i bakplan";
-   attribute beskrivelse of M51016 : Label is "Støtter kort i bakplan";
-   attribute beskrivelse of M51015 : Label is "Støtter kort i bakplan";
-   attribute beskrivelse of M51014 : Label is "Støtter kort i bakplan";
-   attribute beskrivelse of M51013 : Label is "Støtter kort i bakplan";
-   attribute beskrivelse of M51012 : Label is "Støtter kort i bakplan";
-   attribute beskrivelse of M51011 : Label is "Støtter kort i bakplan";
-   attribute beskrivelse of M51010 : Label is "Støtter kort i bakplan";
-   attribute beskrivelse of M51009 : Label is "Støtter kort i bakplan";
-   attribute beskrivelse of M51008 : Label is "Støtter kort i bakplan";
-   attribute beskrivelse of M51007 : Label is "Støtter kort i bakplan";
-   attribute beskrivelse of M51006 : Label is "Støtter kort i bakplan";
-   attribute beskrivelse of M51005 : Label is "Støtter kort i bakplan";
-   attribute beskrivelse of M51004 : Label is "Støtter kort i bakplan";
-   attribute beskrivelse of M51003 : Label is "Støtter kort i bakplan";
-   attribute beskrivelse of M51002 : Label is "Støtter kort i bakplan";
-   attribute beskrivelse of M51001 : Label is "Støtter kort i bakplan";
-   attribute beskrivelse of M51000 : Label is "Støtter kort i bakplan";
 
    attribute Database_Table_Name : string;
    attribute Database_Table_Name of M51017 : Label is "altium";
@@ -125,6 +105,26 @@ Architecture Structure Of TK510_Mekanisk Is
    attribute hylle of M51002 : Label is "15";
    attribute hylle of M51001 : Label is "15";
    attribute hylle of M51000 : Label is "15";
+
+   attribute id : string;
+   attribute id of M51017 : Label is "2392";
+   attribute id of M51016 : Label is "2392";
+   attribute id of M51015 : Label is "2392";
+   attribute id of M51014 : Label is "2392";
+   attribute id of M51013 : Label is "2392";
+   attribute id of M51012 : Label is "2392";
+   attribute id of M51011 : Label is "2392";
+   attribute id of M51010 : Label is "2392";
+   attribute id of M51009 : Label is "2392";
+   attribute id of M51008 : Label is "2392";
+   attribute id of M51007 : Label is "2392";
+   attribute id of M51006 : Label is "2392";
+   attribute id of M51005 : Label is "2392";
+   attribute id of M51004 : Label is "2392";
+   attribute id of M51003 : Label is "2392";
+   attribute id of M51002 : Label is "2392";
+   attribute id of M51001 : Label is "2392";
+   attribute id of M51000 : Label is "2392";
 
    attribute kolonne : string;
    attribute kolonne of M51017 : Label is "2";
@@ -247,24 +247,24 @@ Architecture Structure Of TK510_Mekanisk Is
    attribute pakke_opprettet_av of M51000 : Label is "815";
 
    attribute pakketype : string;
-   attribute pakketype of M51017 : Label is "92";
-   attribute pakketype of M51016 : Label is "92";
-   attribute pakketype of M51015 : Label is "92";
-   attribute pakketype of M51014 : Label is "92";
-   attribute pakketype of M51013 : Label is "92";
-   attribute pakketype of M51012 : Label is "92";
-   attribute pakketype of M51011 : Label is "92";
-   attribute pakketype of M51010 : Label is "92";
-   attribute pakketype of M51009 : Label is "92";
-   attribute pakketype of M51008 : Label is "92";
-   attribute pakketype of M51007 : Label is "92";
-   attribute pakketype of M51006 : Label is "92";
-   attribute pakketype of M51005 : Label is "92";
-   attribute pakketype of M51004 : Label is "92";
-   attribute pakketype of M51003 : Label is "92";
-   attribute pakketype of M51002 : Label is "92";
-   attribute pakketype of M51001 : Label is "92";
-   attribute pakketype of M51000 : Label is "92";
+   attribute pakketype of M51017 : Label is "TH";
+   attribute pakketype of M51016 : Label is "TH";
+   attribute pakketype of M51015 : Label is "TH";
+   attribute pakketype of M51014 : Label is "TH";
+   attribute pakketype of M51013 : Label is "TH";
+   attribute pakketype of M51012 : Label is "TH";
+   attribute pakketype of M51011 : Label is "TH";
+   attribute pakketype of M51010 : Label is "TH";
+   attribute pakketype of M51009 : Label is "TH";
+   attribute pakketype of M51008 : Label is "TH";
+   attribute pakketype of M51007 : Label is "TH";
+   attribute pakketype of M51006 : Label is "TH";
+   attribute pakketype of M51005 : Label is "TH";
+   attribute pakketype of M51004 : Label is "TH";
+   attribute pakketype of M51003 : Label is "TH";
+   attribute pakketype of M51002 : Label is "TH";
+   attribute pakketype of M51001 : Label is "TH";
+   attribute pakketype of M51000 : Label is "TH";
 
    attribute pris : string;
    attribute pris of M51017 : Label is "5";
@@ -368,58 +368,58 @@ Architecture Structure Of TK510_Mekanisk Is
 
 
 Begin
-    M51017 : KortSt_tte                                      -- ObjectKind=Part|PrimaryId=M51017|SecondaryId=1
+    M51017 : X_2392                                          -- ObjectKind=Part|PrimaryId=M51017|SecondaryId=1
 ;
 
-    M51016 : KortSt_tte                                      -- ObjectKind=Part|PrimaryId=M51016|SecondaryId=1
+    M51016 : X_2392                                          -- ObjectKind=Part|PrimaryId=M51016|SecondaryId=1
 ;
 
-    M51015 : KortSt_tte                                      -- ObjectKind=Part|PrimaryId=M51015|SecondaryId=1
+    M51015 : X_2392                                          -- ObjectKind=Part|PrimaryId=M51015|SecondaryId=1
 ;
 
-    M51014 : KortSt_tte                                      -- ObjectKind=Part|PrimaryId=M51014|SecondaryId=1
+    M51014 : X_2392                                          -- ObjectKind=Part|PrimaryId=M51014|SecondaryId=1
 ;
 
-    M51013 : KortSt_tte                                      -- ObjectKind=Part|PrimaryId=M51013|SecondaryId=1
+    M51013 : X_2392                                          -- ObjectKind=Part|PrimaryId=M51013|SecondaryId=1
 ;
 
-    M51012 : KortSt_tte                                      -- ObjectKind=Part|PrimaryId=M51012|SecondaryId=1
+    M51012 : X_2392                                          -- ObjectKind=Part|PrimaryId=M51012|SecondaryId=1
 ;
 
-    M51011 : KortSt_tte                                      -- ObjectKind=Part|PrimaryId=M51011|SecondaryId=1
+    M51011 : X_2392                                          -- ObjectKind=Part|PrimaryId=M51011|SecondaryId=1
 ;
 
-    M51010 : KortSt_tte                                      -- ObjectKind=Part|PrimaryId=M51010|SecondaryId=1
+    M51010 : X_2392                                          -- ObjectKind=Part|PrimaryId=M51010|SecondaryId=1
 ;
 
-    M51009 : KortSt_tte                                      -- ObjectKind=Part|PrimaryId=M51009|SecondaryId=1
+    M51009 : X_2392                                          -- ObjectKind=Part|PrimaryId=M51009|SecondaryId=1
 ;
 
-    M51008 : KortSt_tte                                      -- ObjectKind=Part|PrimaryId=M51008|SecondaryId=1
+    M51008 : X_2392                                          -- ObjectKind=Part|PrimaryId=M51008|SecondaryId=1
 ;
 
-    M51007 : KortSt_tte                                      -- ObjectKind=Part|PrimaryId=M51007|SecondaryId=1
+    M51007 : X_2392                                          -- ObjectKind=Part|PrimaryId=M51007|SecondaryId=1
 ;
 
-    M51006 : KortSt_tte                                      -- ObjectKind=Part|PrimaryId=M51006|SecondaryId=1
+    M51006 : X_2392                                          -- ObjectKind=Part|PrimaryId=M51006|SecondaryId=1
 ;
 
-    M51005 : KortSt_tte                                      -- ObjectKind=Part|PrimaryId=M51005|SecondaryId=1
+    M51005 : X_2392                                          -- ObjectKind=Part|PrimaryId=M51005|SecondaryId=1
 ;
 
-    M51004 : KortSt_tte                                      -- ObjectKind=Part|PrimaryId=M51004|SecondaryId=1
+    M51004 : X_2392                                          -- ObjectKind=Part|PrimaryId=M51004|SecondaryId=1
 ;
 
-    M51003 : KortSt_tte                                      -- ObjectKind=Part|PrimaryId=M51003|SecondaryId=1
+    M51003 : X_2392                                          -- ObjectKind=Part|PrimaryId=M51003|SecondaryId=1
 ;
 
-    M51002 : KortSt_tte                                      -- ObjectKind=Part|PrimaryId=M51002|SecondaryId=1
+    M51002 : X_2392                                          -- ObjectKind=Part|PrimaryId=M51002|SecondaryId=1
 ;
 
-    M51001 : KortSt_tte                                      -- ObjectKind=Part|PrimaryId=M51001|SecondaryId=1
+    M51001 : X_2392                                          -- ObjectKind=Part|PrimaryId=M51001|SecondaryId=1
 ;
 
-    M51000 : KortSt_tte                                      -- ObjectKind=Part|PrimaryId=M51000|SecondaryId=1
+    M51000 : X_2392                                          -- ObjectKind=Part|PrimaryId=M51000|SecondaryId=1
 ;
 
 End Structure;

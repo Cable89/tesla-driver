@@ -1,6 +1,6 @@
 ------------------------------------------------------------
 -- VHDL TK531_Utgangstrinn
--- 2016 4 30 0 12 25
+-- 2016 9 23 14 40 19
 -- Created By "DXP VHDL Generator"
 -- "Copyright (c) 2002-2014 Altium Limited"
 -- Product Version: 16.0.5.271
@@ -54,18 +54,7 @@ Architecture Structure Of TK531_Utgangstrinn Is
       );
    End Component;
 
-   Component X_2759                                          -- ObjectKind=Part|PrimaryId=R53100|SecondaryId=1
-      port
-      (
-        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=R53100-1
-        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=R53100-2
-      );
-   End Component;
-
-   Component X_3175                                          -- ObjectKind=Part|PrimaryId=M53100|SecondaryId=1
-   End Component;
-
-   Component MPTCMINUS02MINUS16MINUS02MINUS01MINUS03MINUSLMINUSRAMINUSSD -- ObjectKind=Part|PrimaryId=J53100|SecondaryId=1
+   Component X_2393                                          -- ObjectKind=Part|PrimaryId=J53100|SecondaryId=1
       port
       (
         X_1  : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53100-1
@@ -89,6 +78,17 @@ Architecture Structure Of TK531_Utgangstrinn Is
         X_19 : inout STD_LOGIC;                              -- ObjectKind=Pin|PrimaryId=J53100-19
         X_20 : inout STD_LOGIC                               -- ObjectKind=Pin|PrimaryId=J53100-20
       );
+   End Component;
+
+   Component X_2759                                          -- ObjectKind=Part|PrimaryId=R53100|SecondaryId=1
+      port
+      (
+        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=R53100-1
+        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=R53100-2
+      );
+   End Component;
+
+   Component X_3175                                          -- ObjectKind=Part|PrimaryId=M53100|SecondaryId=1
    End Component;
 
 
@@ -268,7 +268,7 @@ Architecture Structure Of TK531_Utgangstrinn Is
    attribute pakketype of Q53101 : Label is "TO-247";
    attribute pakketype of Q53100 : Label is "TO-247";
    attribute pakketype of M53100 : Label is "-";
-   attribute pakketype of J53100 : Label is "92";
+   attribute pakketype of J53100 : Label is "TH";
    attribute pakketype of D53107 : Label is "DO";
    attribute pakketype of D53106 : Label is "DO";
    attribute pakketype of D53105 : Label is "TO-220";
@@ -389,7 +389,7 @@ Begin
     M53100 : X_3175                                          -- ObjectKind=Part|PrimaryId=M53100|SecondaryId=1
 ;
 
-    J53100 : MPTCMINUS02MINUS16MINUS02MINUS01MINUS03MINUSLMINUSRAMINUSSD -- ObjectKind=Part|PrimaryId=J53100|SecondaryId=1
+    J53100 : X_2393                                          -- ObjectKind=Part|PrimaryId=J53100|SecondaryId=1
       Port Map
       (
         X_1  => PowerSignal_VCC_HVDC,                        -- ObjectKind=Pin|PrimaryId=J53100-1

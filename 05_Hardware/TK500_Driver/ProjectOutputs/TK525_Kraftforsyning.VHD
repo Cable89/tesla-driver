@@ -1,6 +1,6 @@
 ------------------------------------------------------------
 -- VHDL TK525_Kraftforsyning
--- 2016 9 23 15 49 10
+-- 2016 11 3 18 38 9
 -- Created By "DXP VHDL Generator"
 -- "Copyright (c) 2002-2014 Altium Limited"
 -- Product Version: 16.0.5.271
@@ -34,14 +34,6 @@ End TK525_Kraftforsyning;
 
 ------------------------------------------------------------
 Architecture Structure Of TK525_Kraftforsyning Is
-   Component X_2372                                          -- ObjectKind=Part|PrimaryId=L52501|SecondaryId=1
-      port
-      (
-        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=L52501-1
-        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=L52501-2
-      );
-   End Component;
-
    Component X_3181                                          -- ObjectKind=Part|PrimaryId=K52500|SecondaryId=1
       port
       (
@@ -99,6 +91,7 @@ Architecture Structure Of TK525_Kraftforsyning Is
     Signal PinSignal_F52500_3                   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetF52500_3
     Signal PinSignal_F52500_4                   : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetF52500_4
     Signal PinSignal_K52500_14                  : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetK52500_14
+    Signal PinSignal_K52500_43                  : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetK52500_43
     Signal PinSignal_K52500_44                  : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetK52500_44
     Signal PinSignal_K52500_A1                  : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetK52500_A1
     Signal PinSignal_K52501_43                  : STD_LOGIC; -- ObjectKind=Net|PrimaryId=NetK52501_43
@@ -110,16 +103,13 @@ Architecture Structure Of TK525_Kraftforsyning Is
     Signal PinSignal_TK525_2_HVDC_GND           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=HVDC_GND
     Signal PinSignal_TK525_2_HVDC_VCC           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=HVDC_VCC
 
-   attribute beskrivelse : string;
-   attribute beskrivelse of L52501 : Label is "Hex Schmitt trigger";
-
    attribute Database_Table_Name : string;
    attribute Database_Table_Name of S52504 : Label is "altium";
    attribute Database_Table_Name of S52503 : Label is "altium";
    attribute Database_Table_Name of S52502 : Label is "altium";
    attribute Database_Table_Name of S52501 : Label is "altium";
    attribute Database_Table_Name of S52500 : Label is "altium";
-   attribute Database_Table_Name of L52501 : Label is "altium_Logikk";
+   attribute Database_Table_Name of L52501 : Label is "altium";
    attribute Database_Table_Name of L52500 : Label is "altium";
    attribute Database_Table_Name of K52501 : Label is "altium";
    attribute Database_Table_Name of K52500 : Label is "altium";
@@ -131,17 +121,11 @@ Architecture Structure Of TK525_Kraftforsyning Is
    attribute id of S52502 : Label is "3182";
    attribute id of S52501 : Label is "3182";
    attribute id of S52500 : Label is "3182";
-   attribute id of L52501 : Label is "2372";
+   attribute id of L52501 : Label is "3184";
    attribute id of L52500 : Label is "3184";
    attribute id of K52501 : Label is "3181";
    attribute id of K52500 : Label is "3181";
    attribute id of F52500 : Label is "3183";
-
-   attribute leverandor : string;
-   attribute leverandor of L52501 : Label is "Farnell";
-
-   attribute leverandor_varenr : string;
-   attribute leverandor_varenr of L52501 : Label is "1607772";
 
    attribute navn : string;
    attribute navn of S52504 : Label is "Automasjonsbryter";
@@ -149,24 +133,18 @@ Architecture Structure Of TK525_Kraftforsyning Is
    attribute navn of S52502 : Label is "Automasjonsbryter";
    attribute navn of S52501 : Label is "Automasjonsbryter";
    attribute navn of S52500 : Label is "Automasjonsbryter";
-   attribute navn of L52501 : Label is "74HC14";
+   attribute navn of L52501 : Label is "Lampe";
    attribute navn of L52500 : Label is "Lampe";
    attribute navn of K52501 : Label is "Kontaktor";
    attribute navn of K52500 : Label is "Kontaktor";
    attribute navn of F52500 : Label is "Automatsikring";
 
    attribute nokkelord : string;
-   attribute nokkelord of L52501 : Label is "Logikk";
+   attribute nokkelord of L52501 : Label is "Lamp";
    attribute nokkelord of L52500 : Label is "Lamp";
    attribute nokkelord of K52501 : Label is "Contactor";
    attribute nokkelord of K52500 : Label is "Contactor";
    attribute nokkelord of F52500 : Label is "Sikring, Fuse";
-
-   attribute pakke_opprettet : string;
-   attribute pakke_opprettet of L52501 : Label is "28.06.2014 18:13:44";
-
-   attribute pakke_opprettet_av : string;
-   attribute pakke_opprettet_av of L52501 : Label is "815";
 
    attribute pakketype : string;
    attribute pakketype of S52504 : Label is "-";
@@ -174,7 +152,7 @@ Architecture Structure Of TK525_Kraftforsyning Is
    attribute pakketype of S52502 : Label is "-";
    attribute pakketype of S52501 : Label is "-";
    attribute pakketype of S52500 : Label is "-";
-   attribute pakketype of L52501 : Label is "SOIC";
+   attribute pakketype of L52501 : Label is "-";
    attribute pakketype of L52500 : Label is "-";
    attribute pakketype of K52501 : Label is "-";
    attribute pakketype of K52500 : Label is "-";
@@ -186,14 +164,11 @@ Architecture Structure Of TK525_Kraftforsyning Is
    attribute pris of S52502 : Label is "100";
    attribute pris of S52501 : Label is "100";
    attribute pris of S52500 : Label is "100";
-   attribute pris of L52501 : Label is "4";
+   attribute pris of L52501 : Label is "0";
    attribute pris of L52500 : Label is "0";
    attribute pris of K52501 : Label is "50";
    attribute pris of K52500 : Label is "50";
    attribute pris of F52500 : Label is "0";
-
-   attribute produsent : string;
-   attribute produsent of L52501 : Label is "ON Semiconductor";
 
    attribute symbol_opprettet : string;
    attribute symbol_opprettet of S52504 : Label is "05.07.2015 13:10:20";
@@ -201,7 +176,7 @@ Architecture Structure Of TK525_Kraftforsyning Is
    attribute symbol_opprettet of S52502 : Label is "05.07.2015 13:10:20";
    attribute symbol_opprettet of S52501 : Label is "05.07.2015 13:10:20";
    attribute symbol_opprettet of S52500 : Label is "05.07.2015 13:10:20";
-   attribute symbol_opprettet of L52501 : Label is "28.06.2014 15:23:38";
+   attribute symbol_opprettet of L52501 : Label is "05.07.2015 14:08:53";
    attribute symbol_opprettet of L52500 : Label is "05.07.2015 14:08:53";
    attribute symbol_opprettet of K52501 : Label is "04.07.2015 12:23:41";
    attribute symbol_opprettet of K52500 : Label is "04.07.2015 12:23:41";
@@ -303,8 +278,12 @@ Begin
         X_44 => PinSignal_S52500_44                          -- ObjectKind=Pin|PrimaryId=S52500-44
       );
 
-    L52501 : X_2372                                          -- ObjectKind=Part|PrimaryId=L52501|SecondaryId=1
-;
+    L52501 : X_3184                                          -- ObjectKind=Part|PrimaryId=L52501|SecondaryId=1
+      Port Map
+      (
+        X_1 => NamedSignal_L1_230VAC,                        -- ObjectKind=Pin|PrimaryId=L52501-1
+        X_2 => PinSignal_K52500_43                           -- ObjectKind=Pin|PrimaryId=L52501-2
+      );
 
     L52500 : X_3184                                          -- ObjectKind=Part|PrimaryId=L52500|SecondaryId=1
       Port Map
@@ -326,6 +305,7 @@ Begin
     K52500 : X_3181                                          -- ObjectKind=Part|PrimaryId=K52500|SecondaryId=5
       Port Map
       (
+        X_43 => PinSignal_K52500_43,                         -- ObjectKind=Pin|PrimaryId=K52500-43
         X_44 => PinSignal_K52500_44                          -- ObjectKind=Pin|PrimaryId=K52500-44
       );
 

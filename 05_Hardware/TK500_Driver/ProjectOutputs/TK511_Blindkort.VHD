@@ -1,9 +1,9 @@
 ------------------------------------------------------------
 -- VHDL TK511_Blindkort
--- 2016 11 3 18 38 5
+-- 2017 1 13 17 4 6
 -- Created By "DXP VHDL Generator"
 -- "Copyright (c) 2002-2014 Altium Limited"
--- Product Version: 16.0.5.271
+-- Product Version: 16.0.6.282
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -21,14 +21,6 @@ End TK511_Blindkort;
 
 ------------------------------------------------------------
 Architecture Structure Of TK511_Blindkort Is
-   Component X_2372                                          -- ObjectKind=Part|PrimaryId=J51100|SecondaryId=1
-      port
-      (
-        X_1 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-1
-        X_2 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=J51100-2
-      );
-   End Component;
-
    Component X_2390                                          -- ObjectKind=Part|PrimaryId=J51101|SecondaryId=1
       port
       (
@@ -78,6 +70,48 @@ Architecture Structure Of TK511_Blindkort Is
       );
    End Component;
 
+   Component X_3177                                          -- ObjectKind=Part|PrimaryId=J51100|SecondaryId=1
+      port
+      (
+        A1  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-A1
+        A2  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-A2
+        A3  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-A3
+        A4  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-A4
+        A5  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-A5
+        A6  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-A6
+        A7  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-A7
+        A8  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-A8
+        A9  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-A9
+        A10 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-A10
+        A11 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-A11
+        A12 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-A12
+        A13 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-A13
+        A14 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-A14
+        A15 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-A15
+        A16 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-A16
+        A17 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-A17
+        A18 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-A18
+        B1  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-B1
+        B2  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-B2
+        B3  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-B3
+        B4  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-B4
+        B5  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-B5
+        B6  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-B6
+        B7  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-B7
+        B8  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-B8
+        B9  : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-B9
+        B10 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-B10
+        B11 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-B11
+        B12 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-B12
+        B13 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-B13
+        B14 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-B14
+        B15 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-B15
+        B16 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-B16
+        B17 : inout STD_LOGIC;                               -- ObjectKind=Pin|PrimaryId=J51100-B17
+        B18 : inout STD_LOGIC                                -- ObjectKind=Pin|PrimaryId=J51100-B18
+      );
+   End Component;
+
 
     Signal NamedSignal_AUX1_A           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AUX1_A
     Signal NamedSignal_AUX1_B           : STD_LOGIC; -- ObjectKind=Net|PrimaryId=AUX1_B
@@ -112,9 +146,6 @@ Architecture Structure Of TK511_Blindkort Is
     Signal PowerSignal_VCC_P18V         : STD_LOGIC; -- ObjectKind=Net|PrimaryId=VCC_P18V
     Signal PowerSignal_VCC_P5V0         : STD_LOGIC; -- ObjectKind=Net|PrimaryId=VCC_P5V0
 
-   attribute beskrivelse : string;
-   attribute beskrivelse of J51100 : Label is "Hex Schmitt trigger";
-
    attribute Database_Table_Name : string;
    attribute Database_Table_Name of J51106 : Label is "altium";
    attribute Database_Table_Name of J51105 : Label is "altium";
@@ -122,7 +153,7 @@ Architecture Structure Of TK511_Blindkort Is
    attribute Database_Table_Name of J51103 : Label is "altium";
    attribute Database_Table_Name of J51102 : Label is "altium";
    attribute Database_Table_Name of J51101 : Label is "altium";
-   attribute Database_Table_Name of J51100 : Label is "altium_Logikk";
+   attribute Database_Table_Name of J51100 : Label is "altium";
 
    attribute id : string;
    attribute id of J51106 : Label is "2430";
@@ -131,13 +162,7 @@ Architecture Structure Of TK511_Blindkort Is
    attribute id of J51103 : Label is "2430";
    attribute id of J51102 : Label is "2430";
    attribute id of J51101 : Label is "2390";
-   attribute id of J51100 : Label is "2372";
-
-   attribute leverandor : string;
-   attribute leverandor of J51100 : Label is "Farnell";
-
-   attribute leverandor_varenr : string;
-   attribute leverandor_varenr of J51100 : Label is "1607772";
+   attribute id of J51100 : Label is "3177";
 
    attribute navn : string;
    attribute navn of J51106 : Label is "Header 1x3";
@@ -146,11 +171,10 @@ Architecture Structure Of TK511_Blindkort Is
    attribute navn of J51103 : Label is "Header 1x3";
    attribute navn of J51102 : Label is "Header 1x3";
    attribute navn of J51101 : Label is "Header Shrouded 2X17P";
-   attribute navn of J51100 : Label is "74HC14";
+   attribute navn of J51100 : Label is "PCIeX1-GF-2D-1000-1K-O36";
 
    attribute nokkelord : string;
    attribute nokkelord of J51101 : Label is "IDE";
-   attribute nokkelord of J51100 : Label is "Logikk";
 
    attribute pakke_opprettet : string;
    attribute pakke_opprettet of J51106 : Label is "13.11.2014 12:31:03";
@@ -159,7 +183,7 @@ Architecture Structure Of TK511_Blindkort Is
    attribute pakke_opprettet of J51103 : Label is "13.11.2014 12:31:03";
    attribute pakke_opprettet of J51102 : Label is "13.11.2014 12:31:03";
    attribute pakke_opprettet of J51101 : Label is "12.07.2014 17:05:20";
-   attribute pakke_opprettet of J51100 : Label is "28.06.2014 18:13:44";
+   attribute pakke_opprettet of J51100 : Label is "07.06.2015 17.49.10";
 
    attribute pakke_opprettet_av : string;
    attribute pakke_opprettet_av of J51106 : Label is "815";
@@ -177,7 +201,7 @@ Architecture Structure Of TK511_Blindkort Is
    attribute pakketype of J51103 : Label is "TH";
    attribute pakketype of J51102 : Label is "TH";
    attribute pakketype of J51101 : Label is "TH";
-   attribute pakketype of J51100 : Label is "SOIC";
+   attribute pakketype of J51100 : Label is "-";
 
    attribute pris : string;
    attribute pris of J51106 : Label is "2";
@@ -186,10 +210,7 @@ Architecture Structure Of TK511_Blindkort Is
    attribute pris of J51103 : Label is "2";
    attribute pris of J51102 : Label is "2";
    attribute pris of J51101 : Label is "10";
-   attribute pris of J51100 : Label is "4";
-
-   attribute produsent : string;
-   attribute produsent of J51100 : Label is "ON Semiconductor";
+   attribute pris of J51100 : Label is "0";
 
    attribute symbol_opprettet : string;
    attribute symbol_opprettet of J51106 : Label is "13.11.2014 10:59:05";
@@ -198,7 +219,7 @@ Architecture Structure Of TK511_Blindkort Is
    attribute symbol_opprettet of J51103 : Label is "13.11.2014 10:59:05";
    attribute symbol_opprettet of J51102 : Label is "13.11.2014 10:59:05";
    attribute symbol_opprettet of J51101 : Label is "12.07.2014 17:03:56";
-   attribute symbol_opprettet of J51100 : Label is "28.06.2014 15:23:38";
+   attribute symbol_opprettet of J51100 : Label is "06.07.2014 17.26.37";
 
    attribute symbol_opprettet_av : string;
    attribute symbol_opprettet_av of J51106 : Label is "815";
@@ -290,8 +311,46 @@ Begin
         X_34 => PowerSignal_VCC_P18V                         -- ObjectKind=Pin|PrimaryId=J51101-34
       );
 
-    J51100 : X_2372                                          -- ObjectKind=Part|PrimaryId=J51100|SecondaryId=1
-;
+    J51100 : X_3177                                          -- ObjectKind=Part|PrimaryId=J51100|SecondaryId=1
+      Port Map
+      (
+        A1  => NamedSignal_KORT_INNSATT,                     -- ObjectKind=Pin|PrimaryId=J51100-A1
+        A2  => NamedSignal_FEIL,                             -- ObjectKind=Pin|PrimaryId=J51100-A2
+        A3  => NamedSignal_STATUS,                           -- ObjectKind=Pin|PrimaryId=J51100-A3
+        A4  => NamedSignal_INTERRUPT,                        -- ObjectKind=Pin|PrimaryId=J51100-A4
+        A5  => NamedSignal_KNAPP,                            -- ObjectKind=Pin|PrimaryId=J51100-A5
+        A6  => NamedSignal_FP_1,                             -- ObjectKind=Pin|PrimaryId=J51100-A6
+        A7  => NamedSignal_FP_2,                             -- ObjectKind=Pin|PrimaryId=J51100-A7
+        A8  => NamedSignal_FP_3,                             -- ObjectKind=Pin|PrimaryId=J51100-A8
+        A9  => NamedSignal_FP_4,                             -- ObjectKind=Pin|PrimaryId=J51100-A9
+        A10 => NamedSignal_FP_5,                             -- ObjectKind=Pin|PrimaryId=J51100-A10
+        A11 => NamedSignal_AUX1_A,                           -- ObjectKind=Pin|PrimaryId=J51100-A11
+        A12 => NamedSignal_AUX1_B,                           -- ObjectKind=Pin|PrimaryId=J51100-A12
+        A13 => NamedSignal_AUX2_A,                           -- ObjectKind=Pin|PrimaryId=J51100-A13
+        A14 => NamedSignal_AUX2_B,                           -- ObjectKind=Pin|PrimaryId=J51100-A14
+        A15 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=J51100-A15
+        A16 => PowerSignal_VCC_EXTRA,                        -- ObjectKind=Pin|PrimaryId=J51100-A16
+        A17 => PowerSignal_VCC_P5V0,                         -- ObjectKind=Pin|PrimaryId=J51100-A17
+        A18 => PowerSignal_VCC_P18V,                         -- ObjectKind=Pin|PrimaryId=J51100-A18
+        B1  => NamedSignal_KORT_INNSATT_BUS,                 -- ObjectKind=Pin|PrimaryId=J51100-B1
+        B2  => NamedSignal_TRIGGER_BUS,                      -- ObjectKind=Pin|PrimaryId=J51100-B2
+        B3  => NamedSignal_LIMIT_BUS,                        -- ObjectKind=Pin|PrimaryId=J51100-B3
+        B4  => NamedSignal_INTERRUPT_BUS,                    -- ObjectKind=Pin|PrimaryId=J51100-B4
+        B5  => NamedSignal_B5,                               -- ObjectKind=Pin|PrimaryId=J51100-B5
+        B6  => NamedSignal_B6,                               -- ObjectKind=Pin|PrimaryId=J51100-B6
+        B7  => NamedSignal_B7,                               -- ObjectKind=Pin|PrimaryId=J51100-B7
+        B8  => NamedSignal_B8,                               -- ObjectKind=Pin|PrimaryId=J51100-B8
+        B9  => NamedSignal_B9,                               -- ObjectKind=Pin|PrimaryId=J51100-B9
+        B10 => NamedSignal_B10,                              -- ObjectKind=Pin|PrimaryId=J51100-B10
+        B11 => NamedSignal_B11,                              -- ObjectKind=Pin|PrimaryId=J51100-B11
+        B12 => NamedSignal_B12,                              -- ObjectKind=Pin|PrimaryId=J51100-B12
+        B13 => NamedSignal_B13,                              -- ObjectKind=Pin|PrimaryId=J51100-B13
+        B14 => NamedSignal_B14,                              -- ObjectKind=Pin|PrimaryId=J51100-B14
+        B15 => PowerSignal_GND,                              -- ObjectKind=Pin|PrimaryId=J51100-B15
+        B16 => PowerSignal_VCC_EXTRA,                        -- ObjectKind=Pin|PrimaryId=J51100-B16
+        B17 => PowerSignal_VCC_P5V0,                         -- ObjectKind=Pin|PrimaryId=J51100-B17
+        B18 => PowerSignal_VCC_P18V                          -- ObjectKind=Pin|PrimaryId=J51100-B18
+      );
 
     -- Signal Assignments
     ---------------------

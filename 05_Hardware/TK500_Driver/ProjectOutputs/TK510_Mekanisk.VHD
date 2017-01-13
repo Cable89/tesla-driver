@@ -1,9 +1,9 @@
 ------------------------------------------------------------
 -- VHDL TK510_Mekanisk
--- 2016 11 3 18 38 5
+-- 2017 1 13 17 4 7
 -- Created By "DXP VHDL Generator"
 -- "Copyright (c) 2002-2014 Altium Limited"
--- Product Version: 16.0.5.271
+-- Product Version: 16.0.6.282
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -207,24 +207,24 @@ Architecture Structure Of TK510_Mekanisk Is
    attribute nokkelord of M51000 : Label is "support";
 
    attribute pakke_opprettet : string;
-   attribute pakke_opprettet of M51017 : Label is "12.07.2014 20:29:43";
-   attribute pakke_opprettet of M51016 : Label is "12.07.2014 20:29:43";
-   attribute pakke_opprettet of M51015 : Label is "12.07.2014 20:29:43";
-   attribute pakke_opprettet of M51014 : Label is "12.07.2014 20:29:43";
-   attribute pakke_opprettet of M51013 : Label is "12.07.2014 20:29:43";
-   attribute pakke_opprettet of M51012 : Label is "12.07.2014 20:29:43";
-   attribute pakke_opprettet of M51011 : Label is "12.07.2014 20:29:43";
-   attribute pakke_opprettet of M51010 : Label is "12.07.2014 20:29:43";
-   attribute pakke_opprettet of M51009 : Label is "12.07.2014 20:29:43";
-   attribute pakke_opprettet of M51008 : Label is "12.07.2014 20:29:43";
-   attribute pakke_opprettet of M51007 : Label is "12.07.2014 20:29:43";
-   attribute pakke_opprettet of M51006 : Label is "12.07.2014 20:29:43";
-   attribute pakke_opprettet of M51005 : Label is "12.07.2014 20:29:43";
-   attribute pakke_opprettet of M51004 : Label is "12.07.2014 20:29:43";
-   attribute pakke_opprettet of M51003 : Label is "12.07.2014 20:29:43";
-   attribute pakke_opprettet of M51002 : Label is "12.07.2014 20:29:43";
-   attribute pakke_opprettet of M51001 : Label is "12.07.2014 20:29:43";
-   attribute pakke_opprettet of M51000 : Label is "12.07.2014 20:29:43";
+   attribute pakke_opprettet of M51017 : Label is "12.07.2014 20.29.43";
+   attribute pakke_opprettet of M51016 : Label is "12.07.2014 20.29.43";
+   attribute pakke_opprettet of M51015 : Label is "12.07.2014 20.29.43";
+   attribute pakke_opprettet of M51014 : Label is "12.07.2014 20.29.43";
+   attribute pakke_opprettet of M51013 : Label is "12.07.2014 20.29.43";
+   attribute pakke_opprettet of M51012 : Label is "12.07.2014 20.29.43";
+   attribute pakke_opprettet of M51011 : Label is "12.07.2014 20.29.43";
+   attribute pakke_opprettet of M51010 : Label is "12.07.2014 20.29.43";
+   attribute pakke_opprettet of M51009 : Label is "12.07.2014 20.29.43";
+   attribute pakke_opprettet of M51008 : Label is "12.07.2014 20.29.43";
+   attribute pakke_opprettet of M51007 : Label is "12.07.2014 20.29.43";
+   attribute pakke_opprettet of M51006 : Label is "12.07.2014 20.29.43";
+   attribute pakke_opprettet of M51005 : Label is "12.07.2014 20.29.43";
+   attribute pakke_opprettet of M51004 : Label is "12.07.2014 20.29.43";
+   attribute pakke_opprettet of M51003 : Label is "12.07.2014 20.29.43";
+   attribute pakke_opprettet of M51002 : Label is "12.07.2014 20.29.43";
+   attribute pakke_opprettet of M51001 : Label is "12.07.2014 20.29.43";
+   attribute pakke_opprettet of M51000 : Label is "12.07.2014 20.29.43";
 
    attribute pakke_opprettet_av : string;
    attribute pakke_opprettet_av of M51017 : Label is "815";
@@ -327,24 +327,24 @@ Architecture Structure Of TK510_Mekanisk Is
    attribute rom of M51000 : Label is "OV";
 
    attribute symbol_opprettet : string;
-   attribute symbol_opprettet of M51017 : Label is "12.07.2014 20:29:53";
-   attribute symbol_opprettet of M51016 : Label is "12.07.2014 20:29:53";
-   attribute symbol_opprettet of M51015 : Label is "12.07.2014 20:29:53";
-   attribute symbol_opprettet of M51014 : Label is "12.07.2014 20:29:53";
-   attribute symbol_opprettet of M51013 : Label is "12.07.2014 20:29:53";
-   attribute symbol_opprettet of M51012 : Label is "12.07.2014 20:29:53";
-   attribute symbol_opprettet of M51011 : Label is "12.07.2014 20:29:53";
-   attribute symbol_opprettet of M51010 : Label is "12.07.2014 20:29:53";
-   attribute symbol_opprettet of M51009 : Label is "12.07.2014 20:29:53";
-   attribute symbol_opprettet of M51008 : Label is "12.07.2014 20:29:53";
-   attribute symbol_opprettet of M51007 : Label is "12.07.2014 20:29:53";
-   attribute symbol_opprettet of M51006 : Label is "12.07.2014 20:29:53";
-   attribute symbol_opprettet of M51005 : Label is "12.07.2014 20:29:53";
-   attribute symbol_opprettet of M51004 : Label is "12.07.2014 20:29:53";
-   attribute symbol_opprettet of M51003 : Label is "12.07.2014 20:29:53";
-   attribute symbol_opprettet of M51002 : Label is "12.07.2014 20:29:53";
-   attribute symbol_opprettet of M51001 : Label is "12.07.2014 20:29:53";
-   attribute symbol_opprettet of M51000 : Label is "12.07.2014 20:29:53";
+   attribute symbol_opprettet of M51017 : Label is "12.07.2014 20.29.53";
+   attribute symbol_opprettet of M51016 : Label is "12.07.2014 20.29.53";
+   attribute symbol_opprettet of M51015 : Label is "12.07.2014 20.29.53";
+   attribute symbol_opprettet of M51014 : Label is "12.07.2014 20.29.53";
+   attribute symbol_opprettet of M51013 : Label is "12.07.2014 20.29.53";
+   attribute symbol_opprettet of M51012 : Label is "12.07.2014 20.29.53";
+   attribute symbol_opprettet of M51011 : Label is "12.07.2014 20.29.53";
+   attribute symbol_opprettet of M51010 : Label is "12.07.2014 20.29.53";
+   attribute symbol_opprettet of M51009 : Label is "12.07.2014 20.29.53";
+   attribute symbol_opprettet of M51008 : Label is "12.07.2014 20.29.53";
+   attribute symbol_opprettet of M51007 : Label is "12.07.2014 20.29.53";
+   attribute symbol_opprettet of M51006 : Label is "12.07.2014 20.29.53";
+   attribute symbol_opprettet of M51005 : Label is "12.07.2014 20.29.53";
+   attribute symbol_opprettet of M51004 : Label is "12.07.2014 20.29.53";
+   attribute symbol_opprettet of M51003 : Label is "12.07.2014 20.29.53";
+   attribute symbol_opprettet of M51002 : Label is "12.07.2014 20.29.53";
+   attribute symbol_opprettet of M51001 : Label is "12.07.2014 20.29.53";
+   attribute symbol_opprettet of M51000 : Label is "12.07.2014 20.29.53";
 
    attribute symbol_opprettet_av : string;
    attribute symbol_opprettet_av of M51017 : Label is "815";

@@ -1,9 +1,9 @@
 ------------------------------------------------------------
 -- VHDL TK502_Frontpanel_LEDs
--- 2016 11 3 18 38 5
+-- 2017 1 13 17 4 7
 -- Created By "DXP VHDL Generator"
 -- "Copyright (c) 2002-2014 Altium Limited"
--- Product Version: 16.0.5.271
+-- Product Version: 16.0.6.282
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -1233,35 +1233,35 @@ Begin
     J50206 : X_2390                                          -- ObjectKind=Part|PrimaryId=J50206|SecondaryId=1
       Port Map
       (
-        X_1  => NamedSignal_0_KI,                            -- ObjectKind=Pin|PrimaryId=J50206-1
-        X_2  => NamedSignal_1_KI,                            -- ObjectKind=Pin|PrimaryId=J50206-2
-        X_3  => NamedSignal_0_FE,                            -- ObjectKind=Pin|PrimaryId=J50206-3
-        X_4  => NamedSignal_1_FE,                            -- ObjectKind=Pin|PrimaryId=J50206-4
-        X_5  => NamedSignal_0_ST,                            -- ObjectKind=Pin|PrimaryId=J50206-5
-        X_6  => NamedSignal_1_ST,                            -- ObjectKind=Pin|PrimaryId=J50206-6
-        X_7  => NamedSignal_0_INT,                           -- ObjectKind=Pin|PrimaryId=J50206-7
-        X_8  => NamedSignal_1_INT,                           -- ObjectKind=Pin|PrimaryId=J50206-8
-        X_9  => NamedSignal_0_KNP,                           -- ObjectKind=Pin|PrimaryId=J50206-9
-        X_10 => NamedSignal_1_KNP,                           -- ObjectKind=Pin|PrimaryId=J50206-10
-        X_11 => NamedSignal_2_KI,                            -- ObjectKind=Pin|PrimaryId=J50206-11
-        X_12 => NamedSignal_3_KI,                            -- ObjectKind=Pin|PrimaryId=J50206-12
-        X_13 => NamedSignal_2_FE,                            -- ObjectKind=Pin|PrimaryId=J50206-13
-        X_14 => NamedSignal_3_FE,                            -- ObjectKind=Pin|PrimaryId=J50206-14
-        X_15 => NamedSignal_2_ST,                            -- ObjectKind=Pin|PrimaryId=J50206-15
-        X_16 => NamedSignal_3_ST,                            -- ObjectKind=Pin|PrimaryId=J50206-16
-        X_17 => NamedSignal_2_INT,                           -- ObjectKind=Pin|PrimaryId=J50206-17
-        X_18 => NamedSignal_3_INT,                           -- ObjectKind=Pin|PrimaryId=J50206-18
-        X_19 => NamedSignal_2_KNP,                           -- ObjectKind=Pin|PrimaryId=J50206-19
-        X_20 => NamedSignal_3_KNP,                           -- ObjectKind=Pin|PrimaryId=J50206-20
-        X_21 => NamedSignal_4_KI,                            -- ObjectKind=Pin|PrimaryId=J50206-21
+        X_1  => NamedSignal_2_KNP,                           -- ObjectKind=Pin|PrimaryId=J50206-1
+        X_2  => NamedSignal_3_KI,                            -- ObjectKind=Pin|PrimaryId=J50206-2
+        X_3  => NamedSignal_2_INT,                           -- ObjectKind=Pin|PrimaryId=J50206-3
+        X_4  => NamedSignal_3_FE,                            -- ObjectKind=Pin|PrimaryId=J50206-4
+        X_5  => NamedSignal_2_ST,                            -- ObjectKind=Pin|PrimaryId=J50206-5
+        X_6  => NamedSignal_3_ST,                            -- ObjectKind=Pin|PrimaryId=J50206-6
+        X_7  => NamedSignal_2_FE,                            -- ObjectKind=Pin|PrimaryId=J50206-7
+        X_8  => NamedSignal_3_INT,                           -- ObjectKind=Pin|PrimaryId=J50206-8
+        X_9  => NamedSignal_2_KI,                            -- ObjectKind=Pin|PrimaryId=J50206-9
+        X_10 => NamedSignal_3_KNP,                           -- ObjectKind=Pin|PrimaryId=J50206-10
+        X_11 => NamedSignal_1_KNP,                           -- ObjectKind=Pin|PrimaryId=J50206-11
+        X_12 => NamedSignal_4_KI,                            -- ObjectKind=Pin|PrimaryId=J50206-12
+        X_13 => NamedSignal_1_INT,                           -- ObjectKind=Pin|PrimaryId=J50206-13
+        X_14 => NamedSignal_4_FE,                            -- ObjectKind=Pin|PrimaryId=J50206-14
+        X_15 => NamedSignal_1_ST,                            -- ObjectKind=Pin|PrimaryId=J50206-15
+        X_16 => NamedSignal_4_ST,                            -- ObjectKind=Pin|PrimaryId=J50206-16
+        X_17 => NamedSignal_1_FE,                            -- ObjectKind=Pin|PrimaryId=J50206-17
+        X_18 => NamedSignal_4_INT,                           -- ObjectKind=Pin|PrimaryId=J50206-18
+        X_19 => NamedSignal_1_KI,                            -- ObjectKind=Pin|PrimaryId=J50206-19
+        X_20 => NamedSignal_4_KNP,                           -- ObjectKind=Pin|PrimaryId=J50206-20
+        X_21 => NamedSignal_0_KNP,                           -- ObjectKind=Pin|PrimaryId=J50206-21
         X_22 => NamedSignal_5_KI,                            -- ObjectKind=Pin|PrimaryId=J50206-22
-        X_23 => NamedSignal_4_FE,                            -- ObjectKind=Pin|PrimaryId=J50206-23
+        X_23 => NamedSignal_0_INT,                           -- ObjectKind=Pin|PrimaryId=J50206-23
         X_24 => NamedSignal_5_FE,                            -- ObjectKind=Pin|PrimaryId=J50206-24
-        X_25 => NamedSignal_4_ST,                            -- ObjectKind=Pin|PrimaryId=J50206-25
+        X_25 => NamedSignal_0_ST,                            -- ObjectKind=Pin|PrimaryId=J50206-25
         X_26 => NamedSignal_5_ST,                            -- ObjectKind=Pin|PrimaryId=J50206-26
-        X_27 => NamedSignal_4_INT,                           -- ObjectKind=Pin|PrimaryId=J50206-27
+        X_27 => NamedSignal_0_FE,                            -- ObjectKind=Pin|PrimaryId=J50206-27
         X_28 => NamedSignal_5_INT,                           -- ObjectKind=Pin|PrimaryId=J50206-28
-        X_29 => NamedSignal_4_KNP,                           -- ObjectKind=Pin|PrimaryId=J50206-29
+        X_29 => NamedSignal_0_KI,                            -- ObjectKind=Pin|PrimaryId=J50206-29
         X_30 => NamedSignal_5_KNP,                           -- ObjectKind=Pin|PrimaryId=J50206-30
         X_31 => PowerSignal_VCC_P5V0,                        -- ObjectKind=Pin|PrimaryId=J50206-31
         X_32 => PowerSignal_GND,                             -- ObjectKind=Pin|PrimaryId=J50206-32

@@ -161,7 +161,7 @@ DocumentUniqueId=
 Description=Release
 AllowFabrication=0
 ParameterCount=0
-VariationCount=8
+VariationCount=10
 Variation1=Designator=R51001|UniqueId=\GLOVCKUD|Kind=1|AlternatePart= 
 Variation2=Designator=R51006|UniqueId=\UOIRAIUS|Kind=1|AlternatePart= 
 Variation3=Designator=R51011|UniqueId=\XXEGINQI|Kind=1|AlternatePart= 
@@ -170,10 +170,228 @@ Variation5=Designator=R51021|UniqueId=\BSWIWLAW|Kind=1|AlternatePart=
 Variation6=Designator=R51005|UniqueId=\WTLQMCXH|Kind=1|AlternatePart= 
 Variation7=Designator=R51010|UniqueId=\ULBFWYMQ|Kind=1|AlternatePart= 
 Variation8=Designator=R51015|UniqueId=\JLDIVXSJ|Kind=1|AlternatePart= 
+Variation9=Designator=R51001|UniqueId=\JHUFGCTI|Kind=1|AlternatePart= 
+Variation10=Designator=R51006|UniqueId=\HLCLQFSE|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
+DocumentPath=Project Outputs\Test Points\Assembly Testpoint Report for TK510_Signalbakplan.csv
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs\Test Points\Assembly Testpoint Report for TK510_Signalbakplan.txt
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs\BOM\Bill of Materials-TK510_Signalbakplan.txt
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\comp_+_bot\components
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\comp_+_top\components
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\eda\data
+DItemRevisionGUID=
+
+[GeneratedDocument7]
 DocumentPath=Project Outputs for TK510_Signalbakplan\Design Rule Check - TK510_Signalbakplan.html
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs\Test Points\Fabrication Testpoint Report for TK510_Signalbakplan.csv
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs\Test Points\Fabrication Testpoint Report for TK510_Signalbakplan.txt
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\bottom\features
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\bottomoverlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\bottompaste\features
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\bottomsolder\features
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\comp_+_bot\features
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\comp_+_top\features
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\drill\features
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\keepout\features
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\mechanical1\features
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\mechanical2\features
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\mechanical3\features
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\mechanical13\features
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\mechanical15\features
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\plane1\features
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\plane2\features
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\top\features
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\topoverlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\toppaste\features
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\topsolder\features
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs\ODB\odb\matrix\matrix
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\netlists\cadnet\netlist
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs\Pick Place\Pick Place for TK510_Signalbakplan.txt
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\profile
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\stephdr
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs\NC Drill\TK510_Signalbakplan.DRL
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs\NC Drill\TK510_Signalbakplan.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs\AutoCAD PCB\TK510_Signalbakplan.DWG
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs\Gerber\TK510_Signalbakplan.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs\Gerber\TK510_Signalbakplan.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs\Gerber\TK510_Signalbakplan.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Project Outputs\Gerber\TK510_Signalbakplan.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Project Outputs\Gerber\TK510_Signalbakplan.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=Project Outputs\Gerber\TK510_Signalbakplan.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Project Outputs\Gerber\TK510_Signalbakplan.GP1
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Project Outputs\Gerber\TK510_Signalbakplan.GP2
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=Project Outputs\Gerber\TK510_Signalbakplan.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=Project Outputs\Gerber\TK510_Signalbakplan.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=Project Outputs\Gerber\TK510_Signalbakplan.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument48]
+DocumentPath=Project Outputs\Gerber\TK510_Signalbakplan.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument49]
+DocumentPath=Project Outputs\NC Drill\TK510_Signalbakplan.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument50]
+DocumentPath=Project Outputs\Gerber\TK510_Signalbakplan.REP
+DItemRevisionGUID=
+
+[GeneratedDocument51]
+DocumentPath=Project Outputs\ODB\TK510_Signalbakplan.REP
+DItemRevisionGUID=
+
+[GeneratedDocument52]
+DocumentPath=Project Outputs\Gerber\TK510_Signalbakplan.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument53]
+DocumentPath=Project Outputs\ExportSTEP\TK510_Signalbakplan.step
+DItemRevisionGUID=
+
+[GeneratedDocument54]
+DocumentPath=Project Outputs\NC Drill\TK510_Signalbakplan.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument55]
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\drill\tools
 DItemRevisionGUID=
 
 [Configuration1]
@@ -885,7 +1103,7 @@ Type10=1
 Type11=2
 Type12=2
 Type13=2
-Type14=1
+Type14=0
 Type15=1
 Type16=1
 Type17=1

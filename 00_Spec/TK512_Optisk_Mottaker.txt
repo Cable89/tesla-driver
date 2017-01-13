@@ -1,5 +1,7 @@
 Optisk Mottaker
 	-tar inn optisk signal, sender ut Trigger og Carrier detect
+	-Optisk tranciever på pcb med minimalt med komponenter
+	-Resten av kretsen på et bakplanskort
 
 Tilkobling:
 	Inngang:

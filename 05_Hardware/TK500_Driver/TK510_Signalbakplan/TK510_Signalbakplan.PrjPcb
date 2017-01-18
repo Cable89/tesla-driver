@@ -175,223 +175,7 @@ Variation10=Designator=R51006|UniqueId=\HLCLQFSE|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs\Test Points\Assembly Testpoint Report for TK510_Signalbakplan.csv
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs\Test Points\Assembly Testpoint Report for TK510_Signalbakplan.txt
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs\BOM\Bill of Materials-TK510_Signalbakplan.txt
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\comp_+_bot\components
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\comp_+_top\components
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\eda\data
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for TK510_Signalbakplan\Design Rule Check - TK510_Signalbakplan.html
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs\Test Points\Fabrication Testpoint Report for TK510_Signalbakplan.csv
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs\Test Points\Fabrication Testpoint Report for TK510_Signalbakplan.txt
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\bottom\features
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\bottomoverlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\bottompaste\features
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\bottomsolder\features
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\comp_+_bot\features
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\comp_+_top\features
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\drill\features
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\keepout\features
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\mechanical1\features
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\mechanical2\features
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\mechanical3\features
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\mechanical13\features
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\mechanical15\features
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\plane1\features
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\plane2\features
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\top\features
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\topoverlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\toppaste\features
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\topsolder\features
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Project Outputs\ODB\odb\matrix\matrix
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\netlists\cadnet\netlist
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=Project Outputs\Pick Place\Pick Place for TK510_Signalbakplan.txt
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\profile
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\stephdr
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=Project Outputs\NC Drill\TK510_Signalbakplan.DRL
-DItemRevisionGUID=
-
-[GeneratedDocument35]
-DocumentPath=Project Outputs\NC Drill\TK510_Signalbakplan.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument36]
 DocumentPath=Project Outputs\AutoCAD PCB\TK510_Signalbakplan.DWG
-DItemRevisionGUID=
-
-[GeneratedDocument37]
-DocumentPath=Project Outputs\Gerber\TK510_Signalbakplan.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument38]
-DocumentPath=Project Outputs\Gerber\TK510_Signalbakplan.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument39]
-DocumentPath=Project Outputs\Gerber\TK510_Signalbakplan.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument40]
-DocumentPath=Project Outputs\Gerber\TK510_Signalbakplan.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument41]
-DocumentPath=Project Outputs\Gerber\TK510_Signalbakplan.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument42]
-DocumentPath=Project Outputs\Gerber\TK510_Signalbakplan.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument43]
-DocumentPath=Project Outputs\Gerber\TK510_Signalbakplan.GP1
-DItemRevisionGUID=
-
-[GeneratedDocument44]
-DocumentPath=Project Outputs\Gerber\TK510_Signalbakplan.GP2
-DItemRevisionGUID=
-
-[GeneratedDocument45]
-DocumentPath=Project Outputs\Gerber\TK510_Signalbakplan.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument46]
-DocumentPath=Project Outputs\Gerber\TK510_Signalbakplan.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument47]
-DocumentPath=Project Outputs\Gerber\TK510_Signalbakplan.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument48]
-DocumentPath=Project Outputs\Gerber\TK510_Signalbakplan.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument49]
-DocumentPath=Project Outputs\NC Drill\TK510_Signalbakplan.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument50]
-DocumentPath=Project Outputs\Gerber\TK510_Signalbakplan.REP
-DItemRevisionGUID=
-
-[GeneratedDocument51]
-DocumentPath=Project Outputs\ODB\TK510_Signalbakplan.REP
-DItemRevisionGUID=
-
-[GeneratedDocument52]
-DocumentPath=Project Outputs\Gerber\TK510_Signalbakplan.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument53]
-DocumentPath=Project Outputs\ExportSTEP\TK510_Signalbakplan.step
-DItemRevisionGUID=
-
-[GeneratedDocument54]
-DocumentPath=Project Outputs\NC Drill\TK510_Signalbakplan.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument55]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\drill\tools
 DItemRevisionGUID=
 
 [Configuration1]
@@ -442,6 +226,101 @@ OutputName6=SIMPLIS
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
+OutputType7=CadnetixNetlist
+OutputName7=Cadnetix Netlist
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
+OutputType8=CalayNetlist
+OutputName8=Calay Netlist
+OutputDocumentPath8=
+OutputVariantName8=
+OutputDefault8=0
+OutputType9=EDIF
+OutputName9=EDIF for PCB
+OutputDocumentPath9=
+OutputVariantName9=
+OutputDefault9=0
+OutputType10=EESofNetlist
+OutputName10=EESof Netlist
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=IntergraphNetlist
+OutputName11=Intergraph Netlist
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=MentorBoardStationNetlist
+OutputName12=Mentor BoardStation Netlist
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=MultiWire
+OutputName13=MultiWire
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=OrCadPCB2Netlist
+OutputName14=Orcad/PCB2 Netlist
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=PADSNetlist
+OutputName15=PADS ASCII Netlist
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=Pcad
+OutputName16=Pcad for PCB
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=PCADnltNetlist
+OutputName17=PCADnlt Netlist
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=Protel2Netlist
+OutputName18=Protel2 Netlist
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
+OutputType19=ProtelNetlist
+OutputName19=Protel
+OutputDocumentPath19=
+OutputVariantName19=
+OutputDefault19=0
+OutputType20=RacalNetlist
+OutputName20=Racal Netlist
+OutputDocumentPath20=
+OutputVariantName20=
+OutputDefault20=0
+OutputType21=RINFNetlist
+OutputName21=RINF Netlist
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
+OutputType22=SciCardsNetlist
+OutputName22=SciCards Netlist
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+OutputType23=TangoNetlist
+OutputName23=Tango Netlist
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
+OutputType24=TelesisNetlist
+OutputName24=Telesis Netlist
+OutputDocumentPath24=
+OutputVariantName24=
+OutputDefault24=0
+OutputType25=WireListNetlist
+OutputName25=WireList Netlist
+OutputDocumentPath25=
+OutputVariantName25=
+OutputDefault25=0
 
 [OutputGroup2]
 Name=Simulator Outputs
@@ -583,6 +462,18 @@ OutputDocumentPath18=
 OutputVariantName18=[No Variations]
 OutputDefault18=0
 PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType19=Logic Analyser Print
+OutputName19=Logic Analyser Prints
+OutputDocumentPath19=
+OutputVariantName19=
+OutputDefault19=0
+PageOptions19=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType20=Software Platform Print
+OutputName20=Software Platform Prints
+OutputDocumentPath20=
+OutputVariantName20=
+OutputDefault20=0
+PageOptions20=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -959,6 +850,11 @@ OutputName4=Export STEP
 OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
+OutputType5=NetList Sch
+OutputName5=NetList Sch
+OutputDocumentPath5=
+OutputVariantName5=
+OutputDefault5=0
 
 [Modification Levels]
 Type1=1

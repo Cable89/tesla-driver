@@ -41,7 +41,7 @@ PrefsRevisionGUID=
 [Document1]
 DocumentPath=TK512_Optisk_Mottaker.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=51200
+AnnotateStartValue=1
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All

@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=
+Name=TK512.OutJob
 Description=
 TargetOutputMedium=Generate design documentation PDF
 VariantName=[No Variations]
@@ -248,7 +248,7 @@ OutputEnabled14_OutputMedium1=8
 OutputEnabled14_OutputMedium2=0
 OutputDefault14=0
 Configuration14_Name1=OutputConfigurationParameter1
-Configuration14_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=False|IncludeElectricalPadHoles=False|IncludeFreePadHoles=False|ComponentSuffixType=0|ComponentSuffix=
+Configuration14_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=False|IncludeFreePadHoles=True|ExportFoldedBoard=True|ExportFoldedBoardRate=100|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False
 
 [PublishSettings]
 OutputFilePath1=D:\Temp\Tesla-Driver\05_Hardware\TK500_Driver\TK512_Optisk_Mottaker\Project Outputs\

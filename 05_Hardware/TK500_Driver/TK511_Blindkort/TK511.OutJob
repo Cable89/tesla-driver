@@ -15,13 +15,13 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=
+Name=TK511.OutJob
 Description=
 TargetOutputMedium=Generate manufacturing data
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Insane (Dell B1265dnf Laser MFP)
+TargetPrinter=HP Color LaserJet Pro MFP M177fw
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Generate manufacturing data
 OutputMedium1_Type=GeneratedFiles
@@ -250,7 +250,7 @@ OutputEnabled14_OutputMedium1=8
 OutputEnabled14_OutputMedium2=0
 OutputDefault14=0
 Configuration14_Name1=OutputConfigurationParameter1
-Configuration14_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=False|IncludeElectricalPadHoles=False|IncludeFreePadHoles=False|ComponentSuffixType=0|ComponentSuffix=
+Configuration14_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=False|IncludeFreePadHoles=True|ExportFoldedBoard=True|ExportFoldedBoardRate=0|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False
 
 [PublishSettings]
 OutputFilePath1=D:\Temp\Tesla-Driver\05_Hardware\TK500_Driver\TK511_Blindkort\Project Outputs\

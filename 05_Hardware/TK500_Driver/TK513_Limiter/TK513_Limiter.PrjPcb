@@ -3,6 +3,8 @@ Version=1.0
 HierarchyMode=0
 ChannelRoomNamingStyle=0
 ReleasesFolder=
+ReleaseVaultGUID=
+ReleaseVaultName=
 ChannelDesignatorFormatString=$Component_$RoomName
 ChannelRoomLevelSeperator=_
 OpenOutputs=1
@@ -31,7 +33,6 @@ FSMEncodingStyle=eFMSDropDownList_OneHot
 OutputPath=ProjectOutputs
 LogFolderPath=
 ManagedProjectGUID=
-LinkedManagedProjectGUID=
 
 [Preferences]
 PrefsVaultGUID=
@@ -89,7 +90,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [ProjectVariant1]
-UniqueID=E258781B-B597-4307-B9E7-2053CC2B7DD6
 Description=Default assembly
 AllowFabrication=0
 ParameterCount=0
@@ -118,182 +118,178 @@ DocumentPath=Project Outputs\ODB\odb\steps\pcb\eda\data
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=ProjectOutputs\Design Rule Check - TK513_Limiter.html
-DItemRevisionGUID=
-
-[GeneratedDocument7]
 DocumentPath=Project Outputs\Test Points\Fabrication Testpoint Report for TK513_Limiter.csv
 DItemRevisionGUID=
 
-[GeneratedDocument8]
+[GeneratedDocument7]
 DocumentPath=Project Outputs\Test Points\Fabrication Testpoint Report for TK513_Limiter.txt
 DItemRevisionGUID=
 
-[GeneratedDocument9]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\bottomlayer\features
+[GeneratedDocument8]
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\bottom\features
 DItemRevisionGUID=
 
-[GeneratedDocument10]
+[GeneratedDocument9]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\bottomoverlay\features
 DItemRevisionGUID=
 
-[GeneratedDocument11]
+[GeneratedDocument10]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\bottompaste\features
 DItemRevisionGUID=
 
-[GeneratedDocument12]
+[GeneratedDocument11]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\bottomsolder\features
 DItemRevisionGUID=
 
-[GeneratedDocument13]
+[GeneratedDocument12]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\comp_+_top\features
 DItemRevisionGUID=
 
-[GeneratedDocument14]
+[GeneratedDocument13]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\drill\features
 DItemRevisionGUID=
 
+[GeneratedDocument14]
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\keepout\features
+DItemRevisionGUID=
+
 [GeneratedDocument15]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\internalplane1\features
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\mechanical1\features
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\internalplane2\features
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\keepoutlayer\features
-DItemRevisionGUID=
-
-[GeneratedDocument18]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\mechanical2\features
 DItemRevisionGUID=
 
-[GeneratedDocument19]
+[GeneratedDocument17]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\mechanical3\features
 DItemRevisionGUID=
 
-[GeneratedDocument20]
+[GeneratedDocument18]
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\mechanical13\features
+DItemRevisionGUID=
+
+[GeneratedDocument19]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\mechanical15\features
 DItemRevisionGUID=
 
+[GeneratedDocument20]
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\plane1\features
+DItemRevisionGUID=
+
 [GeneratedDocument21]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\pci-sig_dimensions\features
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\plane2\features
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\pci-sig_outline\features
+DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\top\features
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\toplayer\features
-DItemRevisionGUID=
-
-[GeneratedDocument24]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\topoverlay\features
 DItemRevisionGUID=
 
-[GeneratedDocument25]
+[GeneratedDocument24]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\toppaste\features
 DItemRevisionGUID=
 
-[GeneratedDocument26]
+[GeneratedDocument25]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\topsolder\features
 DItemRevisionGUID=
 
-[GeneratedDocument27]
+[GeneratedDocument26]
 DocumentPath=Project Outputs\ODB\odb\matrix\matrix
 DItemRevisionGUID=
 
-[GeneratedDocument28]
+[GeneratedDocument27]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\netlists\cadnet\netlist
 DItemRevisionGUID=
 
-[GeneratedDocument29]
+[GeneratedDocument28]
 DocumentPath=Project Outputs\Pick Place\Pick Place for TK513_Limiter.txt
 DItemRevisionGUID=
 
-[GeneratedDocument30]
+[GeneratedDocument29]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\profile
 DItemRevisionGUID=
 
-[GeneratedDocument31]
+[GeneratedDocument30]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\stephdr
 DItemRevisionGUID=
 
-[GeneratedDocument32]
+[GeneratedDocument31]
 DocumentPath=Project Outputs\NC Drill\TK513_Limiter.DRL
 DItemRevisionGUID=
 
-[GeneratedDocument33]
+[GeneratedDocument32]
 DocumentPath=Project Outputs\NC Drill\TK513_Limiter.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument34]
+[GeneratedDocument33]
 DocumentPath=Project Outputs\Gerber\TK513_Limiter.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument35]
+[GeneratedDocument34]
 DocumentPath=Project Outputs\Gerber\TK513_Limiter.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument36]
+[GeneratedDocument35]
 DocumentPath=Project Outputs\Gerber\TK513_Limiter.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument37]
+[GeneratedDocument36]
 DocumentPath=Project Outputs\Gerber\TK513_Limiter.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument38]
+[GeneratedDocument37]
 DocumentPath=Project Outputs\Gerber\TK513_Limiter.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument39]
+[GeneratedDocument38]
 DocumentPath=Project Outputs\Gerber\TK513_Limiter.GM1
 DItemRevisionGUID=
 
-[GeneratedDocument40]
+[GeneratedDocument39]
 DocumentPath=Project Outputs\Gerber\TK513_Limiter.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument41]
+[GeneratedDocument40]
 DocumentPath=Project Outputs\Gerber\TK513_Limiter.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument42]
+[GeneratedDocument41]
 DocumentPath=Project Outputs\Gerber\TK513_Limiter.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument43]
+[GeneratedDocument42]
 DocumentPath=Project Outputs\Gerber\TK513_Limiter.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument44]
+[GeneratedDocument43]
 DocumentPath=Project Outputs\NC Drill\TK513_Limiter.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument45]
+[GeneratedDocument44]
 DocumentPath=Project Outputs\Gerber\TK513_Limiter.REP
 DItemRevisionGUID=
 
-[GeneratedDocument46]
+[GeneratedDocument45]
 DocumentPath=Project Outputs\ODB\TK513_Limiter.REP
 DItemRevisionGUID=
 
-[GeneratedDocument47]
+[GeneratedDocument46]
 DocumentPath=Project Outputs\Gerber\TK513_Limiter.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument48]
+[GeneratedDocument47]
 DocumentPath=Project Outputs\ExportSTEP\TK513_Limiter.step
 DItemRevisionGUID=
 
-[GeneratedDocument49]
+[GeneratedDocument48]
 DocumentPath=Project Outputs\NC Drill\TK513_Limiter.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument50]
+[GeneratedDocument49]
 DocumentPath=Project Outputs\ODB\odb\steps\pcb\layers\drill\tools
 DItemRevisionGUID=
 
@@ -302,9 +298,10 @@ Name=Default Configuration
 ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=
+CurrentRevision=
 Variant=[No Variations]
+GenerateBOM=1
 OutputJobsCount=0
-ContentTypeGUID=
 
 [Generic_EDE]
 OutputDir=ProjectOutputs
@@ -419,6 +416,26 @@ OutputName21=WireList Netlist
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
+OutputType22=SIMetrixNetlist
+OutputName22=SIMetrix
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+OutputType23=SIMPLISNetlist
+OutputName23=SIMPLIS
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
+OutputType24=Verilog
+OutputName24=Verilog File
+OutputDocumentPath24=
+OutputVariantName24=
+OutputDefault24=0
+OutputType25=VHDL
+OutputName25=VHDL File
+OutputDocumentPath25=
+OutputVariantName25=
+OutputDefault25=0
 
 [OutputGroup2]
 Name=Simulator Outputs
@@ -430,6 +447,16 @@ OutputName1=Mixed Sim
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
+OutputType2=SIMetrixSimulation
+OutputName2=SIMetrix
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=SIMPLISSimulation
+OutputName3=SIMPLIS
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -512,12 +539,60 @@ OutputDocumentPath11=
 OutputVariantName11=[No Variations]
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType12=PCBDrawing
-OutputName12=Draftsman
+OutputType12=Assembler Source Print
+OutputName12=Assembler Source Prints
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
 PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType13=C Source Print
+OutputName13=C Source Prints
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType14=C/C++ Header Print
+OutputName14=C/C++ Header Prints
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType15=C++ Source Print
+OutputName15=C++ Source Prints
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType16=FSM Print
+OutputName16=FSM Prints
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType17=Logic Analyser Print
+OutputName17=Logic Analyser Prints
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType18=OpenBus Print
+OutputName18=OpenBus Prints
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
+PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType19=Software Platform Print
+OutputName19=Software Platform Prints
+OutputDocumentPath19=
+OutputVariantName19=
+OutputDefault19=0
+PageOptions19=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType20=VHDL Print
+OutputName20=VHDL Prints
+OutputDocumentPath20=
+OutputVariantName20=
+OutputDefault20=0
+PageOptions20=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -894,42 +969,11 @@ OutputName4=Export STEP
 OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
-OutputType5=ExportPARASOLID
-OutputName5=Export PARASOLID
+OutputType5=NetList Sch
+OutputName5=NetList Sch
 OutputDocumentPath5=
-OutputVariantName5=[No Variations]
+OutputVariantName5=
 OutputDefault5=0
-OutputType6=ExportVRML
-OutputName6=Export VRML
-OutputDocumentPath6=
-OutputVariantName6=[No Variations]
-OutputDefault6=0
-OutputType7=Save As/Export PCB
-OutputName7=Save As/Export PCB
-OutputDocumentPath7=
-OutputVariantName7=
-OutputDefault7=0
-OutputType8=Save As/Export Schematic
-OutputName8=Save As/Export Schematic
-OutputDocumentPath8=
-OutputVariantName8=
-OutputDefault8=0
-OutputType9=Specctra Design PCB
-OutputName9=Specctra Design PCB
-OutputDocumentPath9=
-OutputVariantName9=
-OutputDefault9=0
-
-[OutputGroup10]
-Name=PostProcess Outputs
-Description=
-TargetPrinter=HP Color LaserJet Pro MFP M177fw
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Copy Files
-OutputName1=Copy Files
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
 
 [Modification Levels]
 Type1=1
@@ -1012,16 +1056,6 @@ Type77=1
 Type78=1
 Type79=1
 Type80=1
-Type81=1
-Type82=1
-Type83=1
-Type84=1
-Type85=1
-Type86=1
-Type87=1
-Type88=1
-Type89=1
-Type90=1
 
 [Difference Levels]
 Type1=1
@@ -1069,10 +1103,6 @@ Type42=1
 Type43=1
 Type44=0
 Type45=1
-Type46=1
-Type47=1
-Type48=1
-Type49=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1186,8 +1216,6 @@ Type108=2
 Type109=1
 Type110=0
 Type111=1
-Type112=1
-Type113=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW

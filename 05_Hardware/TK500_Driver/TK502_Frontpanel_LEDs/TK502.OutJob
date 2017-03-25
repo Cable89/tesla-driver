@@ -15,13 +15,13 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=
+Name=TK502.OutJob
 Description=
 TargetOutputMedium=Generate manufacturing data
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Insane (Dell B1265dnf Laser MFP)
+TargetPrinter=HP Color LaserJet Pro MFP M177fw
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Generate manufacturing data
 OutputMedium1_Type=GeneratedFiles
@@ -49,16 +49,18 @@ OutputEnabled2_OutputMedium1=1
 OutputEnabled2_OutputMedium2=6
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-Configuration2_Name1=Filter
-Configuration2_Item1=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
-Configuration2_Name2=General
-Configuration2_Item2=OpenExported=False|AddToProject=False|ForceFit=True|NotFitted=False|Database=False|IncludePCBData=False|ShowExportOptions=True|TemplateFilename=|BatchMode=1|FormWidth=1192|FormHeight=641|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
-Configuration2_Name3=GroupOrder
-Configuration2_Item3=
-Configuration2_Name4=SortOrder
-Configuration2_Item4=LibRef=Up
-Configuration2_Name5=VisibleOrder
-Configuration2_Item5=LibRef=100|Designator=100|Design comment=100
+Configuration2_Name1=ColumnNameFormat
+Configuration2_Item1=CaptionAsName
+Configuration2_Name2=Filter
+Configuration2_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration2_Name3=General
+Configuration2_Item3=OpenExported=False|AddToProject=False|ForceFit=True|NotFitted=False|Database=False|IncludePCBData=False|ShowExportOptions=True|TemplateFilename=|BatchMode=1|FormWidth=1192|FormHeight=641|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration2_Name4=GroupOrder
+Configuration2_Item4=
+Configuration2_Name5=SortOrder
+Configuration2_Item5=LibRef=Up
+Configuration2_Name6=VisibleOrder
+Configuration2_Item6=LibRef=100|Designator=100|Design comment=100
 OutputType3=Gerber
 OutputName3=Gerber Files
 OutputCategory3=Fabrication
@@ -248,10 +250,10 @@ OutputEnabled14_OutputMedium1=8
 OutputEnabled14_OutputMedium2=0
 OutputDefault14=0
 Configuration14_Name1=OutputConfigurationParameter1
-Configuration14_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=False|IncludeElectricalPadHoles=False|IncludeFreePadHoles=False|ComponentSuffixType=0|ComponentSuffix=
+Configuration14_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=False|IncludeFreePadHoles=True|ExportFoldedBoard=True|ExportFoldedBoardRate=0|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False
 
 [PublishSettings]
-OutputFilePath1=D:\Temp\Tesla-Driver\05_Hardware\TK500_Driver\TK502_Frontpanel_LEDs\Project Outputs\
+OutputFilePath1=D:\git\Tesla-Driver\05_Hardware\TK500_Driver\TK502_Frontpanel_LEDs\Project Outputs\
 ReleaseManaged1=0
 OutputBasePath1=Project Outputs\
 OutputPathMedia1=
@@ -291,7 +293,7 @@ ShowComponentParameters2=0
 GlobalBookmarks2=0
 
 [GeneratedFilesSettings]
-RelativeOutputPath1=D:\Temp\Tesla-Driver\05_Hardware\TK500_Driver\TK502_Frontpanel_LEDs\Project Outputs\
+RelativeOutputPath1=D:\git\Tesla-Driver\05_Hardware\TK500_Driver\TK502_Frontpanel_LEDs\Project Outputs\
 OpenOutputs1=0
 AddToProject1=1
 TimestampFolder1=0

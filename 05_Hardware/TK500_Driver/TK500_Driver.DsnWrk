@@ -25,6 +25,6 @@ ProjectPath=TK513_Limiter\TK513_Limiter.PrjPcb
 [Project12]
 ProjectPath=TK514_Interrupter\TK514_Interrupter.PrjPcb
 [Project13]
-ProjectPath=TK500_Driver.PrjCor
-[Project14]
 ProjectPath=TK510_Signalbakplan\TK510_Signalbakplan.PrjPcb
+[Project14]
+ProjectPath=..\..\..\..\Users\Public\Documents\Altium\Projects\HS_led_matrix\HS_led_matrix.PrjPcb

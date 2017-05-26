@@ -3,10 +3,10 @@ C2 = 1e-11;
 L1 = 1e-5;
 L2 = 1e-1;
 M  = 1e-6;
-R1 = 1e-2;
-R2 = 1e2;
-%G1 = 1e2;
-G1 = 1e-3;
+R1 = 0;
+R2 = 0;
+%G1 = 1e-2;
+G1 = 0;
 
 % Time domain parameters
 fs = 4e6;       % Sampling frequency

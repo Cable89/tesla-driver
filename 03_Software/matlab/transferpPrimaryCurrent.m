@@ -12,18 +12,19 @@ fprintf('Expected resonance frequency:\n');
 fprintf('%i Hz\n', 1./(2*pi()*sqrt(C1*L1)));
 
 H1 = transferCurrent(C1, C2, L1, L2, M, R1, R2, G1);
-%H2 = transferCurrent(C1, C2, L1, L2, M, R1, R2, 1e-7);
-%H3 = transferCurrent(C1, C2, L1, L2, M, R1, R2, 1e-7);
-%H4 = transferCurrent(C1, C2, L1, L2, M, R1, R2, 1e-7);
-%H5 = transferCurrent(C1, C2, L1, L2, M, R1, R2, 1e7);
+H2 = transferCurrent(C1, 0.1*C2, L1, 0.8*L2, M, R1, R2, G1);
+H3 = transferCurrent(C1, C2, L1, 1.0*L2, M, R1, R2, G1);
+H4 = transferCurrent(C1, 10*C2, L1, 1.2*L2, M, R1, R2, G1);
+H5 = transferCurrent(C1, 100*C2, L1, 100*L2, M, R1, R2, G1);
 
-figure;
-bde1 = bodeplot(H1);
-setoptions(bde1, 'FreqUnits','Hz','Grid','on');
-%legend('show','Location','northeastoutside');
+figure('Name','C2');
+bde1 = bodeplot(H1);%,H2,H3,H4,H5);
+setoptions(bde1, 'FreqUnits','Hz','Grid','on','Xlim',[1e4, 2e6]);
+legend('0.01','0.1','1.0','10','100','Location','northeast');
 
 [mag, phase, W] = bode(H1);
-[val, idx] = max(mag);
+[val, idx] = max(20*log10(squeeze(mag(1,1,:))));
+W = W./(2*pi);
 fprintf('Max amplitude:\n');
 fprintf('%i dB\n', val);
 fprintf('%i Hz\n', W(idx));

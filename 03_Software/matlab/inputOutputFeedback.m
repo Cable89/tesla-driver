@@ -42,5 +42,5 @@ figure;
 lsim(H,x2,t);
 axis([0 1e-4 -200 200]);
 xlabel('Time [s]');
-ylabel('Amplitude [A]');
+ylabel('I_1 [A]');
 pbaspect([2 1 1]);

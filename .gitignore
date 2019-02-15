@@ -7,6 +7,8 @@
 *.PcbDoc.htm
 *.drc
 *.html
+*.htm
+*.log
 
 # Folders
 __Previews/

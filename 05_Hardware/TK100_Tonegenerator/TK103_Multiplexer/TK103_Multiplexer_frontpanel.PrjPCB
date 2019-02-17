@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for TK103_Multiplexer_frontpanel
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -38,23 +38,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=TK103.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document2]
 DocumentPath=TK103_Multiplexer_frontpanel.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -69,10 +52,27 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=SFQDAESH
+
+[Document2]
+DocumentPath=TK103_Multiplexer_frontpanel.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KWTWOLIG
 
 [Document3]
-DocumentPath=TK103_Multiplexer_frontpanel.SchDoc
+DocumentPath=TK103_Frontpanel.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -88,6 +88,194 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs\Frontpanel\Test Points\Assembly Testpoint Report for TK103_Multiplexer_frontpanel.csv
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs\Frontpanel\Test Points\Assembly Testpoint Report for TK103_Multiplexer_frontpanel.txt
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs\Frontpanel\BOM\Bill of Materials-TK103_Multiplexer_frontpanel.xls
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for TK103_Multiplexer_frontpanel\Design Rule Check - TK103_Multiplexer_frontpanel.html
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs\Frontpanel\Test Points\Fabrication Testpoint Report for TK103_Multiplexer_frontpanel.csv
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs\Frontpanel\Test Points\Fabrication Testpoint Report for TK103_Multiplexer_frontpanel.txt
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs\Frontpanel\ODB\odb\steps\pcb\layers\bottom_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs\Frontpanel\ODB\odb\steps\pcb\layers\bottom_overlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs\Frontpanel\ODB\odb\steps\pcb\layers\bottom_paste\features
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs\Frontpanel\ODB\odb\steps\pcb\layers\bottom_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs\Frontpanel\ODB\odb\steps\pcb\layers\drill\features
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs\Frontpanel\ODB\odb\steps\pcb\layers\internal_plane_1\features
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs\Frontpanel\ODB\odb\steps\pcb\layers\internal_plane_2\features
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs\Frontpanel\ODB\odb\steps\pcb\layers\keep-out_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs\Frontpanel\ODB\odb\steps\pcb\layers\mechanical_1\features
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs\Frontpanel\ODB\odb\steps\pcb\layers\mechanical_2\features
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs\Frontpanel\ODB\odb\steps\pcb\layers\mechanical_3\features
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs\Frontpanel\ODB\odb\steps\pcb\layers\mechanical_13\features
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs\Frontpanel\ODB\odb\steps\pcb\layers\mechanical_15\features
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs\Frontpanel\ODB\odb\steps\pcb\layers\top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs\Frontpanel\ODB\odb\steps\pcb\layers\top_overlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs\Frontpanel\ODB\odb\steps\pcb\layers\top_paste\features
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs\Frontpanel\ODB\odb\steps\pcb\layers\top_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs\Frontpanel\ODB\odb\matrix\matrix
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs\Frontpanel\ODB\odb\steps\pcb\netlists\cadnet\netlist
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs\Frontpanel\Pick Place\Pick Place for TK103_Multiplexer_frontpanel.txt
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs\Frontpanel\ODB\odb\steps\pcb\profile
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs\Frontpanel\ODB\odb\steps\pcb\stephdr
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs\Frontpanel\NC Drill\TK103_Multiplexer_frontpanel.DRL
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs\Frontpanel\NC Drill\TK103_Multiplexer_frontpanel.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs\Frontpanel\Gerber\TK103_Multiplexer_frontpanel.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs\Frontpanel\Gerber\TK103_Multiplexer_frontpanel.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs\Frontpanel\Gerber\TK103_Multiplexer_frontpanel.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs\Frontpanel\Gerber\TK103_Multiplexer_frontpanel.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs\Frontpanel\Gerber\TK103_Multiplexer_frontpanel.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs\Frontpanel\Gerber\TK103_Multiplexer_frontpanel.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs\Frontpanel\Gerber\TK103_Multiplexer_frontpanel.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs\Frontpanel\Gerber\TK103_Multiplexer_frontpanel.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs\Frontpanel\Gerber\TK103_Multiplexer_frontpanel.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Project Outputs\Frontpanel\Gerber\TK103_Multiplexer_frontpanel.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Project Outputs\Frontpanel\NC Drill\TK103_Multiplexer_frontpanel.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=Project Outputs\Frontpanel\Gerber\TK103_Multiplexer_frontpanel.REP
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Project Outputs\Frontpanel\ODB\TK103_Multiplexer_frontpanel.REP
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Project Outputs\Frontpanel\Gerber\TK103_Multiplexer_frontpanel.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=Project Outputs\Frontpanel\ExportSTEP\TK103_Multiplexer_frontpanel.step
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=Project Outputs\Frontpanel\NC Drill\TK103_Multiplexer_frontpanel.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=Project Outputs\Frontpanel\ODB\odb\steps\pcb\layers\drill\tools
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -97,6 +285,9 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Generic_EDE]
+OutputDir=Project Outputs for TK103_Multiplexer_frontpanel
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -681,36 +872,6 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Ansoft Neutral
-OutputName10=Ansoft Neutral (AutoPCB)
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-OutputType11=HyperLynx
-OutputName11=HyperLynx (AutoPCB)
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-OutputType12=Orcad v7 Capture Design
-OutputName12=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=P-CAD ASCII
-OutputName13=P-CAD ASCII (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=P-CAD V16 Schematic Design
-OutputName14=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=SiSoft
-OutputName15=SiSoft (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
 
 [OutputGroup10]
 Name=PostProcess Outputs

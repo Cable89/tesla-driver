@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=TK104.OutJob
+Name=TK103_Frontpanel.OutJob
 Description=
 TargetOutputMedium=Generate manufacturing data
 VariantName=[No Variations]
@@ -76,7 +76,7 @@ OutputEnabled3_OutputMedium2=0
 OutputEnabled3_OutputMedium3=0
 OutputDefault3=0
 Configuration3_Name1=OutputConfigurationParameter1
-Configuration3_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=True|NumberOfDecimals=3|NumberOfDecimals=3|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1,16973837~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
+Configuration3_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=True|NumberOfDecimals=3|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False
 OutputType4=NC Drill
 OutputName4=NC Drill Files
 OutputCategory4=Fabrication
@@ -269,11 +269,11 @@ Configuration14_Name1=OutputConfigurationParameter1
 Configuration14_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=False|IncludeElectricalPadHoles=False|IncludeFreePadHoles=False|ComponentSuffixType=0|ComponentSuffix=
 
 [PublishSettings]
-OutputFilePath1=C:\git\tesla-driver\05_Hardware\TK100_Tonegenerator\TK104_Pulsbegrenser_Eurorack\Project Outputs\
+OutputFilePath1=C:\git\tesla-driver\05_Hardware\TK100_Tonegenerator\TK103_Multiplexer\Project Outputs\Frontpanel\
 ReleaseManaged1=0
 OutputBasePath1=Project Outputs\
-OutputPathMedia1=
-OutputPathMediaValue1=
+OutputPathMedia1=Frontpanel
+OutputPathMediaValue1=Frontpanel
 OutputPathOutputer1=[Output Type]
 OutputPathOutputerPrefix1=
 OutputPathOutputerValue1=
@@ -311,7 +311,7 @@ PDFACompliance2=Disabled
 PDFVersion2=Default
 OutputFilePath3=C:\TEMP\Tesla-Driver\05_Hardware\TK100_Tonegenerator\TK101_Tonegenerator_Hovedkort\Project Outputs for TK101_Tonegenerator_Hovedkort\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for TK104_Pulsbegrenser_Eurorack
+OutputBasePath3=Project Outputs for TK103_Multiplexer_frontpanel
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
@@ -324,7 +324,7 @@ OutputFileNameSpecial3=
 OpenOutput3=1
 
 [GeneratedFilesSettings]
-RelativeOutputPath1=C:\git\tesla-driver\05_Hardware\TK100_Tonegenerator\TK104_Pulsbegrenser_Eurorack\Project Outputs\
+RelativeOutputPath1=C:\git\tesla-driver\05_Hardware\TK100_Tonegenerator\TK103_Multiplexer\Project Outputs\Frontpanel\
 OpenOutputs1=0
 AddToProject1=1
 TimestampFolder1=0

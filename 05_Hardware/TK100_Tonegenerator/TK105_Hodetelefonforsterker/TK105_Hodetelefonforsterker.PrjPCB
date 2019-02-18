@@ -105,6 +105,15 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PIIWDYDS
 
+[ProjectVariant1]
+UniqueID=3DEF2F6F-E21A-4EFC-A558-3745B17139CB
+Description=Default assembly
+AllowFabrication=0
+ParameterCount=0
+VariationCount=1
+Variation1=Designator=R?|UniqueId=\ZGGVNFZL|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
 [Configuration1]
 Name=Sources
 ParameterCount=0

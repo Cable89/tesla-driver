@@ -40,7 +40,7 @@ PrefsRevisionGUID=
 [Document1]
 DocumentPath=TK531_Utgangstrinn.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=53100
+AnnotateStartValue=1
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
@@ -87,6 +87,10 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[GeneratedDocument1]
+DocumentPath=ProjectOutputs\Design Rule Check - TK531_Utgangstrinn.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Default Configuration

@@ -1,3 +1,0 @@
-Soft og hard limit
-Grov og finjustering
-Grovjustering diskret

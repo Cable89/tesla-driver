@@ -1,8 +1,0 @@
-Tillate kjøring av tesla
-Stripboard innebygd
-
--Flatkabelconnector stor nok til alle signaler
--Testpunkter for alle signaler (skopkroker?)
-
--Jumpere på alle LED-signaler¨
--(lav prioritet) Areal for prototyping. Protoboard?

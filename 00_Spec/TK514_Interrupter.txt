@@ -1,2 +1,0 @@
-Interruptindikator for alle slemme interrupts
-Separat indikator for signalinterrupt

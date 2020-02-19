@@ -1,3 +1,0 @@
-Overvåke spenninger
-Gi ut spenningsstatus
-Gi ut interrupt hvis noe er galt med en spenning

@@ -1,4 +1,4 @@
-Record=TopLevelDocument|FileName=TK500_Driver.MbsDoc
+Record=TopLevelDocument|FileName=TK500_Driver.MbaDoc
 Record=DiagramHierarchy|SourceDocument=TK500_Driver.MbsDoc|Kind=Multi-board Schematic Module|Designator=TK502|Source=..\TK502_Frontpanel_LEDs\TK502_Frontpanel_LEDs.PrjPcb
 Record=SubProject|SourceDocument=TK500_Driver.MbsDoc|ProjectPath=..\TK502_Frontpanel_LEDs\TK502_Frontpanel_LEDs.PrjPcb
 Record=DiagramHierarchy|SourceDocument=TK500_Driver.MbsDoc|Kind=Multi-board Schematic Module|Designator=TK510|Source=..\TK510_Signalbakplan\TK510_Signalbakplan.PrjPcb

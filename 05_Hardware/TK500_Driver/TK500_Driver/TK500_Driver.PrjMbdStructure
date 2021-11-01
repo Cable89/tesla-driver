@@ -21,6 +21,10 @@ Record=DiagramHierarchy|SourceDocument=TK500_Driver.MbsDoc|Kind=Multi-board Sche
 Record=SubProject|SourceDocument=TK500_Driver.MbsDoc|ProjectPath=..\TK516_LINREG-PSU\TK516_LINREG-PSU.PrjPcb
 Record=DiagramHierarchy|SourceDocument=TK500_Driver.MbsDoc|Kind=Multi-board Schematic Module|Designator=TK520|Source=..\TK520_GDT-Trafo\TK520_GDT-Trafo.PrjPcb
 Record=SubProject|SourceDocument=TK500_Driver.MbsDoc|ProjectPath=..\TK520_GDT-Trafo\TK520_GDT-Trafo.PrjPcb
+Record=DiagramHierarchy|SourceDocument=TK500_Driver.MbsDoc|Kind=Multi-board Schematic Module|Designator=TK522|Source=..\TK522_LV-Trafo\TK522_LV-Trafo.PrjPcb
+Record=SubProject|SourceDocument=TK500_Driver.MbsDoc|ProjectPath=..\TK522_LV-Trafo\TK522_LV-Trafo.PrjPcb
+Record=DiagramHierarchy|SourceDocument=TK500_Driver.MbsDoc|Kind=Multi-board Schematic Module|Designator=TK525|Source=..\TK525_Kraftforsyning\TK525_Kraftforsyning.PrjPcb
+Record=SubProject|SourceDocument=TK500_Driver.MbsDoc|ProjectPath=..\TK525_Kraftforsyning\TK525_Kraftforsyning.PrjPcb
 Record=DiagramHierarchy|SourceDocument=TK500_Driver.MbsDoc|Kind=Multi-board Schematic Module|Designator=TK530|Source=..\TK530_Kraftbakplan\TK530_Kraftbakplan.PrjPcb
 Record=SubProject|SourceDocument=TK500_Driver.MbsDoc|ProjectPath=..\TK530_Kraftbakplan\TK530_Kraftbakplan.PrjPcb
 Record=DiagramHierarchy|SourceDocument=TK500_Driver.MbsDoc|Kind=Multi-board Schematic Module|Designator=TK531_2|Source=..\TK531_Utgangstrinn\TK531_Utgangstrinn.PrjPcb

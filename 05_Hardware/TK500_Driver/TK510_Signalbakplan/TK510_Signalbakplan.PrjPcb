@@ -43,7 +43,7 @@ PrefsRevisionGUID=
 [Document1]
 DocumentPath=TK510_Signalbakplan.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=51000
+AnnotateStartValue=1
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
@@ -77,7 +77,7 @@ DocumentUniqueId=QPHBVWPC
 [Document3]
 DocumentPath=TK510_Mekanisk.SchDoc
 AnnotationEnabled=0
-AnnotateStartValue=51000
+AnnotateStartValue=1
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
@@ -111,7 +111,7 @@ DocumentUniqueId=
 [Document5]
 DocumentPath=TK510_Spenningsforsyninger.SchDoc
 AnnotationEnabled=0
-AnnotateStartValue=51000
+AnnotateStartValue=1
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All

@@ -1,0 +1,35 @@
+Record=TopLevelDocument|FileName=TK500_Driver.MbaDoc
+Record=DiagramHierarchy|SourceDocument=TK500_Driver.MbsDoc|Kind=Multi-board Schematic Module|Designator=TK502|Source=..\TK502_Frontpanel_LEDs\TK502_Frontpanel_LEDs.PrjPcb
+Record=SubProject|SourceDocument=TK500_Driver.MbsDoc|ProjectPath=..\TK502_Frontpanel_LEDs\TK502_Frontpanel_LEDs.PrjPcb
+Record=DiagramHierarchy|SourceDocument=TK500_Driver.MbsDoc|Kind=Multi-board Schematic Module|Designator=TK510|Source=..\TK510_Signalbakplan\TK510_Signalbakplan.PrjPcb
+Record=SubProject|SourceDocument=TK500_Driver.MbsDoc|ProjectPath=..\TK510_Signalbakplan\TK510_Signalbakplan.PrjPcb
+Record=DiagramHierarchy|SourceDocument=TK500_Driver.MbsDoc|Kind=Multi-board Schematic Module|Designator=TK511_2|Source=..\TK511_Blindkort\TK511_Blindkort.PrjPcb
+Record=SubProject|SourceDocument=TK500_Driver.MbsDoc|ProjectPath=..\TK511_Blindkort\TK511_Blindkort.PrjPcb
+Record=DiagramHierarchy|SourceDocument=TK500_Driver.MbsDoc|Kind=Multi-board Schematic Module|Designator=TK511|Source=..\TK511_Blindkort\TK511_Blindkort.PrjPcb
+Record=SubProject|SourceDocument=TK500_Driver.MbsDoc|ProjectPath=..\TK511_Blindkort\TK511_Blindkort.PrjPcb
+Record=DiagramHierarchy|SourceDocument=TK500_Driver.MbsDoc|Kind=Multi-board Schematic Module|Designator=TK512|Source=..\TK512_Optisk_Mottaker\TK512_Optisk_Mottaker.PrjPcb
+Record=SubProject|SourceDocument=TK500_Driver.MbsDoc|ProjectPath=..\TK512_Optisk_Mottaker\TK512_Optisk_Mottaker.PrjPcb
+Record=DiagramHierarchy|SourceDocument=TK500_Driver.MbsDoc|Kind=Multi-board Schematic Module|Designator=TK513|Source=..\TK513_Limiter\TK513_Limiter.PrjPcb
+Record=SubProject|SourceDocument=TK500_Driver.MbsDoc|ProjectPath=..\TK513_Limiter\TK513_Limiter.PrjPcb
+Record=DiagramHierarchy|SourceDocument=TK500_Driver.MbsDoc|Kind=Multi-board Schematic Module|Designator=TK514|Source=..\TK514_Interrupter\TK514_Interrupter.PrjPcb
+Record=SubProject|SourceDocument=TK500_Driver.MbsDoc|ProjectPath=..\TK514_Interrupter\TK514_Interrupter.PrjPcb
+Record=DiagramHierarchy|SourceDocument=TK500_Driver.MbsDoc|Kind=Multi-board Schematic Module|Designator=TK518|Source=..\TK516_LINREG-PSU\TK516_LINREG-PSU.PrjPcb
+Record=SubProject|SourceDocument=TK500_Driver.MbsDoc|ProjectPath=..\TK516_LINREG-PSU\TK516_LINREG-PSU.PrjPcb
+Record=DiagramHierarchy|SourceDocument=TK500_Driver.MbsDoc|Kind=Multi-board Schematic Module|Designator=TK517|Source=..\TK516_LINREG-PSU\TK516_LINREG-PSU.PrjPcb
+Record=SubProject|SourceDocument=TK500_Driver.MbsDoc|ProjectPath=..\TK516_LINREG-PSU\TK516_LINREG-PSU.PrjPcb
+Record=DiagramHierarchy|SourceDocument=TK500_Driver.MbsDoc|Kind=Multi-board Schematic Module|Designator=TK516|Source=..\TK516_LINREG-PSU\TK516_LINREG-PSU.PrjPcb
+Record=SubProject|SourceDocument=TK500_Driver.MbsDoc|ProjectPath=..\TK516_LINREG-PSU\TK516_LINREG-PSU.PrjPcb
+Record=DiagramHierarchy|SourceDocument=TK500_Driver.MbsDoc|Kind=Multi-board Schematic Module|Designator=TK520|Source=..\TK520_GDT-Trafo\TK520_GDT-Trafo.PrjPcb
+Record=SubProject|SourceDocument=TK500_Driver.MbsDoc|ProjectPath=..\TK520_GDT-Trafo\TK520_GDT-Trafo.PrjPcb
+Record=DiagramHierarchy|SourceDocument=TK500_Driver.MbsDoc|Kind=Multi-board Schematic Module|Designator=TK522|Source=..\TK522_LV-Trafo\TK522_LV-Trafo.PrjPcb
+Record=SubProject|SourceDocument=TK500_Driver.MbsDoc|ProjectPath=..\TK522_LV-Trafo\TK522_LV-Trafo.PrjPcb
+Record=DiagramHierarchy|SourceDocument=TK500_Driver.MbsDoc|Kind=Multi-board Schematic Module|Designator=TK525|Source=..\TK525_Kraftforsyning\TK525_Kraftforsyning.PrjPcb
+Record=SubProject|SourceDocument=TK500_Driver.MbsDoc|ProjectPath=..\TK525_Kraftforsyning\TK525_Kraftforsyning.PrjPcb
+Record=DiagramHierarchy|SourceDocument=TK500_Driver.MbsDoc|Kind=Multi-board Schematic Module|Designator=TK530|Source=..\TK530_Kraftbakplan\TK530_Kraftbakplan.PrjPcb
+Record=SubProject|SourceDocument=TK500_Driver.MbsDoc|ProjectPath=..\TK530_Kraftbakplan\TK530_Kraftbakplan.PrjPcb
+Record=DiagramHierarchy|SourceDocument=TK500_Driver.MbsDoc|Kind=Multi-board Schematic Module|Designator=TK531_2|Source=..\TK531_Utgangstrinn\TK531_Utgangstrinn.PrjPcb
+Record=SubProject|SourceDocument=TK500_Driver.MbsDoc|ProjectPath=..\TK531_Utgangstrinn\TK531_Utgangstrinn.PrjPcb
+Record=DiagramHierarchy|SourceDocument=TK500_Driver.MbsDoc|Kind=Multi-board Schematic Module|Designator=TK531_1|Source=..\TK531_Utgangstrinn\TK531_Utgangstrinn.PrjPcb
+Record=SubProject|SourceDocument=TK500_Driver.MbsDoc|ProjectPath=..\TK531_Utgangstrinn\TK531_Utgangstrinn.PrjPcb
+Record=DiagramHierarchy|SourceDocument=TK500_Driver.MbsDoc|Kind=Multi-board Schematic Module|Designator=TK532|Source=..\TK532_Kondensatorkort\TK532_Kondensatorkort.PrjPcb
+Record=SubProject|SourceDocument=TK500_Driver.MbsDoc|ProjectPath=..\TK532_Kondensatorkort\TK532_Kondensatorkort.PrjPcb
